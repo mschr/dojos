@@ -1,0 +1,6 @@
+Description: Various dojo utilities and extensions
+Deployment: Anything here will work out the box, added as a subnamespace of the dojo tree, otherwise for widgets and class libraries, package in the loader config
+Projects:
+Dojo intellisence generator (using docparser framework)
+
+
