@@ -1,0 +1,1310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		<title>dojo.Deferred | JsDoc Reference</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<meta name="mobileoptimized" content="0" />
+	
+		<link rel="stylesheet" href="../css/all.css" media="all" />
+		<link rel="stylesheet" href="../css/handheld.css" media="only screen and (max-width: 660px)" />
+		<link rel="stylesheet" href="../css/handheld.css" media="handheld" />
+		<link rel="stylesheet" href="../css/screen.css" media="screen and (min-width: 661px)" />
+
+		<script src="../javascript/all.js"></script>
+		<!--[if lt IE 9]>
+			<script src="../javascript/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+<div class="index">
+	<div class="menu">
+		<div class="indexLinks">
+			<a href="../index.html">Classes</a>
+			<a href="../files.html">Files</a>
+		</div>
+	
+		<h2 class="heading1">Classes</h2>
+		
+		<input type="text" name="classFilter" class="classFilter" id="ClassFilter" placeholder="Filter"></input>
+		
+		<nav>
+			<ul class="classList" id="ClassList">
+				
+					<li><a href="../symbols/_global_.html">_global_</a></li>
+				
+					<li><a href="../symbols/baseWindow.doc.html">baseWindow<span class='break'> </span>.<span class='break'> </span>doc</a></li>
+				
+					<li><a href="../symbols/doh.robot.html">doh<span class='break'> </span>.<span class='break'> </span>robot</a></li>
+				
+					<li><a href="../symbols/dojo.html">dojo</a></li>
+				
+					<li><a href="../symbols/dojo.AdapterRegistry.html">dojo<span class='break'> </span>.<span class='break'> </span>AdapterRegistry</a></li>
+				
+					<li><a href="../symbols/dojo.Animation.html">dojo<span class='break'> </span>.<span class='break'> </span>Animation</a></li>
+				
+					<li><a href="../symbols/dojo.aspect.html">dojo<span class='break'> </span>.<span class='break'> </span>aspect</a></li>
+				
+					<li><a href="../symbols/dojo.back.html">dojo<span class='break'> </span>.<span class='break'> </span>back</a></li>
+				
+					<li><a href="../symbols/dojo.behavior.html">dojo<span class='break'> </span>.<span class='break'> </span>behavior</a></li>
+				
+					<li><a href="../symbols/dojo.cldr.html">dojo<span class='break'> </span>.<span class='break'> </span>cldr</a></li>
+				
+					<li><a href="../symbols/dojo.cldr.monetary.html">dojo<span class='break'> </span>.<span class='break'> </span>cldr<span class='break'> </span>.<span class='break'> </span>monetary</a></li>
+				
+					<li><a href="../symbols/dojo.cldr.supplemental.html">dojo<span class='break'> </span>.<span class='break'> </span>cldr<span class='break'> </span>.<span class='break'> </span>supplemental</a></li>
+				
+					<li><a href="../symbols/dojo.Color.html">dojo<span class='break'> </span>.<span class='break'> </span>Color</a></li>
+				
+					<li><a href="../symbols/dojo.console.html">dojo<span class='break'> </span>.<span class='break'> </span>console</a></li>
+				
+					<li><a href="../symbols/dojo.contentHandlers.html">dojo<span class='break'> </span>.<span class='break'> </span>contentHandlers</a></li>
+				
+					<li><a href="../symbols/dojo.currency.html">dojo<span class='break'> </span>.<span class='break'> </span>currency</a></li>
+				
+					<li><a href="../symbols/dojo.data.html">dojo<span class='break'> </span>.<span class='break'> </span>data</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.Identity.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Identity</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.Notification.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Notification</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.Read.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Read</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.Request.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Request</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.Write.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Write</a></li>
+				
+					<li><a href="../symbols/dojo.data.ItemFileReadStore.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>ItemFileReadStore</a></li>
+				
+					<li><a href="../symbols/dojo.data.ItemFileWriteStore.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>ItemFileWriteStore</a></li>
+				
+					<li><a href="../symbols/dojo.data.ItemFileWriteStore._datatypeMap.Date.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>ItemFileWriteStore<span class='break'> </span>.<span class='break'> </span>_datatypeMap<span class='break'> </span>.<span class='break'> </span>Date</a></li>
+				
+					<li><a href="../symbols/dojo.data.ObjectStore.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>ObjectStore</a></li>
+				
+					<li><a href="../symbols/dojo.data.util.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>util</a></li>
+				
+					<li><a href="../symbols/dojo.date.html">dojo<span class='break'> </span>.<span class='break'> </span>date</a></li>
+				
+					<li><a href="../symbols/dojo.date.locale.html">dojo<span class='break'> </span>.<span class='break'> </span>date<span class='break'> </span>.<span class='break'> </span>locale</a></li>
+				
+					<li><a href="../symbols/dojo.date.stamp.html">dojo<span class='break'> </span>.<span class='break'> </span>date<span class='break'> </span>.<span class='break'> </span>stamp</a></li>
+				
+					<li><a href="../symbols/dojo.Deferred.html">dojo<span class='break'> </span>.<span class='break'> </span>Deferred</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.AutoSource.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>AutoSource</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Avatar.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Avatar</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Container.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Container</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Item.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Item</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Manager.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Manager</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Manager.avatar.node.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Manager<span class='break'> </span>.<span class='break'> </span>avatar<span class='break'> </span>.<span class='break'> </span>node</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Manager.canDrop.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Manager<span class='break'> </span>.<span class='break'> </span>canDrop</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.move.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>move</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.move.boxConstrainedMoveable.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>move<span class='break'> </span>.<span class='break'> </span>boxConstrainedMoveable</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.move.constrainedMoveable.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>move<span class='break'> </span>.<span class='break'> </span>constrainedMoveable</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.move.parentConstrainedMoveable.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>move<span class='break'> </span>.<span class='break'> </span>parentConstrainedMoveable</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Moveable.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Moveable</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Mover.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Mover</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Mover.marginBox.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Mover<span class='break'> </span>.<span class='break'> </span>marginBox</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Selector.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Selector</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Source.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Source</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Target.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Target</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.TimedMoveable.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>TimedMoveable</a></li>
+				
+					<li><a href="../symbols/dojo.dojoConfig.html">dojo<span class='break'> </span>.<span class='break'> </span>dojoConfig</a></li>
+				
+					<li><a href="../symbols/dojo.dom.html">dojo<span class='break'> </span>.<span class='break'> </span>dom</a></li>
+				
+					<li><a href="../symbols/dojo.exports.html">dojo<span class='break'> </span>.<span class='break'> </span>exports</a></li>
+				
+					<li><a href="../symbols/dojo.exports.names.html">dojo<span class='break'> </span>.<span class='break'> </span>exports<span class='break'> </span>.<span class='break'> </span>names</a></li>
+				
+					<li><a href="../symbols/dojo.fx.html">dojo<span class='break'> </span>.<span class='break'> </span>fx</a></li>
+				
+					<li><a href="../symbols/dojo.fx.easing.html">dojo<span class='break'> </span>.<span class='break'> </span>fx<span class='break'> </span>.<span class='break'> </span>easing</a></li>
+				
+					<li><a href="../symbols/dojo.fx.Toggler.html">dojo<span class='break'> </span>.<span class='break'> </span>fx<span class='break'> </span>.<span class='break'> </span>Toggler</a></li>
+				
+					<li><a href="../symbols/dojo.gears.html">dojo<span class='break'> </span>.<span class='break'> </span>gears</a></li>
+				
+					<li><a href="../symbols/dojo.html.html">dojo<span class='break'> </span>.<span class='break'> </span>html</a></li>
+				
+					<li><a href="../symbols/dojo.io.html">dojo<span class='break'> </span>.<span class='break'> </span>io</a></li>
+				
+					<li><a href="../symbols/dojo.io.iframe.html">dojo<span class='break'> </span>.<span class='break'> </span>io<span class='break'> </span>.<span class='break'> </span>iframe</a></li>
+				
+					<li><a href="../symbols/dojo.io.iframe.send.html">dojo<span class='break'> </span>.<span class='break'> </span>io<span class='break'> </span>.<span class='break'> </span>iframe<span class='break'> </span>.<span class='break'> </span>send</a></li>
+				
+					<li><a href="../symbols/dojo.io.script.html">dojo<span class='break'> </span>.<span class='break'> </span>io<span class='break'> </span>.<span class='break'> </span>script</a></li>
+				
+					<li><a href="../symbols/dojo.keys.html">dojo<span class='break'> </span>.<span class='break'> </span>keys</a></li>
+				
+					<li><a href="../symbols/dojo.mouseButtons.html">dojo<span class='break'> </span>.<span class='break'> </span>mouseButtons</a></li>
+				
+					<li><a href="../symbols/dojo.NodeList.html">dojo<span class='break'> </span>.<span class='break'> </span>NodeList</a></li>
+				
+					<li><a href="../symbols/dojo.NodeList.val.html">dojo<span class='break'> </span>.<span class='break'> </span>NodeList<span class='break'> </span>.<span class='break'> </span>val</a></li>
+				
+					<li><a href="../symbols/dojo.number.html">dojo<span class='break'> </span>.<span class='break'> </span>number</a></li>
+				
+					<li><a href="../symbols/dojo.Object.html">dojo<span class='break'> </span>.<span class='break'> </span>Object</a></li>
+				
+					<li><a href="../symbols/dojo.on.html">dojo<span class='break'> </span>.<span class='break'> </span>on</a></li>
+				
+					<li><a href="../symbols/dojo.prop.html">dojo<span class='break'> </span>.<span class='break'> </span>prop</a></li>
+				
+					<li><a href="../symbols/dojo.query.html">dojo<span class='break'> </span>.<span class='break'> </span>query</a></li>
+				
+					<li><a href="../symbols/dojo.regexp.html">dojo<span class='break'> </span>.<span class='break'> </span>regexp</a></li>
+				
+					<li><a href="../symbols/dojo.require.html">dojo<span class='break'> </span>.<span class='break'> </span>require</a></li>
+				
+					<li><a href="../symbols/dojo.rpc.html">dojo<span class='break'> </span>.<span class='break'> </span>rpc</a></li>
+				
+					<li><a href="../symbols/dojo.rpc.JsonpService.html">dojo<span class='break'> </span>.<span class='break'> </span>rpc<span class='break'> </span>.<span class='break'> </span>JsonpService</a></li>
+				
+					<li><a href="../symbols/dojo.rpc.JsonService.html">dojo<span class='break'> </span>.<span class='break'> </span>rpc<span class='break'> </span>.<span class='break'> </span>JsonService</a></li>
+				
+					<li><a href="../symbols/dojo.rpc.RpcService.html">dojo<span class='break'> </span>.<span class='break'> </span>rpc<span class='break'> </span>.<span class='break'> </span>RpcService</a></li>
+				
+					<li><a href="../symbols/dojo.selector.html">dojo<span class='break'> </span>.<span class='break'> </span>selector</a></li>
+				
+					<li><a href="../symbols/dojo.Stateful.html">dojo<span class='break'> </span>.<span class='break'> </span>Stateful</a></li>
+				
+					<li><a href="../symbols/dojo.store.html">dojo<span class='break'> </span>.<span class='break'> </span>store</a></li>
+				
+					<li><a href="../symbols/dojo.store.api.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>api</a></li>
+				
+					<li><a href="../symbols/dojo.store.api.Store.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Store</a></li>
+				
+					<li><a href="../symbols/dojo.store.Cache.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>Cache</a></li>
+				
+					<li><a href="../symbols/dojo.store.DataStore.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>DataStore</a></li>
+				
+					<li><a href="../symbols/dojo.store.JsonRest.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>JsonRest</a></li>
+				
+					<li><a href="../symbols/dojo.store.Memory.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>Memory</a></li>
+				
+					<li><a href="../symbols/dojo.store.util.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>util</a></li>
+				
+					<li><a href="../symbols/dojo.string.html">dojo<span class='break'> </span>.<span class='break'> </span>string</a></li>
+				
+					<li><a href="../symbols/dojo.touch.html">dojo<span class='break'> </span>.<span class='break'> </span>touch</a></li>
+				
+					<li><a href="../symbols/dojo.window.html">dojo<span class='break'> </span>.<span class='break'> </span>window</a></li>
+				
+					<li><a href="../symbols/dojo.window.console.html">dojo<span class='break'> </span>.<span class='break'> </span>window<span class='break'> </span>.<span class='break'> </span>console</a></li>
+				
+					<li><a href="../symbols/query.NodeList.html">query<span class='break'> </span>.<span class='break'> </span>NodeList</a></li>
+				
+					<li><a href="../symbols/window.console.html">window<span class='break'> </span>.<span class='break'> </span>console</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	<div class="fineprint" style="clear:both">
+		<footer>
+			
+			Documentation generator: <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0<br />
+			Template: <a href="http://www.thebrightlines.com/2010/05/06/new-template-for-jsdoctoolkit-codeview/" target="_blank">Codeview</a> 1.2<br />
+			Generated on:
+			<time datetime='2012-3-12' pubdate>2012-3-12 8:48</time>
+		</footer>
+	</div>
+</div>
+
+<div class="index indexStatic"></div>
+
+<div class="content">
+	<div class="innerContent">
+		<article>
+			<header>
+				<h1 class="classTitle">
+					
+					Class <span>dojo.Deferred</span>
+				</h1>
+				
+				<div class="intro">
+					<p class="description summary">
+						
+					</p>
+						
+					
+						<ul class="summary">
+							
+							
+							
+								<li>Defined in: <a href="../symbols/src/_var_www_dojo_util_docscripts_cache_api.hdr.js.html">api.hdr.js</a></li>
+							
+							
+						</ul>
+					
+				</div>
+			</header>
+			
+			
+				<section>
+					<div class="props">
+						<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class dojo.Deferred.">
+							<caption class="sectionTitle">Class Summary</caption>
+							<thead>
+								<tr>
+									<th scope="col">Constructor Attributes</th>
+									<th scope="col">Constructor Name and Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription" >
+										<div class="fixedFont">
+											<b><a href="../symbols/dojo.Deferred.html#constructor">dojo.Deferred</a></b>()
+										</div>
+										<div class="description"><b>Summary:</b><blockquote>
+	 Deferreds provide a generic means for encapsulating an asynchronous<br>
+	 operation and notifying users of the completion and result of the operation.</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+			
+			
+			
+	<!--
+	#### METHODS SUMMARY
+	-->
+			
+				<section>
+					
+					
+					<div class="props">
+						<h2 class="sectionTitle">Method Summary</h2>
+						
+						
+							<nav>
+								<table class="summaryTable" id="MethodsList" cellspacing="0" summary="A summary of the methods documented in the class dojo.Deferred.">
+									<thead>
+										<tr>
+											<th scope="col">Method Attributes</th>
+											<th scope="col">Method Name and Description</th>
+										</tr>
+									</thead>
+									
+									<tbody>
+										
+										
+											<tr
+												 class='item0'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.addBoth">addBoth</a></b>(callback)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Add handler as both successful callback and error callback for this deferred instance.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item1'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.addCallback">addCallback</a></b>(callback)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Adds successful callback for this deferred instance.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item2'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.addCallbacks">addCallbacks</a></b>(callback, errback)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Adds callback and error callback for this deferred instance.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item3'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.addErrback">addErrback</a></b>(errback)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Adds error callback for this deferred instance.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item4'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.callback">callback</a></b>(value)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Fulfills the Deferred instance successfully with the provide value<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item5'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.cancel">cancel</a></b>()
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Cancels the asynchronous operation<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item6'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.errback">errback</a></b>(error)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Fulfills the Deferred instance as an error with the provided error<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item7'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.progress">progress</a></b>(update)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Send progress events to all listeners<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item8'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.reject">reject</a></b>()
+													</div>
+													<div class="description"></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item9'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.resolve">resolve</a></b>()
+													</div>
+													<div class="description"></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item10'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.then">then</a></b>(resolvedCallback, errorCallback, progressCallback)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Adds a fulfilledHandler, errorHandler, and progressHandler to be called for<br>
+	 completion of a promise.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item11'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.Deferred.<b><a href="../symbols/dojo.Deferred.html#.when">when</a></b>()
+													</div>
+													<div class="description"></div>
+												</td>
+											</tr>
+										
+									</tbody>
+								</table>
+							</nav>
+						
+					
+						
+					</div>
+				</section>
+			
+			
+	<!--
+	#### EVENTS SUMMARY
+	-->
+			
+	<!--
+	#### CONSTRUCTOR DETAILS
+	-->
+			
+				<section>
+					<div class="details props">
+						<div class="innerProps">
+							<h2 class="sectionTitle" id="constructor">
+								Class Detail
+							</h2>
+							
+							<div class="fixedFont">
+								<b>dojo.Deferred</b>()
+							</div>
+							
+							<div class="description">
+								<b>Summary:</b><blockquote>
+	 Deferreds provide a generic means for encapsulating an asynchronous<br>
+	 operation and notifying users of the completion and result of the operation.<br>
+</blockquote>
+The dojo.Deferred API is based on the concept of promises that provide a<br>
+generic interface into the eventual completion of an asynchronous action.<br>
+The motivation for promises fundamentally is about creating a<br>
+separation of concerns that allows one to achieve the same type of<br>
+call patterns and logical data flow in asynchronous code as can be<br>
+achieved in synchronous code. Promises allows one<br>
+to be able to call a function purely with arguments needed for<br>
+execution, without conflating the call with concerns of whether it is<br>
+sync or async. One shouldn't need to alter a call's arguments if the<br>
+implementation switches from sync to async (or vice versa). By having<br>
+async functions return promises, the concerns of making the call are<br>
+separated from the concerns of asynchronous interaction (which are<br>
+handled by the promise).<br>
+<br>
+The dojo.Deferred is a type of promise that provides methods for fulfilling the<br>
+promise with a successful result or an error. The most important method for<br>
+working with Dojo's promises is the then() method, which follows the<br>
+CommonJS proposed promise API. An example of using a Dojo promise:<br>
+<br>
+	var resultingPromise = someAsyncOperation.then(function(result){<br>
+		... handle result ...<br>
+	},<br>
+	function(error){<br>
+		... handle error ...<br>
+	});<br>
+<br>
+The .then() call returns a new promise that represents the result of the<br>
+execution of the callback. The callbacks will never affect the original promises value.<br>
+<br>
+The dojo.Deferred instances also provide the following functions for backwards compatibility:<br>
+<br>
+* addCallback(handler)<br>
+* addErrback(handler)<br>
+* callback(result)<br>
+* errback(result)<br>
+<br>
+Callbacks are allowed to return promises themselves, so<br>
+you can build complicated sequences of events with ease.<br>
+<br>
+The creator of the Deferred may specify a canceller.  The canceller<br>
+is a function that will be called if Deferred.cancel is called<br>
+before the Deferred fires. You can use this to implement clean<br>
+aborting of an XMLHttpRequest, etc. Note that cancel will fire the<br>
+deferred with a CancelledError (unless your canceller returns<br>
+another kind of error), so the errbacks should be prepared to<br>
+handle that error for cancellable Deferreds.
+								
+							</div>
+							
+							
+								
+									<pre class="code">	var deferred = new dojo.Deferred();
+	setTimeout(function(){ deferred.callback({success: true}); }, 1000);
+	return deferred;</pre>
+								
+									<pre class="code">Deferred objects are often used when making code asynchronous. It
+may be easiest to write functions in a synchronous manner and then
+split code using a deferred to trigger a response to a long-lived
+operation. For example, instead of register a callback function to
+denote when a rendering operation completes, the function can
+simply return a deferred:
+
+	// callback style:
+	function renderLotsOfData(data, callback){
+		var success = false
+		try{
+			for(var x in data){
+				renderDataitem(data[x]);
+			}
+			success = true;
+		}catch(e){ }
+		if(callback){
+			callback(success);
+		}
+	}
+
+	// using callback style
+	renderLotsOfData(someDataObj, function(success){
+		// handles success or failure
+		if(!success){
+			promptUserToRecover();
+		}
+	});
+	// NOTE: no way to add another callback here!!</pre>
+								
+									<pre class="code">Using a Deferred doesn't simplify the sending code any, but it
+provides a standard interface for callers and senders alike,
+providing both with a simple way to service multiple callbacks for
+an operation and freeing both sides from worrying about details
+such as "did this get called already?". With Deferreds, new
+callbacks can be added at any time.
+
+	// Deferred style:
+	function renderLotsOfData(data){
+		var d = new dojo.Deferred();
+		try{
+			for(var x in data){
+				renderDataitem(data[x]);
+			}
+			d.callback(true);
+		}catch(e){
+			d.errback(new Error("rendering failed"));
+		}
+		return d;
+	}
+
+	// using Deferred style
+	renderLotsOfData(someDataObj).then(null, function(){
+		promptUserToRecover();
+	});
+	// NOTE: addErrback and addCallback both return the Deferred
+	// again, so we could chain adding callbacks or save the
+	// deferred for later should we need to be notified again.</pre>
+								
+									<pre class="code">In this example, renderLotsOfData is synchronous and so both
+versions are pretty artificial. Putting the data display on a
+timeout helps show why Deferreds rock:
+
+	// Deferred style and async func
+	function renderLotsOfData(data){
+		var d = new dojo.Deferred();
+		setTimeout(function(){
+			try{
+				for(var x in data){
+					renderDataitem(data[x]);
+				}
+				d.callback(true);
+			}catch(e){
+				d.errback(new Error("rendering failed"));
+			}
+		}, 100);
+		return d;
+	}
+
+	// using Deferred style
+	renderLotsOfData(someDataObj).then(null, function(){
+		promptUserToRecover();
+	});
+
+Note that the caller doesn't have to change his code at all to
+handle the asynchronous case.</pre>
+								
+							
+						
+							
+							
+							
+								<dl class="detailList nomargin">
+									
+									
+									
+									
+									
+									
+									
+										<dt class="heading">Returns:</dt>
+										
+												<dd><span class="light fixedFont">{<a href="../symbols/dojo.Deferred.html">dojo.Deferred</a>}</span> new instance</dd>
+										
+									
+									
+									
+									
+									
+								</dl>
+							
+						</div>
+					</div>
+				</section>
+			
+	<!--
+	#### FIELD DETAILS
+	-->
+			
+	<!--
+	#### METHOD DETAILS
+	-->		
+			
+				<section>
+					<div class="details props">
+						<div class="innerProps">
+							<h2 class="sectionTitle">
+								Method Detail
+							</h2>
+							
+							<ul class="methodDetail" id="MethodDetail">
+								
+								
+									<li 
+										 class='item0'
+									>
+										<div class="fixedFont heading" id=".addBoth">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											<span class="light">{<a href="../symbols/dojo.Deferred.html">dojo.Deferred</a>}</span>
+											
+											<span class="light">dojo.Deferred.</span><b>addBoth</b>(callback)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Add handler as both successful callback and error callback for this deferred instance.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Function}</span> <b>callback</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+											<dl class="detailList nomargin">
+											
+												
+												
+												
+												
+												
+												
+												
+													<dt class="heading">Returns:</dt>
+													
+														<dd><span class="light fixedFont">{<a href="../symbols/dojo.Deferred.html">dojo.Deferred</a>}</span> -</dd>
+													
+												
+												
+												
+												
+												
+											
+											</dl>
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item1'
+									>
+										<div class="fixedFont heading" id=".addCallback">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											<span class="light">{<a href="../symbols/dojo.Deferred.html">dojo.Deferred</a>}</span>
+											
+											<span class="light">dojo.Deferred.</span><b>addCallback</b>(callback)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Adds successful callback for this deferred instance.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Function}</span> <b>callback</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+											<dl class="detailList nomargin">
+											
+												
+												
+												
+												
+												
+												
+												
+													<dt class="heading">Returns:</dt>
+													
+														<dd><span class="light fixedFont">{<a href="../symbols/dojo.Deferred.html">dojo.Deferred</a>}</span> -</dd>
+													
+												
+												
+												
+												
+												
+											
+											</dl>
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item2'
+									>
+										<div class="fixedFont heading" id=".addCallbacks">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											<span class="light">{<a href="../symbols/dojo.Deferred.html">dojo.Deferred</a>}</span>
+											
+											<span class="light">dojo.Deferred.</span><b>addCallbacks</b>(callback, errback)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Adds callback and error callback for this deferred instance.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Function}</span> <b>callback</b>
+														<i>Optional</i>
+													</dt>
+													<dd>The callback attached to this deferred object.</dd>
+												
+													<dt>
+														<span class="light fixedFont">{Function}</span> <b>errback</b>
+														<i>Optional</i>
+													</dt>
+													<dd>The error callback attached to this deferred object.</dd>
+												
+											</dl>
+										
+										
+										
+											<dl class="detailList nomargin">
+											
+												
+												
+												
+												
+												
+												
+												
+													<dt class="heading">Returns:</dt>
+													
+														<dd><span class="light fixedFont">{<a href="../symbols/dojo.Deferred.html">dojo.Deferred</a>}</span> -</dd>
+													
+												
+												
+												
+												
+												
+											
+											</dl>
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item3'
+									>
+										<div class="fixedFont heading" id=".addErrback">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											<span class="light">{<a href="../symbols/dojo.Deferred.html">dojo.Deferred</a>}</span>
+											
+											<span class="light">dojo.Deferred.</span><b>addErrback</b>(errback)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Adds error callback for this deferred instance.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Function}</span> <b>errback</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+											<dl class="detailList nomargin">
+											
+												
+												
+												
+												
+												
+												
+												
+													<dt class="heading">Returns:</dt>
+													
+														<dd><span class="light fixedFont">{<a href="../symbols/dojo.Deferred.html">dojo.Deferred</a>}</span> -</dd>
+													
+												
+												
+												
+												
+												
+											
+											</dl>
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item4'
+									>
+										<div class="fixedFont heading" id=".callback">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.Deferred.</span><b>callback</b>(value)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Fulfills the Deferred instance successfully with the provide value<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>value</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item5'
+									>
+										<div class="fixedFont heading" id=".cancel">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.Deferred.</span><b>cancel</b>()
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Cancels the asynchronous operation<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item6'
+									>
+										<div class="fixedFont heading" id=".errback">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.Deferred.</span><b>errback</b>(error)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Fulfills the Deferred instance as an error with the provided error<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>error</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item7'
+									>
+										<div class="fixedFont heading" id=".progress">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.Deferred.</span><b>progress</b>(update)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Send progress events to all listeners<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>update</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item8'
+									>
+										<div class="fixedFont heading" id=".reject">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.Deferred.</span><b>reject</b>()
+										</div>
+										
+										<div class="description">
+											
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item9'
+									>
+										<div class="fixedFont heading" id=".resolve">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.Deferred.</span><b>resolve</b>()
+										</div>
+										
+										<div class="description">
+											
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item10'
+									>
+										<div class="fixedFont heading" id=".then">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											<span class="light">{Promise}</span>
+											
+											<span class="light">dojo.Deferred.</span><b>then</b>(resolvedCallback, errorCallback, progressCallback)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Adds a fulfilledHandler, errorHandler, and progressHandler to be called for<br>
+	 completion of a promise. The fulfilledHandler is called when the promise<br>
+	 is fulfilled. The errorHandler is called when a promise fails. The<br>
+	 progressHandler is called for progress events. All arguments are optional<br>
+	 and non-function values are ignored. The progressHandler is not only an<br>
+	 optional argument, but progress events are purely optional. Promise<br>
+	 providers are not required to ever create progress events.<br>
+	 <br>
+	 This function will return a new promise that is fulfilled when the given<br>
+	 fulfilledHandler or errorHandler callback is finished. This allows promise<br>
+	 operations to be chained together. The value returned from the callback<br>
+	 handler is the fulfillment value for the returned promise. If the callback<br>
+	 throws an error, the returned promise will be moved to failed state.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+											
+												<pre class="code">An example of using a CommonJS compliant promise:
+	asyncComputeTheAnswerToEverything().
+		then(addTwo).
+		then(printResult, onError);
+	&gt;44</pre>
+											
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Function}</span> <b>resolvedCallback</b>
+														<i>Optional</i>
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{Function}</span> <b>errorCallback</b>
+														<i>Optional</i>
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{Function}</span> <b>progressCallback</b>
+														<i>Optional</i>
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+											<dl class="detailList nomargin">
+											
+												
+												
+												
+												
+												
+												
+												
+													<dt class="heading">Returns:</dt>
+													
+														<dd><span class="light fixedFont">{Promise}</span> -execution of the callback. The callbacks will never affect the original promises value.</dd>
+													
+												
+												
+												
+												
+												
+											
+											</dl>
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item11'
+									>
+										<div class="fixedFont heading" id=".when">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.Deferred.</span><b>when</b>()
+										</div>
+										
+										<div class="description">
+											
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										
+									</li>
+								
+							</ul>
+						</div>
+					</div>
+				</section>
+			
+			
+	<!--
+	#### EVENT DETAILS
+	-->		
+			
+		</article>
+	</div>
+</div>
+
+		<script type="text/javascript">
+			wbos.CssTools.MediaQueryFallBack.LoadCss('../css/screen.css', '../css/handheld.css', 660)
+			codeview.classFilter.Init()
+		</script>
+	</body>
+</html>
+

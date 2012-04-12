@@ -1,0 +1,1188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		<title>dojo.dnd.Moveable | JsDoc Reference</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<meta name="mobileoptimized" content="0" />
+	
+		<link rel="stylesheet" href="../css/all.css" media="all" />
+		<link rel="stylesheet" href="../css/handheld.css" media="only screen and (max-width: 660px)" />
+		<link rel="stylesheet" href="../css/handheld.css" media="handheld" />
+		<link rel="stylesheet" href="../css/screen.css" media="screen and (min-width: 661px)" />
+
+		<script src="../javascript/all.js"></script>
+		<!--[if lt IE 9]>
+			<script src="../javascript/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+<div class="index">
+	<div class="menu">
+		<div class="indexLinks">
+			<a href="../index.html">Classes</a>
+			<a href="../files.html">Files</a>
+		</div>
+	
+		<h2 class="heading1">Classes</h2>
+		
+		<input type="text" name="classFilter" class="classFilter" id="ClassFilter" placeholder="Filter"></input>
+		
+		<nav>
+			<ul class="classList" id="ClassList">
+				
+					<li><a href="../symbols/_global_.html">_global_</a></li>
+				
+					<li><a href="../symbols/baseWindow.doc.html">baseWindow<span class='break'> </span>.<span class='break'> </span>doc</a></li>
+				
+					<li><a href="../symbols/doh.robot.html">doh<span class='break'> </span>.<span class='break'> </span>robot</a></li>
+				
+					<li><a href="../symbols/dojo.html">dojo</a></li>
+				
+					<li><a href="../symbols/dojo.AdapterRegistry.html">dojo<span class='break'> </span>.<span class='break'> </span>AdapterRegistry</a></li>
+				
+					<li><a href="../symbols/dojo.Animation.html">dojo<span class='break'> </span>.<span class='break'> </span>Animation</a></li>
+				
+					<li><a href="../symbols/dojo.aspect.html">dojo<span class='break'> </span>.<span class='break'> </span>aspect</a></li>
+				
+					<li><a href="../symbols/dojo.back.html">dojo<span class='break'> </span>.<span class='break'> </span>back</a></li>
+				
+					<li><a href="../symbols/dojo.behavior.html">dojo<span class='break'> </span>.<span class='break'> </span>behavior</a></li>
+				
+					<li><a href="../symbols/dojo.cldr.html">dojo<span class='break'> </span>.<span class='break'> </span>cldr</a></li>
+				
+					<li><a href="../symbols/dojo.cldr.monetary.html">dojo<span class='break'> </span>.<span class='break'> </span>cldr<span class='break'> </span>.<span class='break'> </span>monetary</a></li>
+				
+					<li><a href="../symbols/dojo.cldr.supplemental.html">dojo<span class='break'> </span>.<span class='break'> </span>cldr<span class='break'> </span>.<span class='break'> </span>supplemental</a></li>
+				
+					<li><a href="../symbols/dojo.Color.html">dojo<span class='break'> </span>.<span class='break'> </span>Color</a></li>
+				
+					<li><a href="../symbols/dojo.console.html">dojo<span class='break'> </span>.<span class='break'> </span>console</a></li>
+				
+					<li><a href="../symbols/dojo.contentHandlers.html">dojo<span class='break'> </span>.<span class='break'> </span>contentHandlers</a></li>
+				
+					<li><a href="../symbols/dojo.currency.html">dojo<span class='break'> </span>.<span class='break'> </span>currency</a></li>
+				
+					<li><a href="../symbols/dojo.data.html">dojo<span class='break'> </span>.<span class='break'> </span>data</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.Identity.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Identity</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.Notification.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Notification</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.Read.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Read</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.Request.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Request</a></li>
+				
+					<li><a href="../symbols/dojo.data.api.Write.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Write</a></li>
+				
+					<li><a href="../symbols/dojo.data.ItemFileReadStore.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>ItemFileReadStore</a></li>
+				
+					<li><a href="../symbols/dojo.data.ItemFileWriteStore.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>ItemFileWriteStore</a></li>
+				
+					<li><a href="../symbols/dojo.data.ItemFileWriteStore._datatypeMap.Date.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>ItemFileWriteStore<span class='break'> </span>.<span class='break'> </span>_datatypeMap<span class='break'> </span>.<span class='break'> </span>Date</a></li>
+				
+					<li><a href="../symbols/dojo.data.ObjectStore.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>ObjectStore</a></li>
+				
+					<li><a href="../symbols/dojo.data.util.html">dojo<span class='break'> </span>.<span class='break'> </span>data<span class='break'> </span>.<span class='break'> </span>util</a></li>
+				
+					<li><a href="../symbols/dojo.date.html">dojo<span class='break'> </span>.<span class='break'> </span>date</a></li>
+				
+					<li><a href="../symbols/dojo.date.locale.html">dojo<span class='break'> </span>.<span class='break'> </span>date<span class='break'> </span>.<span class='break'> </span>locale</a></li>
+				
+					<li><a href="../symbols/dojo.date.stamp.html">dojo<span class='break'> </span>.<span class='break'> </span>date<span class='break'> </span>.<span class='break'> </span>stamp</a></li>
+				
+					<li><a href="../symbols/dojo.Deferred.html">dojo<span class='break'> </span>.<span class='break'> </span>Deferred</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.AutoSource.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>AutoSource</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Avatar.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Avatar</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Container.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Container</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Item.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Item</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Manager.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Manager</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Manager.avatar.node.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Manager<span class='break'> </span>.<span class='break'> </span>avatar<span class='break'> </span>.<span class='break'> </span>node</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Manager.canDrop.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Manager<span class='break'> </span>.<span class='break'> </span>canDrop</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.move.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>move</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.move.boxConstrainedMoveable.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>move<span class='break'> </span>.<span class='break'> </span>boxConstrainedMoveable</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.move.constrainedMoveable.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>move<span class='break'> </span>.<span class='break'> </span>constrainedMoveable</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.move.parentConstrainedMoveable.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>move<span class='break'> </span>.<span class='break'> </span>parentConstrainedMoveable</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Moveable.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Moveable</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Mover.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Mover</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Mover.marginBox.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Mover<span class='break'> </span>.<span class='break'> </span>marginBox</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Selector.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Selector</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Source.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Source</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.Target.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>Target</a></li>
+				
+					<li><a href="../symbols/dojo.dnd.TimedMoveable.html">dojo<span class='break'> </span>.<span class='break'> </span>dnd<span class='break'> </span>.<span class='break'> </span>TimedMoveable</a></li>
+				
+					<li><a href="../symbols/dojo.dojoConfig.html">dojo<span class='break'> </span>.<span class='break'> </span>dojoConfig</a></li>
+				
+					<li><a href="../symbols/dojo.dom.html">dojo<span class='break'> </span>.<span class='break'> </span>dom</a></li>
+				
+					<li><a href="../symbols/dojo.exports.html">dojo<span class='break'> </span>.<span class='break'> </span>exports</a></li>
+				
+					<li><a href="../symbols/dojo.exports.names.html">dojo<span class='break'> </span>.<span class='break'> </span>exports<span class='break'> </span>.<span class='break'> </span>names</a></li>
+				
+					<li><a href="../symbols/dojo.fx.html">dojo<span class='break'> </span>.<span class='break'> </span>fx</a></li>
+				
+					<li><a href="../symbols/dojo.fx.easing.html">dojo<span class='break'> </span>.<span class='break'> </span>fx<span class='break'> </span>.<span class='break'> </span>easing</a></li>
+				
+					<li><a href="../symbols/dojo.fx.Toggler.html">dojo<span class='break'> </span>.<span class='break'> </span>fx<span class='break'> </span>.<span class='break'> </span>Toggler</a></li>
+				
+					<li><a href="../symbols/dojo.gears.html">dojo<span class='break'> </span>.<span class='break'> </span>gears</a></li>
+				
+					<li><a href="../symbols/dojo.html.html">dojo<span class='break'> </span>.<span class='break'> </span>html</a></li>
+				
+					<li><a href="../symbols/dojo.io.html">dojo<span class='break'> </span>.<span class='break'> </span>io</a></li>
+				
+					<li><a href="../symbols/dojo.io.iframe.html">dojo<span class='break'> </span>.<span class='break'> </span>io<span class='break'> </span>.<span class='break'> </span>iframe</a></li>
+				
+					<li><a href="../symbols/dojo.io.iframe.send.html">dojo<span class='break'> </span>.<span class='break'> </span>io<span class='break'> </span>.<span class='break'> </span>iframe<span class='break'> </span>.<span class='break'> </span>send</a></li>
+				
+					<li><a href="../symbols/dojo.io.script.html">dojo<span class='break'> </span>.<span class='break'> </span>io<span class='break'> </span>.<span class='break'> </span>script</a></li>
+				
+					<li><a href="../symbols/dojo.keys.html">dojo<span class='break'> </span>.<span class='break'> </span>keys</a></li>
+				
+					<li><a href="../symbols/dojo.mouseButtons.html">dojo<span class='break'> </span>.<span class='break'> </span>mouseButtons</a></li>
+				
+					<li><a href="../symbols/dojo.NodeList.html">dojo<span class='break'> </span>.<span class='break'> </span>NodeList</a></li>
+				
+					<li><a href="../symbols/dojo.NodeList.val.html">dojo<span class='break'> </span>.<span class='break'> </span>NodeList<span class='break'> </span>.<span class='break'> </span>val</a></li>
+				
+					<li><a href="../symbols/dojo.number.html">dojo<span class='break'> </span>.<span class='break'> </span>number</a></li>
+				
+					<li><a href="../symbols/dojo.Object.html">dojo<span class='break'> </span>.<span class='break'> </span>Object</a></li>
+				
+					<li><a href="../symbols/dojo.on.html">dojo<span class='break'> </span>.<span class='break'> </span>on</a></li>
+				
+					<li><a href="../symbols/dojo.prop.html">dojo<span class='break'> </span>.<span class='break'> </span>prop</a></li>
+				
+					<li><a href="../symbols/dojo.query.html">dojo<span class='break'> </span>.<span class='break'> </span>query</a></li>
+				
+					<li><a href="../symbols/dojo.regexp.html">dojo<span class='break'> </span>.<span class='break'> </span>regexp</a></li>
+				
+					<li><a href="../symbols/dojo.require.html">dojo<span class='break'> </span>.<span class='break'> </span>require</a></li>
+				
+					<li><a href="../symbols/dojo.rpc.html">dojo<span class='break'> </span>.<span class='break'> </span>rpc</a></li>
+				
+					<li><a href="../symbols/dojo.rpc.JsonpService.html">dojo<span class='break'> </span>.<span class='break'> </span>rpc<span class='break'> </span>.<span class='break'> </span>JsonpService</a></li>
+				
+					<li><a href="../symbols/dojo.rpc.JsonService.html">dojo<span class='break'> </span>.<span class='break'> </span>rpc<span class='break'> </span>.<span class='break'> </span>JsonService</a></li>
+				
+					<li><a href="../symbols/dojo.rpc.RpcService.html">dojo<span class='break'> </span>.<span class='break'> </span>rpc<span class='break'> </span>.<span class='break'> </span>RpcService</a></li>
+				
+					<li><a href="../symbols/dojo.selector.html">dojo<span class='break'> </span>.<span class='break'> </span>selector</a></li>
+				
+					<li><a href="../symbols/dojo.Stateful.html">dojo<span class='break'> </span>.<span class='break'> </span>Stateful</a></li>
+				
+					<li><a href="../symbols/dojo.store.html">dojo<span class='break'> </span>.<span class='break'> </span>store</a></li>
+				
+					<li><a href="../symbols/dojo.store.api.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>api</a></li>
+				
+					<li><a href="../symbols/dojo.store.api.Store.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>api<span class='break'> </span>.<span class='break'> </span>Store</a></li>
+				
+					<li><a href="../symbols/dojo.store.Cache.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>Cache</a></li>
+				
+					<li><a href="../symbols/dojo.store.DataStore.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>DataStore</a></li>
+				
+					<li><a href="../symbols/dojo.store.JsonRest.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>JsonRest</a></li>
+				
+					<li><a href="../symbols/dojo.store.Memory.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>Memory</a></li>
+				
+					<li><a href="../symbols/dojo.store.util.html">dojo<span class='break'> </span>.<span class='break'> </span>store<span class='break'> </span>.<span class='break'> </span>util</a></li>
+				
+					<li><a href="../symbols/dojo.string.html">dojo<span class='break'> </span>.<span class='break'> </span>string</a></li>
+				
+					<li><a href="../symbols/dojo.touch.html">dojo<span class='break'> </span>.<span class='break'> </span>touch</a></li>
+				
+					<li><a href="../symbols/dojo.window.html">dojo<span class='break'> </span>.<span class='break'> </span>window</a></li>
+				
+					<li><a href="../symbols/dojo.window.console.html">dojo<span class='break'> </span>.<span class='break'> </span>window<span class='break'> </span>.<span class='break'> </span>console</a></li>
+				
+					<li><a href="../symbols/query.NodeList.html">query<span class='break'> </span>.<span class='break'> </span>NodeList</a></li>
+				
+					<li><a href="../symbols/window.console.html">window<span class='break'> </span>.<span class='break'> </span>console</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	<div class="fineprint" style="clear:both">
+		<footer>
+			
+			Documentation generator: <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0<br />
+			Template: <a href="http://www.thebrightlines.com/2010/05/06/new-template-for-jsdoctoolkit-codeview/" target="_blank">Codeview</a> 1.2<br />
+			Generated on:
+			<time datetime='2012-3-12' pubdate>2012-3-12 8:48</time>
+		</footer>
+	</div>
+</div>
+
+<div class="index indexStatic"></div>
+
+<div class="content">
+	<div class="innerContent">
+		<article>
+			<header>
+				<h1 class="classTitle">
+					
+					Class <span>dojo.dnd.Moveable</span>
+				</h1>
+				
+				<div class="intro">
+					<p class="description summary">
+						
+					</p>
+						
+					
+						<ul class="summary">
+							
+							
+							
+								<li>Defined in: <a href="../symbols/src/_var_www_dojo_util_docscripts_cache_api.hdr.js.html">api.hdr.js</a></li>
+							
+							
+						</ul>
+					
+				</div>
+			</header>
+			
+			
+				<section>
+					<div class="props">
+						<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class dojo.dnd.Moveable.">
+							<caption class="sectionTitle">Class Summary</caption>
+							<thead>
+								<tr>
+									<th scope="col">Constructor Attributes</th>
+									<th scope="col">Constructor Name and Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription" >
+										<div class="fixedFont">
+											<b><a href="../symbols/dojo.dnd.Moveable.html#constructor">dojo.dnd.Moveable</a></b>(node, params)
+										</div>
+										<div class="description"><b>Summary:</b><blockquote>
+	 an object, which makes a node moveable<br>
+</blockquote></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+			
+			
+			
+	<!--
+	#### METHODS SUMMARY
+	-->
+			
+				<section>
+					
+					
+					<div class="props">
+						<h2 class="sectionTitle">Method Summary</h2>
+						
+						
+							<nav>
+								<table class="summaryTable" id="MethodsList" cellspacing="0" summary="A summary of the methods documented in the class dojo.dnd.Moveable.">
+									<thead>
+										<tr>
+											<th scope="col">Method Attributes</th>
+											<th scope="col">Method Name and Description</th>
+										</tr>
+									</thead>
+									
+									<tbody>
+										
+										
+											<tr
+												 class='item0'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.destroy">destroy</a></b>()
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 stops watching for possible move, deletes all references, so the object can be garbage-collected<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item1'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.markupFactory">markupFactory</a></b>(params, node, ctor)
+													</div>
+													<div class="description"></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item2'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onDragDetected">onDragDetected</a></b>(e)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 called when the drag is detected;<br>
+	 responsible for creation of the mover<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item3'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onFirstMove">onFirstMove</a></b>(mover, e)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 called during the very first move notification;<br>
+	 can be used to initialize coordinates, can be overwritten.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item4'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onMouseDown">onMouseDown</a></b>(e)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 event processor for onmousedown/ontouchstart, creates a Mover for the node<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item5'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onMouseMove">onMouseMove</a></b>(e)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 event processor for onmousemove/ontouchmove, used only for delayed drags<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item6'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onMouseUp">onMouseUp</a></b>(e)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 event processor for onmouseup, used only for delayed drags<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item7'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onMove">onMove</a></b>(mover, leftTop, e)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 called during every move notification;<br>
+	 should actually move the node; can be overwritten.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item8'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onMoved">onMoved</a></b>(mover, leftTop)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 called after every incremental move; can be overwritten.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item9'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onMoveStart">onMoveStart</a></b>(mover)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 called before every move operation<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item10'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onMoveStop">onMoveStop</a></b>(mover)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 called after every move operation<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item11'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onMoving">onMoving</a></b>(mover, leftTop)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 called before every incremental move; can be overwritten.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item12'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dojo.dnd.Moveable.<b><a href="../symbols/dojo.dnd.Moveable.html#.onSelectStart">onSelectStart</a></b>(e)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 event processor for onselectevent and ondragevent<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+									</tbody>
+								</table>
+							</nav>
+						
+					
+						
+					</div>
+				</section>
+			
+			
+	<!--
+	#### EVENTS SUMMARY
+	-->
+			
+	<!--
+	#### CONSTRUCTOR DETAILS
+	-->
+			
+				<section>
+					<div class="details props">
+						<div class="innerProps">
+							<h2 class="sectionTitle" id="constructor">
+								Class Detail
+							</h2>
+							
+							<div class="fixedFont">
+								<b>dojo.dnd.Moveable</b>(node, params)
+							</div>
+							
+							<div class="description">
+								<b>Summary:</b><blockquote>
+	 an object, which makes a node moveable<br>
+</blockquote>
+								
+							</div>
+							
+							
+						
+							
+								<dl class="detailList params">
+									<dt class="heading">Parameters:</dt>
+									
+										<dt>
+											<span class="light fixedFont">{Node}</span>  <b>node</b>
+											
+										</dt>
+										<dd>a node (or node's id) to be moved</dd>
+									
+										<dt>
+											<span class="light fixedFont">{dojo.dnd.__MoveableArgs}</span>  <b>params</b>
+											<i>Optional</i>
+										</dt>
+										<dd>optional parameters</dd>
+									
+								</dl>
+							
+							
+							
+								<dl class="detailList nomargin">
+									
+									
+									
+									
+									
+									
+									
+										<dt class="heading">Returns:</dt>
+										
+												<dd><span class="light fixedFont">{<a href="../symbols/dojo.dnd.Moveable.html">dojo.dnd.Moveable</a>}</span> new instance</dd>
+										
+									
+									
+									
+									
+									
+								</dl>
+							
+						</div>
+					</div>
+				</section>
+			
+	<!--
+	#### FIELD DETAILS
+	-->
+			
+	<!--
+	#### METHOD DETAILS
+	-->		
+			
+				<section>
+					<div class="details props">
+						<div class="innerProps">
+							<h2 class="sectionTitle">
+								Method Detail
+							</h2>
+							
+							<ul class="methodDetail" id="MethodDetail">
+								
+								
+									<li 
+										 class='item0'
+									>
+										<div class="fixedFont heading" id=".destroy">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>destroy</b>()
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 stops watching for possible move, deletes all references, so the object can be garbage-collected<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item1'
+									>
+										<div class="fixedFont heading" id=".markupFactory">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>markupFactory</b>(params, node, ctor)
+										</div>
+										
+										<div class="description">
+											
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>params</b>
+														
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>node</b>
+														
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>ctor</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item2'
+									>
+										<div class="fixedFont heading" id=".onDragDetected">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onDragDetected</b>(e)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 called when the drag is detected;<br>
+	 responsible for creation of the mover<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Event}</span> <b>e</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item3'
+									>
+										<div class="fixedFont heading" id=".onFirstMove">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onFirstMove</b>(mover, e)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 called during the very first move notification;<br>
+	 can be used to initialize coordinates, can be overwritten.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{<a href="../symbols/dojo.dnd.Mover.html">dojo.dnd.Mover</a>}</span> <b>mover</b>
+														
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{Event}</span> <b>e</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item4'
+									>
+										<div class="fixedFont heading" id=".onMouseDown">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onMouseDown</b>(e)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 event processor for onmousedown/ontouchstart, creates a Mover for the node<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Event}</span> <b>e</b>
+														
+													</dt>
+													<dd>mouse/touch event</dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item5'
+									>
+										<div class="fixedFont heading" id=".onMouseMove">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onMouseMove</b>(e)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 event processor for onmousemove/ontouchmove, used only for delayed drags<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Event}</span> <b>e</b>
+														
+													</dt>
+													<dd>mouse/touch event</dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item6'
+									>
+										<div class="fixedFont heading" id=".onMouseUp">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onMouseUp</b>(e)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 event processor for onmouseup, used only for delayed drags<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Event}</span> <b>e</b>
+														
+													</dt>
+													<dd>mouse event</dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item7'
+									>
+										<div class="fixedFont heading" id=".onMove">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onMove</b>(mover, leftTop, e)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 called during every move notification;<br>
+	 should actually move the node; can be overwritten.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{<a href="../symbols/dojo.dnd.Mover.html">dojo.dnd.Mover</a>}</span> <b>mover</b>
+														
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{Object}</span> <b>leftTop</b>
+														
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{Event}</span> <b>e</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item8'
+									>
+										<div class="fixedFont heading" id=".onMoved">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onMoved</b>(mover, leftTop)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 called after every incremental move; can be overwritten.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{<a href="../symbols/dojo.dnd.Mover.html">dojo.dnd.Mover</a>}</span> <b>mover</b>
+														
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{Object}</span> <b>leftTop</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item9'
+									>
+										<div class="fixedFont heading" id=".onMoveStart">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onMoveStart</b>(mover)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 called before every move operation<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{<a href="../symbols/dojo.dnd.Mover.html">dojo.dnd.Mover</a>}</span> <b>mover</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item10'
+									>
+										<div class="fixedFont heading" id=".onMoveStop">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onMoveStop</b>(mover)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 called after every move operation<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{<a href="../symbols/dojo.dnd.Mover.html">dojo.dnd.Mover</a>}</span> <b>mover</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item11'
+									>
+										<div class="fixedFont heading" id=".onMoving">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onMoving</b>(mover, leftTop)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 called before every incremental move; can be overwritten.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{<a href="../symbols/dojo.dnd.Mover.html">dojo.dnd.Mover</a>}</span> <b>mover</b>
+														
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{Object}</span> <b>leftTop</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item12'
+									>
+										<div class="fixedFont heading" id=".onSelectStart">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dojo.dnd.Moveable.</span><b>onSelectStart</b>(e)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 event processor for onselectevent and ondragevent<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Event}</span> <b>e</b>
+														
+													</dt>
+													<dd>mouse event</dd>
+												
+											</dl>
+										
+										
+										
+										
+									</li>
+								
+							</ul>
+						</div>
+					</div>
+				</section>
+			
+			
+	<!--
+	#### EVENT DETAILS
+	-->		
+			
+		</article>
+	</div>
+</div>
+
+		<script type="text/javascript">
+			wbos.CssTools.MediaQueryFallBack.LoadCss('../css/screen.css', '../css/handheld.css', 660)
+			codeview.classFilter.Init()
+		</script>
+	</body>
+</html>
+

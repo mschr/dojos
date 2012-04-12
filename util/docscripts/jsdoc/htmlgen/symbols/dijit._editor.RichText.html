@@ -1,0 +1,1937 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		<title>dijit._editor.RichText | JsDoc Reference</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<meta name="mobileoptimized" content="0" />
+	
+		<link rel="stylesheet" href="../css/all.css" media="all" />
+		<link rel="stylesheet" href="../css/handheld.css" media="only screen and (max-width: 660px)" />
+		<link rel="stylesheet" href="../css/handheld.css" media="handheld" />
+		<link rel="stylesheet" href="../css/screen.css" media="screen and (min-width: 661px)" />
+
+		<script src="../javascript/all.js"></script>
+		<!--[if lt IE 9]>
+			<script src="../javascript/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+<div class="index">
+	<div class="menu">
+		<div class="indexLinks">
+			<a href="../index.html">Classes</a>
+			<a href="../files.html">Files</a>
+		</div>
+	
+		<h2 class="heading1">Classes</h2>
+		
+		<input type="text" name="classFilter" class="classFilter" id="ClassFilter" placeholder="Filter"></input>
+		
+		<nav>
+			<ul class="classList" id="ClassList">
+				
+					<li><a href="../symbols/_global_.html">_global_</a></li>
+				
+					<li><a href="../symbols/_Plugin.registry.html">_Plugin<span class='break'> </span>.<span class='break'> </span>registry</a></li>
+				
+					<li><a href="../symbols/dijit.html">dijit</a></li>
+				
+					<li><a href="../symbols/dijit._CssStateMixin.stateNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_CssStateMixin<span class='break'> </span>.<span class='break'> </span>stateNode</a></li>
+				
+					<li><a href="../symbols/dijit._DialogBase.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>_DialogBase<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit._editor._Plugin.registry.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>_Plugin<span class='break'> </span>.<span class='break'> </span>registry</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.AlwaysShowToolbar.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>AlwaysShowToolbar</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.AlwaysShowToolbar.editor.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>AlwaysShowToolbar<span class='break'> </span>.<span class='break'> </span>editor</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.AlwaysShowToolbar.editor.header.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>AlwaysShowToolbar<span class='break'> </span>.<span class='break'> </span>editor<span class='break'> </span>.<span class='break'> </span>header</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.EnterKeyHandling.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>EnterKeyHandling</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.FontChoice.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>FontChoice</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.FullScreen.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>FullScreen</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.FullScreen.editor.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>FullScreen<span class='break'> </span>.<span class='break'> </span>editor</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.ImgLinkDialog.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>ImgLinkDialog</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.LinkDialog.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>LinkDialog</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.NewPage.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>NewPage</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.Print.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>Print</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.TabIndent.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>TabIndent</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.TextColor.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>TextColor</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.TextColor.button.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>TextColor<span class='break'> </span>.<span class='break'> </span>button</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.ToggleDir.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>ToggleDir</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.ViewSource.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>ViewSource</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.ViewSource.editor.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>ViewSource<span class='break'> </span>.<span class='break'> </span>editor</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.ViewSource.sourceArea.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>ViewSource<span class='break'> </span>.<span class='break'> </span>sourceArea</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.document.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>document</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.domNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>domNode</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.editNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>editNode</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.iframe.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>iframe</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.textarea.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>textarea</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.window.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>window</a></li>
+				
+					<li><a href="../symbols/dijit._editor.selection.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>selection</a></li>
+				
+					<li><a href="../symbols/dijit._MasterTooltip.connectorNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_MasterTooltip<span class='break'> </span>.<span class='break'> </span>connectorNode</a></li>
+				
+					<li><a href="../symbols/dijit._MasterTooltip.containerNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_MasterTooltip<span class='break'> </span>.<span class='break'> </span>containerNode</a></li>
+				
+					<li><a href="../symbols/dijit._MasterTooltip.domNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_MasterTooltip<span class='break'> </span>.<span class='break'> </span>domNode</a></li>
+				
+					<li><a href="../symbols/dijit._MenuBase.currentPopup.html">dijit<span class='break'> </span>.<span class='break'> </span>_MenuBase<span class='break'> </span>.<span class='break'> </span>currentPopup</a></li>
+				
+					<li><a href="../symbols/dijit._MenuBase.focusedChild.html">dijit<span class='break'> </span>.<span class='break'> </span>_MenuBase<span class='break'> </span>.<span class='break'> </span>focusedChild</a></li>
+				
+					<li><a href="../symbols/dijit._TreeNode.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>_TreeNode<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.BackgroundIframe.html">dijit<span class='break'> </span>.<span class='break'> </span>BackgroundIframe</a></li>
+				
+					<li><a href="../symbols/dijit.BackgroundIframe.destroy.html">dijit<span class='break'> </span>.<span class='break'> </span>BackgroundIframe<span class='break'> </span>.<span class='break'> </span>destroy</a></li>
+				
+					<li><a href="../symbols/dijit.Calendar.html">dijit<span class='break'> </span>.<span class='break'> </span>Calendar</a></li>
+				
+					<li><a href="../symbols/dijit.Calendar.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>Calendar<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.CalendarLite.html">dijit<span class='break'> </span>.<span class='break'> </span>CalendarLite</a></li>
+				
+					<li><a href="../symbols/dijit.CheckedMenuItem.html">dijit<span class='break'> </span>.<span class='break'> </span>CheckedMenuItem</a></li>
+				
+					<li><a href="../symbols/dijit.ColorPalette.html">dijit<span class='break'> </span>.<span class='break'> </span>ColorPalette</a></li>
+				
+					<li><a href="../symbols/dijit.Declaration.html">dijit<span class='break'> </span>.<span class='break'> </span>Declaration</a></li>
+				
+					<li><a href="../symbols/dijit.Declaration.defaults.html">dijit<span class='break'> </span>.<span class='break'> </span>Declaration<span class='break'> </span>.<span class='break'> </span>defaults</a></li>
+				
+					<li><a href="../symbols/dijit.Dialog.html">dijit<span class='break'> </span>.<span class='break'> </span>Dialog</a></li>
+				
+					<li><a href="../symbols/dijit.DialogUnderlay.html">dijit<span class='break'> </span>.<span class='break'> </span>DialogUnderlay</a></li>
+				
+					<li><a href="../symbols/dijit.DialogUnderlay.domNode.html">dijit<span class='break'> </span>.<span class='break'> </span>DialogUnderlay<span class='break'> </span>.<span class='break'> </span>domNode</a></li>
+				
+					<li><a href="../symbols/dijit.DialogUnderlay.node.html">dijit<span class='break'> </span>.<span class='break'> </span>DialogUnderlay<span class='break'> </span>.<span class='break'> </span>node</a></li>
+				
+					<li><a href="../symbols/dijit.DropDownMenu.html">dijit<span class='break'> </span>.<span class='break'> </span>DropDownMenu</a></li>
+				
+					<li><a href="../symbols/dijit.Dye.html">dijit<span class='break'> </span>.<span class='break'> </span>Dye</a></li>
+				
+					<li><a href="../symbols/dijit.Editor.html">dijit<span class='break'> </span>.<span class='break'> </span>Editor</a></li>
+				
+					<li><a href="../symbols/dijit.Editor.document.html">dijit<span class='break'> </span>.<span class='break'> </span>Editor<span class='break'> </span>.<span class='break'> </span>document</a></li>
+				
+					<li><a href="../symbols/dijit.focus.html">dijit<span class='break'> </span>.<span class='break'> </span>focus</a></li>
+				
+					<li><a href="../symbols/dijit.form.html">dijit<span class='break'> </span>.<span class='break'> </span>form</a></li>
+				
+					<li><a href="../symbols/dijit.form._ComboBoxMenuMixin.nextButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>_ComboBoxMenuMixin<span class='break'> </span>.<span class='break'> </span>nextButton</a></li>
+				
+					<li><a href="../symbols/dijit.form._ComboBoxMenuMixin.previousButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>_ComboBoxMenuMixin<span class='break'> </span>.<span class='break'> </span>previousButton</a></li>
+				
+					<li><a href="../symbols/dijit.form._ExpandingTextAreaMixin.textbox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>_ExpandingTextAreaMixin<span class='break'> </span>.<span class='break'> </span>textbox</a></li>
+				
+					<li><a href="../symbols/dijit.form._Spinner.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>_Spinner<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.form.Button.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>Button</a></li>
+				
+					<li><a href="../symbols/dijit.form.CheckBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>CheckBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.ComboBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ComboBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.ComboBoxMixin.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ComboBoxMixin</a></li>
+				
+					<li><a href="../symbols/dijit.form.ComboBoxMixin.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ComboBoxMixin<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.form.ComboButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ComboButton</a></li>
+				
+					<li><a href="../symbols/dijit.form.ComboButton.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ComboButton<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.form.CurrencyTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>CurrencyTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.DataList.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>DataList</a></li>
+				
+					<li><a href="../symbols/dijit.form.DateTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>DateTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.DropDownButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>DropDownButton</a></li>
+				
+					<li><a href="../symbols/dijit.form.FilteringSelect.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>FilteringSelect</a></li>
+				
+					<li><a href="../symbols/dijit.form.Form.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>Form</a></li>
+				
+					<li><a href="../symbols/dijit.form.HorizontalRule.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>HorizontalRule</a></li>
+				
+					<li><a href="../symbols/dijit.form.HorizontalRuleLabels.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>HorizontalRuleLabels</a></li>
+				
+					<li><a href="../symbols/dijit.form.HorizontalRuleLabels.constraints.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>HorizontalRuleLabels<span class='break'> </span>.<span class='break'> </span>constraints</a></li>
+				
+					<li><a href="../symbols/dijit.form.HorizontalSlider.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>HorizontalSlider</a></li>
+				
+					<li><a href="../symbols/dijit.form.HorizontalSlider.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>HorizontalSlider<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.form.MappedTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>MappedTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.MappedTextBox.valueNode.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>MappedTextBox<span class='break'> </span>.<span class='break'> </span>valueNode</a></li>
+				
+					<li><a href="../symbols/dijit.form.MultiSelect.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>MultiSelect</a></li>
+				
+					<li><a href="../symbols/dijit.form.NumberSpinner.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>NumberSpinner</a></li>
+				
+					<li><a href="../symbols/dijit.form.NumberTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>NumberTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.NumberTextBoxMixin.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>NumberTextBoxMixin</a></li>
+				
+					<li><a href="../symbols/dijit.form.NumberTextBoxMixin.editOptions.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>NumberTextBoxMixin<span class='break'> </span>.<span class='break'> </span>editOptions</a></li>
+				
+					<li><a href="../symbols/dijit.form.RadioButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>RadioButton</a></li>
+				
+					<li><a href="../symbols/dijit.form.RangeBoundTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>RangeBoundTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.Select.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>Select</a></li>
+				
+					<li><a href="../symbols/dijit.form.SimpleTextarea.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>SimpleTextarea</a></li>
+				
+					<li><a href="../symbols/dijit.form.Textarea.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>Textarea</a></li>
+				
+					<li><a href="../symbols/dijit.form.TextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>TextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.TimeTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>TimeTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.ToggleButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ToggleButton</a></li>
+				
+					<li><a href="../symbols/dijit.form.ValidationTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ValidationTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.VerticalRule.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>VerticalRule</a></li>
+				
+					<li><a href="../symbols/dijit.form.VerticalRuleLabels.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>VerticalRuleLabels</a></li>
+				
+					<li><a href="../symbols/dijit.form.VerticalSlider.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>VerticalSlider</a></li>
+				
+					<li><a href="../symbols/dijit.InlineEditBox.html">dijit<span class='break'> </span>.<span class='break'> </span>InlineEditBox</a></li>
+				
+					<li><a href="../symbols/dijit.InlineEditBox.wrapperWidget.html">dijit<span class='break'> </span>.<span class='break'> </span>InlineEditBox<span class='break'> </span>.<span class='break'> </span>wrapperWidget</a></li>
+				
+					<li><a href="../symbols/dijit.layout.html">dijit<span class='break'> </span>.<span class='break'> </span>layout</a></li>
+				
+					<li><a href="../symbols/dijit.layout._TabButton.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>_TabButton<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.layout._TabContainerBase.tablist.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>_TabContainerBase<span class='break'> </span>.<span class='break'> </span>tablist</a></li>
+				
+					<li><a href="../symbols/dijit.layout._TabContainerBase.tablist.domNode.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>_TabContainerBase<span class='break'> </span>.<span class='break'> </span>tablist<span class='break'> </span>.<span class='break'> </span>domNode</a></li>
+				
+					<li><a href="../symbols/dijit.layout.AccordionContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>AccordionContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.AccordionContainer.selectedChildWidget.containerNode.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>AccordionContainer<span class='break'> </span>.<span class='break'> </span>selectedChildWidget<span class='break'> </span>.<span class='break'> </span>containerNode</a></li>
+				
+					<li><a href="../symbols/dijit.layout.AccordionPane.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>AccordionPane</a></li>
+				
+					<li><a href="../symbols/dijit.layout.BorderContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>BorderContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.BorderContainer.pe.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>BorderContainer<span class='break'> </span>.<span class='break'> </span>pe</a></li>
+				
+					<li><a href="../symbols/dijit.layout.ContentPane.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>ContentPane</a></li>
+				
+					<li><a href="../symbols/dijit.layout.LayoutContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>LayoutContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.LinkPane.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>LinkPane</a></li>
+				
+					<li><a href="../symbols/dijit.layout.ScrollingTabController.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>ScrollingTabController</a></li>
+				
+					<li><a href="../symbols/dijit.layout.ScrollingTabController.scrollNode.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>ScrollingTabController<span class='break'> </span>.<span class='break'> </span>scrollNode</a></li>
+				
+					<li><a href="../symbols/dijit.layout.SplitContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>SplitContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.StackContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>StackContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.StackController.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>StackController</a></li>
+				
+					<li><a href="../symbols/dijit.layout.TabContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>TabContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.TabController.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>TabController</a></li>
+				
+					<li><a href="../symbols/dijit.Menu.html">dijit<span class='break'> </span>.<span class='break'> </span>Menu</a></li>
+				
+					<li><a href="../symbols/dijit.MenuBar.html">dijit<span class='break'> </span>.<span class='break'> </span>MenuBar</a></li>
+				
+					<li><a href="../symbols/dijit.MenuBarItem.html">dijit<span class='break'> </span>.<span class='break'> </span>MenuBarItem</a></li>
+				
+					<li><a href="../symbols/dijit.MenuItem.html">dijit<span class='break'> </span>.<span class='break'> </span>MenuItem</a></li>
+				
+					<li><a href="../symbols/dijit.MenuItem.accelKeyNode.html">dijit<span class='break'> </span>.<span class='break'> </span>MenuItem<span class='break'> </span>.<span class='break'> </span>accelKeyNode</a></li>
+				
+					<li><a href="../symbols/dijit.MenuSeparator.html">dijit<span class='break'> </span>.<span class='break'> </span>MenuSeparator</a></li>
+				
+					<li><a href="../symbols/dijit.place.html">dijit<span class='break'> </span>.<span class='break'> </span>place</a></li>
+				
+					<li><a href="../symbols/dijit.popup.html">dijit<span class='break'> </span>.<span class='break'> </span>popup</a></li>
+				
+					<li><a href="../symbols/dijit.PopupMenuBarItem.html">dijit<span class='break'> </span>.<span class='break'> </span>PopupMenuBarItem</a></li>
+				
+					<li><a href="../symbols/dijit.PopupMenuItem.html">dijit<span class='break'> </span>.<span class='break'> </span>PopupMenuItem</a></li>
+				
+					<li><a href="../symbols/dijit.ProgressBar.html">dijit<span class='break'> </span>.<span class='break'> </span>ProgressBar</a></li>
+				
+					<li><a href="../symbols/dijit.range.html">dijit<span class='break'> </span>.<span class='break'> </span>range</a></li>
+				
+					<li><a href="../symbols/dijit.range.ie.html">dijit<span class='break'> </span>.<span class='break'> </span>range<span class='break'> </span>.<span class='break'> </span>ie</a></li>
+				
+					<li><a href="../symbols/dijit.range.ie.selection.html">dijit<span class='break'> </span>.<span class='break'> </span>range<span class='break'> </span>.<span class='break'> </span>ie<span class='break'> </span>.<span class='break'> </span>selection</a></li>
+				
+					<li><a href="../symbols/dijit.range.W3CRange.html">dijit<span class='break'> </span>.<span class='break'> </span>range<span class='break'> </span>.<span class='break'> </span>W3CRange</a></li>
+				
+					<li><a href="../symbols/dijit.TitlePane.html">dijit<span class='break'> </span>.<span class='break'> </span>TitlePane</a></li>
+				
+					<li><a href="../symbols/dijit.Toolbar.html">dijit<span class='break'> </span>.<span class='break'> </span>Toolbar</a></li>
+				
+					<li><a href="../symbols/dijit.ToolbarSeparator.html">dijit<span class='break'> </span>.<span class='break'> </span>ToolbarSeparator</a></li>
+				
+					<li><a href="../symbols/dijit.Tooltip.html">dijit<span class='break'> </span>.<span class='break'> </span>Tooltip</a></li>
+				
+					<li><a href="../symbols/dijit.TooltipDialog.html">dijit<span class='break'> </span>.<span class='break'> </span>TooltipDialog</a></li>
+				
+					<li><a href="../symbols/dijit.tree.html">dijit<span class='break'> </span>.<span class='break'> </span>tree</a></li>
+				
+					<li><a href="../symbols/dijit.Tree.html">dijit<span class='break'> </span>.<span class='break'> </span>Tree</a></li>
+				
+					<li><a href="../symbols/dijit.tree.ForestStoreModel.html">dijit<span class='break'> </span>.<span class='break'> </span>tree<span class='break'> </span>.<span class='break'> </span>ForestStoreModel</a></li>
+				
+					<li><a href="../symbols/dijit.tree.ForestStoreModel.root.html">dijit<span class='break'> </span>.<span class='break'> </span>tree<span class='break'> </span>.<span class='break'> </span>ForestStoreModel<span class='break'> </span>.<span class='break'> </span>root</a></li>
+				
+					<li><a href="../symbols/dijit.tree.model.html">dijit<span class='break'> </span>.<span class='break'> </span>tree<span class='break'> </span>.<span class='break'> </span>model</a></li>
+				
+					<li><a href="../symbols/dijit.tree.TreeStoreModel.html">dijit<span class='break'> </span>.<span class='break'> </span>tree<span class='break'> </span>.<span class='break'> </span>TreeStoreModel</a></li>
+				
+					<li><a href="../symbols/dijit.typematic.html">dijit<span class='break'> </span>.<span class='break'> </span>typematic</a></li>
+				
+					<li><a href="../symbols/dijit.typematic.stop.html">dijit<span class='break'> </span>.<span class='break'> </span>typematic<span class='break'> </span>.<span class='break'> </span>stop</a></li>
+				
+					<li><a href="../symbols/dijit.typematic.trigger.html">dijit<span class='break'> </span>.<span class='break'> </span>typematic<span class='break'> </span>.<span class='break'> </span>trigger</a></li>
+				
+					<li><a href="../symbols/dijit.WidgetSet.html">dijit<span class='break'> </span>.<span class='break'> </span>WidgetSet</a></li>
+				
+					<li><a href="../symbols/doh.robot.html">doh<span class='break'> </span>.<span class='break'> </span>robot</a></li>
+				
+					<li><a href="../symbols/dojo.html">dojo</a></li>
+				
+					<li><a href="../symbols/dojo.Stateful.html">dojo<span class='break'> </span>.<span class='break'> </span>Stateful</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	<div class="fineprint" style="clear:both">
+		<footer>
+			
+			Documentation generator: <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0<br />
+			Template: <a href="http://www.thebrightlines.com/2010/05/06/new-template-for-jsdoctoolkit-codeview/" target="_blank">Codeview</a> 1.2<br />
+			Generated on:
+			<time datetime='2012-3-12' pubdate>2012-3-12 8:41</time>
+		</footer>
+	</div>
+</div>
+
+<div class="index indexStatic"></div>
+
+<div class="content">
+	<div class="innerContent">
+		<article>
+			<header>
+				<h1 class="classTitle">
+					
+					Class <span>dijit._editor.RichText</span>
+				</h1>
+				
+				<div class="intro">
+					<p class="description summary">
+						
+					</p>
+						
+					
+						<ul class="summary">
+							
+							
+							
+								<li>Defined in: <a href="../symbols/src/_var_www_dojo_util_docscripts_cache_api.hdr.js.html">api.hdr.js</a></li>
+							
+							<li>Extends <span class="fixedFont">
+								dijit._CssStateMixin, dijit._Widget</span></li>
+							
+						</ul>
+					
+				</div>
+			</header>
+			
+			
+				<section>
+					<div class="props">
+						<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class dijit._editor.RichText.">
+							<caption class="sectionTitle">Class Summary</caption>
+							<thead>
+								<tr>
+									<th scope="col">Constructor Attributes</th>
+									<th scope="col">Constructor Name and Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription" >
+										<div class="fixedFont">
+											<b><a href="../symbols/dijit._editor.RichText.html#constructor">dijit._editor.RichText</a></b>(params)
+										</div>
+										<div class="description"><b>Summary:</b><blockquote>
+	 dijit._editor.RichText is the core of dijit.Editor, which provides basic<br>
+	 WYSIWYG editing features.</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+			
+			
+			
+				
+				<section>
+					
+					
+					
+				</section>
+			
+	<!--
+	#### METHODS SUMMARY
+	-->
+			
+				<section>
+					
+					
+					<div class="props">
+						<h2 class="sectionTitle">Method Summary</h2>
+						
+						
+							<nav>
+								<table class="summaryTable" id="MethodsList" cellspacing="0" summary="A summary of the methods documented in the class dijit._editor.RichText.">
+									<thead>
+										<tr>
+											<th scope="col">Method Attributes</th>
+											<th scope="col">Method Name and Description</th>
+										</tr>
+									</thead>
+									
+									<tbody>
+										
+										
+											<tr
+												 class='item0'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.addKeyHandler">addKeyHandler</a></b>(key, ctrl, shift, handler)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Add a handler for a keyboard shortcut<br>
+</blockquote>
+The key argument should be in lowercase if it is a letter character</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item1'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.addStyleSheet">addStyleSheet</a></b>(uri)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 add an external stylesheet for the editing area<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item2'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.blur">blur</a></b>()
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Remove focus from this instance.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item3'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.destroy">destroy</a></b>()
+													</div>
+													<div class="description"></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item4'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.execCommand">execCommand</a></b>(command, argument)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Executes a command in the Rich Text area<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item5'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.focus">focus</a></b>()
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Move focus to this editor<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item6'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.getFooterHeight">getFooterHeight</a></b>()
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 A function for obtaining the height of the footer node<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item7'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.getHeaderHeight">getHeaderHeight</a></b>()
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 A function for obtaining the height of the header node<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item8'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.getNodeChildrenHtml">getNodeChildrenHtml</a></b>(dom)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Deprecated.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item9'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.getNodeHtml">getNodeHtml</a></b>(node)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Deprecated.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item10'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.onChange">onChange</a></b>(newContent)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 This is fired if and only if the editor loses focus and<br>
+	 the content is changed.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item11'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.onKeyDown">onKeyDown</a></b>(e)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Handler for onkeydown event<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item12'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.onKeyPress">onKeyPress</a></b>(e)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Handle the various key events<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item13'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.onKeyUp">onKeyUp</a></b>(e)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Handler for onkeyup event<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item14'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.onLoad">onLoad</a></b>(html)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Handler after the iframe finishes loading.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item15'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.postCreate">postCreate</a></b>()
+													</div>
+													<div class="description"></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item16'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.queryCommandEnabled">queryCommandEnabled</a></b>(command)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Check whether a command is enabled or not.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item17'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.queryCommandState">queryCommandState</a></b>(command)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Check the state of a given command and returns true or false.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item18'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.queryCommandValue">queryCommandValue</a></b>(command)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Check the value of a given command.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item19'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.removeStyleSheet">removeStyleSheet</a></b>(uri)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 remove an external stylesheet for the editing area<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item20'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.replaceValue">replaceValue</a></b>(html)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 This function set the content while trying to maintain the undo stack<br>
+	 (now only works fine with Moz, this is identical to setValue in all<br>
+	 other browsers)<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item21'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.reset">reset</a></b>()
+													</div>
+													<div class="description"></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item22'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.setDisabled">setDisabled</a></b>(disabled)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Deprecated, use set('disabled', .</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item23'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.setupDefaultShortcuts">setupDefaultShortcuts</a></b>()
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Add some default key handlers<br>
+</blockquote>
+Overwrite this to setup your own handlers.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item24'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit._editor.RichText.<b><a href="../symbols/dijit._editor.RichText.html#.setValue">setValue</a></b>(html)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 This function sets the content.</div>
+												</td>
+											</tr>
+										
+									</tbody>
+								</table>
+							</nav>
+						
+					
+						
+					</div>
+				</section>
+			
+			
+	<!--
+	#### EVENTS SUMMARY
+	-->
+			
+	<!--
+	#### CONSTRUCTOR DETAILS
+	-->
+			
+				<section>
+					<div class="details props">
+						<div class="innerProps">
+							<h2 class="sectionTitle" id="constructor">
+								Class Detail
+							</h2>
+							
+							<div class="fixedFont">
+								<b>dijit._editor.RichText</b>(params)
+							</div>
+							
+							<div class="description">
+								<b>Summary:</b><blockquote>
+	 dijit._editor.RichText is the core of dijit.Editor, which provides basic<br>
+	 WYSIWYG editing features.<br>
+</blockquote>
+dijit._editor.RichText is the core of dijit.Editor, which provides basic<br>
+WYSIWYG editing features. It also encapsulates the differences<br>
+of different js engines for various browsers.  Do not use this widget<br>
+with an HTML &amp;lt;TEXTAREA&amp;gt; tag, since the browser unescapes XML escape characters,<br>
+like &amp;lt;.  This can have unexpected behavior and lead to security issues<br>
+such as scripting attacks.
+								
+							</div>
+							
+							
+						
+							
+								<dl class="detailList params">
+									<dt class="heading">Parameters:</dt>
+									
+										<dt>
+											<span class="light fixedFont">{mixed}</span>  <b>params</b>
+											
+										</dt>
+										<dd></dd>
+									
+								</dl>
+							
+							
+							
+								<dl class="detailList nomargin">
+									
+									
+									
+									
+									
+									
+									
+										<dt class="heading">Returns:</dt>
+										
+												<dd><span class="light fixedFont">{<a href="../symbols/dijit._editor.RichText.html">dijit._editor.RichText</a>}</span> new instance</dd>
+										
+									
+									
+									
+									
+									
+								</dl>
+							
+						</div>
+					</div>
+				</section>
+			
+	<!--
+	#### FIELD DETAILS
+	-->
+			
+	<!--
+	#### METHOD DETAILS
+	-->		
+			
+				<section>
+					<div class="details props">
+						<div class="innerProps">
+							<h2 class="sectionTitle">
+								Method Detail
+							</h2>
+							
+							<ul class="methodDetail" id="MethodDetail">
+								
+								
+									<li 
+										 class='item0'
+									>
+										<div class="fixedFont heading" id=".addKeyHandler">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>addKeyHandler</b>(key, ctrl, shift, handler)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Add a handler for a keyboard shortcut<br>
+</blockquote>
+The key argument should be in lowercase if it is a letter character
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{String}</span> <b>key</b>
+														
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{Boolean}</span> <b>ctrl</b>
+														
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{Boolean}</span> <b>shift</b>
+														
+													</dt>
+													<dd></dd>
+												
+													<dt>
+														<span class="light fixedFont">{Function}</span> <b>handler</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item1'
+									>
+										<div class="fixedFont heading" id=".addStyleSheet">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>addStyleSheet</b>(uri)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 add an external stylesheet for the editing area<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{dojo._Url}</span> <b>uri</b>
+														
+													</dt>
+													<dd>A dojo.uri.Uri pointing to the url of the external css file</dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item2'
+									>
+										<div class="fixedFont heading" id=".blur">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>blur</b>()
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Remove focus from this instance.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item3'
+									>
+										<div class="fixedFont heading" id=".destroy">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>destroy</b>()
+										</div>
+										
+										<div class="description">
+											
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item4'
+									>
+										<div class="fixedFont heading" id=".execCommand">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>execCommand</b>(command, argument)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Executes a command in the Rich Text area<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{String}</span> <b>command</b>
+														
+													</dt>
+													<dd>The command to execute</dd>
+												
+													<dt>
+														<span class="light fixedFont">{An}</span> <b>argument</b>
+														
+													</dt>
+													<dd>optional argument to the command</dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item5'
+									>
+										<div class="fixedFont heading" id=".focus">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>focus</b>()
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Move focus to this editor<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item6'
+									>
+										<div class="fixedFont heading" id=".getFooterHeight">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											<span class="light">{Number}</span>
+											
+											<span class="light">dijit._editor.RichText.</span><b>getFooterHeight</b>()
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 A function for obtaining the height of the footer node<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+											<dl class="detailList nomargin">
+											
+												
+												
+												
+												
+												
+												
+												
+													<dt class="heading">Returns:</dt>
+													
+														<dd><span class="light fixedFont">{Number}</span> -</dd>
+													
+												
+												
+												
+												
+												
+											
+											</dl>
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item7'
+									>
+										<div class="fixedFont heading" id=".getHeaderHeight">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											<span class="light">{Number}</span>
+											
+											<span class="light">dijit._editor.RichText.</span><b>getHeaderHeight</b>()
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 A function for obtaining the height of the header node<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+											<dl class="detailList nomargin">
+											
+												
+												
+												
+												
+												
+												
+												
+													<dt class="heading">Returns:</dt>
+													
+														<dd><span class="light fixedFont">{Number}</span> -</dd>
+													
+												
+												
+												
+												
+												
+											
+											</dl>
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item8'
+									>
+										<div class="fixedFont heading" id=".getNodeChildrenHtml">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>getNodeChildrenHtml</b>(dom)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Deprecated.   Use dijit/_editor/html::getChildrenHtml() instead.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{DomNode}</span> <b>dom</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item9'
+									>
+										<div class="fixedFont heading" id=".getNodeHtml">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											<span class="light">{String}</span>
+											
+											<span class="light">dijit._editor.RichText.</span><b>getNodeHtml</b>(node)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Deprecated.   Use dijit/_editor/html::_getNodeHtml() instead.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{DomNode}</span> <b>node</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+											<dl class="detailList nomargin">
+											
+												
+												
+												
+												
+												
+												
+												
+													<dt class="heading">Returns:</dt>
+													
+														<dd><span class="light fixedFont">{String}</span> -</dd>
+													
+												
+												
+												
+												
+												
+											
+											</dl>
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item10'
+									>
+										<div class="fixedFont heading" id=".onChange">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>onChange</b>(newContent)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 This is fired if and only if the editor loses focus and<br>
+	 the content is changed.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>newContent</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item11'
+									>
+										<div class="fixedFont heading" id=".onKeyDown">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>onKeyDown</b>(e)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Handler for onkeydown event<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Event}</span> <b>e</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item12'
+									>
+										<div class="fixedFont heading" id=".onKeyPress">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>onKeyPress</b>(e)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Handle the various key events<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>e</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item13'
+									>
+										<div class="fixedFont heading" id=".onKeyUp">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>onKeyUp</b>(e)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Handler for onkeyup event<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>e</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item14'
+									>
+										<div class="fixedFont heading" id=".onLoad">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>onLoad</b>(html)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Handler after the iframe finishes loading.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{String}</span> <b>html</b>
+														
+													</dt>
+													<dd>Editor contents should be set to this value</dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item15'
+									>
+										<div class="fixedFont heading" id=".postCreate">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>postCreate</b>()
+										</div>
+										
+										<div class="description">
+											
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item16'
+									>
+										<div class="fixedFont heading" id=".queryCommandEnabled">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>queryCommandEnabled</b>(command)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Check whether a command is enabled or not.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{String}</span> <b>command</b>
+														
+													</dt>
+													<dd>The command to execute</dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item17'
+									>
+										<div class="fixedFont heading" id=".queryCommandState">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>queryCommandState</b>(command)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Check the state of a given command and returns true or false.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>command</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item18'
+									>
+										<div class="fixedFont heading" id=".queryCommandValue">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>queryCommandValue</b>(command)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Check the value of a given command. This matters most for<br>
+	 custom selections and complex values like font value setting.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>command</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item19'
+									>
+										<div class="fixedFont heading" id=".removeStyleSheet">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>removeStyleSheet</b>(uri)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 remove an external stylesheet for the editing area<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{dojo._Url}</span> <b>uri</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item20'
+									>
+										<div class="fixedFont heading" id=".replaceValue">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>replaceValue</b>(html)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 This function set the content while trying to maintain the undo stack<br>
+	 (now only works fine with Moz, this is identical to setValue in all<br>
+	 other browsers)<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{String}</span> <b>html</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item21'
+									>
+										<div class="fixedFont heading" id=".reset">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>reset</b>()
+										</div>
+										
+										<div class="description">
+											
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item22'
+									>
+										<div class="fixedFont heading" id=".setDisabled">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>setDisabled</b>(disabled)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Deprecated, use set('disabled', ...) instead.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Boolean}</span> <b>disabled</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item23'
+									>
+										<div class="fixedFont heading" id=".setupDefaultShortcuts">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>setupDefaultShortcuts</b>()
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Add some default key handlers<br>
+</blockquote>
+Overwrite this to setup your own handlers. The default<br>
+implementation does not use Editor commands, but directly<br>
+executes the builtin commands within the underlying browser<br>
+support.
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item24'
+									>
+										<div class="fixedFont heading" id=".setValue">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit._editor.RichText.</span><b>setValue</b>(html)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 This function sets the content. No undo history is preserved.<br>
+	 Users should use set('value', ...) instead.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{String}</span> <b>html</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										
+									</li>
+								
+							</ul>
+						</div>
+					</div>
+				</section>
+			
+			
+	<!--
+	#### EVENT DETAILS
+	-->		
+			
+		</article>
+	</div>
+</div>
+
+		<script type="text/javascript">
+			wbos.CssTools.MediaQueryFallBack.LoadCss('../css/screen.css', '../css/handheld.css', 660)
+			codeview.classFilter.Init()
+		</script>
+	</body>
+</html>
+

@@ -1,0 +1,998 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		<title>dijit.form.Select | JsDoc Reference</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<meta name="mobileoptimized" content="0" />
+	
+		<link rel="stylesheet" href="../css/all.css" media="all" />
+		<link rel="stylesheet" href="../css/handheld.css" media="only screen and (max-width: 660px)" />
+		<link rel="stylesheet" href="../css/handheld.css" media="handheld" />
+		<link rel="stylesheet" href="../css/screen.css" media="screen and (min-width: 661px)" />
+
+		<script src="../javascript/all.js"></script>
+		<!--[if lt IE 9]>
+			<script src="../javascript/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+<div class="index">
+	<div class="menu">
+		<div class="indexLinks">
+			<a href="../index.html">Classes</a>
+			<a href="../files.html">Files</a>
+		</div>
+	
+		<h2 class="heading1">Classes</h2>
+		
+		<input type="text" name="classFilter" class="classFilter" id="ClassFilter" placeholder="Filter"></input>
+		
+		<nav>
+			<ul class="classList" id="ClassList">
+				
+					<li><a href="../symbols/_global_.html">_global_</a></li>
+				
+					<li><a href="../symbols/_Plugin.registry.html">_Plugin<span class='break'> </span>.<span class='break'> </span>registry</a></li>
+				
+					<li><a href="../symbols/dijit.html">dijit</a></li>
+				
+					<li><a href="../symbols/dijit._CssStateMixin.stateNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_CssStateMixin<span class='break'> </span>.<span class='break'> </span>stateNode</a></li>
+				
+					<li><a href="../symbols/dijit._DialogBase.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>_DialogBase<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit._editor._Plugin.registry.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>_Plugin<span class='break'> </span>.<span class='break'> </span>registry</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.AlwaysShowToolbar.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>AlwaysShowToolbar</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.AlwaysShowToolbar.editor.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>AlwaysShowToolbar<span class='break'> </span>.<span class='break'> </span>editor</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.AlwaysShowToolbar.editor.header.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>AlwaysShowToolbar<span class='break'> </span>.<span class='break'> </span>editor<span class='break'> </span>.<span class='break'> </span>header</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.EnterKeyHandling.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>EnterKeyHandling</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.FontChoice.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>FontChoice</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.FullScreen.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>FullScreen</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.FullScreen.editor.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>FullScreen<span class='break'> </span>.<span class='break'> </span>editor</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.ImgLinkDialog.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>ImgLinkDialog</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.LinkDialog.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>LinkDialog</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.NewPage.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>NewPage</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.Print.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>Print</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.TabIndent.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>TabIndent</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.TextColor.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>TextColor</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.TextColor.button.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>TextColor<span class='break'> </span>.<span class='break'> </span>button</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.ToggleDir.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>ToggleDir</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.ViewSource.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>ViewSource</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.ViewSource.editor.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>ViewSource<span class='break'> </span>.<span class='break'> </span>editor</a></li>
+				
+					<li><a href="../symbols/dijit._editor.plugins.ViewSource.sourceArea.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>plugins<span class='break'> </span>.<span class='break'> </span>ViewSource<span class='break'> </span>.<span class='break'> </span>sourceArea</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.document.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>document</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.domNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>domNode</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.editNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>editNode</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.iframe.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>iframe</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.textarea.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>textarea</a></li>
+				
+					<li><a href="../symbols/dijit._editor.RichText.window.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>RichText<span class='break'> </span>.<span class='break'> </span>window</a></li>
+				
+					<li><a href="../symbols/dijit._editor.selection.html">dijit<span class='break'> </span>.<span class='break'> </span>_editor<span class='break'> </span>.<span class='break'> </span>selection</a></li>
+				
+					<li><a href="../symbols/dijit._MasterTooltip.connectorNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_MasterTooltip<span class='break'> </span>.<span class='break'> </span>connectorNode</a></li>
+				
+					<li><a href="../symbols/dijit._MasterTooltip.containerNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_MasterTooltip<span class='break'> </span>.<span class='break'> </span>containerNode</a></li>
+				
+					<li><a href="../symbols/dijit._MasterTooltip.domNode.html">dijit<span class='break'> </span>.<span class='break'> </span>_MasterTooltip<span class='break'> </span>.<span class='break'> </span>domNode</a></li>
+				
+					<li><a href="../symbols/dijit._MenuBase.currentPopup.html">dijit<span class='break'> </span>.<span class='break'> </span>_MenuBase<span class='break'> </span>.<span class='break'> </span>currentPopup</a></li>
+				
+					<li><a href="../symbols/dijit._MenuBase.focusedChild.html">dijit<span class='break'> </span>.<span class='break'> </span>_MenuBase<span class='break'> </span>.<span class='break'> </span>focusedChild</a></li>
+				
+					<li><a href="../symbols/dijit._TreeNode.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>_TreeNode<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.BackgroundIframe.html">dijit<span class='break'> </span>.<span class='break'> </span>BackgroundIframe</a></li>
+				
+					<li><a href="../symbols/dijit.BackgroundIframe.destroy.html">dijit<span class='break'> </span>.<span class='break'> </span>BackgroundIframe<span class='break'> </span>.<span class='break'> </span>destroy</a></li>
+				
+					<li><a href="../symbols/dijit.Calendar.html">dijit<span class='break'> </span>.<span class='break'> </span>Calendar</a></li>
+				
+					<li><a href="../symbols/dijit.Calendar.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>Calendar<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.CalendarLite.html">dijit<span class='break'> </span>.<span class='break'> </span>CalendarLite</a></li>
+				
+					<li><a href="../symbols/dijit.CheckedMenuItem.html">dijit<span class='break'> </span>.<span class='break'> </span>CheckedMenuItem</a></li>
+				
+					<li><a href="../symbols/dijit.ColorPalette.html">dijit<span class='break'> </span>.<span class='break'> </span>ColorPalette</a></li>
+				
+					<li><a href="../symbols/dijit.Declaration.html">dijit<span class='break'> </span>.<span class='break'> </span>Declaration</a></li>
+				
+					<li><a href="../symbols/dijit.Declaration.defaults.html">dijit<span class='break'> </span>.<span class='break'> </span>Declaration<span class='break'> </span>.<span class='break'> </span>defaults</a></li>
+				
+					<li><a href="../symbols/dijit.Dialog.html">dijit<span class='break'> </span>.<span class='break'> </span>Dialog</a></li>
+				
+					<li><a href="../symbols/dijit.DialogUnderlay.html">dijit<span class='break'> </span>.<span class='break'> </span>DialogUnderlay</a></li>
+				
+					<li><a href="../symbols/dijit.DialogUnderlay.domNode.html">dijit<span class='break'> </span>.<span class='break'> </span>DialogUnderlay<span class='break'> </span>.<span class='break'> </span>domNode</a></li>
+				
+					<li><a href="../symbols/dijit.DialogUnderlay.node.html">dijit<span class='break'> </span>.<span class='break'> </span>DialogUnderlay<span class='break'> </span>.<span class='break'> </span>node</a></li>
+				
+					<li><a href="../symbols/dijit.DropDownMenu.html">dijit<span class='break'> </span>.<span class='break'> </span>DropDownMenu</a></li>
+				
+					<li><a href="../symbols/dijit.Dye.html">dijit<span class='break'> </span>.<span class='break'> </span>Dye</a></li>
+				
+					<li><a href="../symbols/dijit.Editor.html">dijit<span class='break'> </span>.<span class='break'> </span>Editor</a></li>
+				
+					<li><a href="../symbols/dijit.Editor.document.html">dijit<span class='break'> </span>.<span class='break'> </span>Editor<span class='break'> </span>.<span class='break'> </span>document</a></li>
+				
+					<li><a href="../symbols/dijit.focus.html">dijit<span class='break'> </span>.<span class='break'> </span>focus</a></li>
+				
+					<li><a href="../symbols/dijit.form.html">dijit<span class='break'> </span>.<span class='break'> </span>form</a></li>
+				
+					<li><a href="../symbols/dijit.form._ComboBoxMenuMixin.nextButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>_ComboBoxMenuMixin<span class='break'> </span>.<span class='break'> </span>nextButton</a></li>
+				
+					<li><a href="../symbols/dijit.form._ComboBoxMenuMixin.previousButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>_ComboBoxMenuMixin<span class='break'> </span>.<span class='break'> </span>previousButton</a></li>
+				
+					<li><a href="../symbols/dijit.form._ExpandingTextAreaMixin.textbox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>_ExpandingTextAreaMixin<span class='break'> </span>.<span class='break'> </span>textbox</a></li>
+				
+					<li><a href="../symbols/dijit.form._Spinner.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>_Spinner<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.form.Button.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>Button</a></li>
+				
+					<li><a href="../symbols/dijit.form.CheckBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>CheckBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.ComboBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ComboBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.ComboBoxMixin.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ComboBoxMixin</a></li>
+				
+					<li><a href="../symbols/dijit.form.ComboBoxMixin.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ComboBoxMixin<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.form.ComboButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ComboButton</a></li>
+				
+					<li><a href="../symbols/dijit.form.ComboButton.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ComboButton<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.form.CurrencyTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>CurrencyTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.DataList.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>DataList</a></li>
+				
+					<li><a href="../symbols/dijit.form.DateTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>DateTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.DropDownButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>DropDownButton</a></li>
+				
+					<li><a href="../symbols/dijit.form.FilteringSelect.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>FilteringSelect</a></li>
+				
+					<li><a href="../symbols/dijit.form.Form.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>Form</a></li>
+				
+					<li><a href="../symbols/dijit.form.HorizontalRule.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>HorizontalRule</a></li>
+				
+					<li><a href="../symbols/dijit.form.HorizontalRuleLabels.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>HorizontalRuleLabels</a></li>
+				
+					<li><a href="../symbols/dijit.form.HorizontalRuleLabels.constraints.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>HorizontalRuleLabels<span class='break'> </span>.<span class='break'> </span>constraints</a></li>
+				
+					<li><a href="../symbols/dijit.form.HorizontalSlider.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>HorizontalSlider</a></li>
+				
+					<li><a href="../symbols/dijit.form.HorizontalSlider.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>HorizontalSlider<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.form.MappedTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>MappedTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.MappedTextBox.valueNode.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>MappedTextBox<span class='break'> </span>.<span class='break'> </span>valueNode</a></li>
+				
+					<li><a href="../symbols/dijit.form.MultiSelect.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>MultiSelect</a></li>
+				
+					<li><a href="../symbols/dijit.form.NumberSpinner.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>NumberSpinner</a></li>
+				
+					<li><a href="../symbols/dijit.form.NumberTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>NumberTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.NumberTextBoxMixin.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>NumberTextBoxMixin</a></li>
+				
+					<li><a href="../symbols/dijit.form.NumberTextBoxMixin.editOptions.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>NumberTextBoxMixin<span class='break'> </span>.<span class='break'> </span>editOptions</a></li>
+				
+					<li><a href="../symbols/dijit.form.RadioButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>RadioButton</a></li>
+				
+					<li><a href="../symbols/dijit.form.RangeBoundTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>RangeBoundTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.Select.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>Select</a></li>
+				
+					<li><a href="../symbols/dijit.form.SimpleTextarea.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>SimpleTextarea</a></li>
+				
+					<li><a href="../symbols/dijit.form.Textarea.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>Textarea</a></li>
+				
+					<li><a href="../symbols/dijit.form.TextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>TextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.TimeTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>TimeTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.ToggleButton.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ToggleButton</a></li>
+				
+					<li><a href="../symbols/dijit.form.ValidationTextBox.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>ValidationTextBox</a></li>
+				
+					<li><a href="../symbols/dijit.form.VerticalRule.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>VerticalRule</a></li>
+				
+					<li><a href="../symbols/dijit.form.VerticalRuleLabels.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>VerticalRuleLabels</a></li>
+				
+					<li><a href="../symbols/dijit.form.VerticalSlider.html">dijit<span class='break'> </span>.<span class='break'> </span>form<span class='break'> </span>.<span class='break'> </span>VerticalSlider</a></li>
+				
+					<li><a href="../symbols/dijit.InlineEditBox.html">dijit<span class='break'> </span>.<span class='break'> </span>InlineEditBox</a></li>
+				
+					<li><a href="../symbols/dijit.InlineEditBox.wrapperWidget.html">dijit<span class='break'> </span>.<span class='break'> </span>InlineEditBox<span class='break'> </span>.<span class='break'> </span>wrapperWidget</a></li>
+				
+					<li><a href="../symbols/dijit.layout.html">dijit<span class='break'> </span>.<span class='break'> </span>layout</a></li>
+				
+					<li><a href="../symbols/dijit.layout._TabButton.cssStateNodes.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>_TabButton<span class='break'> </span>.<span class='break'> </span>cssStateNodes</a></li>
+				
+					<li><a href="../symbols/dijit.layout._TabContainerBase.tablist.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>_TabContainerBase<span class='break'> </span>.<span class='break'> </span>tablist</a></li>
+				
+					<li><a href="../symbols/dijit.layout._TabContainerBase.tablist.domNode.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>_TabContainerBase<span class='break'> </span>.<span class='break'> </span>tablist<span class='break'> </span>.<span class='break'> </span>domNode</a></li>
+				
+					<li><a href="../symbols/dijit.layout.AccordionContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>AccordionContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.AccordionContainer.selectedChildWidget.containerNode.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>AccordionContainer<span class='break'> </span>.<span class='break'> </span>selectedChildWidget<span class='break'> </span>.<span class='break'> </span>containerNode</a></li>
+				
+					<li><a href="../symbols/dijit.layout.AccordionPane.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>AccordionPane</a></li>
+				
+					<li><a href="../symbols/dijit.layout.BorderContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>BorderContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.BorderContainer.pe.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>BorderContainer<span class='break'> </span>.<span class='break'> </span>pe</a></li>
+				
+					<li><a href="../symbols/dijit.layout.ContentPane.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>ContentPane</a></li>
+				
+					<li><a href="../symbols/dijit.layout.LayoutContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>LayoutContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.LinkPane.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>LinkPane</a></li>
+				
+					<li><a href="../symbols/dijit.layout.ScrollingTabController.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>ScrollingTabController</a></li>
+				
+					<li><a href="../symbols/dijit.layout.ScrollingTabController.scrollNode.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>ScrollingTabController<span class='break'> </span>.<span class='break'> </span>scrollNode</a></li>
+				
+					<li><a href="../symbols/dijit.layout.SplitContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>SplitContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.StackContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>StackContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.StackController.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>StackController</a></li>
+				
+					<li><a href="../symbols/dijit.layout.TabContainer.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>TabContainer</a></li>
+				
+					<li><a href="../symbols/dijit.layout.TabController.html">dijit<span class='break'> </span>.<span class='break'> </span>layout<span class='break'> </span>.<span class='break'> </span>TabController</a></li>
+				
+					<li><a href="../symbols/dijit.Menu.html">dijit<span class='break'> </span>.<span class='break'> </span>Menu</a></li>
+				
+					<li><a href="../symbols/dijit.MenuBar.html">dijit<span class='break'> </span>.<span class='break'> </span>MenuBar</a></li>
+				
+					<li><a href="../symbols/dijit.MenuBarItem.html">dijit<span class='break'> </span>.<span class='break'> </span>MenuBarItem</a></li>
+				
+					<li><a href="../symbols/dijit.MenuItem.html">dijit<span class='break'> </span>.<span class='break'> </span>MenuItem</a></li>
+				
+					<li><a href="../symbols/dijit.MenuItem.accelKeyNode.html">dijit<span class='break'> </span>.<span class='break'> </span>MenuItem<span class='break'> </span>.<span class='break'> </span>accelKeyNode</a></li>
+				
+					<li><a href="../symbols/dijit.MenuSeparator.html">dijit<span class='break'> </span>.<span class='break'> </span>MenuSeparator</a></li>
+				
+					<li><a href="../symbols/dijit.place.html">dijit<span class='break'> </span>.<span class='break'> </span>place</a></li>
+				
+					<li><a href="../symbols/dijit.popup.html">dijit<span class='break'> </span>.<span class='break'> </span>popup</a></li>
+				
+					<li><a href="../symbols/dijit.PopupMenuBarItem.html">dijit<span class='break'> </span>.<span class='break'> </span>PopupMenuBarItem</a></li>
+				
+					<li><a href="../symbols/dijit.PopupMenuItem.html">dijit<span class='break'> </span>.<span class='break'> </span>PopupMenuItem</a></li>
+				
+					<li><a href="../symbols/dijit.ProgressBar.html">dijit<span class='break'> </span>.<span class='break'> </span>ProgressBar</a></li>
+				
+					<li><a href="../symbols/dijit.range.html">dijit<span class='break'> </span>.<span class='break'> </span>range</a></li>
+				
+					<li><a href="../symbols/dijit.range.ie.html">dijit<span class='break'> </span>.<span class='break'> </span>range<span class='break'> </span>.<span class='break'> </span>ie</a></li>
+				
+					<li><a href="../symbols/dijit.range.ie.selection.html">dijit<span class='break'> </span>.<span class='break'> </span>range<span class='break'> </span>.<span class='break'> </span>ie<span class='break'> </span>.<span class='break'> </span>selection</a></li>
+				
+					<li><a href="../symbols/dijit.range.W3CRange.html">dijit<span class='break'> </span>.<span class='break'> </span>range<span class='break'> </span>.<span class='break'> </span>W3CRange</a></li>
+				
+					<li><a href="../symbols/dijit.TitlePane.html">dijit<span class='break'> </span>.<span class='break'> </span>TitlePane</a></li>
+				
+					<li><a href="../symbols/dijit.Toolbar.html">dijit<span class='break'> </span>.<span class='break'> </span>Toolbar</a></li>
+				
+					<li><a href="../symbols/dijit.ToolbarSeparator.html">dijit<span class='break'> </span>.<span class='break'> </span>ToolbarSeparator</a></li>
+				
+					<li><a href="../symbols/dijit.Tooltip.html">dijit<span class='break'> </span>.<span class='break'> </span>Tooltip</a></li>
+				
+					<li><a href="../symbols/dijit.TooltipDialog.html">dijit<span class='break'> </span>.<span class='break'> </span>TooltipDialog</a></li>
+				
+					<li><a href="../symbols/dijit.tree.html">dijit<span class='break'> </span>.<span class='break'> </span>tree</a></li>
+				
+					<li><a href="../symbols/dijit.Tree.html">dijit<span class='break'> </span>.<span class='break'> </span>Tree</a></li>
+				
+					<li><a href="../symbols/dijit.tree.ForestStoreModel.html">dijit<span class='break'> </span>.<span class='break'> </span>tree<span class='break'> </span>.<span class='break'> </span>ForestStoreModel</a></li>
+				
+					<li><a href="../symbols/dijit.tree.ForestStoreModel.root.html">dijit<span class='break'> </span>.<span class='break'> </span>tree<span class='break'> </span>.<span class='break'> </span>ForestStoreModel<span class='break'> </span>.<span class='break'> </span>root</a></li>
+				
+					<li><a href="../symbols/dijit.tree.model.html">dijit<span class='break'> </span>.<span class='break'> </span>tree<span class='break'> </span>.<span class='break'> </span>model</a></li>
+				
+					<li><a href="../symbols/dijit.tree.TreeStoreModel.html">dijit<span class='break'> </span>.<span class='break'> </span>tree<span class='break'> </span>.<span class='break'> </span>TreeStoreModel</a></li>
+				
+					<li><a href="../symbols/dijit.typematic.html">dijit<span class='break'> </span>.<span class='break'> </span>typematic</a></li>
+				
+					<li><a href="../symbols/dijit.typematic.stop.html">dijit<span class='break'> </span>.<span class='break'> </span>typematic<span class='break'> </span>.<span class='break'> </span>stop</a></li>
+				
+					<li><a href="../symbols/dijit.typematic.trigger.html">dijit<span class='break'> </span>.<span class='break'> </span>typematic<span class='break'> </span>.<span class='break'> </span>trigger</a></li>
+				
+					<li><a href="../symbols/dijit.WidgetSet.html">dijit<span class='break'> </span>.<span class='break'> </span>WidgetSet</a></li>
+				
+					<li><a href="../symbols/doh.robot.html">doh<span class='break'> </span>.<span class='break'> </span>robot</a></li>
+				
+					<li><a href="../symbols/dojo.html">dojo</a></li>
+				
+					<li><a href="../symbols/dojo.Stateful.html">dojo<span class='break'> </span>.<span class='break'> </span>Stateful</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	<div class="fineprint" style="clear:both">
+		<footer>
+			
+			Documentation generator: <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0<br />
+			Template: <a href="http://www.thebrightlines.com/2010/05/06/new-template-for-jsdoctoolkit-codeview/" target="_blank">Codeview</a> 1.2<br />
+			Generated on:
+			<time datetime='2012-3-12' pubdate>2012-3-12 8:41</time>
+		</footer>
+	</div>
+</div>
+
+<div class="index indexStatic"></div>
+
+<div class="content">
+	<div class="innerContent">
+		<article>
+			<header>
+				<h1 class="classTitle">
+					
+					Class <span>dijit.form.Select</span>
+				</h1>
+				
+				<div class="intro">
+					<p class="description summary">
+						
+					</p>
+						
+					
+						<ul class="summary">
+							
+							
+							
+								<li>Defined in: <a href="../symbols/src/_var_www_dojo_util_docscripts_cache_api.hdr.js.html">api.hdr.js</a></li>
+							
+							<li>Extends <span class="fixedFont">
+								dijit._FormSelectWidget, dijit._HasDropDown</span></li>
+							
+						</ul>
+					
+				</div>
+			</header>
+			
+			
+				<section>
+					<div class="props">
+						<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class dijit.form.Select.">
+							<caption class="sectionTitle">Class Summary</caption>
+							<thead>
+								<tr>
+									<th scope="col">Constructor Attributes</th>
+									<th scope="col">Constructor Name and Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription" >
+										<div class="fixedFont">
+											<b><a href="../symbols/dijit.form.Select.html#constructor">dijit.form.Select</a></b>()
+										</div>
+										<div class="description"><b>Summary:</b><blockquote>
+	 This is a &amp;quot;styleable&amp;quot; select box - it is basically a DropDownButton which<br>
+	 can take a &amp;lt;select&amp;gt; as its input.</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+			
+			
+			
+	<!--
+	#### METHODS SUMMARY
+	-->
+			
+				<section>
+					
+					
+					<div class="props">
+						<h2 class="sectionTitle">Method Summary</h2>
+						
+						
+							<nav>
+								<table class="summaryTable" id="MethodsList" cellspacing="0" summary="A summary of the methods documented in the class dijit.form.Select.">
+									<thead>
+										<tr>
+											<th scope="col">Method Attributes</th>
+											<th scope="col">Method Name and Description</th>
+										</tr>
+									</thead>
+									
+									<tbody>
+										
+										
+											<tr
+												 class='item0'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit.form.Select.<b><a href="../symbols/dijit.form.Select.html#.closeDropDown">closeDropDown</a></b>()
+													</div>
+													<div class="description"></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item1'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit.form.Select.<b><a href="../symbols/dijit.form.Select.html#.isLoaded">isLoaded</a></b>()
+													</div>
+													<div class="description"></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item2'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit.form.Select.<b><a href="../symbols/dijit.form.Select.html#.isValid">isValid</a></b>(isFocused)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Whether or not this is a valid value.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item3'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit.form.Select.<b><a href="../symbols/dijit.form.Select.html#.loadDropDown">loadDropDown</a></b>(loadCallback)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 populates the menu<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item4'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit.form.Select.<b><a href="../symbols/dijit.form.Select.html#.postCreate">postCreate</a></b>()
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 stop mousemove from selecting text on IE to be consistent with other browsers<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item5'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit.form.Select.<b><a href="../symbols/dijit.form.Select.html#.postMixInProperties">postMixInProperties</a></b>()
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 set the missing message<br>
+</blockquote></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item6'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit.form.Select.<b><a href="../symbols/dijit.form.Select.html#.reset">reset</a></b>()
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Overridden so that the state will be cleared.</div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item7'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit.form.Select.<b><a href="../symbols/dijit.form.Select.html#.uninitialize">uninitialize</a></b>(preserveDom)
+													</div>
+													<div class="description"></div>
+												</td>
+											</tr>
+										
+											<tr
+												 class='item8'
+											>
+												<td class="attributes">&lt;static&gt; &nbsp;</td>
+												<td class="nameDescription">
+													<div class="fixedFont">dijit.form.Select.<b><a href="../symbols/dijit.form.Select.html#.validate">validate</a></b>(isFocused)
+													</div>
+													<div class="description"><b>Summary:</b><blockquote>
+	 Called by oninit, onblur, and onkeypress, and whenever required/disabled state changes<br>
+</blockquote>
+Show missing or invalid messages if appropriate, and highlight textbox field.</div>
+												</td>
+											</tr>
+										
+									</tbody>
+								</table>
+							</nav>
+						
+					
+						
+					</div>
+				</section>
+			
+			
+	<!--
+	#### EVENTS SUMMARY
+	-->
+			
+	<!--
+	#### CONSTRUCTOR DETAILS
+	-->
+			
+				<section>
+					<div class="details props">
+						<div class="innerProps">
+							<h2 class="sectionTitle" id="constructor">
+								Class Detail
+							</h2>
+							
+							<div class="fixedFont">
+								<b>dijit.form.Select</b>()
+							</div>
+							
+							<div class="description">
+								<b>Summary:</b><blockquote>
+	 This is a &amp;quot;styleable&amp;quot; select box - it is basically a DropDownButton which<br>
+	 can take a &amp;lt;select&amp;gt; as its input.<br>
+</blockquote>
+								
+							</div>
+							
+							
+						
+							
+							
+							
+								<dl class="detailList nomargin">
+									
+									
+									
+									
+									
+									
+									
+										<dt class="heading">Returns:</dt>
+										
+												<dd><span class="light fixedFont">{<a href="../symbols/dijit.form.Select.html">dijit.form.Select</a>}</span> new instance</dd>
+										
+									
+									
+									
+									
+									
+								</dl>
+							
+						</div>
+					</div>
+				</section>
+			
+	<!--
+	#### FIELD DETAILS
+	-->
+			
+	<!--
+	#### METHOD DETAILS
+	-->		
+			
+				<section>
+					<div class="details props">
+						<div class="innerProps">
+							<h2 class="sectionTitle">
+								Method Detail
+							</h2>
+							
+							<ul class="methodDetail" id="MethodDetail">
+								
+								
+									<li 
+										 class='item0'
+									>
+										<div class="fixedFont heading" id=".closeDropDown">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit.form.Select.</span><b>closeDropDown</b>()
+										</div>
+										
+										<div class="description">
+											
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item1'
+									>
+										<div class="fixedFont heading" id=".isLoaded">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit.form.Select.</span><b>isLoaded</b>()
+										</div>
+										
+										<div class="description">
+											
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item2'
+									>
+										<div class="fixedFont heading" id=".isValid">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											<span class="light">{handle value is null or undefined}</span>
+											
+											<span class="light">dijit.form.Select.</span><b>isValid</b>(isFocused)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Whether or not this is a valid value.  The only way a Select<br>
+	 can be invalid is when it's required but nothing is selected.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Boolean}</span> <b>isFocused</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+											<dl class="detailList nomargin">
+											
+												
+												
+												
+												
+												
+												
+												
+													<dt class="heading">Returns:</dt>
+													
+														<dd><span class="light fixedFont">{handle value is null or undefined}</span> -</dd>
+													
+												
+												
+												
+												
+												
+											
+											</dl>
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item3'
+									>
+										<div class="fixedFont heading" id=".loadDropDown">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit.form.Select.</span><b>loadDropDown</b>(loadCallback)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 populates the menu<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Function}</span> <b>loadCallback</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item4'
+									>
+										<div class="fixedFont heading" id=".postCreate">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit.form.Select.</span><b>postCreate</b>()
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 stop mousemove from selecting text on IE to be consistent with other browsers<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item5'
+									>
+										<div class="fixedFont heading" id=".postMixInProperties">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit.form.Select.</span><b>postMixInProperties</b>()
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 set the missing message<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item6'
+									>
+										<div class="fixedFont heading" id=".reset">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit.form.Select.</span><b>reset</b>()
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Overridden so that the state will be cleared.<br>
+</blockquote>
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item7'
+									>
+										<div class="fixedFont heading" id=".uninitialize">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit.form.Select.</span><b>uninitialize</b>(preserveDom)
+										</div>
+										
+										<div class="description">
+											
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{mixed}</span> <b>preserveDom</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										<div class="hr"></div>
+									</li>
+								
+									<li 
+										 class='item8'
+									>
+										<div class="fixedFont heading" id=".validate">
+											<span class='lighter'>
+											&lt;static&gt; 
+											</span>
+											
+											
+											
+											<span class="light">dijit.form.Select.</span><b>validate</b>(isFocused)
+										</div>
+										
+										<div class="description">
+											<b>Summary:</b><blockquote>
+	 Called by oninit, onblur, and onkeypress, and whenever required/disabled state changes<br>
+</blockquote>
+Show missing or invalid messages if appropriate, and highlight textbox field.<br>
+Used when a select is initially set to no value and the user is required to<br>
+set the value.
+											
+											
+											
+											
+										</div>
+										
+										
+										
+										
+											<dl class="detailList params">
+												<dt class="heading">Parameters:</dt>
+												
+													<dt>
+														<span class="light fixedFont">{Boolean}</span> <b>isFocused</b>
+														
+													</dt>
+													<dd></dd>
+												
+											</dl>
+										
+										
+										
+										
+									</li>
+								
+							</ul>
+						</div>
+					</div>
+				</section>
+			
+			
+	<!--
+	#### EVENT DETAILS
+	-->		
+			
+		</article>
+	</div>
+</div>
+
+		<script type="text/javascript">
+			wbos.CssTools.MediaQueryFallBack.LoadCss('../css/screen.css', '../css/handheld.css', 660)
+			codeview.classFilter.Init()
+		</script>
+	</body>
+</html>
+
