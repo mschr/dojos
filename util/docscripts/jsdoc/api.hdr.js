@@ -1,5 +1,3 @@
-
-//-jshdr-id-dijit
 /**
  * @namespace
 */
@@ -970,9 +968,6 @@ dijit._editor={};
  * @private
 */
 dijit._base={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.BackgroundIframe
 /**
  * <b>Summary:</b><blockquote>
  *	 For IE/FF z-index schenanigans. id attribute is required.<br>
@@ -1000,9 +995,6 @@ dijit.BackgroundIframe.prototype.resize=function(node){};
  * @memberOf dijit.BackgroundIframe
 */
 dijit.BackgroundIframe.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.BackgroundIframe.destroy
 /**
  * <b>Summary:</b><blockquote>
  *	 destroy the iframe<br>
@@ -1011,9 +1003,6 @@ dijit.BackgroundIframe.prototype.destroy=function(){};
  * @returns {dijit.BackgroundIframe.destroy} new instance
 */
 dijit.BackgroundIframe.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-focus
 /**
  * <b>Summary:</b><blockquote>
  *	 Sets the focused node and the selection according to argument.<br>
@@ -1022,12 +1011,6 @@ dijit.BackgroundIframe.destroy=function(){};
  * @param {Object} handle object returned by get(), or a DomNode
 */
 dijit.focus.focus=function(handle){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._base
-//-jshdr-obj-end
-
-//-jshdr-id-popup
 /**
  * @param {dijit.popup.__OpenArgs} args 
 */
@@ -1037,9 +1020,6 @@ dijit.popup.open=function(args){};
  * @private
 */
 dijit.popup._createWrapper=function(widget){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._WidgetBase
 /**
  * <b>Summary:</b><blockquote>
  *	 Future base class for all Dijit widgets.<br>
@@ -1555,9 +1535,6 @@ dijit._WidgetBase.prototype._attrToDom=function(attr, value, commands){};
  * @memberOf dijit._WidgetBase
 */
 dijit._WidgetBase.prototype._applyAttributes=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Calendar
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple GUI for choosing a date in the context of a monthly calendar.<br>
@@ -1693,12 +1670,6 @@ dijit.Calendar._MonthDropDownButton=function(){};
  * </blockquote>
 */
 dijit.Calendar._MonthDropDown=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Calendar.cssStateNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Calendar._MonthDropDownButton
 /**
  * <b>Summary:</b><blockquote>
  *	 DropDownButton for the current month.	Displays name of current month<br>
@@ -1726,12 +1697,6 @@ dijit.Calendar._MonthDropDownButton.prototype.onMonthSelect=function(){};
  * @memberOf dijit.Calendar._MonthDropDownButton
 */
 dijit.Calendar._MonthDropDownButton.prototype._setMonthAttr=function(month){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Calendar._MonthDropDownButton.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Calendar._MonthDropDown
 /**
  * <b>Summary:</b><blockquote>
  *	 The list-of-months drop down from the MonthDropDownButton<br>
@@ -1768,12 +1733,6 @@ dijit.Calendar._MonthDropDown.prototype._onMenuHover=function(evt){};
  * @memberOf dijit.Calendar._MonthDropDown
 */
 dijit.Calendar._MonthDropDown.prototype._onClick=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Calendar._MonthDropDown.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.CalendarLite
 /**
  * <b>Summary:</b><blockquote>
  *	 Lightweight version of Calendar widget aimed towards mobile use<br>
@@ -1945,9 +1904,6 @@ dijit.CalendarLite.prototype._createMonthWidget=function(){};
  * </blockquote>
 */
 dijit.CalendarLite._MonthWidget=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._CssStateMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for widgets to set CSS classes on the widget DOM nodes depending on hover/mouse press/focus<br>
@@ -2032,9 +1988,6 @@ dijit._CssStateMixin.prototype._cssMouseEvent=function(event){};
  * @memberOf dijit._CssStateMixin
 */
 dijit._CssStateMixin.prototype._applyAttributes=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._Widget
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for all Dijit widgets.<br>
@@ -2251,9 +2204,6 @@ dijit._Widget.prototype._setFocusedAttr=function(val){};
  * @memberOf dijit._Widget
 */
 dijit._Widget.prototype._onShow=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TemplatedMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for widgets that are instantiated from a template<br>
@@ -2315,9 +2265,6 @@ dijit._TemplatedMixin.prototype._beforeFillContent=function(){};
  * @memberOf dijit._TemplatedMixin
 */
 dijit._TemplatedMixin.prototype._attachTemplateNodes=function(rootNode, getAttrFunc){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form
 /**
  * @private
 */
@@ -2848,9 +2795,6 @@ dijit.form.CheckBox=function(){};
  * 	dojo.body().appendChild(button1.domNode);
 */
 dijit.form.Button=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.DropDownButton
 /**
  * <b>Summary:</b><blockquote>
  *	 A button with a drop down<br>
@@ -2892,9 +2836,6 @@ dijit.form.DropDownButton.prototype.isFocusable=function(){};
  * @memberOf dijit.form.DropDownButton
 */
 dijit.form.DropDownButton.prototype._fillContent=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.CalendarLite._MonthWidget
 /**
  * <b>Summary:</b><blockquote>
  *	 Displays name of current month padded to the width of the month<br>
@@ -2919,12 +2860,6 @@ dijit.CalendarLite._MonthWidget=function(){};
  * @memberOf dijit.CalendarLite._MonthWidget
 */
 dijit.CalendarLite._MonthWidget.prototype._setMonthAttr=function(month){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.CalendarLite._MonthWidget.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.CheckedMenuItem
 /**
  * <b>Summary:</b><blockquote>
  *	 A checkbox-like menu item for toggling on and off<br>
@@ -2961,9 +2896,6 @@ dijit.CheckedMenuItem.prototype._setCheckedAttr=function(checked){};
  * @memberOf dijit.CheckedMenuItem
 */
 dijit.CheckedMenuItem.prototype._onClick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.MenuItem
 /**
  * <b>Summary:</b><blockquote>
  *	 A line item in a Menu Widget<br>
@@ -3088,9 +3020,6 @@ dijit.MenuItem.prototype._onClick=function(evt){};
  * @memberOf dijit.MenuItem
 */
 dijit.MenuItem.prototype._fillContent=function(source){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.ColorPalette
 /**
  * <b>Summary:</b><blockquote>
  *	 A keyboard accessible color-picking widget<br>
@@ -3125,12 +3054,6 @@ dijit.ColorPalette.prototype.buildRendering=function(){};
  * @memberOf dijit.ColorPalette
 */
 dijit.ColorPalette.prototype._dyeFactory=function(value, row, col){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.ColorPalette._palettes
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._Color
 /**
  * <b>Summary:</b><blockquote>
  *	 Object associated with each cell in a ColorPalette palette.<br>
@@ -3161,12 +3084,6 @@ dijit._Color.prototype.getValue=function(){};
  * @memberOf dijit._Color
 */
 dijit._Color.prototype.fillCell=function(cell, blankGif){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._Color._imagePaths
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._PaletteMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 String<br>
@@ -3273,9 +3190,6 @@ dijit._PaletteMixin.prototype._getDye=function(cell){};
  * @memberOf dijit._PaletteMixin
 */
 dijit._PaletteMixin.prototype._dyeFactory=function(value, row, col){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._Contained
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for widgets that are children of a container widget<br>
@@ -3326,9 +3240,6 @@ dijit._Contained.prototype.getIndexInParent=function(){};
  * @memberOf dijit._Contained
 */
 dijit._Contained.prototype._getSibling=function(which){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._Container
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for widgets that contain a set of widget children.<br>
@@ -3401,12 +3312,6 @@ dijit._Container.prototype.addChild=function(widget, insertIndex){};
  * @memberOf dijit._Container
 */
 dijit._Container.prototype._getSiblingOfChild=function(child, dir){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._CssStateMixin.stateNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Declaration
 /**
  * <b>Summary:</b><blockquote>
  *	 The Declaration widget allows a developer to declare new widget<br>
@@ -3425,12 +3330,6 @@ dijit.Declaration.defaults={};
  * @memberOf dijit.Declaration
 */
 dijit.Declaration.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Declaration.defaults
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._WidgetsInTemplateMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin to supplement _TemplatedMixin when template contains widgets<br>
@@ -3449,9 +3348,6 @@ dijit._WidgetsInTemplateMixin.prototype.startup=function(){};
  * @memberOf dijit._WidgetsInTemplateMixin
 */
 dijit._WidgetsInTemplateMixin.prototype._beforeFillContent=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._DialogBase
 /**
  * <b>Summary:</b><blockquote>
  *	 A modal dialog Widget<br>
@@ -3568,23 +3464,11 @@ dijit._DialogBase.prototype._onKey=function(evt){};
  * @memberOf dijit._DialogBase
 */
 dijit._DialogBase.prototype._endDrag=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._DialogBase.cssStateNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._DialogBase._singleChild.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Dialog
 /**
  * @class
  * @returns {dijit.Dialog} new instance
 */
 dijit.Dialog=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._FormMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for containers of form widgets (i.e. widgets that represent a single value<br>
@@ -3707,9 +3591,6 @@ dijit.form._FormMixin.prototype._getState=function(){};
  * @memberOf dijit.form._FormMixin
 */
 dijit.form._FormMixin.prototype._getDescendantFormWidgets=function(children){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._DialogMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 This provides functions useful to Dialog and TooltipDialog<br>
@@ -3777,9 +3658,6 @@ dijit._DialogMixin.prototype._onSubmit=function(){};
  * @memberOf dijit._DialogMixin
 */
 dijit._DialogMixin.prototype._getFocusItems=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.DialogUnderlay
 /**
  * <b>Summary:</b><blockquote>
  *	 The component that blocks the screen behind a `dijit.Dialog`<br>
@@ -3843,29 +3721,14 @@ dijit.DialogUnderlay.prototype._setDialogIdAttr=function(id){};
  * @memberOf dijit.DialogUnderlay
 */
 dijit.DialogUnderlay.prototype._setClassAttr=function(clazz){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.DialogUnderlay.node
 /**
  * @namespace
 */
 dijit.DialogUnderlay.node={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.DialogUnderlay.domNode
 /**
  * @namespace
 */
 dijit.DialogUnderlay.domNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.DialogUnderlay.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.DialogUnderlay.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.DropDownMenu
 /**
  * <b>Summary:</b><blockquote>
  *	 A menu, without features for context menu (Meaning, drop down menu)<br>
@@ -3888,9 +3751,6 @@ dijit.DropDownMenu.prototype.postCreate=function(){};
  * @memberOf dijit.DropDownMenu
 */
 dijit.DropDownMenu.prototype._onKeyPress=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MenuBase
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for Menu and MenuBar<br>
@@ -4111,9 +3971,6 @@ dijit._MenuBase.prototype._closeChild=function(){};
  * @memberOf dijit._MenuBase
 */
 dijit._MenuBase.prototype._cleanUp=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._OnDijitClickMixin
 /**
  * @class
  * @private
@@ -4144,9 +4001,6 @@ dijit._OnDijitClickMixin=function(){};
  * @memberOf dijit._OnDijitClickMixin
 */
 dijit._OnDijitClickMixin.prototype.connect=function(obj, event, method){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor
 /**
  * @param {DomNode} node 
 */
@@ -4200,9 +4054,6 @@ dijit._editor.selection={};
  * @namespace
 */
 dijit._editor.plugins={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor._Plugin
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for a &amp;quot;plugin&amp;quot; to the editor, which is usually<br>
@@ -4359,12 +4210,6 @@ dijit._editor._Plugin.prototype._initButton=function(){};
  * @memberOf dijit._editor._Plugin
 */
 dijit._editor._Plugin.prototype._getAttrNames=function(name){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor._Plugin.button.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins
 /**
  * <b>Summary:</b><blockquote>
  *	 Dropdown to select a format (like paragraph or heading); goes in editor toolbar.<br>
@@ -4578,9 +4423,6 @@ dijit._editor.plugins.EnterKeyHandling=function(args){};
  * 	data-dojo-props="extraPlugins: [dijit._editor.plugins.AlwaysShowToolbar]"&gt;
 */
 dijit._editor.plugins.AlwaysShowToolbar=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.AlwaysShowToolbar
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin is required for Editors in auto-expand mode.<br>
@@ -4634,29 +4476,14 @@ dijit._editor.plugins.AlwaysShowToolbar.prototype.destroy=function(){};
  * @memberOf dijit._editor.plugins.AlwaysShowToolbar
 */
 dijit._editor.plugins.AlwaysShowToolbar.prototype._updateHeight=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.AlwaysShowToolbar.editor
 /**
  * @namespace
 */
 dijit._editor.plugins.AlwaysShowToolbar.editor={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.AlwaysShowToolbar.editor.header
 /**
  * @namespace
 */
 dijit._editor.plugins.AlwaysShowToolbar.editor.header={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.AlwaysShowToolbar.editor.iframe.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.AlwaysShowToolbar.editor.header.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.EnterKeyHandling
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin tries to make all browsers behave consistently with regard to<br>
@@ -4771,12 +4598,6 @@ dijit._editor.plugins.EnterKeyHandling.prototype.handleEnterKey=function(e){};
  * @memberOf dijit._editor.plugins.EnterKeyHandling
 */
 dijit._editor.plugins.EnterKeyHandling.prototype._adjustNodeAndOffset=function(node, offset){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.EnterKeyHandling.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins._FontDropDown
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for widgets that contains a label (like &amp;quot;Font:&amp;quot;)<br>
@@ -4844,12 +4665,6 @@ dijit._editor.plugins._FontDropDown.prototype._setDisabledAttr=function(value){}
  * @memberOf dijit._editor.plugins._FontDropDown
 */
 dijit._editor.plugins._FontDropDown.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins._FontDropDown.select
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins._FontNameDropDown
 /**
  * <b>Summary:</b><blockquote>
  *	 Dropdown to select a font; goes in editor toolbar.<br>
@@ -4887,9 +4702,6 @@ dijit._editor.plugins._FontNameDropDown.prototype.getLabel=function(value, name)
  * @memberOf dijit._editor.plugins._FontNameDropDown
 */
 dijit._editor.plugins._FontNameDropDown.prototype._setValueAttr=function(value, priorityChange){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins._FontSizeDropDown
 /**
  * <b>Summary:</b><blockquote>
  *	 Dropdown to select a font size; goes in editor toolbar.<br>
@@ -4922,9 +4734,6 @@ dijit._editor.plugins._FontSizeDropDown.prototype.getLabel=function(value, name)
  * @memberOf dijit._editor.plugins._FontSizeDropDown
 */
 dijit._editor.plugins._FontSizeDropDown.prototype._setValueAttr=function(value, priorityChange){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins._FormatBlockDropDown
 /**
  * <b>Summary:</b><blockquote>
  *	 Dropdown to select a format (like paragraph or heading); goes in editor toolbar.<br>
@@ -4970,9 +4779,6 @@ dijit._editor.plugins._FormatBlockDropDown.prototype._removeFormat=function(edit
  * @memberOf dijit._editor.plugins._FormatBlockDropDown
 */
 dijit._editor.plugins._FormatBlockDropDown.prototype._execCommand=function(editor, command, choice){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.FontChoice
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides three drop downs for setting style in the editor<br>
@@ -5028,12 +4834,6 @@ dijit._editor.plugins.FontChoice.prototype.updateState=function(){};
  * @memberOf dijit._editor.plugins.FontChoice
 */
 dijit._editor.plugins.FontChoice.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.FontChoice.params
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.FilteringSelect
 /**
  * <b>Summary:</b><blockquote>
  *	 An enhanced version of the HTML SELECT tag, populated dynamically<br>
@@ -5163,9 +4963,6 @@ dijit.form.FilteringSelect.prototype._getDisplayQueryString=function(text){};
  * @memberOf dijit.form.FilteringSelect
 */
 dijit.form.FilteringSelect.prototype._callbackSetLabel=function(result, query, options, priorityChange){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.FullScreen
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides FullScreen capability to the editor.  When<br>
@@ -5254,9 +5051,6 @@ dijit._editor.plugins.FullScreen.prototype._getAltViewNode=function(){};
  * @memberOf dijit._editor.plugins.FullScreen
 */
 dijit._editor.plugins.FullScreen.prototype._containFocus=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.FullScreen.editor
 /**
  * @namespace
 */
@@ -5265,12 +5059,6 @@ dijit._editor.plugins.FullScreen.editor={};
  * @memberOf dijit._editor.plugins.FullScreen.editor
 */
 dijit._editor.plugins.FullScreen.editor.prototype.resize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.FullScreen.editor.toolbar
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor._Plugin.registry
 /**
  * @namespace
 */
@@ -5317,9 +5105,6 @@ dijit._editor._Plugin.registry.foreColor=function(){};
 /**
 */
 dijit._editor._Plugin.registry.createLink=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.LinkDialog
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides the basis for an 'anchor' (link) dialog and an extension of it<br>
@@ -5434,12 +5219,6 @@ dijit._editor.plugins.LinkDialog.prototype._checkValues=function(args){};
  * @memberOf dijit._editor.plugins.LinkDialog
 */
 dijit._editor.plugins.LinkDialog.prototype._checkAndFixInput=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.LinkDialog.button
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.ImgLinkDialog
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin extends LinkDialog and adds in a plugin for handling image links.<br>
@@ -5508,9 +5287,6 @@ dijit._editor.plugins.ImgLinkDialog.prototype._connectTagEvents=function(){};
  * @memberOf dijit._editor.plugins.ImgLinkDialog
 */
 dijit._editor.plugins.ImgLinkDialog.prototype._checkValues=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.NewPage
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides a simple 'new page' capability.  In other<br>
@@ -5552,9 +5328,6 @@ dijit._editor.plugins.NewPage.prototype._newPage=function(){};
  * @memberOf dijit._editor.plugins.NewPage
 */
 dijit._editor.plugins.NewPage.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.Print
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides Print capability to the editor.  When<br>
@@ -5596,12 +5369,6 @@ dijit._editor.plugins.Print.prototype._print=function(){};
  * @memberOf dijit._editor.plugins.Print
 */
 dijit._editor.plugins.Print.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.Print.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.TabIndent
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin is used to allow the use of the tab and shift-tab keys<br>
@@ -5622,9 +5389,6 @@ dijit._editor.plugins.TabIndent.prototype.updateState=function(){};
  * @memberOf dijit._editor.plugins.TabIndent
 */
 dijit._editor.plugins.TabIndent.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.TextColor
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides dropdown color pickers for setting text color and background color<br>
@@ -5650,9 +5414,6 @@ dijit._editor.plugins.TextColor.prototype.updateState=function(){};
  * @memberOf dijit._editor.plugins.TextColor
 */
 dijit._editor.plugins.TextColor.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.TextColor.button
 /**
  * @namespace
 */
@@ -5662,9 +5423,6 @@ dijit._editor.plugins.TextColor.button={};
  * @memberOf dijit._editor.plugins.TextColor.button
 */
 dijit._editor.plugins.TextColor.button.prototype.loadDropDown=function(callback){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.ToggleDir
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin is used to toggle direction of the edited document,<br>
@@ -5696,9 +5454,6 @@ dijit._editor.plugins.ToggleDir.prototype._setRtl=function(rtl){};
  * @memberOf dijit._editor.plugins.ToggleDir
 */
 dijit._editor.plugins.ToggleDir.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.ViewSource
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides a simple view source capability.  When view<br>
@@ -5827,9 +5582,6 @@ dijit._editor.plugins.ViewSource.prototype._filter=function(html){};
  * @memberOf dijit._editor.plugins.ViewSource
 */
 dijit._editor.plugins.ViewSource.prototype._createSourceView=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.ViewSource.editor
 /**
  * @namespace
 */
@@ -5843,23 +5595,11 @@ dijit._editor.plugins.ViewSource.editor.prototype.queryCommandEnabled=function(c
  * @memberOf dijit._editor.plugins.ViewSource.editor
 */
 dijit._editor.plugins.ViewSource.editor.prototype.focus=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.ViewSource._fsPlugin
 /**
  * @private
  * @memberOf dijit._editor.plugins.ViewSource._fsPlugin
 */
 dijit._editor.plugins.ViewSource._fsPlugin.prototype._getAltViewNode=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.ViewSource.sourceArea
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.plugins.ViewSource.sourceArea.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.range
 /**
  * @param {Window} win 
  * @param {Boolean} [ignoreUpdate] 
@@ -5922,9 +5662,6 @@ dijit.range.W3CRange=function(){};
  * @namespace
 */
 dijit.range.ie={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.range.W3CRange
 /**
  * @class
  * @returns {dijit.range.W3CRange} new instance
@@ -6006,9 +5743,6 @@ dijit.range.W3CRange.prototype._select=function(){};
  * @memberOf dijit.range.W3CRange
 */
 dijit.range.W3CRange.prototype._getIERange=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.range.ie
 /**
  * @param {mixed} range 
  * @param {mixed} startContainer 
@@ -6041,9 +5775,6 @@ dijit.range.ie.decomposeTextRange=function(range){};
  * @param {mixed} range 
 */
 dijit.range.ie.decomposeControlRange=function(range){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.range.ie.selection
 /**
  * @class
  * @returns {dijit.range.ie.selection} new instance
@@ -6065,9 +5796,6 @@ dijit.range.ie.selection.addRange=function(r, internal){};
  * @private
 */
 dijit.range.ie.selection._getCurrentSelection=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.RichText
 /**
  * <b>Summary:</b><blockquote>
  *	 dijit._editor.RichText is the core of dijit.Editor, which provides basic<br>
@@ -6952,40 +6680,10 @@ dijit._editor.RichText.prototype._adaptIEList=function(command, argument){};
  * @memberOf dijit._editor.RichText
 */
 dijit._editor.RichText.prototype._adaptIEFormatAreaAndExec=function(command){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.RichText._mozSettingProps
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.RichText.editNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.RichText.document
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.RichText.window
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.RichText.iframe
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.RichText.editNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.RichText.textarea
 /**
  * @namespace
 */
 dijit._editor.RichText.textarea={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.RichText.textarea.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.RichText.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._editor.selection
 /**
  * <b>Summary:</b><blockquote>
  *	 clear previous selection and select the content of the node<br>
@@ -7097,13 +6795,6 @@ dijit._editor.selection.getAncestorElement=function(tagName){};
  * @param {Boolean} beginning Boolean to indicate whether to collapse the cursor to the beginning of the selection or end.
 */
 dijit._editor.selection.collapse=function(beginning){};
-//-jshdr-obj-end
-
-//-jshdr-id-_Plugin.registry
-//-jsdoc-invalid-entry [_Plugin.registry.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Editor
 /**
  * <b>Summary:</b><blockquote>
  *	 A rich text Editing widget<br>
@@ -7383,25 +7074,10 @@ dijit.Editor.prototype._changeToStep=function(from, to){};
  * @memberOf dijit.Editor
 */
 dijit.Editor.prototype._beginEditing=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Editor.editingArea.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Editor.iframe.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Editor.document
 /**
  * @namespace
 */
 dijit.Editor.document={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Editor.document.body
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.focus
 /**
  * <b>Summary:</b><blockquote>
  *	 Registers listeners on the specified window (either the main<br>
@@ -7425,9 +7101,6 @@ dijit.focus.registerWin=function(targetWindow, effectiveNode){};
  * @param {mixed} iframe 
 */
 dijit.focus.registerIframe=function(iframe){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._FocusMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin to widget to provide _onFocus() and _onBlur() methods that<br>
@@ -7438,9 +7111,6 @@ dijit.focus.registerIframe=function(iframe){};
  * @returns {dijit._FocusMixin} new instance
 */
 dijit._FocusMixin=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._AutoCompleterMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 A mixin that implements the base functionality for `dijit.form.ComboBox`/`dijit.form.FilteringSelect`<br>
@@ -7693,12 +7363,6 @@ dijit.form._AutoCompleterMixin.prototype._announceOption=function(node){};
  * @memberOf dijit.form._AutoCompleterMixin
 */
 dijit.form._AutoCompleterMixin.prototype._abortQuery=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._AutoCompleterMixin.focusNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Button
 /**
  * <b>Summary:</b><blockquote>
  *	 Basically the same thing as a normal HTML button, but with special styling.<br>
@@ -7763,15 +7427,6 @@ dijit.form.Button.prototype._onClick=function(e){};
  * @memberOf dijit.form.Button
 */
 dijit.form.Button.prototype._fillContent=function(source){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Button._setIconClassAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Button.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._FormWidget
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for widgets corresponding to native HTML elements such as &amp;lt;checkbox&amp;gt; or &amp;lt;button&amp;gt;,<br>
@@ -7818,9 +7473,6 @@ dijit.form._FormWidget.prototype.postMixInProperties=function(){};
  * @memberOf dijit.form._FormWidget
 */
 dijit.form._FormWidget.prototype.getValue=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ButtonMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 A mixin to add a thin standard API wrapper to a normal HTML button<br>
@@ -7875,9 +7527,6 @@ dijit.form._ButtonMixin.prototype._setLabelAttr=function(content){};
  * @memberOf dijit.form._ButtonMixin
 */
 dijit.form._ButtonMixin.prototype._onClick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.CheckBox
 /**
  * <b>Summary:</b><blockquote>
  *	 Same as an HTML checkbox, but with fancy styling.<br>
@@ -7950,9 +7599,6 @@ dijit.form.CheckBox.prototype._getValueAttr=function(){};
  * @memberOf dijit.form.CheckBox
 */
 dijit.form.CheckBox.prototype._fillContent=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.ToggleButton
 /**
  * <b>Summary:</b><blockquote>
  *	 A templated button widget that can be in two states (checked or not).<br>
@@ -7972,9 +7618,6 @@ dijit.form.ToggleButton=function(){};
  * @memberOf dijit.form.ToggleButton
 */
 dijit.form.ToggleButton.prototype.setChecked=function(checked){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._CheckBoxMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin to provide widget functionality corresponding to an HTML checkbox<br>
@@ -8012,9 +7655,6 @@ dijit.form._CheckBoxMixin.prototype._setReadOnlyAttr=function(value){};
  * @memberOf dijit.form._CheckBoxMixin
 */
 dijit.form._CheckBoxMixin.prototype._onClick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.ComboBox
 /**
  * <b>Summary:</b><blockquote>
  *	 Auto-completing text box<br>
@@ -8036,9 +7676,6 @@ dijit.form._CheckBoxMixin.prototype._onClick=function(e){};
  * @returns {dijit.form.ComboBox} new instance
 */
 dijit.form.ComboBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.ValidationTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for textbox widgets with the ability to validate content of various types and provide user feedback.<br>
@@ -8190,9 +7827,6 @@ dijit.form.ValidationTextBox.prototype._computePartialRE=function(){};
  * @private
 */
 dijit.form.ValidationTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.ComboBoxMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides main functionality of ComboBox widget<br>
@@ -8236,9 +7870,6 @@ dijit.form.ComboBoxMixin.prototype._setStoreAttr=function(store){};
  * @memberOf dijit.form.ComboBoxMixin
 */
 dijit.form.ComboBoxMixin.prototype._setHasDownArrowAttr=function(val){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ComboBoxMenu
 /**
  * <b>Summary:</b><blockquote>
  *	 Focus-less menu for internal use in `dijit.form.ComboBox`<br>
@@ -8314,12 +7945,6 @@ dijit.form._ComboBoxMenu.prototype._page=function(up){};
  * @memberOf dijit.form._ComboBoxMenu
 */
 dijit.form._ComboBoxMenu.prototype._createMenuItem=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ComboBoxMenu.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ComboBoxMenuMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Focus-less menu for internal use in `dijit.form.ComboBox`<br>
@@ -8426,9 +8051,6 @@ dijit.form._ComboBoxMenuMixin.prototype._setValueAttr=function(value){};
  * @memberOf dijit.form._ComboBoxMenuMixin
 */
 dijit.form._ComboBoxMenuMixin.prototype._createOption=function(item, labelFunc){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ListMouseMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 a Mixin to handle mouse or touch events for a focus-less menu<br>
@@ -8469,35 +8091,14 @@ dijit.form._ListMouseMixin.prototype._onMouseOut=function(evt){};
  * @memberOf dijit.form._ListMouseMixin
 */
 dijit.form._ListMouseMixin.prototype._onMouseDown=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ComboBoxMenuMixin.previousButton
 /**
  * @namespace
 */
 dijit.form._ComboBoxMenuMixin.previousButton={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ComboBoxMenuMixin.nextButton
 /**
  * @namespace
 */
 dijit.form._ComboBoxMenuMixin.nextButton={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ComboBoxMenuMixin.previousButton.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ComboBoxMenuMixin.nextButton.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.ComboBoxMixin.cssStateNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.ComboBoxMixin._buttonNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._HasDropDown
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for widgets that need drop down ability.<br>
@@ -8639,9 +8240,6 @@ dijit._HasDropDown.prototype._onDropDownClick=function(e){};
  * @memberOf dijit._HasDropDown
 */
 dijit._HasDropDown.prototype._onBlur=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.ComboButton
 /**
  * <b>Summary:</b><blockquote>
  *	 A combination button and drop-down button.<br>
@@ -8692,12 +8290,6 @@ dijit.form.ComboButton.prototype._onButtonKeyPress=function(evt){};
  * @memberOf dijit.form.ComboButton
 */
 dijit.form.ComboButton.prototype._onArrowKeyPress=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.ComboButton.cssStateNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.CurrencyTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A validating currency textbox<br>
@@ -8749,9 +8341,6 @@ dijit.form.CurrencyTextBox.prototype._setConstraintsAttr=function(constraints){}
  * 		{fractional:true}
 */
 dijit.form.CurrencyTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.CurrencyTextBox.__Constraints
 /**
  * <b>Summary:</b><blockquote>
  *	 Specifies both the rules on valid/invalid values (minimum, maximum,<br>
@@ -8770,9 +8359,6 @@ dijit.form.CurrencyTextBox.__Constraints=function(){};
  * 		{fractional:true}
 */
 dijit.form.CurrencyTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.NumberTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A TextBox for entering numbers, with formatting and range checking<br>
@@ -8816,9 +8402,6 @@ dijit.form.NumberTextBox.isValid=function(isFocused){};
  * 		{places:'0,3'}
 */
 dijit.form.NumberTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.DataList
 /**
  * <b>Summary:</b><blockquote>
  *	 Inefficient but small data store specialized for inlined data via OPTION tags<br>
@@ -8846,12 +8429,6 @@ dijit.form.DataList.prototype.fetchSelectedItem=function(){};
  * @memberOf dijit.form.DataList
 */
 dijit.form.DataList.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.DataList.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.DateTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A validating, serializable, range-bound date text box with a drop down calendar<br>
@@ -8867,9 +8444,6 @@ dijit.form.DataList.prototype.destroy=function(){};
  * @returns {dijit.form.DateTextBox} new instance
 */
 dijit.form.DateTextBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._DateTimeTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for validating, serializable, range-bound date or time text box.<br>
@@ -8988,9 +8562,6 @@ dijit.form._DateTimeTextBox.prototype._getDisplayedValueAttr=function(){};
  * 		{min:'2004-01-01',max:'2004-12-31', formatLength:'long'}
 */
 dijit.form._DateTimeTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._DateTimeTextBox.__Constraints
 /**
  * <b>Summary:</b><blockquote>
  *	 Specifies both the rules on valid/invalid values (first/last date/time allowed),<br>
@@ -9005,12 +8576,6 @@ dijit.form._DateTimeTextBox.__Constraints=function(){};
  * 		{min:'2004-01-01',max:'2004-12-31', formatLength:'long'}
 */
 dijit.form._DateTimeTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._DateTimeTextBox._buttonNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.RangeBoundTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for textbox form widgets which defines a range of valid values.<br>
@@ -9102,9 +8667,6 @@ dijit.form.RangeBoundTextBox.prototype._isDefinitelyOutOfRange=function(){};
  * @private
 */
 dijit.form.RangeBoundTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ExpandingTextAreaMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for textarea widgets to add auto-expanding capability<br>
@@ -9155,25 +8717,10 @@ dijit.form._ExpandingTextAreaMixin.prototype._onInput=function(e){};
  * @memberOf dijit.form._ExpandingTextAreaMixin
 */
 dijit.form._ExpandingTextAreaMixin.prototype._estimateHeight=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ExpandingTextAreaMixin.textbox.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ExpandingTextAreaMixin.textbox
 /**
  * @namespace
 */
 dijit.form._ExpandingTextAreaMixin.textbox={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.FilteringSelect.valueNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.FilteringSelect.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.MappedTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A dijit.form.ValidationTextBox subclass which provides a base class for widgets that have<br>
@@ -9230,9 +8777,6 @@ dijit.form.MappedTextBox.prototype.postMixInProperties=function(){};
  * @memberOf dijit.form.MappedTextBox
 */
 dijit.form.MappedTextBox.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Form
 /**
  * <b>Summary:</b><blockquote>
  *	 Widget corresponding to HTML form tag, for validation and serialization<br>
@@ -9332,15 +8876,6 @@ dijit.form.Form.prototype._onSubmit=function(e){};
  * @memberOf dijit.form.Form
 */
 dijit.form.Form.prototype._onReset=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Form.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Form.constructor
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout
 /**
  * <b>Summary:</b><blockquote>
  *	 Given the margin-box size of a node, return its content box size.<br>
@@ -9637,9 +9172,6 @@ dijit.layout.AccordionPane=function(){};
  * 	&lt;/div&gt;
 */
 dijit.layout.AccordionContainer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._ContentPaneResizeMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Resize() functionality of ContentPane.   If there's a single layout widget<br>
@@ -9744,9 +9276,6 @@ dijit.layout._ContentPaneResizeMixin.prototype._isShown=function(){};
  * @memberOf dijit.layout._ContentPaneResizeMixin
 */
 dijit.layout._ContentPaneResizeMixin.prototype._checkIfSingleChild=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._FormSelectWidget
 /**
  * <b>Summary:</b><blockquote>
  *	 Extends _FormValueWidget in order to provide &amp;quot;select-specific&amp;quot;<br>
@@ -10041,12 +9570,6 @@ dijit.form._FormSelectWidget.prototype._addOptionItem=function(option){};
  * @memberOf dijit.form._FormSelectWidget
 */
 dijit.form._FormSelectWidget.prototype._addOptionForItem=function(item){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._FormSelectWidget.options
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._FormValueWidget
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for widgets corresponding to native HTML elements such as &amp;lt;input&amp;gt; or &amp;lt;select&amp;gt; that have user changeable values.<br>
@@ -10069,18 +9592,12 @@ dijit.form._FormValueWidget=function(){};
  * @memberOf dijit.form._FormValueWidget
 */
 dijit.form._FormValueWidget.prototype._layoutHackIE7=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.__SelectOption
 /**
  * @class
  * @private
  * @returns {dijit.form.__SelectOption} new instance
 */
 dijit.form.__SelectOption=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._FormValueMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for widgets corresponding to native HTML elements such as &amp;lt;input&amp;gt; or &amp;lt;select&amp;gt; that have user changeable values.<br>
@@ -10148,9 +9665,6 @@ dijit.form._FormValueMixin.prototype._onKeyDown=function(e){};
  * @memberOf dijit.form._FormValueMixin
 */
 dijit.form._FormValueMixin.prototype._handleOnChange=function(newValue, priorityChange){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._FormWidgetMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for widgets corresponding to native HTML elements such as &amp;lt;checkbox&amp;gt; or &amp;lt;button&amp;gt;,<br>
@@ -10239,15 +9753,6 @@ dijit.form._FormWidgetMixin.prototype._onFocus=function(e){};
  * @memberOf dijit.form._FormWidgetMixin
 */
 dijit.form._FormWidgetMixin.prototype._handleOnChange=function(newValue, priorityChange){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._FormValueWidget.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._FormValueWidget.domNode.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.HorizontalRule
 /**
  * <b>Summary:</b><blockquote>
  *	 Hash marks for `dijit.form.HorizontalSlider`<br>
@@ -10268,12 +9773,6 @@ dijit.form.HorizontalRule.prototype.buildRendering=function(){};
  * @memberOf dijit.form.HorizontalRule
 */
 dijit.form.HorizontalRule.prototype._genHTML=function(pos){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.HorizontalRule.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.HorizontalRuleLabels
 /**
  * <b>Summary:</b><blockquote>
  *	 Labels for `dijit.form.HorizontalSlider`<br>
@@ -10314,15 +9813,6 @@ dijit.form.HorizontalRuleLabels.prototype._genHTML=function(pos, ndx){};
  * @memberOf dijit.form.HorizontalRuleLabels
 */
 dijit.form.HorizontalRuleLabels.prototype._calcPosition=function(pos){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.HorizontalRuleLabels.constraints
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.HorizontalRuleLabels.srcNodeRef
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._SliderMover
 /**
  * @class
  * @returns {dijit.form._SliderMover} new instance
@@ -10338,12 +9828,6 @@ dijit.form._SliderMover.prototype.onMouseMove=function(e){};
  * @memberOf dijit.form._SliderMover
 */
 dijit.form._SliderMover.prototype.destroy=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._SliderMover.widget
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.HorizontalSlider
 /**
  * <b>Summary:</b><blockquote>
  *	 A form widget that allows one to select a value with a horizontally draggable handle<br>
@@ -10481,21 +9965,6 @@ dijit.form.HorizontalSlider.prototype._isReversed=function(){};
  * @memberOf dijit.form.HorizontalSlider
 */
 dijit.form.HorizontalSlider.prototype._bumpValue=function(signedChange, priorityChange){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.HorizontalSlider.cssStateNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.HorizontalSlider.valueNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.HorizontalSlider.incrementButton.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.HorizontalSlider.decrementButton.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ListBase
 /**
  * <b>Summary:</b><blockquote>
  *	 Focus-less menu to handle UI events consistently<br>
@@ -10562,12 +10031,6 @@ dijit.form._ListBase.prototype._getTarget=function(evt){};
  * @memberOf dijit.form._ListBase
 */
 dijit.form._ListBase.prototype._getSelectedAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.MappedTextBox.valueNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.MultiSelect
 /**
  * <b>Summary:</b><blockquote>
  *	 Widget version of a &amp;lt;select multiple=true&amp;gt; element,<br>
@@ -10640,9 +10103,6 @@ dijit.form.MultiSelect.prototype._onChange=function(){};
  * @memberOf dijit.form.MultiSelect
 */
 dijit.form.MultiSelect.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.NumberSpinner
 /**
  * <b>Summary:</b><blockquote>
  *	 Extends NumberTextBox to add up/down arrows and pageup/pagedown for incremental change to the value<br>
@@ -10673,12 +10133,6 @@ dijit.form.NumberSpinner.prototype.adjust=function(val, delta){};
  * @memberOf dijit.form.NumberSpinner
 */
 dijit.form.NumberSpinner.prototype._onKeyPress=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.NumberSpinner.constraints
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._Spinner
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for validation widgets with a spinner.<br>
@@ -10746,9 +10200,6 @@ dijit.form._Spinner.prototype._arrowReleased=function(node){};
  * @memberOf dijit.form._Spinner
 */
 dijit.form._Spinner.prototype._arrowPressed=function(nodePressed, direction, increment){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.NumberTextBox.__Constraints
 /**
  * <b>Summary:</b><blockquote>
  *	 Specifies both the rules on valid/invalid values (minimum, maximum,<br>
@@ -10769,9 +10220,6 @@ dijit.form._Spinner.prototype._arrowPressed=function(nodePressed, direction, inc
  * 		{places:'0,3'}
 */
 dijit.form.NumberTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.NumberTextBoxMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 A mixin for all number textboxes<br>
@@ -10897,15 +10345,6 @@ dijit.form.NumberTextBoxMixin.prototype._getDisplayedValueAttr=function(){};
  * @memberOf dijit.form.NumberTextBoxMixin
 */
 dijit.form.NumberTextBoxMixin.prototype._formatter=function(value, options){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.NumberTextBoxMixin.editOptions
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.NumberTextBoxMixin.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.RadioButton
 /**
  * <b>Summary:</b><blockquote>
  *	 Same as an HTML radio, but with fancy styling.<br>
@@ -10916,9 +10355,6 @@ dijit.form.NumberTextBoxMixin.prototype._formatter=function(value, options){};
  * @returns {dijit.form.RadioButton} new instance
 */
 dijit.form.RadioButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._RadioButtonMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin to provide widget functionality for an HTML radio button<br>
@@ -10945,18 +10381,12 @@ dijit.form._RadioButtonMixin.prototype._onClick=function(e){};
  * @memberOf dijit.form._RadioButtonMixin
 */
 dijit.form._RadioButtonMixin.prototype._getRelatedWidgets=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.RangeBoundTextBox.__Constraints
 /**
  * @class
  * @private
  * @returns {dijit.form.RangeBoundTextBox.__Constraints} new instance
 */
 dijit.form.RangeBoundTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._SelectMenu
 /**
  * <b>Summary:</b><blockquote>
  *	 An internally-used menu for dropdown that allows us a vertical scrollbar<br>
@@ -10992,12 +10422,6 @@ dijit.form._SelectMenu.prototype.postCreate=function(){};
  * @memberOf dijit.form._SelectMenu
 */
 dijit.form._SelectMenu.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._SelectMenu.menuTableNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Select
 /**
  * <b>Summary:</b><blockquote>
  *	 This is a &amp;quot;styleable&amp;quot; select box - it is basically a DropDownButton which<br>
@@ -11160,18 +10584,6 @@ dijit.form.Select.prototype._fillContent=function(){};
  * @memberOf dijit.form.Select
 */
 dijit.form.Select.prototype._addOptionItem=function(option){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Select.srcNodeRef
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Select.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Select.dropDown.menuTableNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Menu
 /**
  * <b>Summary:</b><blockquote>
  *	 A context menu you can assign to multiple elements<br>
@@ -11279,9 +10691,6 @@ dijit.Menu.prototype._iframeContentWindow=function(iframe_el){};
  * @memberOf dijit.Menu
 */
 dijit.Menu.prototype._iframeContentDocument=function(iframe_el){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.MenuSeparator
 /**
  * <b>Summary:</b><blockquote>
  *	 A line between two menu items<br>
@@ -11305,9 +10714,6 @@ dijit.MenuSeparator.prototype.isFocusable=function(){};
  * @memberOf dijit.MenuSeparator
 */
 dijit.MenuSeparator.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Tooltip
 /**
  * <b>Summary:</b><blockquote>
  *	 Pops up a tooltip (a help message) when you hover over a node.<br>
@@ -11407,9 +10813,6 @@ dijit.Tooltip.prototype._onUnHover=function(e){};
  * @memberOf dijit.Tooltip
 */
 dijit.Tooltip.prototype._onHover=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.SimpleTextarea
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple textarea that degrades, and responds to<br>
@@ -11444,12 +10847,6 @@ dijit.form.SimpleTextarea.prototype.buildRendering=function(){};
  * @memberOf dijit.form.SimpleTextarea
 */
 dijit.form.SimpleTextarea.prototype._onInput=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.SimpleTextarea.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.TextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A base class for textbox form inputs<br>
@@ -11527,12 +10924,6 @@ dijit.form.TextBox.MozMixin=function(){};
 /**
 */
 dijit.form.TextBox.IEMixin=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._Spinner.cssStateNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.Textarea
 /**
  * <b>Summary:</b><blockquote>
  *	 A textarea widget that adjusts it's height according to the amount of data.<br>
@@ -11554,15 +10945,6 @@ dijit.form.Textarea=function(){};
  * @memberOf dijit.form.Textarea
 */
 dijit.form.Textarea.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.TextBox._phspan
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.TextBox._phspan.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.TextBox.IEMixin
 /**
  * @class
  * @returns {dijit.form.TextBox.IEMixin} new instance
@@ -11577,9 +10959,6 @@ dijit.form.TextBox.IEMixin.prototype.postCreate=function(){};
  * @memberOf dijit.form.TextBox.IEMixin
 */
 dijit.form.TextBox.IEMixin.prototype._isTextSelected=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.TextBox.MozMixin
 /**
  * @class
  * @returns {dijit.form.TextBox.MozMixin} new instance
@@ -11591,12 +10970,6 @@ dijit.form.TextBox.MozMixin=function(){};
  * @memberOf dijit.form.TextBox.MozMixin
 */
 dijit.form.TextBox.MozMixin.prototype._onBlur=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.TextBox.MozMixin.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._TextBoxMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 A mixin for textbox form input widgets<br>
@@ -11777,12 +11150,6 @@ dijit.form._TextBoxMixin.prototype._getValueAttr=function(){};
  * @memberOf dijit.form._TextBoxMixin
 */
 dijit.form._TextBoxMixin.prototype._getDisplayedValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._TextBoxMixin.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.TimeTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A validating, serializable, range-bound time text box with a drop down time picker<br>
@@ -11802,9 +11169,6 @@ dijit.form.TimeTextBox.prototype._onKey=function(evt){};
  * @private
 */
 dijit.form.TimeTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.TimeTextBox.__Constraints
 /**
  * @class
  * @extends dijit.form._DateTimeTextBox.__Constraints
@@ -11813,9 +11177,6 @@ dijit.form.TimeTextBox.__Constraints=function(){};
  * @returns {dijit.form.TimeTextBox.__Constraints} new instance
 */
 dijit.form.TimeTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TimePicker
 /**
  * <b>Summary:</b><blockquote>
  *	 A graphical time picker.<br>
@@ -12021,9 +11382,6 @@ dijit._TimePicker.prototype._buttonMouse=function(e){};
  * @private
 */
 dijit._TimePicker.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._ToggleButtonMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 A mixin to provide functionality to allow a button that can be in two states (checked or not).<br>
@@ -12053,18 +11411,12 @@ dijit.form._ToggleButtonMixin.prototype._setCheckedAttr=function(value, priority
  * @memberOf dijit.form._ToggleButtonMixin
 */
 dijit.form._ToggleButtonMixin.prototype._onClick=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.ValidationTextBox.__Constraints
 /**
  * @class
  * @private
  * @returns {dijit.form.ValidationTextBox.__Constraints} new instance
 */
 dijit.form.ValidationTextBox.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.VerticalRule
 /**
  * <b>Summary:</b><blockquote>
  *	 Hash marks for the `dijit.form.VerticalSlider`<br>
@@ -12074,9 +11426,6 @@ dijit.form.ValidationTextBox.__Constraints=function(){};
  * @returns {dijit.form.VerticalRule} new instance
 */
 dijit.form.VerticalRule=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.VerticalRuleLabels
 /**
  * <b>Summary:</b><blockquote>
  *	 Labels for the `dijit.form.VerticalSlider`<br>
@@ -12092,9 +11441,6 @@ dijit.form.VerticalRuleLabels=function(){};
  * @memberOf dijit.form.VerticalRuleLabels
 */
 dijit.form.VerticalRuleLabels.prototype._calcPosition=function(pos){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form.VerticalSlider
 /**
  * <b>Summary:</b><blockquote>
  *	 A form widget that allows one to select a value with a vertically draggable handle<br>
@@ -12113,15 +11459,6 @@ dijit.form.VerticalSlider=function(){};
  * @memberOf dijit.form.VerticalSlider
 */
 dijit.form.VerticalSlider.prototype._isReversed=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._HasDropDown.dropDownPosition
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._HasDropDown.dropDown
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._InlineEditor
 /**
  * <b>Summary:</b><blockquote>
  *	 Internal widget used by InlineEditBox, displayed when in editing mode<br>
@@ -12219,15 +11556,6 @@ dijit._InlineEditor.prototype._onChange=function(){};
  * @memberOf dijit._InlineEditor
 */
 dijit._InlineEditor.prototype._onBlur=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._InlineEditor.inlineEditBox
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._InlineEditor.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.InlineEditBox
 /**
  * <b>Summary:</b><blockquote>
  *	 An element with in-line edit capabilities<br>
@@ -12400,15 +11728,6 @@ dijit.InlineEditBox.prototype._onClick=function(e){};
  * @memberOf dijit.InlineEditBox
 */
 dijit.InlineEditBox.prototype._onBlur=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.InlineEditBox.displayNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.InlineEditBox.wrapperWidget
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._KeyNavContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 A _Container with keyboard navigation of its children.<br>
@@ -12575,9 +11894,6 @@ dijit._KeyNavContainer.prototype._getLastFocusableChild=function(){};
  * @memberOf dijit._KeyNavContainer
 */
 dijit._KeyNavContainer.prototype._getFirstFocusableChild=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._AccordionButton
 /**
  * <b>Summary:</b><blockquote>
  *	 The title bar to click to open up an accordion pane.<br>
@@ -12645,18 +11961,6 @@ dijit.layout._AccordionButton.prototype._onTitleKeyPress=function(evt){};
  * @memberOf dijit.layout._AccordionButton
 */
 dijit.layout._AccordionButton.prototype._onTitleClick=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._AccordionButton._setLabelAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._AccordionButton._setTitleAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._AccordionButton._setIconClassAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._AccordionInnerContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 Internal widget placed as direct child of AccordionContainer.containerNode.<br>
@@ -12710,12 +12014,6 @@ dijit.layout._AccordionInnerContainer.prototype.buildRendering=function(){};
  * @memberOf dijit.layout._AccordionInnerContainer
 */
 dijit.layout._AccordionInnerContainer.prototype._setSelectedAttr=function(isSelected){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._AccordionInnerContainer.contentWidget
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.AccordionContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 Holds a set of panes where every pane's title is visible, but only one pane's content is visible at a time,<br>
@@ -12810,28 +12108,10 @@ dijit.layout.AccordionContainer.prototype._onKeyPress=function(e, fromTitle){};
  * @memberOf dijit.layout.AccordionContainer
 */
 dijit.layout.AccordionContainer.prototype._hideChild=function(child){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.AccordionContainer.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.AccordionContainer.selectedChildWidget.containerNode
 /**
  * @namespace
 */
 dijit.layout.AccordionContainer.selectedChildWidget.containerNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.AccordionContainer.selectedChildWidget.containerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.AccordionContainer.selectedChildWidget._wrapperWidget
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.AccordionContainer._animation
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.StackContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 A container that has multiple children, but shows only<br>
@@ -12972,9 +12252,6 @@ dijit.layout.StackContainer.prototype._hideChild=function(page){};
  * @memberOf dijit.layout.StackContainer
 */
 dijit.layout.StackContainer.prototype._adjacent=function(forward){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.ContentPane
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget containing an HTML fragment, specified inline<br>
@@ -13234,9 +12511,6 @@ dijit.layout.ContentPane.prototype._load=function(){};
  * @memberOf dijit.layout.ContentPane
 */
 dijit.layout.ContentPane.prototype._getContentAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.AccordionPane
 /**
  * <b>Summary:</b><blockquote>
  *	 Deprecated widget.   Use `dijit.layout.ContentPane` instead.<br>
@@ -13253,12 +12527,6 @@ dijit.layout.AccordionPane=function(){};
  * @memberOf dijit.layout.AccordionPane
 */
 dijit.layout.AccordionPane.prototype.onSelected=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._WidgetBase.prototype
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._Splitter
 /**
  * <b>Summary:</b><blockquote>
  *	 A draggable spacer between two items in a `dijit.layout.BorderContainer`.<br>
@@ -13334,15 +12602,6 @@ dijit.layout._Splitter.prototype._computeMaxSize=function(){};
  * @memberOf dijit.layout._Splitter
 */
 dijit.layout._Splitter.prototype._cleanupHandlers=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._Splitter.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._Splitter.child
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._Gutter
 /**
  * <b>Summary:</b><blockquote>
  *	 Just a spacer div to separate side pane from center pane.<br>
@@ -13364,9 +12623,6 @@ dijit.layout._Gutter.prototype.postMixInProperties=function(){};
  * @memberOf dijit.layout._Gutter
 */
 dijit.layout._Gutter.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.BorderContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides layout in up to 5 regions, a mandatory center with optional borders along its 4 sides.<br>
@@ -13470,12 +12726,6 @@ dijit.layout.BorderContainer.prototype._setupChild=function(child){};
  * @memberOf dijit.layout.BorderContainer
 */
 dijit.layout.BorderContainer.prototype._layoutChildren=function(changedChildId, changedChildSize){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.BorderContainer.pe
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._LayoutWidget
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for a _Container widget which is responsible for laying out its children.<br>
@@ -13572,15 +12822,6 @@ dijit.layout._LayoutWidget.prototype.addChild=function(child, insertIndex){};
  * @memberOf dijit.layout._LayoutWidget
 */
 dijit.layout._LayoutWidget.prototype._setupChild=function(child){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.ContentPane.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._ContentPaneResizeMixin.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.LayoutContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 Deprecated.  Use `dijit.layout.BorderContainer` instead.<br>
@@ -13631,9 +12872,6 @@ dijit.layout.LayoutContainer.prototype.layout=function(){};
  * @memberOf dijit.layout.LayoutContainer
 */
 dijit.layout.LayoutContainer.prototype.addChild=function(child, insertIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.LinkPane
 /**
  * <b>Summary:</b><blockquote>
  *	 A ContentPane with an href where (when declared in markup)<br>
@@ -13659,9 +12897,6 @@ dijit.layout.LinkPane.prototype.postMixInProperties=function(){};
  * @memberOf dijit.layout.LinkPane
 */
 dijit.layout.LinkPane.prototype._fillContent=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.ScrollingTabController
 /**
  * <b>Summary:</b><blockquote>
  *	 Set of tabs with left/right arrow keys and a menu to switch between tabs not<br>
@@ -13841,31 +13076,10 @@ dijit.layout.ScrollingTabController.prototype._enableBtn=function(width){};
  * @memberOf dijit.layout.ScrollingTabController
 */
 dijit.layout.ScrollingTabController.prototype._convertToScrollLeft=function(val){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.ScrollingTabController._setClassAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.ScrollingTabController.scrollNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.ScrollingTabController._leftBtn
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.ScrollingTabController._rightBtn
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.ScrollingTabController._menuBtn
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.ScrollingTabController.scrollNode
 /**
  * @namespace
 */
 dijit.layout.ScrollingTabController.scrollNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._ScrollingTabControllerButtonMixin
 /**
  * @class
  * @returns {dijit.layout._ScrollingTabControllerButtonMixin} new instance
@@ -13875,18 +13089,12 @@ dijit.layout._ScrollingTabControllerButtonMixin=function(){};
  * @memberOf dijit.layout._ScrollingTabControllerButtonMixin
 */
 dijit.layout._ScrollingTabControllerButtonMixin.prototype.isFocusable=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._ScrollingTabControllerButton
 /**
  * @class
  * @extends dijit.layout._ScrollingTabControllerButtonMixin
  * @returns {dijit.layout._ScrollingTabControllerButton} new instance
 */
 dijit.layout._ScrollingTabControllerButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._ScrollingTabControllerMenuButton
 /**
  * @class
  * @extends dijit._HasDropDown
@@ -13908,9 +13116,6 @@ dijit.layout._ScrollingTabControllerMenuButton.prototype.isLoaded=function(){};
  * @memberOf dijit.layout._ScrollingTabControllerMenuButton
 */
 dijit.layout._ScrollingTabControllerMenuButton.prototype.closeDropDown=function(focus){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.TabController
 /**
  * <b>Summary:</b><blockquote>
  *	 Set of tabs (the things with titles and a close button, that you click to show a tab panel).<br>
@@ -13932,9 +13137,6 @@ dijit.layout.TabController=function(){};
  * @memberOf dijit.layout.TabController
 */
 dijit.layout.TabController.prototype._rectifyRtlTabList=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.SplitContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 Deprecated.  Use `dijit.layout.BorderContainer` instead.<br>
@@ -14097,27 +13299,6 @@ dijit.layout.SplitContainer.prototype._checkSizes=function(){};
  * @memberOf dijit.layout.SplitContainer
 */
 dijit.layout.SplitContainer.prototype._addSizer=function(index){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.SplitContainer.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.SplitContainer.cover.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.SplitContainer.sizingSplitter.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.SplitContainer.paneBefore
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.SplitContainer.paneAfter
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.SplitContainer.virtualSizer.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.StackController
 /**
  * <b>Summary:</b><blockquote>
  *	 Set of buttons to select a page in a `dijit.layout.StackContainer`<br>
@@ -14225,9 +13406,6 @@ dijit.layout.StackController.prototype.destroy=function(){};
  * @memberOf dijit.layout.StackController
 */
 dijit.layout.StackController.prototype.adjacent=function(forward){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._StackButton
 /**
  * <b>Summary:</b><blockquote>
  *	 Internal widget used by StackContainer.<br>
@@ -14270,9 +13448,6 @@ dijit.layout._StackButton.prototype.buildRendering=function(evt){};
  * @memberOf dijit.layout._StackButton
 */
 dijit.layout._StackButton.prototype._setCheckedAttr=function(value, priorityChange){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._TabContainerBase
 /**
  * <b>Summary:</b><blockquote>
  *	 Abstract base class for TabContainer.   Must define _makeController() to instantiate<br>
@@ -14318,22 +13493,10 @@ dijit.layout._TabContainerBase.prototype.buildRendering=function(){};
  * @memberOf dijit.layout._TabContainerBase
 */
 dijit.layout._TabContainerBase.prototype._setupChild=function(tab){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._TabContainerBase.tablist
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._TabContainerBase.tablist.domNode
 /**
  * @namespace
 */
 dijit.layout._TabContainerBase.tablist.domNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._TabContainerBase.tablist.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout.TabContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 A Container with tabs to select each child (only one of which is displayed at a time).<br>
@@ -14359,9 +13522,6 @@ dijit.layout.TabContainer.prototype.postMixInProperties=function(){};
  * @memberOf dijit.layout.TabContainer
 */
 dijit.layout.TabContainer.prototype._makeController=function(srcNode){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._TabButton
 /**
  * <b>Summary:</b><blockquote>
  *	 A tab (the thing you click to select a pane).<br>
@@ -14409,27 +13569,12 @@ dijit.layout._TabButton.prototype._setLabelAttr=function(content){};
  * @memberOf dijit.layout._TabButton
 */
 dijit.layout._TabButton.prototype._setCloseButtonAttr=function(disp){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._TabButton.cssStateNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._TabButton.closeNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.layout._TabButton.iconNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MenuBarItemMixin
 /**
  * @class
  * @private
  * @returns {dijit._MenuBarItemMixin} new instance
 */
 dijit._MenuBarItemMixin=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.MenuBarItem
 /**
  * <b>Summary:</b><blockquote>
  *	 Item in a MenuBar that's clickable, and doesn't spawn a submenu when pressed (or hovered)<br>
@@ -14439,9 +13584,6 @@ dijit._MenuBarItemMixin=function(){};
  * @returns {dijit.MenuBarItem} new instance
 */
 dijit.MenuBarItem=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.MenuBar
 /**
  * <b>Summary:</b><blockquote>
  *	 A menu bar, listing menu choices horizontally, like the &amp;quot;File&amp;quot; menu in most desktop applications<br>
@@ -14478,37 +13620,11 @@ dijit.MenuBar.prototype.focusChild=function(item){};
  * @memberOf dijit.MenuBar
 */
 dijit.MenuBar.prototype._onKeyPress=function(evt){};
-//-jshdr-obj-end
 
-//-jshdr-id-dijit._MenuBase.currentPopup
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MenuBase.currentPopup.parentMenu
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MenuBase.focusedChild
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MenuBase.focusedChild.popup
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.MenuItem._setLabelAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.MenuItem._setIconClassAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.MenuItem.accelKeyNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.MenuItem.accelKeyNode
 /**
  * @namespace
 */
 dijit.MenuItem.accelKeyNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Dye
 /**
  * <b>Summary:</b><blockquote>
  *	 Interface for the JS Object associated with a palette cell (i.e. DOMNode)<br>
@@ -14537,9 +13653,6 @@ dijit.Dye.prototype.getValue=function(){};
  * @memberOf dijit.Dye
 */
 dijit.Dye.prototype.fillCell=function(cell, blankGif){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.place
 /**
  * <b>Summary:</b><blockquote>
  *	 Positions one of the node's corners at specified position<br>
@@ -14610,27 +13723,18 @@ dijit.place.__Rectangle=function(){};
  * @private
 */
 dijit.place.__Position=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.place.__Position
 /**
  * @class
  * @private
  * @returns {dijit.place.__Position} new instance
 */
 dijit.place.__Position=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.place.__Rectangle
 /**
  * @class
  * @private
  * @returns {dijit.place.__Rectangle} new instance
 */
 dijit.place.__Rectangle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.popup
 /**
  * <b>Summary:</b><blockquote>
  *	 Moves the popup widget off-screen.<br>
@@ -14668,9 +13772,6 @@ dijit.popup.close=function(popup){};
  * @private
 */
 dijit.popup.__OpenArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.popup.__OpenArgs
 /**
  * @class
  * @private
@@ -14698,9 +13799,6 @@ dijit.popup.__OpenArgs.onClose=function(){};
  * </blockquote>
 */
 dijit.popup.__OpenArgs.onCancel=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.PopupMenuBarItem
 /**
  * <b>Summary:</b><blockquote>
  *	 Item in a MenuBar like &amp;quot;File&amp;quot; or &amp;quot;Edit&amp;quot;, that spawns a submenu when pressed (or hovered)<br>
@@ -14711,9 +13809,6 @@ dijit.popup.__OpenArgs.onCancel=function(){};
  * @returns {dijit.PopupMenuBarItem} new instance
 */
 dijit.PopupMenuBarItem=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.PopupMenuItem
 /**
  * <b>Summary:</b><blockquote>
  *	 An item in a Menu that spawn a drop down (usually a drop down menu)<br>
@@ -14747,12 +13842,6 @@ dijit.PopupMenuItem.prototype.destroyDescendants=function(preserveDom){};
  * @memberOf dijit.PopupMenuItem
 */
 dijit.PopupMenuItem.prototype._fillContent=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.PopupMenuItem.popup.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.ProgressBar
 /**
  * <b>Summary:</b><blockquote>
  *	 A progress indication widget, showing the amount completed<br>
@@ -14826,15 +13915,6 @@ dijit.ProgressBar.prototype._setLabelAttr=function(label){};
  * @memberOf dijit.ProgressBar
 */
 dijit.ProgressBar.prototype._setIndeterminateAttr=function(indeterminate){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.ProgressBar.labelNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.ProgressBar.internalProgress.style
-//-jshdr-obj-end
-
-//-jshdr-id-doh.robot
 /**
  * @namespace
 */
@@ -14923,9 +14003,6 @@ doh.robot._position=function(n){};
  * @private
 */
 doh.robot._getWindowChain=function(n){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._Templated
 /**
  * <b>Summary:</b><blockquote>
  *	 Deprecated mixin for widgets that are instantiated from a template.<br>
@@ -14945,27 +14022,12 @@ dijit._Templated=function(){};
  * @memberOf dijit._Templated
 */
 dijit._Templated.prototype._attachTemplateNodes=function(rootNode, getAttrFunc){};
-//-jshdr-obj-end
-
-//-jshdr-id-options
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TimePicker.__Constraints
 /**
  * @class
  * @private
  * @returns {dijit._TimePicker.__Constraints} new instance
 */
 dijit._TimePicker.__Constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TimePicker.timeMenu
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TimePicker.timeMenu.childNodes.0
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.TitlePane
 /**
  * <b>Summary:</b><blockquote>
  *	 A pane with a title on top, that can be expanded or collapsed.<br>
@@ -15080,24 +14142,6 @@ dijit.TitlePane.prototype._onTitleKey=function(e){};
  * @memberOf dijit.TitlePane
 */
 dijit.TitlePane.prototype._onTitleClick=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.TitlePane._setTitleAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.TitlePane._setTooltipAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.TitlePane.hideNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.TitlePane.wipeNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.TitlePane.arrowNodeInner
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Toolbar
 /**
  * <b>Summary:</b><blockquote>
  *	 A Toolbar widget, used to hold things like `dijit.Editor` buttons<br>
@@ -15113,9 +14157,6 @@ dijit.Toolbar=function(){};
  * @memberOf dijit.Toolbar
 */
 dijit.Toolbar.prototype.postCreate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.ToolbarSeparator
 /**
  * <b>Summary:</b><blockquote>
  *	 A spacer between two `dijit.Toolbar` items<br>
@@ -15137,9 +14178,6 @@ dijit.ToolbarSeparator.prototype.isFocusable=function(){};
  * @memberOf dijit.ToolbarSeparator
 */
 dijit.ToolbarSeparator.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.TooltipDialog
 /**
  * <b>Summary:</b><blockquote>
  *	 Pops up a dialog that appears like a Tooltip<br>
@@ -15208,12 +14246,6 @@ dijit.TooltipDialog.prototype._setTitleAttr=function(title){};
  * @memberOf dijit.TooltipDialog
 */
 dijit.TooltipDialog.prototype._onKey=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.TooltipDialog.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MasterTooltip
 /**
  * <b>Summary:</b><blockquote>
  *	 Internal widget that holds the actual tooltip markup,<br>
@@ -15302,39 +14334,18 @@ dijit._MasterTooltip.prototype._onShow=function(){};
  * @memberOf dijit._MasterTooltip
 */
 dijit._MasterTooltip.prototype._onHide=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MasterTooltip.domNode
 /**
  * @namespace
 */
 dijit._MasterTooltip.domNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MasterTooltip.containerNode
 /**
  * @namespace
 */
 dijit._MasterTooltip.containerNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MasterTooltip.connectorNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MasterTooltip.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MasterTooltip.containerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._MasterTooltip.connectorNode
 /**
  * @namespace
 */
 dijit._MasterTooltip.connectorNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree
 /**
  * <b>Summary:</b><blockquote>
  *	 Contract for any data provider object for the tree.<br>
@@ -15413,9 +14424,6 @@ dijit.tree.TreeStoreModel=function(args){};
  * 	{type:'continent'}
 */
 dijit.tree.ForestStoreModel=function(params){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree._dndContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 This is a base class for `dijit.tree._dndSelector`, and isn't meant to be used directly.<br>
@@ -15496,9 +14504,6 @@ dijit.tree._dndContainer.prototype._changeState=function(type, newState){};
  * @memberOf dijit.tree._dndContainer
 */
 dijit.tree._dndContainer.prototype._addItemClass=function(node, type){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree._dndSelector
 /**
  * <b>Summary:</b><blockquote>
  *	 This is a base class for `dijit.tree.dndSource` , and isn't meant to be used directly.<br>
@@ -15653,12 +14658,6 @@ dijit.tree._dndSelector.prototype._setDifference=function(xs, ys){};
  * @memberOf dijit.tree._dndSelector
 */
 dijit.tree._dndSelector.prototype._compareNodes=function(n1, n2){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree._dndSelector.current
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree.dndSource
 /**
  * <b>Summary:</b><blockquote>
  *	 Handles drag and drop operations (as a source or a target) for `dijit.Tree`<br>
@@ -15856,12 +14855,6 @@ dijit.tree.dndSource.prototype._markDndStatus=function(copy){};
  * @memberOf dijit.tree.dndSource
 */
 dijit.tree.dndSource.prototype._isParentChildDrop=function(source, targetRow){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree.dndSource.tree
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree.__SourceArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 A dict of parameters for Tree source configuration.<br>
@@ -15871,9 +14864,6 @@ dijit.tree.dndSource.prototype._isParentChildDrop=function(source, targetRow){};
  * @returns {dijit.tree.__SourceArgs} new instance
 */
 dijit.tree.__SourceArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree.ForestStoreModel
 /**
  * <b>Summary:</b><blockquote>
  *	 Interface between a dijit.Tree and a dojo.data store that doesn't have a root item,<br>
@@ -16052,12 +15042,6 @@ dijit.tree.ForestStoreModel.prototype.fetchItemByIdentity=function(keywordArgs){
  * @memberOf dijit.tree.ForestStoreModel
 */
 dijit.tree.ForestStoreModel.prototype._requeryTop=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree.ForestStoreModel.root
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree.TreeStoreModel
 /**
  * <b>Summary:</b><blockquote>
  *	 Implements dijit.Tree.model connecting to a dojo.data store with a single<br>
@@ -16225,9 +15209,6 @@ dijit.tree.TreeStoreModel.prototype.fetchItemByIdentity=function(keywordArgs){};
  * @memberOf dijit.tree.TreeStoreModel
 */
 dijit.tree.TreeStoreModel.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.tree.model
 /**
  * <b>Summary:</b><blockquote>
  *	 Contract for any data provider object for the tree.<br>
@@ -16360,12 +15341,6 @@ dijit.tree.model.prototype.fetchItemByIdentity=function(keywordArgs){};
  * @memberOf dijit.tree.model
 */
 dijit.tree.model.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._tree
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TreeNode
 /**
  * <b>Summary:</b><blockquote>
  *	 Single node within a tree.   This class is used internally<br>
@@ -16587,24 +15562,6 @@ dijit._TreeNode.prototype._onClick=function(evt){};
  * @memberOf dijit._TreeNode
 */
 dijit._TreeNode.prototype._applyClassAndStyle=function(item, lower, upper){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TreeNode._setLabelAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TreeNode.cssStateNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TreeNode._setTooltipAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TreeNode.tree
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._TreeNode.expandoNodeText
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.Tree
 /**
  * <b>Summary:</b><blockquote>
  *	 This widget displays hierarchical data from a store.<br>
@@ -17180,9 +16137,6 @@ dijit.Tree.prototype._createTreeNode=function(args){};
  * @memberOf dijit.Tree
 */
 dijit.Tree.prototype._collapseNode=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.typematic
 /**
  * <b>Summary:</b><blockquote>
  *	 Start a timed, repeating callback sequence.<br>
@@ -17277,18 +16231,12 @@ dijit.typematic.addKeyListener=function(node, keyObject, _this, callback, subseq
  * @private
 */
 dijit.typematic._fireEventAndReload=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.typematic._fireEventAndReload
 /**
  * @class
  * @private
  * @returns {dijit.typematic._fireEventAndReload} new instance
 */
 dijit.typematic._fireEventAndReload=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.typematic.trigger
 /**
  * <b>Summary:</b><blockquote>
  *	 Start a timed, repeating callback sequence.<br>
@@ -17300,9 +16248,6 @@ dijit.typematic._fireEventAndReload=function(){};
  * @returns {dijit.typematic.trigger} new instance
 */
 dijit.typematic.trigger=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.typematic.stop
 /**
  * <b>Summary:</b><blockquote>
  *	 Stop an ongoing timed, repeating callback sequence.<br>
@@ -17311,18 +16256,6 @@ dijit.typematic.trigger=function(){};
  * @returns {dijit.typematic.stop} new instance
 */
 dijit.typematic.stop=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._WidgetBase._setClassAttr
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._WidgetBase.constructor
-//-jshdr-obj-end
-
-//-jshdr-id-dijit._WidgetBase.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojo
 /**
  * @namespace
 */
@@ -20967,9 +19900,6 @@ dojo._contentHandlers={};
  * @private
 */
 dojo._base={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.Stateful
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for objects that provide named properties with optional getter/setter<br>
@@ -21055,9 +19985,6 @@ dojo.Stateful.prototype.get=function(name){};
  * @memberOf dojo.Stateful
 */
 dojo.Stateful.prototype._watchCallbacks=function(name, oldValue, value, ignoreCatchall){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.WidgetSet
 /**
  * <b>Summary:</b><blockquote>
  *	 A set of widgets indexed by id. A default instance of this class is<br>
@@ -21201,9 +20128,6 @@ dijit.WidgetSet.prototype.byClass=function(cls){};
  * @memberOf dijit.WidgetSet
 */
 dijit.WidgetSet.prototype.add=function(widget){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.AdapterRegistry
 /**
  * <b>Summary:</b><blockquote>
  *	 A registry to make contextual calling/searching easier.<br>
@@ -21276,9 +20200,6 @@ dojo.AdapterRegistry.prototype.register=function(name, check, wrap, directReturn
  * @memberOf dojo.AdapterRegistry
 */
 dojo.AdapterRegistry.prototype.match=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.aspect
 /**
  * <b>Summary:</b><blockquote>
  *	 The &amp;quot;before&amp;quot; export of the aspect module is a function that can be used to attach<br>
@@ -21339,9 +20260,6 @@ dojo.aspect.around=function(target, methodName, advice){};
  * was called) rather than the return value of the original/previous method.<br>
 */
 dojo.aspect.after=function(target, methodName, advice, receiveArguments){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.back
 /**
  * <b>Summary:</b><blockquote>
  *	 Sets the state object and back callback for the very first page<br>
@@ -21414,21 +20332,6 @@ dojo.back.addToHistory=function(args){};
  * @private
 */
 dojo.back._iframeLoaded=function(evt, ifrLoc){};
-//-jshdr-obj-end
-
-//-jshdr-id-window.frames
-//-jshdr-obj-end
-
-//-jshdr-id-dojo._base
-//-jshdr-obj-end
-
-//-jshdr-id-navigator
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.config
-//-jshdr-obj-end
-
-//-jshdr-id-console
 /**
  * @namespace
 */
@@ -21446,18 +20349,12 @@ dojo.console.error=function(){};
 /**
 */
 dojo.console.debug=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-require
 /**
  * @param {mixed} url 
  * @param {mixed} sync 
  * @param {mixed} load 
 */
 dojo.require.getText=function(url, sync, load){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojoConfig
 /**
  * @namespace
 */
@@ -21475,9 +20372,6 @@ dojo.dojoConfig={};
  * </blockquote>
 */
 dojo.dojoConfig.addOnLoad=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-exports
 /**
  * @namespace
 */
@@ -21551,15 +20445,6 @@ dojo.exports.config=function(config){};
  * @namespace
 */
 dojo.exports.names={};
-//-jshdr-obj-end
-
-//-jshdr-id-e
-//-jshdr-obj-end
-
-//-jshdr-id-lang
-//-jshdr-obj-end
-
-//-jshdr-id-Object
 /**
  * @namespace
 */
@@ -21745,12 +20630,6 @@ dojo.Object.freeze=function(){};
  * 	});
 */
 dojo.Object.extend=function(source){};
-//-jshdr-obj-end
-
-//-jshdr-id-declare
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.Deferred
 /**
  * <b>Summary:</b><blockquote>
  *	 Deferreds provide a generic means for encapsulating an asynchronous<br>
@@ -22002,9 +20881,6 @@ dojo.Deferred.prototype.addCallback=function(callback){};
  * @memberOf dojo.Deferred
 */
 dojo.Deferred.prototype.addBoth=function(callback){};
-//-jshdr-obj-end
-
-//-jshdr-id-on
 /**
  * @namespace
 */
@@ -22015,9 +20891,6 @@ dojo.on={};
  * @private
 */
 dojo.on._fixEvent=function(evt, se){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.Animation
 /**
  * <b>Summary:</b><blockquote>
  *	 A generic animation class that fires callbacks into its handlers<br>
@@ -22141,36 +21014,24 @@ dojo.Animation.prototype._cycle=function(){};
  * @memberOf dojo.Animation
 */
 dojo.Animation.prototype._clearTimer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.Animation._getStep
 /**
  * @class
  * @private
  * @returns {dojo.Animation._getStep} new instance
 */
 dojo.Animation._getStep=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.Animation._startTimer
 /**
  * @class
  * @private
  * @returns {dojo.Animation._startTimer} new instance
 */
 dojo.Animation._startTimer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.Animation._stopTimer
 /**
  * @class
  * @private
  * @returns {dojo.Animation._stopTimer} new instance
 */
 dojo.Animation._stopTimer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.__AnimArgs
 /**
  * @class
  * @extends dojo.__FadeArgs
@@ -22178,9 +21039,6 @@ dojo.Animation._stopTimer=function(){};
  * @returns {dojo.__AnimArgs} new instance
 */
 dojo.__AnimArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo._Line
 /**
  * <b>Summary:</b><blockquote>
  *	 dojo._Line is the object used to generate values from a start value<br>
@@ -22199,9 +21057,6 @@ dojo._Line=function(){};
  * @returns {Decimal} -
 */
 dojo._Line.getValue=function(n){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.__FadeArgs
 /**
  * @class
  * @private
@@ -22214,12 +21069,6 @@ dojo.__FadeArgs=function(){};
  * </blockquote>
 */
 dojo.__FadeArgs.easing=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-config
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.NodeList
 /**
  * <b>Summary:</b><blockquote>
  *	 dojo.NodeList is an of Array-like object which adds syntactic<br>
@@ -23741,22 +22590,10 @@ dojo.NodeList.prototype._buildArrayFromCallback=function(callback){};
  * @memberOf dojo.NodeList
 */
 dojo.NodeList.prototype._anim=function(obj, method, args){};
-//-jshdr-obj-end
-
-//-jshdr-id-has
-//-jshdr-obj-end
-
-//-jshdr-id-opera
-//-jshdr-obj-end
-
-//-jshdr-id-document
 /**
  * @namespace
 */
 dojo.document={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.__XhrArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 In addition to the properties listed for the dojo._IoArgs type,<br>
@@ -23768,13 +22605,6 @@ dojo.document={};
  * @returns {dojo.__XhrArgs} new instance
 */
 dojo.__XhrArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.contentHandlers
-//-jsdoc-invalid-entry [dojo.contentHandlers.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.__IoArgs
 /**
  * @class
  * @private
@@ -23814,18 +22644,12 @@ dojo.__IoArgs.handle=function(loadOrError, response, ioArgs){};
  * @param {dojo.__IoCallbackArgs} ioArgs Provides additional information about the request.
 */
 dojo.__IoArgs.error=function(response, ioArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.__IoCallbackArgs
 /**
  * @class
  * @private
  * @returns {dojo.__IoCallbackArgs} new instance
 */
 dojo.__IoCallbackArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.__IoPublish
 /**
  * <b>Summary:</b><blockquote>
  *	 This is a list of IO topics that can be published<br>
@@ -23839,9 +22663,6 @@ dojo.__IoCallbackArgs=function(){};
  * @returns {dojo.__IoPublish} new instance
 */
 dojo.__IoPublish=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.behavior
 /**
  * <b>Summary:</b><blockquote>
  *	 Utility for unobtrusive/progressive event binding, DOM traversal,<br>
@@ -23988,9 +22809,6 @@ dojo.behavior.apply=function(){};
  * 	});
 */
 dojo.behavior.add=function(behaviorObj){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.cldr.monetary
 /**
  * @namespace
 */
@@ -24003,16 +22821,10 @@ dojo.cldr.monetary={};
  * @returns {Object} -
 */
 dojo.cldr.monetary.getData=function(code){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.cldr
 /**
  * @namespace
 */
 dojo.cldr.supplemental={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.cldr.supplemental
 /**
  * <b>Summary:</b><blockquote>
  *	 Returns a hash containing the start and end days of the weekend<br>
@@ -24037,12 +22849,6 @@ dojo.cldr.supplemental.getFirstDayOfWeek=function(locale){};
  * @private
 */
 dojo.cldr.supplemental._region=function(locale){};
-//-jshdr-obj-end
-
-//-jshdr-id-Color.named
-//-jshdr-obj-end
-
-//-jshdr-id-Color
 /**
  * @class
  * @returns {dojo.Color} new instance
@@ -24095,18 +22901,12 @@ dojo.Color.makeGrey=function(g, a){};
  * @returns {dojo.Color} -
 */
 dojo.Color.fromRgb=function(color, obj){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.__cookieProps
 /**
  * @class
  * @private
  * @returns {dojo.__cookieProps} new instance
 */
 dojo.__cookieProps=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.cookie
 /**
  * <b>Summary:</b><blockquote>
  *	 Use to determine if the current browser supports cookies or not.<br>
@@ -24116,9 +22916,6 @@ dojo.__cookieProps=function(){};
  * </blockquote>
 */
 dojo.cookie.isSupported=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.currency
 /**
  * <b>Summary:</b><blockquote>
  *	 Builds the regular needed to parse a currency value<br>
@@ -24169,9 +22966,6 @@ dojo.currency.__ParseOptions=function(){};
  * @private
 */
 dojo.currency.__FormatOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.currency.__FormatOptions
 /**
  * @class
  * @extends dojo.number.__FormatOptions
@@ -24179,9 +22973,6 @@ dojo.currency.__FormatOptions=function(){};
  * @returns {dojo.currency.__FormatOptions} new instance
 */
 dojo.currency.__FormatOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.currency.__ParseOptions
 /**
  * @class
  * @extends dojo.number.__ParseOptions
@@ -24189,9 +22980,6 @@ dojo.currency.__FormatOptions=function(){};
  * @returns {dojo.currency.__ParseOptions} new instance
 */
 dojo.currency.__ParseOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.api
 /**
  * @namespace
 */
@@ -24263,9 +23051,6 @@ dojo.data.api.Notification=function(){};
  * </blockquote>
 */
 dojo.data.api.Identity=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.api.Identity
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an abstract API that data provider implementations conform to.<br>
@@ -24359,9 +23144,6 @@ dojo.data.api.Identity.prototype.getFeatures=function(){};
  * @memberOf dojo.data.api.Identity
 */
 dojo.data.api.Identity.prototype.fetchItemByIdentity=function(keywordArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data
 /**
  * <b>Summary:</b><blockquote>
  *	 A Dojo Data implementation that wraps Dojo object stores for backwards<br>
@@ -24429,9 +23211,6 @@ dojo.data.ItemFileReadStore=function(keywordParameters){};
  * @namespace
 */
 dojo.data.util={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.api.Notification
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an abstract API that data provider implementations conform to.<br>
@@ -24521,9 +23300,6 @@ dojo.data.api.Notification.prototype.onDelete=function(deletedItem){};
  * @memberOf dojo.data.api.Notification
 */
 dojo.data.api.Notification.prototype.getFeatures=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.api.Read
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an abstract API that data provider implementations conform to.<br>
@@ -24938,9 +23714,6 @@ dojo.data.api.Read.prototype.containsValue=function(item, attribute, value){};
  * @memberOf dojo.data.api.Read
 */
 dojo.data.api.Read.prototype.close=function(request){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.api.Request
 /**
  * <b>Summary:</b><blockquote>
  *	 This class defines out the semantics of what a 'Request' object looks like<br>
@@ -24973,9 +23746,6 @@ dojo.data.api.Request=function(){};
  * @memberOf dojo.data.api.Request
 */
 dojo.data.api.Request.prototype.abort=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.api.Write
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an abstract API that data provider implementations conform to.<br>
@@ -25138,9 +23908,6 @@ dojo.data.api.Write.prototype.getFeatures=function(){};
  * @memberOf dojo.data.api.Write
 */
 dojo.data.api.Write.prototype.deleteItem=function(item){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.ItemFileReadStore
 /**
  * <b>Summary:</b><blockquote>
  *	 The ItemFileReadStore implements the dojo.data.api.Read API and reads<br>
@@ -25422,15 +24189,6 @@ dojo.data.ItemFileReadStore.prototype._assertIsAttribute=function(attribute){};
  * @memberOf dojo.data.ItemFileReadStore
 */
 dojo.data.ItemFileReadStore.prototype._addReferenceToMap=function(refItem, parentItem, attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.ItemFileReadStore._features.dojo.data.api
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.ItemFileReadStore._datatypeMap
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.ItemFileWriteStore
 /**
  * @class
  * @extends dojo.data.ItemFileReadStore
@@ -25663,12 +24421,6 @@ dojo.data.ItemFileWriteStore.prototype._assert=function(condition){};
  * @memberOf dojo.data.ItemFileWriteStore
 */
 dojo.data.ItemFileWriteStore.prototype._addReferenceToMap=function(refItem, parentItem, attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.ItemFileWriteStore._features.dojo.data.api
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.ItemFileWriteStore._datatypeMap.Date
 /**
  * @namespace
 */
@@ -25677,9 +24429,6 @@ dojo.data.ItemFileWriteStore._datatypeMap.Date={};
  * @param {mixed} obj 
 */
 dojo.data.ItemFileWriteStore._datatypeMap.Date.serialize=function(obj){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.ObjectStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A Dojo Data implementation that wraps Dojo object stores for backwards<br>
@@ -25950,15 +24699,6 @@ dojo.data.ObjectStore.prototype.close=function(request){};
  * @memberOf dojo.data.ObjectStore
 */
 dojo.data.ObjectStore.prototype.changing=function(object, _deleting){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.ObjectStore._dirtyObjects
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.data.util
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.date.locale
 /**
  * @namespace
 */
@@ -26089,18 +24829,12 @@ dojo.date.locale._getDayOfYear=function(dateObject){};
  * @private
 */
 dojo.date.locale.__FormatOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.date.locale.__FormatOptions
 /**
  * @class
  * @private
  * @returns {dojo.date.locale.__FormatOptions} new instance
 */
 dojo.date.locale.__FormatOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.date
 /**
  * <b>Summary:</b><blockquote>
  *	 Determines if the year of the dateObject is a leap year<br>
@@ -26179,9 +24913,6 @@ dojo.date.add=function(date, interval, amount){};
  * @namespace
 */
 dojo.date.stamp={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.date.stamp
 /**
  * <b>Summary:</b><blockquote>
  *	 Format a Date object as a string according a subset of the ISO-8601 standard<br>
@@ -26230,18 +24961,12 @@ dojo.date.stamp.fromISOString=function(formattedString, defaultTime){};
  * @private
 */
 dojo.date.stamp.__Options=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.date.stamp.__Options
 /**
  * @class
  * @private
  * @returns {dojo.date.stamp.__Options} new instance
 */
 dojo.date.stamp.__Options=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.DeferredList
 /**
  * <b>Summary:</b><blockquote>
  *	 Gathers the results of the deferreds for packaging<br>
@@ -26250,9 +24975,6 @@ dojo.date.stamp.__Options=function(){};
  * @param {dojo.DeferredList} deferredList The deferred list from which this function gathers results.
 */
 dojo.DeferredList.gatherResults=function(deferredList){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd
 /**
  * <b>Summary:</b><blockquote>
  *	 Returns the current DnD manager.  Creates one if it is not created yet.<br>
@@ -26466,15 +25188,6 @@ dojo.dnd._validNodes={};
  * @private
 */
 dojo.dnd._defaultCreatorNodes={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd._validNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd._validOverflow
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.AutoSource
 /**
  * <b>Summary:</b><blockquote>
  *	 a source that syncs its DnD nodes by default<br>
@@ -26486,9 +25199,6 @@ dojo.dnd._defaultCreatorNodes={};
  * @returns {dojo.dnd.AutoSource} new instance
 */
 dojo.dnd.AutoSource=function(node, params){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Source
 /**
  * <b>Summary:</b><blockquote>
  *	 a Source object, which can be used as a DnD source, or a DnD target<br>
@@ -26693,9 +25403,6 @@ dojo.dnd.Source.prototype._markDndStatus=function(copy){};
  * @memberOf dojo.dnd.Source
 */
 dojo.dnd.Source.prototype._legalMouseDown=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Avatar
 /**
  * <b>Summary:</b><blockquote>
  *	 Object that represents transferred DnD items visually<br>
@@ -26737,12 +25444,6 @@ dojo.dnd.Avatar.prototype.construct=function(){};
  * @memberOf dojo.dnd.Avatar
 */
 dojo.dnd.Avatar.prototype._generateText=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Avatar.manager
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.__ContainerArgs
 /**
  * @class
  * @private
@@ -26757,9 +25458,6 @@ dojo.dnd.__ContainerArgs=function(){};
  * @memberOf dojo.dnd.__ContainerArgs
 */
 dojo.dnd.__ContainerArgs.prototype.creator=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Container
 /**
  * <b>Summary:</b><blockquote>
  *	 a Container object, which knows when mouse hovers over it,<br>
@@ -26950,9 +25648,6 @@ dojo.dnd.Container.prototype._changeState=function(type, newState){};
  * @memberOf dojo.dnd.Container
 */
 dojo.dnd.Container.prototype._addItemClass=function(node, type){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Item
 /**
  * <b>Summary:</b><blockquote>
  *	 Represents (one of) the source node(s) being dragged.<br>
@@ -26962,12 +25657,6 @@ dojo.dnd.Container.prototype._addItemClass=function(node, type){};
  * @returns {dojo.dnd.Item} new instance
 */
 dojo.dnd.Item=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd._defaultCreatorNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Manager
 /**
  * <b>Summary:</b><blockquote>
  *	 the manager of DnD operations (usually a singleton)<br>
@@ -27073,9 +25762,6 @@ dojo.dnd.Manager.prototype.canDrop=function(flag){};
  * @memberOf dojo.dnd.Manager
 */
 dojo.dnd.Manager.prototype._setCopyStatus=function(copy){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Manager.canDrop
 /**
  * <b>Summary:</b><blockquote>
  *	 called to notify if the current target can accept items<br>
@@ -27084,28 +25770,16 @@ dojo.dnd.Manager.prototype._setCopyStatus=function(copy){};
  * @returns {dojo.dnd.Manager.canDrop} new instance
 */
 dojo.dnd.Manager.canDrop=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Manager.avatar.node
 /**
  * @namespace
 */
 dojo.dnd.Manager.avatar.node={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Manager.avatar.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.__MoveableArgs
 /**
  * @class
  * @private
  * @returns {dojo.dnd.__MoveableArgs} new instance
 */
 dojo.dnd.__MoveableArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Moveable
 /**
  * <b>Summary:</b><blockquote>
  *	 an object, which makes a node moveable<br>
@@ -27226,9 +25900,6 @@ dojo.dnd.Moveable.prototype.markupFactory=function(params, node, ctor){};
  * @memberOf dojo.dnd.Moveable
 */
 dojo.dnd.Moveable.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.move
 /**
  * <b>Summary:</b><blockquote>
  *	 an object, which makes a node moveable<br>
@@ -27267,9 +25938,6 @@ dojo.dnd.move.__constrainedMoveableArgs=function(){};
  * @private
 */
 dojo.dnd.move.__boxConstrainedMoveableArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.move.__constrainedMoveableArgs
 /**
  * @class
  * @extends dojo.dnd.__MoveableArgs
@@ -27285,9 +25953,6 @@ dojo.dnd.move.__constrainedMoveableArgs=function(){};
  * @memberOf dojo.dnd.move.__constrainedMoveableArgs
 */
 dojo.dnd.move.__constrainedMoveableArgs.prototype.constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.move.constrainedMoveable
 /**
  * <b>Summary:</b><blockquote>
  *	 an object that makes a node moveable<br>
@@ -27322,9 +25987,6 @@ dojo.dnd.move.constrainedMoveable.prototype.onFirstMove=function(mover){};
 /**
 */
 dojo.dnd.move.constrainedMoveable.constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.move.__boxConstrainedMoveableArgs
 /**
  * @class
  * @extends dojo.dnd.move.__constrainedMoveableArgs
@@ -27332,9 +25994,6 @@ dojo.dnd.move.constrainedMoveable.constraints=function(){};
  * @returns {dojo.dnd.move.__boxConstrainedMoveableArgs} new instance
 */
 dojo.dnd.move.__boxConstrainedMoveableArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.move.boxConstrainedMoveable
 /**
  * <b>Summary:</b><blockquote>
  *	 an object, which makes a node moveable<br>
@@ -27349,9 +26008,6 @@ dojo.dnd.move.boxConstrainedMoveable=function(node, params){};
 /**
 */
 dojo.dnd.move.boxConstrainedMoveable.constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.move.__parentConstrainedMoveableArgs
 /**
  * @class
  * @extends dojo.dnd.move.__constrainedMoveableArgs
@@ -27359,9 +26015,6 @@ dojo.dnd.move.boxConstrainedMoveable.constraints=function(){};
  * @returns {dojo.dnd.move.__parentConstrainedMoveableArgs} new instance
 */
 dojo.dnd.move.__parentConstrainedMoveableArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.move.parentConstrainedMoveable
 /**
  * <b>Summary:</b><blockquote>
  *	 an object, which makes a node moveable<br>
@@ -27377,12 +26030,6 @@ dojo.dnd.move.parentConstrainedMoveable=function(node, params){};
  * @returns {Object} -
 */
 dojo.dnd.move.parentConstrainedMoveable.constraints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.move.parentConstrainedMoveable.node
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Mover
 /**
  * <b>Summary:</b><blockquote>
  *	 an object which makes a node follow the mouse, or touch-drag on touch devices.<br>
@@ -27434,18 +26081,6 @@ dojo.dnd.Mover.prototype.onFirstMove=function(e){};
  * @memberOf dojo.dnd.Mover
 */
 dojo.dnd.Mover.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Mover.node
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Mover.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Mover.marginBox
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.__SelectorArgs
 /**
  * @class
  * @extends dojo.dnd.__ContainerArgs
@@ -27453,9 +26088,6 @@ dojo.dnd.Mover.prototype.destroy=function(){};
  * @returns {dojo.dnd.__SelectorArgs} new instance
 */
 dojo.dnd.__SelectorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Selector
 /**
  * <b>Summary:</b><blockquote>
  *	 a Selector object, which knows how to select its children<br>
@@ -27598,9 +26230,6 @@ dojo.dnd.Selector.prototype._removeAnchor=function(){};
  * @memberOf dojo.dnd.Selector
 */
 dojo.dnd.Selector.prototype._normalizedCreator=function(item, hint){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.__SourceArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 a dict of parameters for DnD Source configuration. Note that any<br>
@@ -27612,9 +26241,6 @@ dojo.dnd.Selector.prototype._normalizedCreator=function(item, hint){};
  * @returns {dojo.dnd.__SourceArgs} new instance
 */
 dojo.dnd.__SourceArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.Target
 /**
  * <b>Summary:</b><blockquote>
  *	 a Target object, which can be used as a DnD target<br>
@@ -27626,9 +26252,6 @@ dojo.dnd.__SourceArgs=function(){};
  * @returns {dojo.dnd.Target} new instance
 */
 dojo.dnd.Target=function(node, params){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.__TimedMoveableArgs
 /**
  * @class
  * @extends dojo.dnd.__MoveableArgs
@@ -27636,9 +26259,6 @@ dojo.dnd.Target=function(node, params){};
  * @returns {dojo.dnd.__TimedMoveableArgs} new instance
 */
 dojo.dnd.__TimedMoveableArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.dnd.TimedMoveable
 /**
  * <b>Summary:</b><blockquote>
  *	 A specialized version of Moveable to support an FPS throttling.<br>
@@ -27664,12 +26284,6 @@ dojo.dnd.TimedMoveable.prototype.onMoveStop=function(mover){};
  * @memberOf dojo.dnd.TimedMoveable
 */
 dojo.dnd.TimedMoveable.prototype.onMove=function(mover, leftTop){};
-//-jshdr-obj-end
-
-//-jshdr-id-location
-//-jshdr-obj-end
-
-//-jshdr-id-dom
 /**
  * @namespace
 */
@@ -27685,9 +26299,6 @@ dojo.dom.setSelectable=function(node, selectable){};
  * @returns {Boolean} -
 */
 dojo.dom.isDescendant=function(node, ancestor){};
-//-jshdr-obj-end
-
-//-jshdr-id-prop
 /**
  * <b>Summary:</b><blockquote>
  *	 Sets a property on an HTML element.<br>
@@ -27760,22 +26371,10 @@ dojo.prop.set=function(node, name, value){};
  * 	dojo.getProp("nodeId", "foo");
 */
 dojo.prop.get=function(node, name){};
-//-jshdr-obj-end
-
-//-jshdr-id-exports.names
-//-jshdr-obj-end
-
-//-jshdr-id-aspect
-//-jshdr-obj-end
-
-//-jshdr-id-window
 /**
  * @namespace
 */
 dojo.window.console={};
-//-jshdr-obj-end
-
-//-jshdr-id-window.console
 /**
  * @namespace
 */
@@ -27920,12 +26519,6 @@ window.console._restoreBorder=function(){};
  * @private
 */
 window.console._closeDomInspector=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo._firebug
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.fx
 /**
  * <b>Summary:</b><blockquote>
  *	 Shrink a node to nothing and hide it.<br>
@@ -28044,9 +26637,6 @@ dojo.fx.Toggler=function(args){};
  * @namespace
 */
 dojo.fx.easing={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.fx.easing
 /**
  * @param {Decimal} [n] 
 */
@@ -28230,9 +26820,6 @@ dojo.fx.easing.backInOut=function(n){};
  * @param {Decimal} [n] 
 */
 dojo.fx.easing.backIn=function(n){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.fx.Toggler
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple `dojo.Animation` toggler API.<br>
@@ -28286,9 +26873,6 @@ dojo.fx.Toggler.hideFunc=function(){};
  * @memberOf dojo.fx.Toggler
 */
 dojo.fx.Toggler.prototype.hide=function(delay){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.gears
 /**
  * <b>Summary:</b><blockquote>
  *	 factory method to get a Google Gears plugin instance to<br>
@@ -28298,9 +26882,6 @@ dojo.fx.Toggler.prototype.hide=function(delay){};
  * @returns {already defined elsewhere} -
 */
 dojo.gears._gearsObject=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.has
 /**
  * <b>Summary:</b><blockquote>
  *	 Resolves id into a module id based on possibly-nested tenary expression that branches on has feature test value(s).<br>
@@ -28357,9 +26938,6 @@ dojo.has.clearElement=function(element){};
  * 				});
 */
 dojo.has.add=function(name, test, now, force){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.html
 /**
  * <b>Summary:</b><blockquote>
  *	 inserts (replaces) the given content into the given node. dojo.place(cont, node, &amp;quot;only&amp;quot;)<br>
@@ -28423,9 +27001,6 @@ dojo.html._emptyNode=function(node){};
  * @param {String|DomNode} node 
 */
 dojo.html._ContentSetter=function(params, node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.html._ContentSetter
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides a configurable, extensible object to wrap the setting on content on a node<br>
@@ -28502,9 +27077,6 @@ dojo.html._ContentSetter.prototype._onError=function(type, err, consoleText){};
  * @memberOf dojo.html._ContentSetter
 */
 dojo.html._ContentSetter.prototype._mixin=function(params){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.iframe
 /**
  * @namespace
 */
@@ -28572,9 +27144,6 @@ dojo.io.iframe._fireNextRequest=function(){};
  * @private
 */
 dojo.io.iframe.__ioArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.iframe.__ioArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 All the properties described in the dojo.__ioArgs type, apply<br>
@@ -28587,16 +27156,10 @@ dojo.io.iframe.__ioArgs=function(){};
  * @returns {dojo.io.iframe.__ioArgs} new instance
 */
 dojo.io.iframe.__ioArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io
 /**
  * @namespace
 */
 dojo.io.script={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.iframe.send
 /**
  * <b>Summary:</b><blockquote>
  *	 Function that sends the request to the server.<br>
@@ -28607,9 +27170,6 @@ dojo.io.script={};
  * @returns {dojo.io.iframe.send} new instance
 */
 dojo.io.iframe.send=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.iframe._fireNextRequest
 /**
  * <b>Summary:</b><blockquote>
  *	 Internal method used to fire the next request in the bind queue.<br>
@@ -28619,29 +27179,17 @@ dojo.io.iframe.send=function(){};
  * @returns {dojo.io.iframe._fireNextRequest} new instance
 */
 dojo.io.iframe._fireNextRequest=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.iframe._iframeOnload
 /**
  * @class
  * @private
  * @returns {dojo.io.iframe._iframeOnload} new instance
 */
 dojo.io.iframe._iframeOnload=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.iframe._iframeOnload._currentDfd
 /**
  * @namespace
  * @private
 */
 dojo.io.iframe._iframeOnload._currentDfd={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.iframe._iframeOnload._currentDfd.ioArgs
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.script
 /**
  * <b>Summary:</b><blockquote>
  *	 removes the script element with the given id, from the given frameDocument.<br>
@@ -28769,9 +27317,6 @@ dojo.io.script._addDeadScript=function(ioArgs){};
  * @private
 */
 dojo.io.script.__ioArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.script.__ioArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 All the properties described in the dojo.__ioArgs type, apply to this<br>
@@ -28787,9 +27332,6 @@ dojo.io.script.__ioArgs=function(){};
  * @returns {dojo.io.script.__ioArgs} new instance
 */
 dojo.io.script.__ioArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.script._jsonpCallback
 /**
  * <b>Summary:</b><blockquote>
  *	 generic handler for jsonp callback. A pointer to this function<br>
@@ -28802,15 +27344,6 @@ dojo.io.script.__ioArgs=function(){};
  * @returns {dojo.io.script._jsonpCallback} new instance
 */
 dojo.io.script._jsonpCallback=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.io.script._jsonpCallback.ioArgs
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.keys
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.mouseButtons
 /**
  * <b>Summary:</b><blockquote>
  *	 Checks an event object for the pressed right button<br>
@@ -28844,15 +27377,9 @@ dojo.mouseButtons.isLeft=function(e){};
  * @returns {Boolean} -
 */
 dojo.mouseButtons.isButton=function(e, button){};
-//-jshdr-obj-end
-
-//-jshdr-id-query
 /**
 */
 dojo.query.NodeList=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-query.NodeList
 /**
  * @class
  * @returns {query.NodeList} new instance
@@ -29150,9 +27677,6 @@ query.NodeList.prototype._normalize=function(content, refNode){};
  * @memberOf query.NodeList
 */
 query.NodeList.prototype._cloneNode=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.NodeList._placeMultiple
 /**
  * <b>Summary:</b><blockquote>
  *	 private method for inserting queried nodes into all nodes in this NodeList<br>
@@ -29164,9 +27688,6 @@ query.NodeList.prototype._cloneNode=function(node){};
  * @returns {dojo.NodeList._placeMultiple} new instance
 */
 dojo.NodeList._placeMultiple=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.NodeList.val
 /**
  * <b>Summary:</b><blockquote>
  *	 If a value is passed, allows seting the value property of form elements in this<br>
@@ -29191,15 +27712,6 @@ dojo.NodeList._placeMultiple=function(){};
  * 	dojo.query("select").val(["blue", "yellow"]) //Sets the blue and yellow options to selected.
 */
 dojo.NodeList.val=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.NodeList.val.0
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.NodeList.prototype
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.number
 /**
  * <b>Summary:</b><blockquote>
  *	 Rounds to the nearest value with the given number of decimal places, away from zero<br>
@@ -29340,63 +27852,42 @@ dojo.number.__FormatOptions=function(){};
  * @private
 */
 dojo.number.__FormatAbsoluteOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.number.__FormatOptions
 /**
  * @class
  * @private
  * @returns {dojo.number.__FormatOptions} new instance
 */
 dojo.number.__FormatOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.number.__FormatAbsoluteOptions
 /**
  * @class
  * @private
  * @returns {dojo.number.__FormatAbsoluteOptions} new instance
 */
 dojo.number.__FormatAbsoluteOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.number.__RegexpOptions
 /**
  * @class
  * @private
  * @returns {dojo.number.__RegexpOptions} new instance
 */
 dojo.number.__RegexpOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.number.__ParseOptions
 /**
  * @class
  * @private
  * @returns {dojo.number.__ParseOptions} new instance
 */
 dojo.number.__ParseOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.number.__RealNumberRegexpFlags
 /**
  * @class
  * @private
  * @returns {dojo.number.__RealNumberRegexpFlags} new instance
 */
 dojo.number.__RealNumberRegexpFlags=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.number.__IntegerRegexpFlags
 /**
  * @class
  * @private
  * @returns {dojo.number.__IntegerRegexpFlags} new instance
 */
 dojo.number.__IntegerRegexpFlags=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.NodeList._stash
 /**
  * <b>Summary:</b><blockquote>
  *	 private function to hold to a parent NodeList. end() to return the parent NodeList.<br>
@@ -29422,15 +27913,6 @@ dojo.number.__IntegerRegexpFlags=function(){};
  * 		.removeClass("foo")
 */
 dojo.NodeList._stash=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-Array
-//-jshdr-obj-end
-
-//-jshdr-id-array
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.query
 /**
  * <b>Summary:</b><blockquote>
  *	 can be used as AMD plugin to conditionally load new query engine<br>
@@ -29446,9 +27928,6 @@ dojo.NodeList._stash=function(){};
  * 	});
 */
 dojo.query.load=function(id, parentRequire, loaded, config){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.regexp
 /**
  * <b>Summary:</b><blockquote>
  *	 adds group match to expression<br>
@@ -29484,9 +27963,6 @@ dojo.regexp.escapeString=function(str, except){};
  * @returns {String} -
 */
 dojo.regexp.buildGroupRE=function(arr, re, nonCapture){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.rpc
 /**
  * <b>Summary:</b><blockquote>
  *	 Take a string as a url to retrieve an smd or an object that is an smd or partial smd to use<br>
@@ -29516,9 +27992,6 @@ dojo.rpc.JsonpService=function(args, requiredArgs){};
 /**
 */
 dojo.rpc.JsonService=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.rpc.JsonpService
 /**
  * <b>Summary:</b><blockquote>
  *	 Generic JSONP service.  Minimally extends RpcService to allow<br>
@@ -29555,9 +28028,6 @@ dojo.rpc.JsonpService.prototype.createRequest=function(parameters){};
  * @memberOf dojo.rpc.JsonpService
 */
 dojo.rpc.JsonpService.prototype.bind=function(method, parameters, deferredRequestHandler, url){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.rpc.JsonService
 /**
  * @class
  * @extends dojo.rpc.RpcService
@@ -29605,9 +28075,6 @@ dojo.rpc.JsonService.prototype.callRemote=function(method, params){};
  * @memberOf dojo.rpc.JsonService
 */
 dojo.rpc.JsonService.prototype.bind=function(method, parameters, deferredRequestHandler, url){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.rpc.RpcService
 /**
  * <b>Summary:</b><blockquote>
  *	 Take a string as a url to retrieve an smd or an object that is an smd or partial smd to use<br>
@@ -29671,12 +28138,6 @@ dojo.rpc.RpcService.prototype.generateMethod=function(method, parameters, url){}
  * @memberOf dojo.rpc.RpcService
 */
 dojo.rpc.RpcService.prototype.errorCallback=function(deferredRequestHandler){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.selector
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.api
 /**
  * @namespace
 */
@@ -29696,9 +28157,6 @@ dojo.store.api={};
  * @see reference <a href="http://dojotoolkit.org/reference-guide/dojo/store.html">http://dojotoolkit.org/reference-guide/dojo/store.html</a>
 */
 dojo.store.api.Store=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.api.Store
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an abstract API that data provider implementations conform to.<br>
@@ -29835,12 +28293,6 @@ dojo.store.api.Store.Transaction=function(){};
  * </blockquote>
 */
 dojo.store.api.Store.QueryResults=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.api.Store.data
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.api.Store.QueryResults
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an object returned from query() calls that provides access to the results<br>
@@ -29927,9 +28379,6 @@ dojo.store.api.Store.QueryResults.prototype.forEach=function(callback, thisObjec
  * @memberOf dojo.store.api.Store.QueryResults
 */
 dojo.store.api.Store.QueryResults.prototype.filter=function(callback, thisObject){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.api.Store.Transaction
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an object returned from transaction() calls that represents the current<br>
@@ -29959,9 +28408,6 @@ dojo.store.api.Store.Transaction.prototype.commit=function(){};
  * @memberOf dojo.store.api.Store.Transaction
 */
 dojo.store.api.Store.Transaction.prototype.abort=function(callback, thisObject){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store
 /**
  * <b>Summary:</b><blockquote>
  *	 These are additional options for how caching is handled.<br>
@@ -30006,9 +28452,6 @@ dojo.store.Cache=function(){};
  * @namespace
 */
 dojo.store.util={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.__CacheArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 These are additional options for how caching is handled.<br>
@@ -30026,9 +28469,6 @@ dojo.store.__CacheArgs=function(){};
  * </blockquote>
 */
 dojo.store.__CacheArgs.isLoaded=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.Cache
 /**
  * @class
  * @returns {dojo.store.Cache} new instance
@@ -30091,9 +28531,6 @@ dojo.store.Cache.prototype.evict=function(id){};
  * @memberOf dojo.store.Cache
 */
 dojo.store.Cache.prototype.add=function(object, directives){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.DataStore
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an adapter for using Dojo Data stores with an object store consumer.<br>
@@ -30129,9 +28566,6 @@ dojo.store.DataStore.prototype.query=function(query, options){};
  * @memberOf dojo.store.DataStore
 */
 dojo.store.DataStore.prototype._objectConverter=function(callback){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.JsonRest
 /**
  * <b>Summary:</b><blockquote>
  *	 This is a basic store for RESTful communicating with a server through JSON<br>
@@ -30200,9 +28634,6 @@ dojo.store.JsonRest.prototype.get=function(id, options){};
  * @memberOf dojo.store.JsonRest
 */
 dojo.store.JsonRest.prototype.add=function(object, options){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.Memory
 /**
  * <b>Summary:</b><blockquote>
  *	 This is a basic in-memory object store. It implements dojo.store.api.Store.<br>
@@ -30300,12 +28731,6 @@ dojo.store.Memory.prototype.get=function(id){};
  * @memberOf dojo.store.Memory
 */
 dojo.store.Memory.prototype.add=function(object, options){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.store.util
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.string
 /**
  * <b>Summary:</b><blockquote>
  *	 Trims whitespace from both sides of the string<br>
@@ -30396,9 +28821,6 @@ dojo.string.rep=function(str, num){};
  * 	dojo.string.pad("Dojo", 10, "+", true);
 */
 dojo.string.pad=function(text, size, ch, end){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.touch
 /**
  * <b>Summary:</b><blockquote>
  *	 Register a listener to 'touchend'|'mouseup' for the given node<br>
@@ -30431,22 +28853,10 @@ dojo.touch.move=function(node, listener){};
  * @param {Function} listener Callback function
 */
 dojo.touch.cancel=function(node, listener){};
-//-jshdr-obj-end
-
-//-jshdr-id-baseWindow.doc
 /**
  * @namespace
 */
 baseWindow.doc={};
-//-jshdr-obj-end
-
-//-jshdr-id-Math
-//-jshdr-obj-end
-
-//-jshdr-id-baseWindow.doc.documentElement
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.window
 /**
  * <b>Summary:</b><blockquote>
  *	 Scroll the passed node into view, if it is not already.<br>
@@ -30470,9 +28880,6 @@ dojo.window.getBox=function(){};
  * @returns {Window} -
 */
 dojo.window.get=function(doc){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.analytics
 /**
  * @namespace
 */
@@ -30518,9 +28925,6 @@ dojox.analytics.Urchin=function(args){};
  * @namespace
 */
 dojox.analytics.plugins={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox
 /**
  * @namespace
 */
@@ -30846,18 +29250,6 @@ dojox.app={};
  * @namespace
 */
 dojox.NodeList={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.analytics.plugins
-//-jshdr-obj-end
-
-//-jshdr-id-dependencies
-//-jshdr-obj-end
-
-//-jshdr-id-djConfig
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.analytics.Urchin
 /**
  * <b>Summary:</b><blockquote>
  *	 A Google-analytics helper, for post-onLoad inclusion of the tracker, and<br>
@@ -30944,9 +29336,6 @@ dojox.analytics.Urchin.prototype._gotGA=function(){};
  * @memberOf dojox.analytics.Urchin
 */
 dojox.analytics.Urchin.prototype.GAonLoad=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.app
 /**
 */
 dojox.app.view=function(){};
@@ -30963,9 +29352,6 @@ dojox.app.animation=function(args){};
  * @namespace
 */
 dojox.app.module={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.app.animation
 /**
  * @class
  * @param {mixed} args 
@@ -31050,22 +29436,10 @@ dojox.app.animation.prototype._beforeClear=function(){};
  * @memberOf dojox.app.animation
 */
 dojox.app.animation.prototype._applyState=function(state){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.app.animation.node
 /**
  * @namespace
 */
 dojox.app.animation.node={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.app.animation.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.app.module
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.app.scene
 /**
  * @class
  * @extends dijit._WidgetBase
@@ -31178,12 +29552,6 @@ dojox.app.scene.prototype.activate=function(){};
  * @memberOf dojox.app.scene
 */
 dojox.app.scene.prototype._setSelectedChildAttr=function(child, opts){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.app.scene.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.app.view
 /**
  * @class
  * @returns {dojox.app.view} new instance
@@ -31205,9 +29573,6 @@ dojox.app.view.prototype.deactivate=function(){};
  * @memberOf dojox.app.view
 */
 dojox.app.view.prototype.activate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io
 /**
  * @namespace
 */
@@ -31227,9 +29592,6 @@ dojox.atom.io.Connection=function(sync, preventCache){};
  * @namespace
 */
 dojox.atom.io.model={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.Connection
 /**
  * <b>Summary:</b><blockquote>
  *	 This object implements a transport layer for working with ATOM feeds and ATOM publishing protocols.<br>
@@ -31357,16 +29719,10 @@ dojox.atom.io.Connection.prototype.addEntry=function(entry, url, callback, error
  * @memberOf dojox.atom.io.Connection
 */
 dojox.atom.io.Connection.prototype._getXmlDoc=function(url, nodeName, newNode, namespace, callback, errorCallback, scope){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom
 /**
  * @namespace
 */
 dojox.atom.widget={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'Workspace' types.<br>
@@ -31486,9 +29842,6 @@ dojox.atom.io.model.Category=function(scheme, term, label){};
  * @param {mixed} args 
 */
 dojox.atom.io.model.AtomItem=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Node
 /**
  * @class
  * @param {mixed} name_space 
@@ -31536,9 +29889,6 @@ dojox.atom.io.model.Node.prototype._saveAttributes=function(node){};
  * @memberOf dojox.atom.io.model.Node
 */
 dojox.atom.io.model.Node.prototype._getAttributeNames=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.AtomItem
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for generic Atom items.<br>
@@ -31712,12 +30062,6 @@ dojox.atom.io.model.AtomItem.prototype._postBuild=function(){};
  * @memberOf dojox.atom.io.model.AtomItem
 */
 dojox.atom.io.model.AtomItem.prototype._getAttributeNames=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.AtomItem.title
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Category
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'Category' types.<br>
@@ -31757,9 +30101,6 @@ dojox.atom.io.model.Category.prototype._postBuild=function(){};
  * @memberOf dojox.atom.io.model.Category
 */
 dojox.atom.io.model.Category.prototype._getAttributeNames=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Content
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'Content' types. Such as summary, content, username, and so on types of data.<br>
@@ -31802,9 +30143,6 @@ dojox.atom.io.model.Content.prototype._postBuild=function(){};
  * @memberOf dojox.atom.io.model.Content
 */
 dojox.atom.io.model.Content.prototype._getAttributeNames=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Link
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'link' types.<br>
@@ -31846,9 +30184,6 @@ dojox.atom.io.model.Link.prototype._postBuild=function(){};
  * @memberOf dojox.atom.io.model.Link
 */
 dojox.atom.io.model.Link.prototype._getAttributeNames=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Person
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'person' types, such as Author, controbutors, and so on.<br>
@@ -31899,12 +30234,6 @@ dojox.atom.io.model.Person.prototype._postBuild=function(){};
  * @memberOf dojox.atom.io.model.Person
 */
 dojox.atom.io.model.Person.prototype._getAttributeNames=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Person._accepts
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Generator
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'Generator' types.<br>
@@ -31939,9 +30268,6 @@ dojox.atom.io.model.Generator.prototype.buildFromDom=function(node){};
  * @memberOf dojox.atom.io.model.Generator
 */
 dojox.atom.io.model.Generator.prototype._postBuild=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Entry
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'Entry' types.<br>
@@ -31987,12 +30313,6 @@ dojox.atom.io.model.Entry.prototype.getEditHref=function(){};
  * @memberOf dojox.atom.io.model.Entry
 */
 dojox.atom.io.model.Entry.prototype._getAttributeNames=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Entry._accepts
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Feed
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'Feed' types.<br>
@@ -32081,12 +30401,6 @@ dojox.atom.io.model.Feed.prototype.createEntry=function(){};
  * @memberOf dojox.atom.io.model.Feed
 */
 dojox.atom.io.model.Feed.prototype.addEntry=function(entry){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Feed._accepts
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Service
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'Feed' types.<br>
@@ -32120,9 +30434,6 @@ dojox.atom.io.model.Service.prototype.getCollection=function(url){};
  * @memberOf dojox.atom.io.model.Service
 */
 dojox.atom.io.model.Service.prototype.buildFromDom=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Workspace
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'Workspace' types.<br>
@@ -32142,9 +30453,6 @@ dojox.atom.io.model.Workspace=function(title){};
  * @memberOf dojox.atom.io.model.Workspace
 */
 dojox.atom.io.model.Workspace.prototype.buildFromDom=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.io.model.Collection
 /**
  * <b>Summary:</b><blockquote>
  *	 Class container for 'Collection' types.<br>
@@ -32165,9 +30473,6 @@ dojox.atom.io.model.Collection=function(href, title){};
  * @memberOf dojox.atom.io.model.Collection
 */
 dojox.atom.io.model.Collection.prototype.buildFromDom=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget
 /**
  * <b>Summary:</b><blockquote>
  *	 An editor for dojox.atom.io.model.Person objects.<br>
@@ -32243,9 +30548,6 @@ dojox.atom.widget.EntryHeader=function(){};
  * A filter to be applied to the list of entries.<br>
 */
 dojox.atom.widget.AtomEntryCategoryFilter=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor
 /**
  * <b>Summary:</b><blockquote>
  *	 An ATOM feed entry editor that allows viewing of the individual attributes of an entry.<br>
@@ -32516,60 +30818,8 @@ dojox.atom.widget.FeedEntryEditor.prototype._createEditor=function(anchorNode, n
  * @memberOf dojox.atom.widget.FeedEntryEditor
 */
 dojox.atom.widget.FeedEntryEditor.prototype._closeTag=function(xhtml, tag){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.displayOptions
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.feedEntryCheckBoxLabelTitle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.feedEntryCheckBoxLabelAuthors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.feedEntryCheckBoxLabelContributors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.feedEntryCheckBoxLabelId
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.close
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.feedEntryCheckBoxLabelUpdated
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.feedEntryCheckBoxLabelSummary
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.feedEntryCheckBoxLabelContent
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.doNew
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.edit
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.save
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.cancel
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.entryTitleSelect
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor._editors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.entrySummarySelect
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryEditor.entryContentSelect
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.PeopleEditor
 /**
  * <b>Summary:</b><blockquote>
  *	 An editor for dojox.atom.io.model.Person objects.<br>
@@ -32644,9 +30894,6 @@ dojox.atom.widget.PeopleEditor.prototype._createEditor=function(value, id, name,
  * @memberOf dojox.atom.widget.PeopleEditor
 */
 dojox.atom.widget.PeopleEditor.prototype._add=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryViewer
 /**
  * <b>Summary:</b><blockquote>
  *	 An ATOM feed entry editor for publishing updated ATOM entries, or viewing non-editable entries.<br>
@@ -32970,36 +31217,7 @@ dojox.atom.widget.FeedEntryViewer.prototype._handleEvent=function(entrySelection
  * @memberOf dojox.atom.widget.FeedEntryViewer
 */
 dojox.atom.widget.FeedEntryViewer.prototype._displaySections=function(){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.atom.widget.FeedEntryViewer.displayOptions
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryViewer.feedEntryCheckBoxLabelTitle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryViewer.feedEntryCheckBoxLabelAuthors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryViewer.feedEntryCheckBoxLabelContributors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryViewer.feedEntryCheckBoxLabelId
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryViewer.close
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryViewer.feedEntryCheckBoxLabelUpdated
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryViewer.feedEntryCheckBoxLabelSummary
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedEntryViewer.feedEntryCheckBoxLabelContent
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.EntryHeader
 /**
  * <b>Summary:</b><blockquote>
  *	 Widget representing a header in a FeedEntryViewer/Editor<br>
@@ -33026,9 +31244,6 @@ dojox.atom.widget.EntryHeader.prototype.destroy=function(){};
  * @memberOf dojox.atom.widget.EntryHeader
 */
 dojox.atom.widget.EntryHeader.prototype.clear=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedViewer
 /**
  * <b>Summary:</b><blockquote>
  *	 An ATOM feed viewer that allows for viewing a feed, deleting entries, and editing entries.<br>
@@ -33279,9 +31494,6 @@ dojox.atom.widget.FeedViewer.prototype._addEntry=function(entry){};
  * @param {mixed} label 
 */
 dojox.atom.widget.FeedViewer.CategoryIncludeFilter=function(scheme, term, label){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedViewerEntry
 /**
  * <b>Summary:</b><blockquote>
  *	 Widget for handling the display of an entry and specific events associated with it.<br>
@@ -33351,15 +31563,6 @@ dojox.atom.widget.FeedViewerEntry.prototype.disableDelete=function(){};
  * @memberOf dojox.atom.widget.FeedViewerEntry
 */
 dojox.atom.widget.FeedViewerEntry.prototype.deleteEntry=function(event){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedViewerEntry.deleteButton
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedViewerEntry.deleteButton.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedViewerGrouping
 /**
  * <b>Summary:</b><blockquote>
  *	 Grouping of feed entries.<br>
@@ -33378,9 +31581,6 @@ dojox.atom.widget.FeedViewerGrouping=function(){};
  * @memberOf dojox.atom.widget.FeedViewerGrouping
 */
 dojox.atom.widget.FeedViewerGrouping.prototype.setText=function(text){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.AtomEntryCategoryFilter
 /**
  * <b>Summary:</b><blockquote>
  *	 A filter to be applied to the list of entries.<br>
@@ -33390,9 +31590,6 @@ dojox.atom.widget.FeedViewerGrouping.prototype.setText=function(text){};
  * @returns {dojox.atom.widget.AtomEntryCategoryFilter} new instance
 */
 dojox.atom.widget.AtomEntryCategoryFilter=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.atom.widget.FeedViewer.CategoryIncludeFilter
 /**
  * <b>Summary:</b><blockquote>
  *	 The initializer function.<br>
@@ -33414,9 +31611,6 @@ dojox.atom.widget.FeedViewer.CategoryIncludeFilter=function(scheme, term, label)
  * @memberOf dojox.atom.widget.FeedViewer.CategoryIncludeFilter
 */
 dojox.atom.widget.FeedViewer.CategoryIncludeFilter.prototype.match=function(entry){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av
 /**
  * <b>Summary:</b><blockquote>
  *	 Used as a mixin for dojox and AIR media<br>
@@ -33481,9 +31675,6 @@ dojox.av.FLAudio=function(options){};
  * @namespace
 */
 dojox.av.widget={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.FLAudio
 /**
  * <b>Summary:</b><blockquote>
  *	 Play MP3 files through the Flash SWF built in the<br>
@@ -33721,17 +31912,11 @@ dojox.av.FLAudio.prototype._normalizeVolume=function(vol){};
  * @memberOf dojox.av.FLAudio
 */
 dojox.av.FLAudio.prototype._normalizeUrl=function(_url){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.FLAudio._flashObject
 /**
  * @param {mixed} err 
  * @memberOf dojox.av.FLAudio._flashObject
 */
 dojox.av.FLAudio._flashObject.prototype.onError=function(err){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.FLVideo
 /**
  * <b>Summary:</b><blockquote>
  *	 Inserts a Flash FLV video into the HTML page and provides methods<br>
@@ -33982,17 +32167,11 @@ dojox.av.FLVideo.prototype._update=function(){};
  * @memberOf dojox.av.FLVideo
 */
 dojox.av.FLVideo.prototype._checkBuffer=function(time, bufferLength){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.FLVideo._flashObject
 /**
  * @param {mixed} err 
  * @memberOf dojox.av.FLVideo._flashObject
 */
 dojox.av.FLVideo._flashObject.prototype.onError=function(err){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av._Media
 /**
  * <b>Summary:</b><blockquote>
  *	 Used as a mixin for dojox and AIR media<br>
@@ -34228,9 +32407,6 @@ dojox.av._Media.prototype._figureStatus=function(){};
  * @memberOf dojox.av._Media
 */
 dojox.av._Media.prototype._eventFactory=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.widget
 /**
  * <b>Summary:</b><blockquote>
  *	 A volume widget to use with dojox.av.widget.Player<br>
@@ -34287,9 +32463,6 @@ dojox.av.widget.Player=function(){};
  * </blockquote>
 */
 dojox.av.widget.PlayButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.widget.PlayButton
 /**
  * <b>Summary:</b><blockquote>
  *	 A Play/Pause button widget to use with dojox.av.widget.Player<br>
@@ -34353,9 +32526,6 @@ dojox.av.widget.PlayButton.prototype.onPause=function(){};
  * @memberOf dojox.av.widget.PlayButton
 */
 dojox.av.widget.PlayButton.prototype.onClick=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.widget.Player
 /**
  * <b>Summary:</b><blockquote>
  *	 A Media Player UI widget for all types of dojox.av and AIR media.<br>
@@ -34412,9 +32582,6 @@ dojox.av.widget.Player.prototype.onResize=function(evt){};
  * @memberOf dojox.av.widget.Player
 */
 dojox.av.widget.Player.prototype._fillContent=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.widget.ProgressSlider
 /**
  * <b>Summary:</b><blockquote>
  *	 A custom slider widget to use with dojox.av.widget.Player.<br>
@@ -34508,9 +32675,6 @@ dojox.av.widget.ProgressSlider.prototype.handleOut=function(){};
  * @memberOf dojox.av.widget.ProgressSlider
 */
 dojox.av.widget.ProgressSlider.prototype.endDrag=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.widget.Status
 /**
  * <b>Summary:</b><blockquote>
  *	 A Status widget to use with dojox.av.widget.Player<br>
@@ -34588,15 +32752,6 @@ dojox.av.widget.Status.prototype.onEnd=function(){};
  * @memberOf dojox.av.widget.Status
 */
 dojox.av.widget.Status.prototype.onBuffer=function(isBuffering){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.widget.Status.durNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.widget.Status.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.av.widget.VolumeButton
 /**
  * <b>Summary:</b><blockquote>
  *	 A volume widget to use with dojox.av.widget.Player<br>
@@ -34724,9 +32879,6 @@ dojox.av.widget.VolumeButton.prototype._getVolumeDim=function(){};
  * @memberOf dojox.av.widget.VolumeButton
 */
 dojox.av.widget.VolumeButton.prototype._getHandleDim=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.calc
 /**
  * <b>Summary:</b><blockquote>
  *	 A graphing, scientific calculator<br>
@@ -34783,9 +32935,6 @@ dojox.calc.GraphPro=function(){};
  * </blockquote>
 */
 dojox.calc.FuncGen=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.calc._Executor
 /**
  * <b>Summary:</b><blockquote>
  *	 A graphing, scientific calculator<br>
@@ -34837,9 +32986,6 @@ dojox.calc._Executor.prototype._onLoad=function(env){};
  * @memberOf dojox.calc._Executor
 */
 dojox.calc._Executor.prototype.Function=function(name, args, body){};
-//-jshdr-obj-end
-
-//-jshdr-id-calc
 /**
  * @param {mixed} number 
 */
@@ -34881,9 +33027,6 @@ dojox.calc.generatePoints=function(funcToGraph, x, y, width, minX, maxX, minY, m
  * @param {mixed} params 
 */
 dojox.calc.draw=function(chart, functionToGraph, params){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.calc.FuncGen
 /**
  * <b>Summary:</b><blockquote>
  *	 The dialog layout for making functions<br>
@@ -34958,12 +33101,6 @@ dojox.calc.FuncGen.prototype.deleteFunction=function(name){};
  * @memberOf dojox.calc.FuncGen
 */
 dojox.calc.FuncGen.prototype.clear=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.calc.FuncGen.combo
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.calc.Grapher
 /**
  * <b>Summary:</b><blockquote>
  *	 The dialog layout for making graphs<br>
@@ -35088,9 +33225,6 @@ dojox.calc.Grapher.prototype.changedColor=function(){};
  * @memberOf dojox.calc.Grapher
 */
 dojox.calc.Grapher.prototype.addXYAxes=function(chart){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.calc.GraphPro
 /**
  * <b>Summary:</b><blockquote>
  *	 The dialog widget for a graphing, scientific calculator<br>
@@ -35112,9 +33246,6 @@ dojox.calc.GraphPro.prototype.makeFunctionWindow=function(){};
  * @memberOf dojox.calc.GraphPro
 */
 dojox.calc.GraphPro.prototype.executorLoaded=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.calc.Standard
 /**
  * <b>Summary:</b><blockquote>
  *	 The dialog layout for a standard 4 function/algebraic calculator<br>
@@ -35222,15 +33353,6 @@ dojox.calc.Standard.prototype.cycleCommandDown=function(){};
  * @memberOf dojox.calc.Standard
 */
 dojox.calc.Standard.prototype.clearText=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.calc.Standard.textboxWidget.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.calc.Standard.displayBox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d
 /**
  * @namespace
 */
@@ -35434,9 +33556,6 @@ dojox.charting.action2d.ChartAction=function(chart, plot){};
  * @param {String|dojox.charting.plot2d.Base} [plot] Optional target plot for this action.  Default is &quot;default&quot;.
 */
 dojox.charting.action2d.Base=function(chart, plot){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.Base
 /**
  * <b>Summary:</b><blockquote>
  *	 Base action class for plot and chart actions.<br>
@@ -35468,9 +33587,6 @@ dojox.charting.action2d.Base.prototype.destroy=function(){};
  * @memberOf dojox.charting.action2d.Base
 */
 dojox.charting.action2d.Base.prototype.connect=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting
 /**
  * <b>Summary:</b><blockquote>
  *	 An optional arguments object that can be used in the Series constructor.<br>
@@ -35808,9 +33924,6 @@ dojox.charting.plot2d={};
  * @namespace
 */
 dojox.charting.axis2d={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.ChartAction
 /**
  * <b>Summary:</b><blockquote>
  *	 Base action class for chart actions.<br>
@@ -35836,9 +33949,6 @@ dojox.charting.action2d.ChartAction.prototype.disconnect=function(){};
  * @memberOf dojox.charting.action2d.ChartAction
 */
 dojox.charting.action2d.ChartAction.prototype.connect=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.__HighlightCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Additional arguments for highlighting actions.<br>
@@ -35849,9 +33959,6 @@ dojox.charting.action2d.ChartAction.prototype.connect=function(){};
  * @returns {dojox.charting.action2d.__HighlightCtorArgs} new instance
 */
 dojox.charting.action2d.__HighlightCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.Highlight
 /**
  * <b>Summary:</b><blockquote>
  *	 Creates a highlighting action on a plot, where an element on that plot<br>
@@ -35881,15 +33988,6 @@ dojox.charting.action2d.Highlight.defaultParams={};
  * @memberOf dojox.charting.action2d.Highlight
 */
 dojox.charting.action2d.Highlight.prototype.process=function(o){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.Highlight.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.Highlight.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.PlotAction
 /**
  * <b>Summary:</b><blockquote>
  *	 Base action class for plot actions.<br>
@@ -35934,9 +34032,6 @@ dojox.charting.action2d.PlotAction.prototype.destroy=function(){};
  * @memberOf dojox.charting.action2d.PlotAction
 */
 dojox.charting.action2d.PlotAction.prototype.connect=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d._IndicatorElement
 /**
  * <b>Summary:</b><blockquote>
  *	 Internal element used by indicator actions.<br>
@@ -36050,22 +34145,10 @@ dojox.charting.action2d._IndicatorElement.prototype._renderIndicator=function(co
  * @memberOf dojox.charting.action2d._IndicatorElement
 */
 dojox.charting.action2d._IndicatorElement.prototype._getData=function(cd, attr, v){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d._IndicatorElement.inter
 /**
  * @namespace
 */
 dojox.charting.action2d._IndicatorElement.inter={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d._IndicatorElement.inter.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d._IndicatorElement.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.__MagnifyCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Additional arguments for highlighting actions.<br>
@@ -36076,9 +34159,6 @@ dojox.charting.action2d._IndicatorElement.inter={};
  * @returns {dojox.charting.action2d.__MagnifyCtorArgs} new instance
 */
 dojox.charting.action2d.__MagnifyCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.Magnify
 /**
  * <b>Summary:</b><blockquote>
  *	 Create an action that magnifies the object the action is applied to.<br>
@@ -36103,12 +34183,6 @@ dojox.charting.action2d.Magnify.defaultParams={};
  * @memberOf dojox.charting.action2d.Magnify
 */
 dojox.charting.action2d.Magnify.prototype.process=function(o){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.Magnify.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.__MouseIndicatorCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Additional arguments for mouse indicator.<br>
@@ -36134,9 +34208,6 @@ dojox.charting.action2d.__MouseIndicatorCtorArgs.prototype.labelFunc=function(){
  * @memberOf dojox.charting.action2d.__MouseIndicatorCtorArgs
 */
 dojox.charting.action2d.__MouseIndicatorCtorArgs.prototype.fillFunc=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.MouseIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 Create a mouse indicator action. You can drag mouse over the chart to display a data indicator.<br>
@@ -36207,15 +34278,6 @@ dojox.charting.action2d.MouseIndicator.prototype._onMouseSingle=function(event){
  * @memberOf dojox.charting.action2d.MouseIndicator
 */
 dojox.charting.action2d.MouseIndicator.prototype._disconnectHandles=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.MouseIndicator.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.MouseIndicator.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.__MouseZoomAndPanCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Additional arguments for mouse zoom and pan actions.<br>
@@ -36225,9 +34287,6 @@ dojox.charting.action2d.MouseIndicator.prototype._disconnectHandles=function(){}
  * @returns {dojox.charting.action2d.__MouseZoomAndPanCtorArgs} new instance
 */
 dojox.charting.action2d.__MouseZoomAndPanCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.MouseZoomAndPan
 /**
  * <b>Summary:</b><blockquote>
  *	 Create an mouse zoom and pan action.<br>
@@ -36320,12 +34379,6 @@ dojox.charting.action2d.MouseZoomAndPan.prototype._onZoom=function(scroll, event
  * @memberOf dojox.charting.action2d.MouseZoomAndPan
 */
 dojox.charting.action2d.MouseZoomAndPan.prototype._disconnectHandles=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.MouseZoomAndPan.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.__MoveSliceCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Additional arguments for highlighting actions.<br>
@@ -36336,9 +34389,6 @@ dojox.charting.action2d.MouseZoomAndPan.prototype._disconnectHandles=function(){
  * @returns {dojox.charting.action2d.__MoveSliceCtorArgs} new instance
 */
 dojox.charting.action2d.__MoveSliceCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.MoveSlice
 /**
  * <b>Summary:</b><blockquote>
  *	 Create an action for a pie chart that moves and scales a pie slice.<br>
@@ -36367,15 +34417,6 @@ dojox.charting.action2d.MoveSlice.prototype.reset=function(){};
  * @memberOf dojox.charting.action2d.MoveSlice
 */
 dojox.charting.action2d.MoveSlice.prototype.process=function(o){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.MoveSlice.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.PlotAction.overOutEvents
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.__PlotActionCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 The base keyword arguments object for creating an action2d.<br>
@@ -36385,12 +34426,6 @@ dojox.charting.action2d.MoveSlice.prototype.process=function(o){};
  * @returns {dojox.charting.action2d.__PlotActionCtorArgs} new instance
 */
 dojox.charting.action2d.__PlotActionCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dfe
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.__ShakeCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Additional arguments for highlighting actions.<br>
@@ -36400,9 +34435,6 @@ dojox.charting.action2d.__PlotActionCtorArgs=function(){};
  * @returns {dojox.charting.action2d.__ShakeCtorArgs} new instance
 */
 dojox.charting.action2d.__ShakeCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.Shake
 /**
  * <b>Summary:</b><blockquote>
  *	 Create a shaking action for use on an element in a chart.<br>
@@ -36427,12 +34459,6 @@ dojox.charting.action2d.Shake.defaultParams={};
  * @memberOf dojox.charting.action2d.Shake
 */
 dojox.charting.action2d.Shake.prototype.process=function(o){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.Shake.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.__TooltipCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Additional arguments for tooltip actions.<br>
@@ -36451,9 +34477,6 @@ dojox.charting.action2d.__TooltipCtorArgs=function(){};
  * @memberOf dojox.charting.action2d.__TooltipCtorArgs
 */
 dojox.charting.action2d.__TooltipCtorArgs.prototype.text=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.Tooltip
 /**
  * <b>Summary:</b><blockquote>
  *	 Create an action on a plot where a tooltip is shown when hovering over an element.<br>
@@ -36478,12 +34501,6 @@ dojox.charting.action2d.Tooltip.defaultParams={};
  * @memberOf dojox.charting.action2d.Tooltip
 */
 dojox.charting.action2d.Tooltip.prototype.process=function(o){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.Tooltip.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.__TouchIndicatorCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Additional arguments for Touch indicator.<br>
@@ -36509,9 +34526,6 @@ dojox.charting.action2d.__TouchIndicatorCtorArgs.prototype.labelFunc=function(){
  * @memberOf dojox.charting.action2d.__TouchIndicatorCtorArgs
 */
 dojox.charting.action2d.__TouchIndicatorCtorArgs.prototype.fillFunc=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.TouchIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 Create a touch indicator action. You can touch over the chart to display a data indicator.<br>
@@ -36584,18 +34598,6 @@ dojox.charting.action2d.TouchIndicator.prototype._onTouchSingle=function(event, 
  * @memberOf dojox.charting.action2d.TouchIndicator
 */
 dojox.charting.action2d.TouchIndicator.prototype._onTouchDual=function(event){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.TouchIndicator.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.TouchIndicator.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.TouchIndicator.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d._GlassView
 /**
  * <b>Summary:</b><blockquote>
  *	 Private internal class used by TouchZoomAndPan actions.<br>
@@ -36649,9 +34651,6 @@ dojox.charting.action2d._GlassView.prototype.clear=function(){};
  * @memberOf dojox.charting.action2d._GlassView
 */
 dojox.charting.action2d._GlassView.prototype.cleanGroup=function(creator){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.__TouchZoomAndPanCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Additional arguments for mouse zoom and pan actions.<br>
@@ -36661,9 +34660,6 @@ dojox.charting.action2d._GlassView.prototype.cleanGroup=function(creator){};
  * @returns {dojox.charting.action2d.__TouchZoomAndPanCtorArgs} new instance
 */
 dojox.charting.action2d.__TouchZoomAndPanCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.TouchZoomAndPan
 /**
  * <b>Summary:</b><blockquote>
  *	 Create a touch zoom and pan action.<br>
@@ -36736,15 +34732,6 @@ dojox.charting.action2d.TouchZoomAndPan.prototype.connect=function(){};
  * @memberOf dojox.charting.action2d.TouchZoomAndPan
 */
 dojox.charting.action2d.TouchZoomAndPan.prototype._startScroll=function(axis){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.TouchZoomAndPan.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.action2d.TouchZoomAndPan.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d
 /**
  * <b>Summary:</b><blockquote>
  *	 Optional arguments used in the definition of an axis.<br>
@@ -36808,9 +34795,6 @@ dojox.charting.axis2d.Default=function(chart, kwArgs){};
  * @param {dojox.charting.axis2d.__AxisCtorArgs} [kwArgs] An optional arguments object to define the axis parameters.
 */
 dojox.charting.axis2d.Base=function(chart, kwArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Base
 /**
  * <b>Summary:</b><blockquote>
  *	 The base class for any axis.  This is more of an interface/API<br>
@@ -36893,9 +34877,6 @@ dojox.charting.axis2d.Base.prototype.clear=function(){};
  * @memberOf dojox.charting.axis2d.Base
 */
 dojox.charting.axis2d.Base.prototype.calculate=function(min, max, span){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.Element
 /**
  * <b>Summary:</b><blockquote>
  *	 A base class that is used to build other elements of a chart, such as<br>
@@ -37008,9 +34989,6 @@ dojox.charting.Element.prototype._pseudoRadialFill=function(fill, center, radius
  * @memberOf dojox.charting.Element
 */
 dojox.charting.Element.prototype._plotFill=function(fill, dim, offsets){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Default
 /**
  * <b>Summary:</b><blockquote>
  *	 The default axis object used in dojox.charting.  See dojox.charting.Chart.addAxis for details.<br>
@@ -37088,24 +35066,6 @@ dojox.charting.axis2d.Default.prototype.createLine=function(creator, params){};
  * @memberOf dojox.charting.axis2d.Default
 */
 dojox.charting.axis2d.Default.prototype.cleanGroup=function(creator){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Default.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Default.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Default.scaler
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Default.chart.theme
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Default.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.__AxisCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Optional arguments used in the definition of an axis.<br>
@@ -37121,9 +35081,6 @@ dojox.charting.axis2d.__AxisCtorArgs=function(){};
  * </blockquote>
 */
 dojox.charting.axis2d.__AxisCtorArgs.labelFunc=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Invisible
 /**
  * <b>Summary:</b><blockquote>
  *	 The default axis object used in dojox.charting.  See dojox.charting.Chart.addAxis for details.<br>
@@ -37239,27 +35196,6 @@ dojox.charting.axis2d.Invisible.prototype.calculate=function(min, max, span, lab
  * @memberOf dojox.charting.axis2d.Invisible
 */
 dojox.charting.axis2d.Invisible.prototype._groupLabelWidth=function(labels, font, wcLimit){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Invisible.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Invisible.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Invisible.scaler
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Invisible.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.axis2d.Invisible.chart.theme
-//-jshdr-obj-end
-
-//-jshdr-id-du
-//-jshdr-obj-end
-
-//-jshdr-id-Chart
 /**
  * <b>Summary:</b><blockquote>
  *	 Add support for bidi scripts.<br>
@@ -37337,9 +35273,6 @@ dojox.Chart.prototype.getTextDir=function(text){};
  * @memberOf dojox.Chart
 */
 dojox.Chart.prototype._setTextDirAttr=function(textDir){};
-//-jshdr-obj-end
-
-//-jshdr-id-Chart.postscript
 /**
  * <b>Summary:</b><blockquote>
  *	 Kicks off chart instantiation.<br>
@@ -37350,12 +35283,6 @@ dojox.Chart.prototype._setTextDirAttr=function(textDir){};
  * @returns {Chart.postscript} new instance
 */
 Chart.postscript=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-Chart.postscript.surface
-//-jshdr-obj-end
-
-//-jshdr-id-Chart.setTextDir
 /**
  * <b>Summary:</b><blockquote>
  *	 Setter for the textDir attribute.<br>
@@ -37366,9 +35293,6 @@ Chart.postscript=function(){};
  * @returns {Chart.setTextDir} new instance
 */
 Chart.setTextDir=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.Chart3D
 /**
  * @class
  * @param {mixed} node 
@@ -37434,9 +35358,6 @@ dojox.charting.Chart3D.prototype._generatePlots=function(){};
  * @memberOf dojox.charting.Chart3D
 */
 dojox.charting.Chart3D.prototype._add=function(array, item){};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d
 /**
 */
 dojox.gfx3d.Viewport=function(){};
@@ -37468,15 +35389,9 @@ dojox.gfx3d.drawer={};
  * @private
 */
 dojox.gfx3d._creators={};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx
 /**
 */
 dojox.gfx.Surface=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.Chart
 /**
  * <b>Summary:</b><blockquote>
  *	 The main chart object in dojox.charting.  This will create a two dimensional<br>
@@ -37922,9 +35837,6 @@ dojox.charting.Chart.prototype._makeClean=function(){};
  * @memberOf dojox.charting.Chart
 */
 dojox.charting.Chart.prototype._invalidateDependentPlots=function(plotName, verticalAxis){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.__ChartCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 The keyword arguments that can be passed in a Chart constructor.<br>
@@ -37934,9 +35846,6 @@ dojox.charting.Chart.prototype._invalidateDependentPlots=function(plotName, vert
  * @returns {dojox.charting.__ChartCtorArgs} new instance
 */
 dojox.charting.__ChartCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.DataChart
 /**
  * <b>Summary:</b><blockquote>
  *	 DataChart<br>
@@ -38113,18 +36022,6 @@ dojox.charting.DataChart.prototype.destroy=function(){};
  * @memberOf dojox.charting.DataChart
 */
 dojox.charting.DataChart.prototype.convertLabels=function(axis){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.DataChart.xaxis
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.DataChart.yaxis
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.DataChart.chartTheme.plotarea
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.DataSeries
 /**
  * <b>Summary:</b><blockquote>
  *	 Series adapter for dojo.data stores.<br>
@@ -38233,12 +36130,6 @@ dojox.charting.DataSeries.prototype._defaultValue=function(store, item){};
  * @memberOf dojox.charting.DataSeries
 */
 dojox.charting.DataSeries.prototype._buildItemMap=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.Element.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d
 /**
  * <b>Summary:</b><blockquote>
  *	 The base keyword arguments object for plot constructors.<br>
@@ -38453,9 +36344,6 @@ dojox.charting.plot2d.Bars=function(chart, kwArgs){};
  * </blockquote>
 */
 dojox.charting.plot2d.Areas=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Areas
 /**
  * <b>Summary:</b><blockquote>
  *	 Represents an area chart.  See dojox.charting.plot2d.Default for details.<br>
@@ -38465,12 +36353,6 @@ dojox.charting.plot2d.Areas=function(){};
  * @returns {dojox.charting.plot2d.Areas} new instance
 */
 dojox.charting.plot2d.Areas=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Areas.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Default
 /**
  * <b>Summary:</b><blockquote>
  *	 Return a new plot.<br>
@@ -38508,9 +36390,6 @@ dojox.charting.plot2d.Default.prototype.render=function(dim, offsets){};
  * @memberOf dojox.charting.plot2d.Default
 */
 dojox.charting.plot2d.Default.prototype.createPath=function(run, creator, params){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.__BarCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Additional keyword arguments for bar charts.<br>
@@ -38521,9 +36400,6 @@ dojox.charting.plot2d.Default.prototype.createPath=function(run, creator, params
  * @returns {dojox.charting.plot2d.__BarCtorArgs} new instance
 */
 dojox.charting.plot2d.__BarCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Bars
 /**
  * <b>Summary:</b><blockquote>
  *	 The plot object representing a bar chart (horizontal bars).<br>
@@ -38576,18 +36452,6 @@ dojox.charting.plot2d.Bars.prototype.createRect=function(run, creator, params){}
  * @memberOf dojox.charting.plot2d.Bars
 */
 dojox.charting.plot2d.Bars.prototype._animateBar=function(shape, hoffset, hsize){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Bars.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Bars.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Bars.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Base
 /**
  * <b>Summary:</b><blockquote>
  *	 Create a base plot for charting.<br>
@@ -38746,24 +36610,6 @@ dojox.charting.plot2d.Base.prototype.calculateAxes=function(dim){};
  * @memberOf dojox.charting.plot2d.Base
 */
 dojox.charting.plot2d.Base.prototype.addSeries=function(run){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Base.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Base._vAxis
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Base._hAxis
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Base._hScaler
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Base._vScaler
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d._PlotEvents
 /**
  * @class
  * @private
@@ -38850,9 +36696,6 @@ dojox.charting.plot2d._PlotEvents.prototype._connectSingleEvent=function(o, even
  * @memberOf dojox.charting.plot2d._PlotEvents
 */
 dojox.charting.plot2d._PlotEvents.prototype._connectEvents=function(o){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Bubble
 /**
  * <b>Summary:</b><blockquote>
  *	 A plot representing bubbles.  Note that data for Bubbles requires 3 parameters,<br>
@@ -38892,18 +36735,6 @@ dojox.charting.plot2d.Bubble.prototype.render=function(dim, offsets){};
  * @memberOf dojox.charting.plot2d.Bubble
 */
 dojox.charting.plot2d.Bubble.prototype._animateBubble=function(shape, offset, size){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Bubble.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Bubble.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Bubble.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Candlesticks
 /**
  * <b>Summary:</b><blockquote>
  *	 A plot that represents typical candlesticks (financial reporting, primarily).<br>
@@ -38965,18 +36796,6 @@ dojox.charting.plot2d.Candlesticks.prototype.collectStats=function(series){};
  * @memberOf dojox.charting.plot2d.Candlesticks
 */
 dojox.charting.plot2d.Candlesticks.prototype._animateCandlesticks=function(shape, voffset, vsize){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Candlesticks.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Candlesticks.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Candlesticks.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.ClusteredBars
 /**
  * <b>Summary:</b><blockquote>
  *	 A plot representing grouped or clustered bars (horizontal bars)<br>
@@ -38997,12 +36816,6 @@ dojox.charting.plot2d.ClusteredBars=function(){};
  * @memberOf dojox.charting.plot2d.ClusteredBars
 */
 dojox.charting.plot2d.ClusteredBars.prototype.render=function(dim, offsets){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.ClusteredBars.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.ClusteredColumns
 /**
  * <b>Summary:</b><blockquote>
  *	 A plot representing grouped or clustered columns (vertical bars).<br>
@@ -39023,12 +36836,6 @@ dojox.charting.plot2d.ClusteredColumns=function(){};
  * @memberOf dojox.charting.plot2d.ClusteredColumns
 */
 dojox.charting.plot2d.ClusteredColumns.prototype.render=function(dim, offsets){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.ClusteredColumns.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Columns
 /**
  * <b>Summary:</b><blockquote>
  *	 The plot object representing a column chart (vertical bars).<br>
@@ -39081,18 +36888,6 @@ dojox.charting.plot2d.Columns.prototype.createRect=function(run, creator, params
  * @memberOf dojox.charting.plot2d.Columns
 */
 dojox.charting.plot2d.Columns.prototype._animateColumn=function(shape, voffset, vsize){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Columns.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Columns.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Columns.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.__DefaultCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 The arguments used for any/most plots.<br>
@@ -39103,18 +36898,6 @@ dojox.charting.plot2d.Columns.prototype._animateColumn=function(shape, voffset, 
  * @returns {dojox.charting.plot2d.__DefaultCtorArgs} new instance
 */
 dojox.charting.plot2d.__DefaultCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Default.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Default.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Default.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.__GridCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 A special keyword arguments object that is specific to a grid &amp;quot;plot&amp;quot;.<br>
@@ -39125,9 +36908,6 @@ dojox.charting.plot2d.__DefaultCtorArgs=function(){};
  * @returns {dojox.charting.plot2d.__GridCtorArgs} new instance
 */
 dojox.charting.plot2d.__GridCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Grid
 /**
  * <b>Summary:</b><blockquote>
  *	 A &amp;quot;faux&amp;quot; plot that can be placed behind other plots to represent<br>
@@ -39259,21 +37039,6 @@ dojox.charting.plot2d.Grid.prototype.addSeries=function(run){};
  * @memberOf dojox.charting.plot2d.Grid
 */
 dojox.charting.plot2d.Grid.prototype._animateGrid=function(shape, type, offset, size){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Grid.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Grid._vAxis
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Grid._hAxis
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Grid.chart.theme
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Lines
 /**
  * <b>Summary:</b><blockquote>
  *	 A convenience constructor to create a typical line chart.<br>
@@ -39283,12 +37048,6 @@ dojox.charting.plot2d.Grid.prototype._animateGrid=function(shape, type, offset, 
  * @returns {dojox.charting.plot2d.Lines} new instance
 */
 dojox.charting.plot2d.Lines=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Lines.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Markers
 /**
  * <b>Summary:</b><blockquote>
  *	 A convenience plot to draw a line chart with markers.<br>
@@ -39298,12 +37057,6 @@ dojox.charting.plot2d.Lines=function(){};
  * @returns {dojox.charting.plot2d.Markers} new instance
 */
 dojox.charting.plot2d.Markers=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Markers.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.MarkersOnly
 /**
  * <b>Summary:</b><blockquote>
  *	 A convenience object to draw only markers (like a scatter but not quite).<br>
@@ -39313,12 +37066,6 @@ dojox.charting.plot2d.Markers=function(){};
  * @returns {dojox.charting.plot2d.MarkersOnly} new instance
 */
 dojox.charting.plot2d.MarkersOnly=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.MarkersOnly.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.OHLC
 /**
  * <b>Summary:</b><blockquote>
  *	 A plot that represents typical open/high/low/close (financial reporting, primarily).<br>
@@ -39378,18 +37125,6 @@ dojox.charting.plot2d.OHLC.prototype.collectStats=function(series){};
  * @memberOf dojox.charting.plot2d.OHLC
 */
 dojox.charting.plot2d.OHLC.prototype._animateOHLC=function(shape, voffset, vsize){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.OHLC.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.OHLC.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.OHLC.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.__PieCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 Specialized keyword arguments object for use in defining parameters on a Pie chart.<br>
@@ -39400,9 +37135,6 @@ dojox.charting.plot2d.OHLC.prototype._animateOHLC=function(shape, voffset, vsize
  * @returns {dojox.charting.plot2d.__PieCtorArgs} new instance
 */
 dojox.charting.plot2d.__PieCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Pie
 /**
  * <b>Summary:</b><blockquote>
  *	 The plot that represents a typical pie chart.<br>
@@ -39517,24 +37249,6 @@ dojox.charting.plot2d.Pie.prototype._getLabel=function(number){};
  * @memberOf dojox.charting.plot2d.Pie
 */
 dojox.charting.plot2d.Pie.prototype._calculateLabelR=function(firstSlice, slices, labelHeight){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Pie.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Pie.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Pie.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Pie.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Pie.run
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Scatter
 /**
  * <b>Summary:</b><blockquote>
  *	 A plot object representing a typical scatter chart.<br>
@@ -39572,18 +37286,6 @@ dojox.charting.plot2d.Scatter.prototype.render=function(dim, offsets){};
  * @memberOf dojox.charting.plot2d.Scatter
 */
 dojox.charting.plot2d.Scatter.prototype._animateScatter=function(shape, offset){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Scatter.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Scatter.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Scatter.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Spider
 /**
  * <b>Summary:</b><blockquote>
  *	 The plot that represents a typical Spider chart.<br>
@@ -39753,28 +37455,10 @@ dojox.charting.plot2d.Spider.prototype._createSeriesEntry=function(ts, osps, sps
  * @memberOf dojox.charting.plot2d.Spider
 */
 dojox.charting.plot2d.Spider.prototype._buildPoints=function(points, count, circle, radius, angle, recursive){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Spider.defaultParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Spider.optionalParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Spider.chart
 /**
  * @namespace
 */
 dojox.charting.plot2d.Spider.chart={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Spider.chart.theme
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Spider.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.StackedAreas
 /**
  * <b>Summary:</b><blockquote>
  *	 A convenience object to set up a stacked area plot.<br>
@@ -39784,12 +37468,6 @@ dojox.charting.plot2d.Spider.chart={};
  * @returns {dojox.charting.plot2d.StackedAreas} new instance
 */
 dojox.charting.plot2d.StackedAreas=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.StackedAreas.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Stacked
 /**
  * <b>Summary:</b><blockquote>
  *	 Like the default plot, Stacked sets up lines, areas and markers<br>
@@ -39819,9 +37497,6 @@ dojox.charting.plot2d.Stacked.prototype.render=function(dim, offsets){};
  * @memberOf dojox.charting.plot2d.Stacked
 */
 dojox.charting.plot2d.Stacked.prototype.getSeriesStats=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.StackedBars
 /**
  * <b>Summary:</b><blockquote>
  *	 The plot object representing a stacked bar chart (horizontal bars).<br>
@@ -39848,12 +37523,6 @@ dojox.charting.plot2d.StackedBars.prototype.render=function(dim, offsets){};
  * @memberOf dojox.charting.plot2d.StackedBars
 */
 dojox.charting.plot2d.StackedBars.prototype.getSeriesStats=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.StackedBars.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.StackedColumns
 /**
  * <b>Summary:</b><blockquote>
  *	 The plot object representing a stacked column chart (vertical bars).<br>
@@ -39881,15 +37550,6 @@ dojox.charting.plot2d.StackedColumns.prototype.render=function(dim, offsets){};
  * @memberOf dojox.charting.plot2d.StackedColumns
 */
 dojox.charting.plot2d.StackedColumns.prototype.getSeriesStats=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.StackedColumns.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.Stacked.chart
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.StackedLines
 /**
  * <b>Summary:</b><blockquote>
  *	 A convenience object to create a stacked line chart.<br>
@@ -39899,12 +37559,6 @@ dojox.charting.plot2d.StackedColumns.prototype.getSeriesStats=function(){};
  * @returns {dojox.charting.plot2d.StackedLines} new instance
 */
 dojox.charting.plot2d.StackedLines=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot2d.StackedLines.opt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot3d
 /**
  * @param {mixed} width 
  * @param {mixed} height 
@@ -39923,9 +37577,6 @@ dojox.charting.plot3d.Base=function(width, height, kwArgs){};
  * @param {mixed} kwArgs 
 */
 dojox.charting.plot3d.Bars=function(width, height, kwArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot3d.Bars
 /**
  * @class
  * @extends dojox.charting.plot3d.Base
@@ -39949,12 +37600,6 @@ dojox.charting.plot3d.Bars.prototype.getDepth=function(){};
  * @memberOf dojox.charting.plot3d.Bars
 */
 dojox.charting.plot3d.Bars.prototype.generate=function(chart, creator){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot3d.Bars.material
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot3d.Base
 /**
  * @class
  * @param {mixed} width 
@@ -39978,9 +37623,6 @@ dojox.charting.plot3d.Base.prototype.getDepth=function(){};
  * @memberOf dojox.charting.plot3d.Base
 */
 dojox.charting.plot3d.Base.prototype.generate=function(chart, creator){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot3d.Cylinders
 /**
  * @class
  * @extends dojox.charting.plot3d.Base
@@ -40004,18 +37646,6 @@ dojox.charting.plot3d.Cylinders.prototype.getDepth=function(){};
  * @memberOf dojox.charting.plot3d.Cylinders
 */
 dojox.charting.plot3d.Cylinders.prototype.generate=function(chart, creator){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.plot3d.Cylinders.material
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.scaler
-//-jshdr-obj-end
-
-//-jshdr-id-common
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.Series
 /**
  * <b>Summary:</b><blockquote>
  *	 An object representing a series of data for plotting on a chart.<br>
@@ -40049,9 +37679,6 @@ dojox.charting.Series.prototype.update=function(data){};
  * @memberOf dojox.charting.Series
 */
 dojox.charting.Series.prototype.clear=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.__SeriesCtorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 An optional arguments object that can be used in the Series constructor.<br>
@@ -40061,9 +37688,6 @@ dojox.charting.Series.prototype.clear=function(){};
  * @returns {dojox.charting.__SeriesCtorArgs} new instance
 */
 dojox.charting.__SeriesCtorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.StoreSeries
 /**
  * <b>Summary:</b><blockquote>
  *	 Series adapter for dojo object stores (dojo.store).<br>
@@ -40108,9 +37732,6 @@ dojox.charting.StoreSeries.prototype.destroy=function(){};
  * @memberOf dojox.charting.StoreSeries
 */
 dojox.charting.StoreSeries.prototype._pushDataChanges=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.Theme
 /**
  * <b>Summary:</b><blockquote>
  *	 A Theme is a pre-defined object, primarily JSON-based, that makes up the definitions to<br>
@@ -40357,12 +37978,6 @@ dojox.charting.Theme.prototype._buildMarkerArray=function(){};
  * @private
 */
 dojox.charting.Theme.__DefineColorArgs=function(num, colors, hue, saturation, low, high, base, generator){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.Theme.shapeSpaces
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.Theme.__DefineColorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 The arguments object that can be passed to define colors for a theme.<br>
@@ -40372,9 +37987,6 @@ dojox.charting.Theme.__DefineColorArgs=function(num, colors, hue, saturation, lo
  * @returns {dojox.charting.Theme.__DefineColorArgs} new instance
 */
 dojox.charting.Theme.__DefineColorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-themes
 /**
  * @namespace
 */
@@ -40407,9 +38019,6 @@ dojox.themes.Chris={};
  * @namespace
 */
 dojox.themes.Charged={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.themes
 /**
  * @namespace
 */
@@ -40418,12 +38027,6 @@ dojox.charting.themes.PlotKit={};
  * @namespace
 */
 dojox.charting.themes.Julie={};
-//-jshdr-obj-end
-
-//-jshdr-id-Theme
-//-jshdr-obj-end
-
-//-jshdr-id-themes.Charged
 /**
  * @namespace
 */
@@ -40439,9 +38042,6 @@ dojox.charting.themes.Charged.post=function(theme, elementType){};
  * @param {mixed} doPost 
 */
 dojox.charting.themes.Charged.next=function(elementType, mixin, doPost){};
-//-jshdr-obj-end
-
-//-jshdr-id-themes.Chris
 /**
  * @namespace
 */
@@ -40457,9 +38057,6 @@ dojox.charting.themes.Chris.post=function(theme, elementType){};
  * @param {mixed} doPost 
 */
 dojox.charting.themes.Chris.next=function(elementType, mixin, doPost){};
-//-jshdr-obj-end
-
-//-jshdr-id-themes.Claro
 /**
  * @namespace
 */
@@ -40475,9 +38072,6 @@ dojox.charting.themes.Claro.post=function(theme, elementType){};
  * @param {mixed} doPost 
 */
 dojox.charting.themes.Claro.next=function(elementType, mixin, doPost){};
-//-jshdr-obj-end
-
-//-jshdr-id-themes.Electric
 /**
  * @namespace
 */
@@ -40493,9 +38087,6 @@ dojox.charting.themes.Electric.post=function(theme, elementType){};
  * @param {mixed} doPost 
 */
 dojox.charting.themes.Electric.next=function(elementType, mixin, doPost){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.themes.Julie
 /**
  * @param {mixed} theme 
  * @param {mixed} elementType 
@@ -40507,12 +38098,6 @@ dojox.charting.themes.Julie.post=function(theme, elementType){};
  * @param {mixed} doPost 
 */
 dojox.charting.themes.Julie.next=function(elementType, mixin, doPost){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.themes.PlotKit
-//-jshdr-obj-end
-
-//-jshdr-id-pk
 /**
  * @namespace
 */
@@ -40541,87 +38126,30 @@ dojox.pk.cyan={};
  * @namespace
 */
 dojox.pk.blue={};
-//-jshdr-obj-end
-
-//-jshdr-id-pk.blue.chart
-//-jshdr-obj-end
-
-//-jshdr-id-pk.blue.plotarea
-//-jshdr-obj-end
-
-//-jshdr-id-pk.blue
 /**
  * @namespace
 */
 pk.blue={};
-//-jshdr-obj-end
-
-//-jshdr-id-pk.cyan.chart
-//-jshdr-obj-end
-
-//-jshdr-id-pk.cyan.plotarea
-//-jshdr-obj-end
-
-//-jshdr-id-pk.cyan
 /**
  * @namespace
 */
 pk.cyan={};
-//-jshdr-obj-end
-
-//-jshdr-id-pk.green.chart
-//-jshdr-obj-end
-
-//-jshdr-id-pk.green.plotarea
-//-jshdr-obj-end
-
-//-jshdr-id-pk.green
 /**
  * @namespace
 */
 pk.green={};
-//-jshdr-obj-end
-
-//-jshdr-id-pk.orange.chart
-//-jshdr-obj-end
-
-//-jshdr-id-pk.orange.plotarea
-//-jshdr-obj-end
-
-//-jshdr-id-pk.orange
 /**
  * @namespace
 */
 pk.orange={};
-//-jshdr-obj-end
-
-//-jshdr-id-pk.purple.chart
-//-jshdr-obj-end
-
-//-jshdr-id-pk.purple.plotarea
-//-jshdr-obj-end
-
-//-jshdr-id-pk.purple
 /**
  * @namespace
 */
 pk.purple={};
-//-jshdr-obj-end
-
-//-jshdr-id-pk.red.chart
-//-jshdr-obj-end
-
-//-jshdr-id-pk.red.plotarea
-//-jshdr-obj-end
-
-//-jshdr-id-pk.red
 /**
  * @namespace
 */
 pk.red={};
-//-jshdr-obj-end
-
-//-jshdr-id-themes.Renkoo
 /**
  * @namespace
 */
@@ -40637,9 +38165,6 @@ dojox.charting.themes.Renkoo.post=function(theme, elementType){};
  * @param {mixed} doPost 
 */
 dojox.charting.themes.Renkoo.next=function(elementType, mixin, doPost){};
-//-jshdr-obj-end
-
-//-jshdr-id-themes.ThreeD.series
 /**
  * @namespace
 */
@@ -40648,12 +38173,6 @@ dojox.charting.themes.ThreeD.series={};
  * @namespace
 */
 dojox.charting.themes.ThreeD.series.shadow={};
-//-jshdr-obj-end
-
-//-jshdr-id-themes.ThreeD.series.shadow
-//-jshdr-obj-end
-
-//-jshdr-id-themes.ThreeD
 /**
  * @namespace
 */
@@ -40664,9 +38183,6 @@ dojox.charting.themes.ThreeD={};
  * @param {mixed} doPost 
 */
 dojox.charting.themes.ThreeD.next=function(elementType, mixin, doPost){};
-//-jshdr-obj-end
-
-//-jshdr-id-themes.Tom
 /**
  * @namespace
 */
@@ -40682,9 +38198,6 @@ dojox.charting.themes.Tom.post=function(theme, elementType){};
  * @param {mixed} doPost 
 */
 dojox.charting.themes.Tom.next=function(elementType, mixin, doPost){};
-//-jshdr-obj-end
-
-//-jshdr-id-Legend
 /**
  * <b>Summary:</b><blockquote>
  *	 Add support for bidi scripts in legend.<br>
@@ -40715,9 +38228,6 @@ dojox.Legend.prototype.postMixInProperties=function(){};
  * @memberOf dojox.Legend
 */
 dojox.Legend.prototype._setTextDirAttr=function(textDir){};
-//-jshdr-obj-end
-
-//-jshdr-id-Legend.postMixInProperties
 /**
  * <b>Summary:</b><blockquote>
  *	 Connect the setter of textDir legend to setTextDir of the chart,<br>
@@ -40728,17 +38238,11 @@ dojox.Legend.prototype._setTextDirAttr=function(textDir){};
  * @returns {Legend.postMixInProperties} new instance
 */
 Legend.postMixInProperties=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-Chart.postMixInProperties
 /**
  * @class
  * @returns {Chart.postMixInProperties} new instance
 */
 Chart.postMixInProperties=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.widget
 /**
 */
 dojox.charting.widget.Sparkline=function(){};
@@ -40768,9 +38272,6 @@ dojox.charting.widget.Legend=function(){};
 /**
 */
 dojox.charting.widget.Chart=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.widget.Chart
 /**
  * @class
  * @extends dijit._Widget
@@ -40799,12 +38300,6 @@ dojox.charting.widget.Chart.prototype.destroy=function(){};
  * @memberOf dojox.charting.widget.Chart
 */
 dojox.charting.widget.Chart.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.widget.Chart.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.widget.Legend
 /**
  * <b>Summary:</b><blockquote>
  *	 A legend for a chart. A legend contains summary labels for<br>
@@ -40859,9 +38354,6 @@ dojox.charting.widget.Legend.prototype._isReversal=function(){};
  * @memberOf dojox.charting.widget.Legend
 */
 dojox.charting.widget.Legend.prototype._addLabel=function(dyn, label){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.widget.SelectableLegend
 /**
  * <b>Summary:</b><blockquote>
  *	 An enhanced chart legend supporting interactive events on data series<br>
@@ -40946,9 +38438,6 @@ dojox.charting.widget.SelectableLegend.prototype._applyEvents=function(){};
  * @memberOf dojox.charting.widget.SelectableLegend
 */
 dojox.charting.widget.SelectableLegend.prototype._addLabel=function(dyn, label){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.widget.Sparkline
 /**
  * @class
  * @extends dojox.charting.widget.Chart
@@ -40963,12 +38452,6 @@ dojox.charting.widget.Sparkline.margins={};
  * @memberOf dojox.charting.widget.Sparkline
 */
 dojox.charting.widget.Sparkline.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.charting.widget.Sparkline.margins
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections
 /**
  * @param {array} [arr] 
  * @returns {bool|dojox.collections.Iterator|object|array} -
@@ -41014,9 +38497,6 @@ dojox.collections.BinaryTree=function(data){};
  * @returns {dojox.collections.ArrayList|bool|dojox.collections.Iterator|int|object} -
 */
 dojox.collections.ArrayList=function(arr){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections.ArrayList
 /**
  * @class
  * @returns {dojox.collections.ArrayList} new instance
@@ -41093,9 +38573,6 @@ dojox.collections.ArrayList.addRange=function(a){};
  * @param {object} obj 
 */
 dojox.collections.ArrayList.add=function(obj){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections.DictionaryEntry
 /**
  * @class
  * @returns {dojox.collections.DictionaryEntry} new instance
@@ -41109,9 +38586,6 @@ dojox.collections.DictionaryEntry.valueOf=function(){};
  * @returns {string} -
 */
 dojox.collections.DictionaryEntry.toString=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections.Iterator
 /**
  * @class
  * @returns {dojox.collections.Iterator} new instance
@@ -41133,9 +38607,6 @@ dojox.collections.Iterator.get=function(){};
  * @returns {bool} -
 */
 dojox.collections.Iterator.atEnd=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections.DictionaryIterator
 /**
  * @class
  * @returns {dojox.collections.DictionaryIterator} new instance
@@ -41157,9 +38628,6 @@ dojox.collections.DictionaryIterator.get=function(){};
  * @returns {bool} -
 */
 dojox.collections.DictionaryIterator.atEnd=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections.BinaryTree
 /**
  * @class
  * @returns {dojox.collections.BinaryTree} new instance
@@ -41199,12 +38667,6 @@ dojox.collections.BinaryTree.clear=function(){};
  * @param {mixed} data 
 */
 dojox.collections.BinaryTree.add=function(data){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections.BinaryTree.TraversalMethods
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections.Dictionary
 /**
  * @class
  * @returns {dojox.collections.Dictionary} new instance
@@ -41265,9 +38727,6 @@ dojox.collections.Dictionary.clear=function(){};
  * @param {object} v 
 */
 dojox.collections.Dictionary.add=function(k, v){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections.Queue
 /**
  * @class
  * @returns {dojox.collections.Queue} new instance
@@ -41313,9 +38772,6 @@ dojox.collections.Queue.clone=function(){};
 /**
 */
 dojox.collections.Queue.clear=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections.SortedList
 /**
  * @class
  * @returns {dojox.collections.SortedList} new instance
@@ -41416,9 +38872,6 @@ dojox.collections.SortedList.clear=function(){};
  * @param {object} v 
 */
 dojox.collections.SortedList.add=function(k, v){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.collections.Stack
 /**
  * @class
  * @returns {dojox.collections.Stack} new instance
@@ -41465,9 +38918,6 @@ dojox.collections.Stack.clone=function(){};
 /**
 */
 dojox.collections.Stack.clear=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.color
 /**
  * @param {Object} xyz 
  * @param {Object} [kwArgs] 
@@ -41509,9 +38959,6 @@ dojox.color.Color=function(){};
  * @namespace
 */
 dojox.color.Palette={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.color.Color
 /**
  * @class
  * @returns {dojox.color.Color} new instance
@@ -41523,9 +38970,6 @@ dojox.color.Color=function(){};
  * @memberOf dojox.color.Color
 */
 dojox.color.Color.prototype.toXYZ=function(kwArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dxc
 /**
  * @namespace
 */
@@ -41546,9 +38990,6 @@ dojox.dxc={};
  * @param {String|Array|dojox.color.Color|dojox.color.Palette} base 
 */
 dojox.dxc.Palette=function(base){};
-//-jshdr-obj-end
-
-//-jshdr-id-dxc.Palette
 /**
  * <b>Summary:</b><blockquote>
  *	 An object that represents a palette of colors.<br>
@@ -41611,9 +39052,6 @@ dxc.Palette.generate=function(base, type){};
  * @memberOf dxc.Palette
 */
 dxc.Palette.prototype.clone=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dxc.Palette.generators
 /**
  * <b>Summary:</b><blockquote>
  *	 Create a 5 color palette based on the triadic rules as implemented at<br>
@@ -41677,9 +39115,6 @@ dxc.Palette.generators.complementary=function(args){};
  * @param {dojox.color.Palette.__analogousArgs} args 
 */
 dxc.Palette.generators.analogous=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.color.Palette
 /**
  * <b>Summary:</b><blockquote>
  *	 The keywords argument to be passed to the dojox.color.Palette.transform function.  Note that<br>
@@ -41736,9 +39171,6 @@ dojox.color.Palette.__generatorArgs=function(base){};
  * @private
 */
 dojox.color.Palette.__analogousArgs=function(base, high, low){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.color.Palette.__transformArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 The keywords argument to be passed to the dojox.color.Palette.transform function.  Note that<br>
@@ -41752,9 +39184,6 @@ dojox.color.Palette.__analogousArgs=function(base, high, low){};
  * @returns {dojox.color.Palette.__transformArgs} new instance
 */
 dojox.color.Palette.__transformArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.color.Palette.__generatorArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 The keyword arguments object used to create a palette based on a base color.<br>
@@ -41764,9 +39193,6 @@ dojox.color.Palette.__transformArgs=function(){};
  * @returns {dojox.color.Palette.__generatorArgs} new instance
 */
 dojox.color.Palette.__generatorArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.color.Palette.__analogousArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 The keyword arguments object that is used to create a 5 color palette based on the<br>
@@ -41778,9 +39204,6 @@ dojox.color.Palette.__generatorArgs=function(){};
  * @returns {dojox.color.Palette.__analogousArgs} new instance
 */
 dojox.color.Palette.__analogousArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.color.Palette.__splitComplementaryArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 The keyword arguments object used to create a palette based on the split complementary rules<br>
@@ -41792,9 +39215,6 @@ dojox.color.Palette.__analogousArgs=function(){};
  * @returns {dojox.color.Palette.__splitComplementaryArgs} new instance
 */
 dojox.color.Palette.__splitComplementaryArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd
 /**
 */
 dojox.cometd.timesync=function(){};
@@ -41836,9 +39256,6 @@ dojox.cometd.RestChannels=function(options){};
  * @returns {dojo.Deferred} -
 */
 dojox.cometd.Connection=function(prefix){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd._ack
 /**
  * @class
  * @private
@@ -41855,9 +39272,6 @@ dojox.cometd._ack._out=function(msg){};
  * @private
 */
 dojox.cometd._ack._in=function(msg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.Connection
 /**
  * @class
  * @returns {dojox.cometd.Connection} new instance
@@ -42077,15 +39491,6 @@ dojox.cometd.Connection._backon=function(){};
  * @private
 */
 dojox.cometd.Connection._backoff=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.Connection._advice
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.Connection.currentTransport
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.callbackPollTransport
 /**
  * @class
  * @returns {dojox.cometd.callbackPollTransport} new instance
@@ -42124,12 +39529,6 @@ dojox.cometd.callbackPollTransport.check=function(types, version, xdomain){};
 /**
 */
 dojox.cometd.callbackPollTransport.cancelConnect=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.callbackPollTransport._cometd
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.longPollTransportFormEncoded
 /**
  * @class
  * @returns {dojox.cometd.longPollTransportFormEncoded} new instance
@@ -42179,12 +39578,6 @@ dojox.cometd.longPollTransportFormEncoded.cancelConnect=function(){};
  * @private
 */
 dojox.cometd.longPollTransportFormEncoded._connect=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.longPollTransportFormEncoded._cometd
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.longPollTransportJsonEncoded
 /**
  * @class
  * @returns {dojox.cometd.longPollTransportJsonEncoded} new instance
@@ -42234,12 +39627,6 @@ dojox.cometd.longPollTransportJsonEncoded.cancelConnect=function(){};
  * @private
 */
 dojox.cometd.longPollTransportJsonEncoded._connect=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.longPollTransportJsonEncoded._cometd
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.RestChannels
 /**
  * <b>Summary:</b><blockquote>
  *	 Initiates the REST Channels protocol<br>
@@ -42381,9 +39768,6 @@ dojox.cometd.RestChannels.prototype._send=function(method, args, data){};
  * @memberOf dojox.cometd.RestChannels
 */
 dojox.cometd.RestChannels.prototype._processMessage=function(message){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.cometd.timesync
 /**
  * @class
  * @returns {dojox.cometd.timesync} new instance
@@ -42415,9 +39799,6 @@ dojox.cometd.timesync._out=function(msg){};
  * @private
 */
 dojox.cometd.timesync._in=function(msg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.css3.fx
 /**
  * @namespace
 */
@@ -42478,16 +39859,10 @@ dojox.css3.fx.expand=function(args){};
  * @param {mixed} args 
 */
 dojox.css3.fx.bounce=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.css3
 /**
  * @param {mixed} args 
 */
 dojox.css3.transition=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.css3.transition
 /**
  * @class
  * @param {mixed} args 
@@ -42572,19 +39947,10 @@ dojox.css3.transition.prototype._beforeClear=function(){};
  * @memberOf dojox.css3.transition
 */
 dojox.css3.transition.prototype._applyState=function(state){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.css3.transition.node
 /**
  * @namespace
 */
 dojox.css3.transition.node={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.css3.transition.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data
 /**
  * <b>Summary:</b><blockquote>
  *	 this function can be used to receive REST notifications, from Comet or from another frame<br>
@@ -43351,9 +40717,6 @@ dojox.data.AndOrReadStore=function(keywordParameters){};
  * @namespace
 */
 dojox.data.util={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.AndOrReadStore
 /**
  * <b>Summary:</b><blockquote>
  *	 AndOrReadStore uses ItemFileReadStore as a base, modifying only the query (_fetchItems) section.<br>
@@ -43643,15 +41006,6 @@ dojox.data.AndOrReadStore.prototype._assertIsAttribute=function(attribute){};
  * @memberOf dojox.data.AndOrReadStore
 */
 dojox.data.AndOrReadStore.prototype._addReferenceToMap=function(refItem, parentItem, attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.AndOrReadStore._features.dojo.data.api
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.AndOrReadStore._datatypeMap
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.AndOrWriteStore
 /**
  * @class
  * @extends dojox.data.AndOrReadStore
@@ -43885,12 +41239,6 @@ dojox.data.AndOrWriteStore.prototype._assert=function(condition){};
  * @memberOf dojox.data.AndOrWriteStore
 */
 dojox.data.AndOrWriteStore.prototype._addReferenceToMap=function(refItem, parentItem, attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.AndOrWriteStore._features.dojo.data.api
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.AndOrWriteStore._datatypeMap.Date
 /**
  * @namespace
 */
@@ -43899,9 +41247,6 @@ dojox.data.AndOrWriteStore._datatypeMap.Date={};
  * @param {mixed} obj 
 */
 dojox.data.AndOrWriteStore._datatypeMap.Date.serialize=function(obj){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.AppStore
 /**
  * <b>Summary:</b><blockquote>
  *	 The APP data store.<br>
@@ -44220,9 +41565,6 @@ dojox.data.AppStore.prototype._assertIsAttribute=function(attribute){};
  * @memberOf dojox.data.AppStore
 */
 dojox.data.AppStore.prototype._addUpdate=function(update){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.AtomReadStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A read only data store for Atom XML based services or documents<br>
@@ -44460,9 +41802,6 @@ dojox.data.AtomReadStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.AtomReadStore
 */
 dojox.data.AtomReadStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.CdfStore
 /**
  * <b>Summary:</b><blockquote>
  *	 IMPORTANT: The CDF Store is designed to work with Tibco GI, and references Tibco's<br>
@@ -44818,9 +42157,6 @@ dojox.data.CdfStore.prototype._loadCDF=function(){};
  * @memberOf dojox.data.CdfStore
 */
 dojox.data.CdfStore.prototype._getItems=function(cdfDoc, request){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.ClientFilter
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an abstract class that data stores can extend to add updateable result set functionality<br>
@@ -44930,9 +42266,6 @@ dojox.data.ClientFilter.prototype.clearCache=function(){};
  * @memberOf dojox.data.ClientFilter
 */
 dojox.data.ClientFilter.prototype.cachingFetch=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.CouchDBRestStore
 /**
  * @class
  * @extends dojox.data.JsonRestStore
@@ -44962,12 +42295,6 @@ dojox.data.CouchDBRestStore.prototype.fetch=function(args){};
  * @memberOf dojox.data.CouchDBRestStore
 */
 dojox.data.CouchDBRestStore.prototype._processResults=function(results){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.CouchDBRestStore.service
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.CssClassStore
 /**
  * <b>Summary:</b><blockquote>
  *	 Basic store to display CSS information.<br>
@@ -45070,9 +42397,6 @@ dojox.data.CssClassStore.prototype._handleReturn=function(){};
  * @memberOf dojox.data.CssClassStore
 */
 dojox.data.CssClassStore.prototype._handleFetchByIdentityReturn=function(request){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.CssRuleStore
 /**
  * <b>Summary:</b><blockquote>
  *	 Basic store to display CSS information.<br>
@@ -45285,9 +42609,6 @@ dojox.data.CssRuleStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.CssRuleStore
 */
 dojox.data.CssRuleStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.CsvStore
 /**
  * <b>Summary:</b><blockquote>
  *	 The CsvStore implements the dojo.data.api.Read API and reads<br>
@@ -45546,9 +42867,6 @@ dojox.data.CsvStore.prototype._containsValue=function(item, attribute, value, re
  * @memberOf dojox.data.CsvStore
 */
 dojox.data.CsvStore.prototype._assertIsItem=function(item){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.FileStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple store that provides a datastore interface to a filesystem.<br>
@@ -45740,9 +43058,6 @@ dojox.data.FileStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.FileStore
 */
 dojox.data.FileStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.FlickrRestStore
 /**
  * <b>Summary:</b><blockquote>
  *	 Initializer for the FlickrRestStore store.<br>
@@ -45812,12 +43127,6 @@ dojox.data.FlickrRestStore.prototype._fetchItems=function(request, fetchHandler,
  * @memberOf dojox.data.FlickrRestStore
 */
 dojox.data.FlickrRestStore.prototype._checkPrevRanges=function(primaryKey, start, count){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.FlickrRestStore._sortAttributes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.FlickrStore
 /**
  * <b>Summary:</b><blockquote>
  *	 Initializer for the FlickrStore store.<br>
@@ -45978,9 +43287,6 @@ dojox.data.FlickrStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.FlickrStore
 */
 dojox.data.FlickrStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleFeedStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A data store for retrieving RSS and Atom feeds from Google. The<br>
@@ -46048,15 +43354,6 @@ dojox.data.GoogleFeedStore.prototype._getItems=function(data){};
  * @memberOf dojox.data.GoogleFeedStore
 */
 dojox.data.GoogleFeedStore.prototype._createContent=function(query, callback, request){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleFeedStore._queryAttrs
-//-jshdr-obj-end
-
-//-jshdr-id-GoogleSearchStore
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleSearchStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A data store for retrieving search results from Google.<br>
@@ -46262,31 +43559,16 @@ dojox.data.GoogleSearchStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.GoogleSearchStore
 */
 dojox.data.GoogleSearchStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleSearchStore._aggregatedAttributes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleSearchStore._queryAttrs
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleWebSearchStore
 /**
  * @class
  * @returns {dojox.data.GoogleWebSearchStore} new instance
 */
 dojox.data.GoogleWebSearchStore=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleBlogSearchStore
 /**
  * @class
  * @returns {dojox.data.GoogleBlogSearchStore} new instance
 */
 dojox.data.GoogleBlogSearchStore=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleLocalSearchStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A data store for retrieving search results from Google.<br>
@@ -46335,15 +43617,6 @@ dojox.data.GoogleLocalSearchStore._queryAttrs={};
  * @private
 */
 dojox.data.GoogleLocalSearchStore._aggregatedAttributes={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleLocalSearchStore._aggregatedAttributes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleLocalSearchStore._queryAttrs
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleVideoSearchStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A data store for retrieving search results from Google.<br>
@@ -46367,9 +43640,6 @@ dojox.data.GoogleLocalSearchStore._aggregatedAttributes={};
  * @returns {dojox.data.GoogleVideoSearchStore} new instance
 */
 dojox.data.GoogleVideoSearchStore=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleNewsSearchStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A data store for retrieving search results from Google.<br>
@@ -46395,9 +43665,6 @@ dojox.data.GoogleVideoSearchStore=function(){};
  * @returns {dojox.data.GoogleNewsSearchStore} new instance
 */
 dojox.data.GoogleNewsSearchStore=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleBookSearchStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A data store for retrieving search results from Google.<br>
@@ -46418,9 +43685,6 @@ dojox.data.GoogleNewsSearchStore=function(){};
  * @returns {dojox.data.GoogleBookSearchStore} new instance
 */
 dojox.data.GoogleBookSearchStore=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.GoogleImageSearchStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A data store for retrieving search results from Google.<br>
@@ -46446,9 +43710,6 @@ dojox.data.GoogleBookSearchStore=function(){};
  * @returns {dojox.data.GoogleImageSearchStore} new instance
 */
 dojox.data.GoogleImageSearchStore=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.HtmlStore
 /**
  * <b>Summary:</b><blockquote>
  *	 Initializer for the HTML table store.<br>
@@ -46721,9 +43982,6 @@ dojox.data.HtmlStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.HtmlStore
 */
 dojox.data.HtmlStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.HtmlTableStore
 /**
  * @class
  * @param {Object} args 
@@ -46948,9 +44206,6 @@ dojox.data.HtmlTableStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.HtmlTableStore
 */
 dojox.data.HtmlTableStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.ItemExplorer
 /**
  * @class
  * @extends dijit.Tree
@@ -47013,12 +44268,6 @@ dojox.data.ItemExplorer.prototype._createEditDialog=function(){};
  * @memberOf dojox.data.ItemExplorer
 */
 dojox.data.ItemExplorer.prototype._addProperty=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.ItemExplorer.rootModelNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.JsonQueryRestStore
 /**
  * @class
  * @extends dojox.data.JsonRestStore
@@ -47032,9 +44281,6 @@ dojox.data.JsonQueryRestStore=function(){};
  * @memberOf dojox.data.JsonQueryRestStore
 */
 dojox.data.JsonQueryRestStore.prototype.matchesQuery=function(item, request){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.JsonRestStore
 /**
  * <b>Summary:</b><blockquote>
  *	 Allow no trailing slash on target paths. This is generally discouraged since<br>
@@ -47332,15 +44578,6 @@ dojox.data.JsonRestStore.prototype._doQuery=function(args){};
  * @private
 */
 dojox.data.JsonRestStore._constructor=function(data){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.JsonRestStore.service
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.JsonRestStore.schema
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.ServiceStore
 /**
  * <b>Summary:</b><blockquote>
  *	 ServiceStore constructor, instantiate a new ServiceStore<br>
@@ -47571,9 +44808,6 @@ dojox.data.ServiceStore.prototype._processResults=function(results, deferred){};
  * @memberOf dojox.data.ServiceStore
 */
 dojox.data.ServiceStore.prototype._doQuery=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.KeyValueStore
 /**
  * <b>Summary:</b><blockquote>
  *	 This is a dojo.data store implementation.  It can take in either a Javascript<br>
@@ -47807,9 +45041,6 @@ dojox.data.KeyValueStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.KeyValueStore
 */
 dojox.data.KeyValueStore.prototype._assertIsAttribute=function(item, attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.OpenSearchStore
 /**
  * <b>Summary:</b><blockquote>
  *	 Initializer for the OpenSearchStore store.<br>
@@ -48039,12 +45270,6 @@ dojox.data.OpenSearchStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.OpenSearchStore
 */
 dojox.data.OpenSearchStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.OpenSearchStore.urlElement
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.OpmlStore
 /**
  * <b>Summary:</b><blockquote>
  *	 *   The OpmlStore implements the dojo.data.api.Read API.<br>
@@ -48284,9 +45509,6 @@ dojox.data.OpmlStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.OpmlStore
 */
 dojox.data.OpmlStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.PersevereStore
 /**
  * @class
  * @extends dojox.data.JsonQueryRestStore
@@ -48313,9 +45535,6 @@ dojox.data.PersevereStore.getStores=function(path, sync){};
  * </blockquote>
 */
 dojox.data.PersevereStore.addProxy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.json.ref
 /**
  * @namespace
 */
@@ -48390,9 +45609,6 @@ dojox.json.ref.fromJson=function(str, args){};
  * @private
 */
 dojox.json.ref._addProp=function(id, prop){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.PicasaStore
 /**
  * <b>Summary:</b><blockquote>
  *	 Initializer for the PicasaStore store.<br>
@@ -48553,9 +45769,6 @@ dojox.data.PicasaStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.PicasaStore
 */
 dojox.data.PicasaStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.QueryReadStore
 /**
  * <b>Summary:</b><blockquote>
  *	 By default all the sorting is done serverside before the data is returned<br>
@@ -48777,12 +45990,6 @@ dojox.data.QueryReadStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.QueryReadStore
 */
 dojox.data.QueryReadStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.QueryReadStore._features.dojo.data.api
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.RailsStore
 /**
  * <b>Summary:</b><blockquote>
  *	 RailsStore is a data store for interacting with RESTful Rails controllers<br>
@@ -48812,9 +46019,6 @@ dojox.data.RailsStore.prototype.fetch=function(args){};
  * @memberOf dojox.data.RailsStore
 */
 dojox.data.RailsStore.prototype._processResults=function(results, deferred){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.rpc
 /**
  * @param {mixed} parameters 
  * @param {mixed} args 
@@ -48867,9 +46071,6 @@ dojox.rpc.JsonRest={};
  * @namespace
 */
 dojox.rpc.Client={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.rpc.Rest
 /**
  * @param {mixed} service 
  * @param {mixed} id 
@@ -48885,9 +46086,6 @@ dojox.rpc.Rest._get=function(service, id){};
  * @private
 */
 dojox.rpc.Rest._change=function(method, service, id, serializedContent){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.S3Store
 /**
  * @class
  * @extends dojox.data.JsonRestStore
@@ -48900,9 +46098,6 @@ dojox.data.S3Store=function(){};
  * @memberOf dojox.data.S3Store
 */
 dojox.data.S3Store.prototype._processResults=function(results){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.SnapLogicStore
 /**
  * <b>Summary:</b><blockquote>
  *	 Initialize a SnapLogicStore object.<br>
@@ -49077,12 +46272,6 @@ dojox.data.SnapLogicStore.prototype._assertIsItem=function(item){};
  * @memberOf dojox.data.SnapLogicStore
 */
 dojox.data.SnapLogicStore.prototype._assertIsAttribute=function(attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.SnapLogicStore.Parts
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.StoreExplorer
 /**
  * @class
  * @extends dijit.layout.BorderContainer
@@ -49124,12 +46313,6 @@ dojox.data.StoreExplorer.prototype.createNew=function(){};
  * @memberOf dojox.data.StoreExplorer
 */
 dojox.data.StoreExplorer.prototype._formatCell=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.StoreExplorer.grid._pending_requests
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.StoreExplorer.grid
 /**
  * @param {mixed} items 
  * @param {mixed} req 
@@ -49137,15 +46320,9 @@ dojox.data.StoreExplorer.prototype._formatCell=function(value){};
  * @memberOf dojox.data.StoreExplorer.grid
 */
 dojox.data.StoreExplorer.grid.prototype._onFetchComplete=function(items, req){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.util
 /**
 */
 dojox.data.util.JsonQuery=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.util.JsonQuery
 /**
  * @class
  * @returns {dojox.data.util.JsonQuery} new instance
@@ -49185,9 +46362,6 @@ dojox.data.util.JsonQuery.prototype.clientSideFetch=function(request, baseResult
  * @memberOf dojox.data.util.JsonQuery
 */
 dojox.data.util.JsonQuery.prototype._toJsonQuery=function(args, jsonQueryPagination){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.WikipediaStore
 /**
  * <b>Summary:</b><blockquote>
  *	 Initializer for the Wikipedia data store interface.<br>
@@ -49253,9 +46427,6 @@ dojox.data.WikipediaStore.prototype.fetch=function(request){};
  * @memberOf dojox.data.WikipediaStore
 */
 dojox.data.WikipediaStore.prototype._processResults=function(results, def){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.XmlItem
 /**
  * <b>Summary:</b><blockquote>
  *	 A data item of 'XmlStore'<br>
@@ -49281,9 +46452,6 @@ dojox.data.XmlItem=function(element, store, query){};
  * @memberOf dojox.data.XmlItem
 */
 dojox.data.XmlItem.prototype.toString=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.data.XmlStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A data store for XML based services or documents<br>
@@ -49833,9 +47001,6 @@ dojox.data.XmlStore.prototype._fetchItems=function(request, fetchHandler, errorH
  * @memberOf dojox.data.XmlStore
 */
 dojox.data.XmlStore.prototype._backupItem=function(item){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.buddhist
 /**
  * @namespace
 */
@@ -49901,9 +47066,6 @@ dojox.date.buddhist.Date=function(){};
  * @namespace
 */
 dojox.date.buddhist.locale={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.buddhist.Date
 /**
  * <b>Summary:</b><blockquote>
  *	 This is the constructor<br>
@@ -50105,9 +47267,6 @@ dojox.date.buddhist.Date.prototype._addMinutes=function(minutes){};
  * @memberOf dojox.date.buddhist.Date
 */
 dojox.date.buddhist.Date.prototype._addMilliseconds=function(milliseconds){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date
 /**
  * <b>Summary:</b><blockquote>
  *	 mix-in to dojo.date to provide timezones based on<br>
@@ -50139,9 +47298,6 @@ dojox.date.islamic={};
  * @namespace
 */
 dojox.date.hebrew={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.buddhist.locale
 /**
  * <b>Summary:</b><blockquote>
  *	 Builds the regular needed to parse a buddhist.Date<br>
@@ -50197,9 +47353,6 @@ dojox.date.buddhist.locale._parseInfo=function(options){};
  * @private
 */
 dojox.date.buddhist.locale._getBuddhistBundle=function(locale){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.hebrew
 /**
  * @param {hebrew.Date} month 
 */
@@ -50269,9 +47422,6 @@ dojox.date.hebrew.numerals={};
  * @namespace
 */
 dojox.date.hebrew.locale={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.hebrew.Date
 /**
  * <b>Summary:</b><blockquote>
  *	 A Date-like object which implements the Hebrew calendar<br>
@@ -50604,9 +47754,6 @@ dojox.date.hebrew.Date.prototype._addMinutes=function(minutes){};
  * @memberOf dojox.date.hebrew.Date
 */
 dojox.date.hebrew.Date.prototype._addMilliseconds=function(milliseconds){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.hebrew.locale
 /**
  * <b>Summary:</b><blockquote>
  *	 Builds the regular needed to parse a hebrew.Date<br>
@@ -50691,9 +47838,6 @@ dojox.date.hebrew.locale._parseInfo=function(options){};
  * @private
 */
 dojox.date.hebrew.locale._getHebrewBundle=function(locale){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.hebrew.numerals
 /**
  * <b>Summary:</b><blockquote>
  *	 converts the year written in Hebrew numerals to an integer<br>
@@ -50768,9 +47912,6 @@ dojox.date.hebrew.numerals.getMonthHebrewLetters=function(month){};
  * 		document.writeln(dojox.date.hebrew.numerals.getDayHebrewLetters(date1.getDay());
 */
 dojox.date.hebrew.numerals.getDayHebrewLetters=function(day, nogrsh){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.islamic
 /**
  * @param {islamic.Date} month 
 */
@@ -50829,9 +47970,6 @@ dojox.date.islamic.Date=function(){};
  * @namespace
 */
 dojox.date.islamic.locale={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.islamic.Date
 /**
  * <b>Summary:</b><blockquote>
  *	 The component defines the Islamic (Hijri) Calendar Object<br>
@@ -51082,9 +48220,6 @@ dojox.date.islamic.Date.prototype._addMinutes=function(minutes){};
  * @memberOf dojox.date.islamic.Date
 */
 dojox.date.islamic.Date.prototype._addMilliseconds=function(milliseconds){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.islamic.locale
 /**
  * <b>Summary:</b><blockquote>
  *	 Builds the regular needed to parse a islamic.Date<br>
@@ -51140,9 +48275,6 @@ dojox.date.islamic.locale._parseInfo=function(options){};
  * @private
 */
 dojox.date.islamic.locale._getIslamicBundle=function(locale){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.php
 /**
  * <b>Summary:</b><blockquote>
  *	 Get a formatted string for a given date object<br>
@@ -51158,9 +48290,6 @@ dojox.date.php.format=function(date, format){};
  * @param {String} format 
 */
 dojox.date.php.DateFormat=function(format){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.php.DateFormat
 /**
  * <b>Summary:</b><blockquote>
  *	 Format the internal date object<br>
@@ -51431,20 +48560,11 @@ dojox.date.php.DateFormat.prototype.D=function(){};
  * @memberOf dojox.date.php.DateFormat
 */
 dojox.date.php.DateFormat.prototype.B=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.php.DateFormat.format
 /**
  * @class
  * @returns {dojox.date.php.DateFormat.format} new instance
 */
 dojox.date.php.DateFormat.format=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.php.DateFormat.constructor.prototype
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.posix
 /**
  * <b>Summary:</b><blockquote>
  *	 Formats the date object using the specifications of the POSIX strftime function<br>
@@ -51499,9 +48619,6 @@ dojox.date.posix.getIsoWeeksInYear=function(dateObject){};
  * @returns {Integer} -
 */
 dojox.date.posix.getIsoWeekOfYear=function(dateObject){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.relative
 /**
  * <b>Summary:</b><blockquote>
  *	 Format a Date object as a String, using locale-specific settings,<br>
@@ -51535,25 +48652,12 @@ dojox.date.relative.format=function(dateObject, options){};
  * @private
 */
 dojox.date.relative.__FormatOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.relative.__FormatOptions
 /**
  * @class
  * @private
  * @returns {dojox.date.relative.__FormatOptions} new instance
 */
 dojox.date.relative.__FormatOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-ddl
-//-jshdr-obj-end
-
-//-jshdr-id-dojo._contentHandlers
-//-jsdoc-invalid-entry [dojo._contentHandlers.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.date.timezone
 /**
  * <b>Summary:</b><blockquote>
  *	 Loads the given data object into the zone database<br>
@@ -51577,9 +48681,6 @@ dojox.date.timezone.getTzInfo=function(dt, tz){};
  * </blockquote>
 */
 dojox.date.timezone.getAllZones=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-_ddl
 /**
  * @namespace
 */
@@ -51596,9 +48697,6 @@ dojox._ddl.format=function(dateObject, options){};
  * @private
 */
 dojox._ddl._getZone=function(dateObject, getName, options){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dnd
 /**
 */
 dojox.dnd.Selector=function(){};
@@ -51613,9 +48711,6 @@ dojox.dnd.Selector=function(){};
  * @param {String|DomNode:} domNode the DOM node or id which represents the bounding box on the page.
 */
 dojox.dnd.BoundingBoxController=function(sources, domNode){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dnd.BoundingBoxController
 /**
  * <b>Summary:</b><blockquote>
  *	 Allows the user draw bounding boxes around nodes on the page.<br>
@@ -51708,9 +48803,6 @@ dojox.dnd.BoundingBoxController.prototype._finishSelecting=function(){};
  * @memberOf dojox.dnd.BoundingBoxController
 */
 dojox.dnd.BoundingBoxController.prototype._drawBoundingBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dnd.Selector
 /**
  * @class
  * @extends dojo.dnd.Selector
@@ -51831,12 +48923,6 @@ dojox.dnd.Selector.prototype._getNodeId=function(nodeId, toNext){};
  * @memberOf dojox.dnd.Selector
 */
 dojox.dnd.Selector.prototype._conservativeBBLogic=function(node, left, top, right, bottom){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.annotations
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing
 /**
  * @param {mixed} item 
  * @param {mixed} type 
@@ -51961,9 +49047,6 @@ dojox.drawing.defaults={};
  * @namespace
 */
 dojox.drawing.annotations={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults
 /**
 */
 dojox.drawing.defaults.copy=function(){};
@@ -52019,21 +49102,6 @@ dojox.drawing.defaults.arrows={};
  * @namespace
 */
 dojox.drawing.defaults.anchors={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.norm
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.selected
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.highlighted
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.disabled
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.hitNorm
 /**
  * @namespace
 */
@@ -52042,47 +49110,14 @@ dojox.drawing.defaults.hitNorm.fill={};
  * @namespace
 */
 dojox.drawing.defaults.hitNorm.color={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.hitNorm.color
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.hitNorm.fill
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.hitSelected
 /**
  * @namespace
 */
 dojox.drawing.defaults.hitSelected.fill={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.hitSelected.fill
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.hitHighlighted
 /**
  * @namespace
 */
 dojox.drawing.defaults.hitHighlighted.fill={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.hitHighlighted.fill
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.anchors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.arrows
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.text
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.textDisabled
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.textMode
 /**
  * @namespace
 */
@@ -52091,15 +49126,6 @@ dojox.drawing.defaults.textMode.edit={};
  * @namespace
 */
 dojox.drawing.defaults.textMode.create={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.textMode.create
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.textMode.edit
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button
 /**
  * @namespace
 */
@@ -52120,49 +49146,22 @@ dojox.drawing.defaults.button.icon={};
  * @namespace
 */
 dojox.drawing.defaults.button.down={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.norm
 /**
  * @namespace
 */
 dojox.drawing.defaults.button.norm.fill={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.norm.fill
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.over
 /**
  * @namespace
 */
 dojox.drawing.defaults.button.over.fill={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.over.fill
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.down
 /**
  * @namespace
 */
 dojox.drawing.defaults.button.down.fill={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.down.fill
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.selected
 /**
  * @namespace
 */
 dojox.drawing.defaults.button.selected.fill={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.selected.fill
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.icon
 /**
  * @namespace
 */
@@ -52171,15 +49170,6 @@ dojox.drawing.defaults.button.icon.selected={};
  * @namespace
 */
 dojox.drawing.defaults.button.icon.norm={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.icon.norm
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.defaults.button.icon.selected
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.Drawing
 /**
  * <b>Summary:</b><blockquote>
  *	 Drawing is a project that sits on top of DojoX GFX and uses SVG and<br>
@@ -52494,12 +49484,6 @@ dojox.drawing.Drawing.prototype.addPlugin=function(plugin){};
  * @memberOf dojox.drawing.Drawing
 */
 dojox.drawing.Drawing.prototype._createCanvas=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.Drawing.defaults
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library
 /**
  * @namespace
 */
@@ -52508,12 +49492,6 @@ dojox.drawing.library.icons={};
  * @namespace
 */
 dojox.drawing.library.greek={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.greek
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons
 /**
  * @namespace
 */
@@ -52582,67 +49560,12 @@ dojox.drawing.library.icons.axes={};
  * @namespace
 */
 dojox.drawing.library.icons.arrow={};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.drawing.library.icons.line
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.drawing.library.icons.ellipse
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.rect
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.triangle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.path
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.arrow
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.textBlock
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.equation
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.axes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.vector
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.pan
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.plus
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.zoomIn
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.zoomOut
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.zoom100
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.iconize
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.library.icons.pencil
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.manager
 /**
  * @namespace
 */
 dojox.drawing.manager.keys={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.manager.keys
 /**
  * <b>Summary:</b><blockquote>
  *	 Scans the document for inputs<br>
@@ -52746,9 +49669,6 @@ dojox.drawing.manager.keys._mixin=function(evt){};
  * @private
 */
 dojox.drawing.manager.keys._getLetter=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.manager.keys.scanForFields
 /**
  * <b>Summary:</b><blockquote>
  *	 Scans the document for inputs<br>
@@ -52759,9 +49679,6 @@ dojox.drawing.manager.keys._getLetter=function(evt){};
  * @returns {dojox.drawing.manager.keys.scanForFields} new instance
 */
 dojox.drawing.manager.keys.scanForFields=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.drawing
 /**
  * @namespace
 */
@@ -52791,9 +49708,6 @@ dojox.drawing.plugins.drawing={};
  * 	&lt;div dojoType="dojox.drawing.plugins.drawing.GreekPalette" id="greekPalette"&gt;&lt;/div&gt;
 */
 dojox.drawing.plugins.drawing.GreekPalette=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.drawing.GreekPalette
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin uses the palette dijit in order to give tips for<br>
@@ -52919,18 +49833,6 @@ dojox.drawing.plugins.drawing.GreekPalette.prototype._navigateByArrow=function(e
  * @memberOf dojox.drawing.plugins.drawing.GreekPalette
 */
 dojox.drawing.plugins.drawing.GreekPalette.prototype._displayDetails=function(cell){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.drawing.GreekPalette._textBlock
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.drawing.GreekPalette.previewNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.drawing.GreekPalette.descNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins
 /**
  * <b>Summary:</b><blockquote>
  *	 Represents a character.<br>
@@ -52944,9 +49846,6 @@ dojox.drawing.plugins.Greeks=function(alias){};
  * @namespace
 */
 dojox.drawing.plugins.tools={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.Greeks
 /**
  * <b>Summary:</b><blockquote>
  *	 Represents a character.<br>
@@ -52970,9 +49869,6 @@ dojox.drawing.plugins.Greeks.prototype.getValue=function(){};
  * @memberOf dojox.drawing.plugins.Greeks
 */
 dojox.drawing.plugins.Greeks.prototype.fillCell=function(cell){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools
 /**
  * @namespace
 */
@@ -52993,68 +49889,26 @@ dojox.drawing.plugins.tools.Pan={};
  * @namespace
 */
 dojox.drawing.plugins.tools.Iconize={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools.Iconize
 /**
  * @namespace
 */
 dojox.drawing.plugins.tools.Iconize.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools.Iconize.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools.Pan
 /**
  * @namespace
 */
 dojox.drawing.plugins.tools.Pan.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools.Pan.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools.ZoomIn
 /**
  * @namespace
 */
 dojox.drawing.plugins.tools.ZoomIn.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools.ZoomIn.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools.Zoom100
 /**
  * @namespace
 */
 dojox.drawing.plugins.tools.Zoom100.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools.Zoom100.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools.ZoomOut
 /**
  * @namespace
 */
 dojox.drawing.plugins.tools.ZoomOut.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.plugins.tools.ZoomOut.setup
-//-jshdr-obj-end
-
-//-jshdr-id-StencilArgs
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.stencil
-//-jshdr-obj-end
-
-//-jshdr-id-__StencilData
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools
 /**
  * @namespace
 */
@@ -53087,19 +49941,10 @@ dojox.drawing.tools.Ellipse={};
  * @namespace
 */
 dojox.drawing.tools.Arrow={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Arrow
 /**
  * @namespace
 */
 dojox.drawing.tools.Arrow.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Arrow.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom
 /**
  * @namespace
 */
@@ -53112,43 +49957,22 @@ dojox.drawing.tools.custom.Equation={};
  * @namespace
 */
 dojox.drawing.tools.custom.Axes={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom.Axes
 /**
  * @namespace
 */
 dojox.drawing.tools.custom.Axes.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom.Axes.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom.Equation
 /**
  * @namespace
 */
 dojox.drawing.tools.custom.Equation.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom.Equation.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom.Vector
 /**
  * @namespace
 */
 dojox.drawing.tools.custom.Vector.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom.Vector.setup
 /**
  * @namespace
 */
 dojox.drawing.tools.custom.Vector.setup.secondary={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom.Vector.setup.secondary
 /**
  * <b>Summary:</b><blockquote>
  *	 All functions, variables and connections defined here<br>
@@ -53172,20 +49996,11 @@ dojox.drawing.tools.custom.Vector.setup.secondary.postSetup=function(btn){};
  * @param {mixed} button 
 */
 dojox.drawing.tools.custom.Vector.setup.secondary.funct=function(button){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom.Vector.setup.secondary.funct
 /**
  * @class
  * @returns {dojox.drawing.tools.custom.Vector.setup.secondary.funct} new instance
 */
 dojox.drawing.tools.custom.Vector.setup.secondary.funct=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom.Vector.setup.secondary.funct.drawing.stencils
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.custom.Vector.setup.secondary.setup
 /**
  * <b>Summary:</b><blockquote>
  *	 All functions, variables and connections defined here<br>
@@ -53208,69 +50023,30 @@ dojox.drawing.tools.custom.Vector.setup.secondary.setup.zDeselect=function(butto
 /**
 */
 dojox.drawing.tools.custom.Vector.setup.secondary.setup.vectorTest=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Ellipse
 /**
  * @namespace
 */
 dojox.drawing.tools.Ellipse.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Ellipse.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Line
 /**
  * @namespace
 */
 dojox.drawing.tools.Line.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Line.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Path
 /**
  * @namespace
 */
 dojox.drawing.tools.Path.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Path.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Pencil
 /**
  * @namespace
 */
 dojox.drawing.tools.Pencil.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Pencil.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Rect
 /**
  * @namespace
 */
 dojox.drawing.tools.Rect.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.Rect.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.TextBlock
 /**
  * @namespace
 */
 dojox.drawing.tools.TextBlock.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.tools.TextBlock.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.ui
 /**
  * <b>Summary:</b><blockquote>
  *	 A Toolbar used for holding buttons; typically representing the Stencils<br>
@@ -53302,9 +50078,6 @@ dojox.drawing.ui.Toolbar=function(props, node){};
  * @namespace
 */
 dojox.drawing.ui.dom={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.ui.dom
 /**
  * <b>Summary:</b><blockquote>
  *	 Creates a Toolbar to be used with a DojoX Drawing.<br>
@@ -53335,19 +50108,10 @@ dojox.drawing.ui.dom.Toolbar=function(props, node){};
  * @namespace
 */
 dojox.drawing.ui.dom.Pan={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.ui.dom.Pan
 /**
  * @namespace
 */
 dojox.drawing.ui.dom.Pan.setup={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.ui.dom.Pan.setup
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.ui.dom.Toolbar
 /**
  * <b>Summary:</b><blockquote>
  *	 Creates a Toolbar to be used with a DojoX Drawing.<br>
@@ -53427,9 +50191,6 @@ dojox.drawing.ui.dom.Toolbar.prototype.createTool=function(node){};
  * @memberOf dojox.drawing.ui.dom.Toolbar
 */
 dojox.drawing.ui.dom.Toolbar.prototype.createIcon=function(node, constr){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.ui.Toolbar
 /**
  * <b>Summary:</b><blockquote>
  *	 A Toolbar used for holding buttons; typically representing the Stencils<br>
@@ -53516,9 +50277,6 @@ dojox.drawing.ui.Toolbar.prototype.addBack=function(){};
  * @memberOf dojox.drawing.ui.Toolbar
 */
 dojox.drawing.ui.Toolbar.prototype._mixprops=function(props, objNode){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.util
 /**
  * @namespace
 */
@@ -53535,9 +50293,6 @@ dojox.drawing.util.oo={};
  * @namespace
 */
 dojox.drawing.util.common={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.util.common
 /**
  * <b>Summary:</b><blockquote>
  *	 Creates a unique ID.<br>
@@ -53720,9 +50475,6 @@ dojox.drawing.util.common.angle=function(obj, snap){};
  * @param {mixed} type 
 */
 dojox.drawing.util.common.abbr=function(type){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.util.oo
 /**
  * <b>Summary:</b><blockquote>
  *	 Extends constructors to inherit from other<br>
@@ -53787,9 +50539,6 @@ dojox.drawing.util.oo.extend=function(){};
  * 	var f = new MyFunction();
 */
 dojox.drawing.util.oo.declare=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.util.positioning
 /**
  * <b>Summary:</b><blockquote>
  *	 Returns the optimal text positions for annotations.Label.<br>
@@ -53810,9 +50559,6 @@ dojox.drawing.util.positioning.label=function(start, end){};
  * @returns {Object} -
 */
 dojox.drawing.util.positioning.angle=function(start, end){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.drawing.util.typeset
 /**
  * @param {mixed} inText 
 */
@@ -53821,9 +50567,6 @@ dojox.drawing.util.typeset.convertLaTeX=function(inText){};
  * @param {mixed} inText 
 */
 dojox.drawing.util.typeset.convertHTML=function(inText){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.string
 /**
  * <b>Summary:</b><blockquote>
  *	 This class provides a bidi transformation engine, i.e.<br>
@@ -53861,13 +50604,6 @@ dojox.drawing.util.typeset.convertHTML=function(inText){};
  * @see reference <a href="http://www.unicode.org/reports/tr9/.">http://www.unicode.org/reports/tr9/.</a>
 */
 dojox.string.BidiEngine=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl
-//-jsdoc-invalid-entry [dojox.dtl.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.Token
 /**
  * @class
  * @returns {dojox.dtl.Token} new instance
@@ -53884,12 +50620,6 @@ dojox.dtl.Token.split_contents=function(limit){};
 /**
 */
 dojox.dtl.Token.split=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.Token.contents
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.text
 /**
  * @param {mixed} str 
 */
@@ -53953,9 +50683,6 @@ dojox.dtl.text._isTemplate=function(arg){};
  * @private
 */
 dojox.dtl.text._get=function(module, name, errorless){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.Template
 /**
  * <b>Summary:</b><blockquote>
  *	 Updates this template according to the given context.<br>
@@ -53972,9 +50699,6 @@ dojox.dtl.Template.update=function(node, context){};
  * @param {StringBuilder} [buffer] A string buffer.
 */
 dojox.dtl.Template.render=function(context, buffer){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._noOpNode
 /**
  * <b>Summary:</b><blockquote>
  *	 Adds a no-op node. Useful in custom tags<br>
@@ -53993,9 +50717,6 @@ dojox.dtl._noOpNode.render=function(){};
 /**
 */
 dojox.dtl._noOpNode.clone=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.register
 /**
  * @param {String} base 
  * @param {Object} locations 
@@ -54026,12 +50747,6 @@ dojox.dtl.register._any=function(type, base, locations){};
  * @private
 */
 dojox.dtl.register._registry={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.register._registry
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._base
 /**
  * @param {mixed} value 
 */
@@ -54043,9 +50758,6 @@ dojox.dtl._base.safe=function(value){};
  * @param {mixed} value 
 */
 dojox.dtl._base.escape=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.Context
 /**
  * <b>Summary:</b><blockquote>
  *	 Represents a runtime context used by DTL templates.<br>
@@ -54102,9 +50814,6 @@ dojox.dtl.Context.prototype.filter=function(filter){};
  * @memberOf dojox.dtl.Context
 */
 dojox.dtl.Context.prototype.extend=function(obj){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.Context.setThis
 /**
  * <b>Summary:</b><blockquote>
  *	 Sets the object on which to perform operations.<br>
@@ -54113,9 +50822,6 @@ dojox.dtl.Context.prototype.extend=function(obj){};
  * @returns {dojox.dtl.Context.setThis} new instance
 */
 dojox.dtl.Context.setThis=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.contrib.data
 /**
  * @namespace
 */
@@ -54152,19 +50858,10 @@ dojox.dtl.contrib.data.bind_data=function(parser, token){};
  * @private
 */
 dojox.dtl.contrib.data._get=function(key){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.contrib
 /**
  * @namespace
 */
 dojox.dtl.contrib.objects={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.contrib.data._BoundItem.get
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.contrib.dijit
 /**
  * @namespace
 */
@@ -54192,17 +50889,11 @@ dojox.dtl.contrib.dijit.dojoAttachPoint=function(parser, token){};
  * @param {mixed} token 
 */
 dojox.dtl.contrib.dijit.dojoAttachEvent=function(parser, token){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.contrib.objects
 /**
  * @param {mixed} value 
  * @param {mixed} arg 
 */
 dojox.dtl.contrib.objects.key=function(value, arg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomInline
 /**
  * @class
  * @returns {dojox.dtl.DomInline} new instance
@@ -54221,33 +50912,21 @@ dojox.dtl.DomInline.prototype.postMixInProperties=function(){};
  * @memberOf dojox.dtl.DomInline
 */
 dojox.dtl.DomInline.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomInline.render
 /**
  * @class
  * @returns {dojox.dtl.DomInline.render} new instance
 */
 dojox.dtl.DomInline.render=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomInline.buildRendering
 /**
  * @class
  * @returns {dojox.dtl.DomInline.buildRendering} new instance
 */
 dojox.dtl.DomInline.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomInline.postMixInProperties
 /**
  * @class
  * @returns {dojox.dtl.DomInline.postMixInProperties} new instance
 */
 dojox.dtl.DomInline.postMixInProperties=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomTemplate
 /**
  * <b>Summary:</b><blockquote>
  *	 The template class for DOM templating.<br>
@@ -54293,9 +50972,6 @@ dojox.dtl.DomTemplate.prototype.getRootNode=function(){};
  * @memberOf dojox.dtl.DomTemplate
 */
 dojox.dtl.DomTemplate.prototype.getBuffer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomTemplate.render
 /**
  * <b>Summary:</b><blockquote>
  *	 Renders this template.<br>
@@ -54304,9 +50980,6 @@ dojox.dtl.DomTemplate.prototype.getBuffer=function(){};
  * @returns {dojox.dtl.DomTemplate.render} new instance
 */
 dojox.dtl.DomTemplate.render=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer
 /**
  * <b>Summary:</b><blockquote>
  *	 Allows the manipulation of DOM<br>
@@ -54430,17 +51103,11 @@ dojox.dtl.DomBuffer.prototype.concat=function(node){};
  * @memberOf dojox.dtl.DomBuffer
 */
 dojox.dtl.DomBuffer.prototype.addEvent=function(context, type, fn, args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer.concat
 /**
  * @class
  * @returns {dojox.dtl.DomBuffer.concat} new instance
 */
 dojox.dtl.DomBuffer.concat=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer.concat._parent
 /**
  * @namespace
  * @private
@@ -54450,53 +51117,26 @@ dojox.dtl.DomBuffer.concat._parent={};
  * @memberOf dojox.dtl.DomBuffer.concat._parent
 */
 dojox.dtl.DomBuffer.concat._parent._cache=[];
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer.concat._parent._cache
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer.remove
 /**
  * @class
  * @returns {dojox.dtl.DomBuffer.remove} new instance
 */
 dojox.dtl.DomBuffer.remove=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer.setAttribute
 /**
  * @class
  * @returns {dojox.dtl.DomBuffer.setAttribute} new instance
 */
 dojox.dtl.DomBuffer.setAttribute=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer.setAttribute._parent.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer.setParent
 /**
  * @class
  * @returns {dojox.dtl.DomBuffer.setParent} new instance
 */
 dojox.dtl.DomBuffer.setParent=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer.setParent._parent
 /**
  * @namespace
  * @private
 */
 dojox.dtl.DomBuffer.setParent._parent={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer.setParent._parent.options
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.DomBuffer.setParent._parent._cache
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomNode
 /**
  * <b>Summary:</b><blockquote>
  *	 Places a node into DOM<br>
@@ -54523,25 +51163,16 @@ dojox.dtl._DomNode.prototype.render=function(context, buffer){};
  * @memberOf dojox.dtl._DomNode
 */
 dojox.dtl._DomNode.prototype.clone=function(buffer){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomNode.render
 /**
  * @class
  * @returns {dojox.dtl._DomNode.render} new instance
 */
 dojox.dtl._DomNode.render=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomNode.unrender
 /**
  * @class
  * @returns {dojox.dtl._DomNode.unrender} new instance
 */
 dojox.dtl._DomNode.unrender=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomNodeList
 /**
  * <b>Summary:</b><blockquote>
  *	 A list of any DOM-specific node objects<br>
@@ -54601,9 +51232,6 @@ dojox.dtl._DomNodeList.prototype.dummyRender=function(context, buffer, asNode){}
  * @memberOf dojox.dtl._DomNodeList
 */
 dojox.dtl._DomNodeList.prototype.clone=function(buffer){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomNodeList.clone
 /**
  * <b>Summary:</b><blockquote>
  *	 Used to create an identical copy of a NodeList, useful for things like the for tag.<br>
@@ -54612,9 +51240,6 @@ dojox.dtl._DomNodeList.prototype.clone=function(buffer){};
  * @returns {dojox.dtl._DomNodeList.clone} new instance
 */
 dojox.dtl._DomNodeList.clone=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomVarNode
 /**
  * <b>Summary:</b><blockquote>
  *	 A node to be processed as a variable<br>
@@ -54642,9 +51267,6 @@ dojox.dtl._DomVarNode.prototype.render=function(context, buffer){};
  * @memberOf dojox.dtl._DomVarNode
 */
 dojox.dtl._DomVarNode.prototype.clone=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomVarNode.render
 /**
  * @class
  * @returns {dojox.dtl._DomVarNode.render} new instance
@@ -54655,23 +51277,11 @@ dojox.dtl._DomVarNode.render=function(){};
  * @private
 */
 dojox.dtl._DomVarNode.render._txt={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomVarNode.render._txt
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomVarNode.unrender
 /**
  * @class
  * @returns {dojox.dtl._DomVarNode.unrender} new instance
 */
 dojox.dtl._DomVarNode.unrender=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomVarNode.unrender._html
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.ChangeNode
 /**
  * <b>Summary:</b><blockquote>
  *	 Changes the parent during render/unrender<br>
@@ -54696,9 +51306,6 @@ dojox.dtl.ChangeNode.prototype.render=function(context, buffer){};
  * @memberOf dojox.dtl.ChangeNode
 */
 dojox.dtl.ChangeNode.prototype.clone=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.AttributeNode
 /**
  * <b>Summary:</b><blockquote>
  *	 Works on attributes<br>
@@ -54724,25 +51331,16 @@ dojox.dtl.AttributeNode.prototype.render=function(context, buffer){};
  * @memberOf dojox.dtl.AttributeNode
 */
 dojox.dtl.AttributeNode.prototype.clone=function(buffer){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.AttributeNode.render
 /**
  * @class
  * @returns {dojox.dtl.AttributeNode.render} new instance
 */
 dojox.dtl.AttributeNode.render=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.AttributeNode.unrender
 /**
  * @class
  * @returns {dojox.dtl.AttributeNode.unrender} new instance
 */
 dojox.dtl.AttributeNode.unrender=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomTextNode
 /**
  * <b>Summary:</b><blockquote>
  *	 Adds a straight text node without any processing<br>
@@ -54777,28 +51375,16 @@ dojox.dtl._DomTextNode.prototype.isEmpty=function(){};
  * @memberOf dojox.dtl._DomTextNode
 */
 dojox.dtl._DomTextNode.prototype.clone=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomTextNode.set
 /**
  * @class
  * @returns {dojox.dtl._DomTextNode.set} new instance
 */
 dojox.dtl._DomTextNode.set=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomTextNode.render
 /**
  * @class
  * @returns {dojox.dtl._DomTextNode.render} new instance
 */
 dojox.dtl._DomTextNode.render=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomTextNode.render.contents
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomParser
 /**
  * <b>Summary:</b><blockquote>
  *	 Turn a simple array into a set of objects<br>
@@ -54846,20 +51432,11 @@ dojox.dtl._DomParser.prototype.create_variable_node=function(expr){};
  * @memberOf dojox.dtl._DomParser
 */
 dojox.dtl._DomParser.prototype.create_text_node=function(expr){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomParser.parse
 /**
  * @class
  * @returns {dojox.dtl._DomParser.parse} new instance
 */
 dojox.dtl._DomParser.parse=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.BOOLS
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.dom
 /**
  * @param {Node} nodes 
 */
@@ -54880,17 +51457,11 @@ dojox.dtl.dom._tokenize=function(node, tokens){};
  * @private
 */
 dojox.dtl.dom.__tokenize=function(child, tokens){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.dom.getTemplate
 /**
  * @class
  * @returns {dojox.dtl.dom.getTemplate} new instance
 */
 dojox.dtl.dom.getTemplate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomTemplated
 /**
  * @class
  * @private
@@ -54935,9 +51506,6 @@ dojox.dtl._DomTemplated.prototype._getContext=function(context){};
  * @memberOf dojox.dtl._DomTemplated
 */
 dojox.dtl._DomTemplated.prototype._getCachedTemplate=function(templatePath, templateString){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomTemplated.buildRendering
 /**
  * <b>Summary:</b><blockquote>
  *	 Construct the UI for this widget, setting this.domNode.<br>
@@ -54946,9 +51514,6 @@ dojox.dtl._DomTemplated.prototype._getCachedTemplate=function(templatePath, temp
  * @returns {dojox.dtl._DomTemplated.buildRendering} new instance
 */
 dojox.dtl._DomTemplated.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomTemplated.setTemplate
 /**
  * <b>Summary:</b><blockquote>
  *	 Quickly switch between templated by location<br>
@@ -54957,9 +51522,6 @@ dojox.dtl._DomTemplated.buildRendering=function(){};
  * @returns {dojox.dtl._DomTemplated.setTemplate} new instance
 */
 dojox.dtl._DomTemplated.setTemplate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomTemplated.render
 /**
  * <b>Summary:</b><blockquote>
  *	 Renders this template.<br>
@@ -54968,18 +51530,12 @@ dojox.dtl._DomTemplated.setTemplate=function(){};
  * @returns {dojox.dtl._DomTemplated.render} new instance
 */
 dojox.dtl._DomTemplated.render=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._DomTemplated._getCachedTemplate
 /**
  * @class
  * @private
  * @returns {dojox.dtl._DomTemplated._getCachedTemplate} new instance
 */
 dojox.dtl._DomTemplated._getCachedTemplate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.Nodelist
 /**
  * @class
  * @returns {dojo.Nodelist} new instance
@@ -54994,12 +51550,6 @@ dojo.Nodelist=function(){};
  * @memberOf dojo.Nodelist
 */
 dojo.Nodelist.prototype.dtl=function(template, context){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.ext-dojo
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.filter.dates
 /**
  * @namespace
 */
@@ -55041,9 +51591,6 @@ dojox.dtl.filter.dates.date=function(value, arg){};
  * @private
 */
 dojox.dtl.filter.dates._toDate=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.filter
 /**
  * @namespace
 */
@@ -55068,9 +51615,6 @@ dojox.dtl.filter.integers={};
  * @namespace
 */
 dojox.dtl.filter.htmlstrings={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.filter.htmlstrings
 /**
  * <b>Summary:</b><blockquote>
  *	 Strips all [X]HTML tags<br>
@@ -55100,9 +51644,6 @@ dojox.dtl.filter.htmlstrings.linebreaksbr=function(value){};
  * @param {mixed} value 
 */
 dojox.dtl.filter.htmlstrings.linebreaks=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.filter.integers
 /**
  * <b>Summary:</b><blockquote>
  *	 Given a whole number, returns the 1-based requested digit of it<br>
@@ -55120,9 +51661,6 @@ dojox.dtl.filter.integers.get_digit=function(value, arg){};
  * @param {mixed} arg 
 */
 dojox.dtl.filter.integers.add=function(value, arg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.filter.lists
 /**
  * <b>Summary:</b><blockquote>
  *	 Recursively takes a self-nested list and returns an HTML unordered list --<br>
@@ -55227,9 +51765,6 @@ dojox.dtl.filter.lists._unordered_list=function(value, tabs){};
  * @private
 */
 dojox.dtl.filter.lists._dictsort=function(a, b){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.filter.logic
 /**
  * <b>Summary:</b><blockquote>
  *	 arg being a comma-delimited string, value of true/false/none<br>
@@ -55263,9 +51798,6 @@ dojox.dtl.filter.logic.default_if_none=function(value, arg){};
  * @param {mixed} arg 
 */
 dojox.dtl.filter.logic.default_=function(value, arg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.filter.misc
 /**
  * <b>Summary:</b><blockquote>
  *	 A wrapper around toJson unless something better comes along<br>
@@ -55303,12 +51835,6 @@ dojox.dtl.filter.misc.filesizeformat=function(value){};
  * @private
 */
 dojox.dtl.filter.misc._phone2numeric={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.filter.misc._phone2numeric
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.filter.strings
 /**
  * @param {mixed} value 
  * @param {mixed} arg 
@@ -55472,12 +51998,6 @@ dojox.dtl.filter.strings._urlquote=function(url, safe){};
  * @private
 */
 dojox.dtl.filter.strings._truncate_singlets={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.filter.strings._truncate_singlets
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.Inline
 /**
  * @class
  * @returns {dojox.dtl.Inline} new instance
@@ -55496,36 +52016,21 @@ dojox.dtl.Inline.prototype.postMixInProperties=function(){};
  * @memberOf dojox.dtl.Inline
 */
 dojox.dtl.Inline.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.Inline.render
 /**
  * @class
  * @returns {dojox.dtl.Inline.render} new instance
 */
 dojox.dtl.Inline.render=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.Inline.render.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.Inline.buildRendering
 /**
  * @class
  * @returns {dojox.dtl.Inline.buildRendering} new instance
 */
 dojox.dtl.Inline.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.Inline.postMixInProperties
 /**
  * @class
  * @returns {dojox.dtl.Inline.postMixInProperties} new instance
 */
 dojox.dtl.Inline.postMixInProperties=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.render.dom
 /**
  * @namespace
 */
@@ -55535,9 +52040,6 @@ dojox.dtl.render.dom={};
  * @param {dojox.dtl.DomTemplate} [tpl] 
 */
 dojox.dtl.render.dom.Render=function(attachPoint, tpl){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.render.dom.Render
 /**
  * @class
  * @returns {dojox.dtl.render.dom.Render} new instance
@@ -55555,35 +52057,20 @@ dojox.dtl.render.dom.Render.prototype.setAttachPoint=function(node){};
  * @memberOf dojox.dtl.render.dom.Render
 */
 dojox.dtl.render.dom.Render.prototype.render=function(context, tpl, buffer){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.render.dom.Render.setAttachPoint
 /**
  * @class
  * @returns {dojox.dtl.render.dom.Render.setAttachPoint} new instance
 */
 dojox.dtl.render.dom.Render.setAttachPoint=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.render.dom.Render.render
 /**
  * @class
  * @returns {dojox.dtl.render.dom.Render.render} new instance
 */
 dojox.dtl.render.dom.Render.render=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.render
 /**
  * @namespace
 */
 dojox.dtl.render.html={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.render.html
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.tag.date
 /**
  * @namespace
 */
@@ -55598,9 +52085,6 @@ dojox.dtl.tag.date.now=function(parser, token){};
  * @param {mixed} node 
 */
 dojox.dtl.tag.date.NowNode=function(format, node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.tag.date.NowNode
 /**
  * @class
  * @returns {dojox.dtl.tag.date.NowNode} new instance
@@ -55623,12 +52107,6 @@ dojox.dtl.tag.date.NowNode.prototype.render=function(context, buffer){};
  * @memberOf dojox.dtl.tag.date.NowNode
 */
 dojox.dtl.tag.date.NowNode.prototype.clone=function(buffer){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.tag
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.tag.loader
 /**
  * @namespace
 */
@@ -55653,9 +52131,6 @@ dojox.dtl.tag.loader.extends_=function(parser, token){};
  * @param {mixed} token 
 */
 dojox.dtl.tag.loader.block=function(parser, token){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.tag.logic
 /**
  * @namespace
 */
@@ -55687,9 +52162,6 @@ dojox.dtl.tag.logic.for_=function(parser, token){};
  * @private
 */
 dojox.dtl.tag.logic._ifequal=function(parser, token, negate){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.tag.loop
 /**
  * @namespace
 */
@@ -55712,9 +52184,6 @@ dojox.dtl.tag.loop.ifchanged=function(parser, token){};
  * @param {mixed} token 
 */
 dojox.dtl.tag.loop.cycle=function(parser, token){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.tag.misc
 /**
  * @namespace
 */
@@ -55768,9 +52237,6 @@ dojox.dtl.tag.misc.debug=function(parser, token){};
  * @param {mixed} token 
 */
 dojox.dtl.tag.misc.comment=function(parser, token){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl._Templated
 /**
  * <b>Summary:</b><blockquote>
  *	 The base-class for DTL-templated widgets.<br>
@@ -55811,9 +52277,6 @@ dojox.dtl._Templated.prototype.getCachedTemplate=function(templatePath, template
  * @memberOf dojox.dtl._Templated
 */
 dojox.dtl._Templated.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.utils.date
 /**
  * @namespace
 */
@@ -55837,9 +52300,6 @@ dojox.dtl.utils.date.format=function(date, format){};
 /**
 */
 dojox.dtl.utils.date.DateFormat=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.utils.date.DateFormat
 /**
  * @class
  * @returns {dojox.dtl.utils.date.DateFormat} new instance
@@ -55871,12 +52331,6 @@ dojox.dtl.utils.date.DateFormat.prototype.P=function(){};
  * @memberOf dojox.dtl.utils.date.DateFormat
 */
 dojox.dtl.utils.date.DateFormat.prototype.N=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.dtl.utils
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins
 /**
  * @namespace
 */
@@ -56277,9 +52731,6 @@ dojox.editor.plugins.AutoUrlLink=function(){};
  * </blockquote>
 */
 dojox.editor.plugins.AutoSave=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._AutoSaveSettingDialog
 /**
  * @class
  * @extends dijit._Widget
@@ -56361,9 +52812,6 @@ dojox.editor.plugins._AutoSaveSettingDialog.prototype._isValidValue=function(val
  * @memberOf dojox.editor.plugins._AutoSaveSettingDialog
 */
 dojox.editor.plugins._AutoSaveSettingDialog.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.AutoSave
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides the auto save capability to the editor. The<br>
@@ -56474,12 +52922,6 @@ dojox.editor.plugins.AutoSave.prototype._getIntervalAttr=function(){};
  * @memberOf dojox.editor.plugins.AutoSave
 */
 dojox.editor.plugins.AutoSave.prototype._clearSaveInterval=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.AutoUrlLink
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin can recognize a URL like string<br>
@@ -56553,12 +52995,6 @@ dojox.editor.plugins.AutoUrlLink.prototype._findUrls=function(node, bm, bmOff){}
  * @memberOf dojox.editor.plugins.AutoUrlLink
 */
 dojox.editor.plugins.AutoUrlLink.prototype._findLastEditingNode=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.AutoUrlLink.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.Blockquote
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides Blockquote cabability to the editor.<br>
@@ -56663,9 +53099,6 @@ dojox.editor.plugins.Blockquote.prototype._getTagName=function(node){};
  * @memberOf dojox.editor.plugins.Blockquote
 */
 dojox.editor.plugins.Blockquote.prototype._findBlockQuotes=function(nodeList){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._BreadcrumbMenuTitle
 /**
  * <b>Summary:</b><blockquote>
  *	 SImple internal, non-clickable, menu entry to act as a menu title bar.<br>
@@ -56693,12 +53126,6 @@ dojox.editor.plugins._BreadcrumbMenuTitle.prototype._setMenuTitleAttr=function(s
  * @memberOf dojox.editor.plugins._BreadcrumbMenuTitle
 */
 dojox.editor.plugins._BreadcrumbMenuTitle.prototype._getMenuTitleAttr=function(str){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._BreadcrumbMenuTitle.title
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.Breadcrumb
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides Breadcrumb cabability to the editor.  When<br>
@@ -56789,12 +53216,6 @@ dojox.editor.plugins.Breadcrumb.prototype._deleteElement=function(){};
  * @memberOf dojox.editor.plugins.Breadcrumb
 */
 dojox.editor.plugins.Breadcrumb.prototype._deleteContents=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.Breadcrumb.breadcrumbBar.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._CollapsibleToolbarButton
 /**
  * <b>Summary:</b><blockquote>
  *	 Simple internal widget for representing a clickable button for expand/collapse<br>
@@ -56814,9 +53235,6 @@ dojox.editor.plugins._CollapsibleToolbarButton=function(){};
  * @memberOf dojox.editor.plugins._CollapsibleToolbarButton
 */
 dojox.editor.plugins._CollapsibleToolbarButton.prototype.onClick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.CollapsibleToolbar
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides a weappable toolbar container to allow expand/collapse<br>
@@ -56871,15 +53289,6 @@ dojox.editor.plugins.CollapsibleToolbar.prototype._onClose=function(e){};
  * @memberOf dojox.editor.plugins.CollapsibleToolbar
 */
 dojox.editor.plugins.CollapsibleToolbar.prototype._constructContainer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.CollapsibleToolbar.editor.header
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.CollapsibleToolbar.editor.footer
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.EntityPalette
 /**
  * <b>Summary:</b><blockquote>
  *	 A keyboard accessible HTML entity-picking widget (for inserting symbol characters)<br>
@@ -56939,21 +53348,6 @@ dojox.editor.plugins.EntityPalette.prototype._onCellMouseEnter=function(e){};
  * @memberOf dojox.editor.plugins.EntityPalette
 */
 dojox.editor.plugins.EntityPalette.prototype._displayDetails=function(cell){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.EntityPalette.previewNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.EntityPalette.codeNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.EntityPalette.entityNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.EntityPalette.descNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.LatinEntity
 /**
  * <b>Summary:</b><blockquote>
  *	 Represents a character.<br>
@@ -56977,9 +53371,6 @@ dojox.editor.plugins.LatinEntity.prototype.getValue=function(){};
  * @memberOf dojox.editor.plugins.LatinEntity
 */
 dojox.editor.plugins.LatinEntity.prototype.fillCell=function(cell){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._FindReplaceCloseBox
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for widgets that contains a button labeled X<br>
@@ -57004,9 +53395,6 @@ dojox.editor.plugins._FindReplaceCloseBox.prototype.postMixInProperties=function
  * @memberOf dojox.editor.plugins._FindReplaceCloseBox
 */
 dojox.editor.plugins._FindReplaceCloseBox.prototype.onClick=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._FindReplaceTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for widgets that contains a label (like &amp;quot;Font:&amp;quot;)<br>
@@ -57065,9 +53453,6 @@ dojox.editor.plugins._FindReplaceTextBox.prototype._setDisabledAttr=function(val
  * @memberOf dojox.editor.plugins._FindReplaceTextBox
 */
 dojox.editor.plugins._FindReplaceTextBox.prototype._onKeyPress=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._FindReplaceCheckBox
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for widgets that contains a label (like &amp;quot;Match case: &amp;quot;)<br>
@@ -57124,9 +53509,6 @@ dojox.editor.plugins._FindReplaceCheckBox.prototype._setDisabledAttr=function(va
  * @memberOf dojox.editor.plugins._FindReplaceCheckBox
 */
 dojox.editor.plugins._FindReplaceCheckBox.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._FindReplaceCheckBox.checkBox
 /**
  * @namespace
 */
@@ -57135,9 +53517,6 @@ dojox.editor.plugins._FindReplaceCheckBox.checkBox={};
  * @memberOf dojox.editor.plugins._FindReplaceCheckBox.checkBox
 */
 dojox.editor.plugins._FindReplaceCheckBox.checkBox.prototype.isFocusable=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._FindReplaceToolbar
 /**
  * <b>Summary:</b><blockquote>
  *	 A toolbar that derived from dijit.Toolbar, which<br>
@@ -57172,9 +53551,6 @@ dojox.editor.plugins._FindReplaceToolbar.prototype.addChild=function(widget, ins
  * @memberOf dojox.editor.plugins._FindReplaceToolbar
 */
 dojox.editor.plugins._FindReplaceToolbar.prototype._onToolbarEvent=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.FindReplace
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides a Find/Replace cabability for the editor.<br>
@@ -57345,21 +53721,6 @@ dojox.editor.plugins.FindReplace.prototype._filterRegexp=function(pattern, ignor
  * @memberOf dojox.editor.plugins.FindReplace
 */
 dojox.editor.plugins.FindReplace.prototype._checkButtons=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.FindReplace.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.FindReplace._findButton.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.FindReplace._replaceButton.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.FindReplace._replaceAllButton.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.InsertAnchor
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides the basis for an insert anchor dialog for the<br>
@@ -57512,12 +53873,6 @@ dojox.editor.plugins.InsertAnchor.prototype._calcBaseUrl=function(fullUrl){};
  * @memberOf dojox.editor.plugins.InsertAnchor
 */
 dojox.editor.plugins.InsertAnchor.prototype._applyStyles=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.InsertAnchor.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.InsertEntity
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin allows the user to select from standard Symbols (HTML Entities)<br>
@@ -57576,9 +53931,6 @@ dojox.editor.plugins.InsertEntity.prototype._postFilterEntities=function(s){};
  * @memberOf dojox.editor.plugins.InsertEntity
 */
 dojox.editor.plugins.InsertEntity.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.LocalImage
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides an enhanced image link dialog that<br>
@@ -57640,9 +53992,6 @@ dojox.editor.plugins.LocalImage.prototype._checkAndFixInput=function(){};
  * @memberOf dojox.editor.plugins.LocalImage
 */
 dojox.editor.plugins.LocalImage.prototype._cancelFileUpload=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.NormalizeIndentOutdent
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides improved indent and outdent handling to<br>
@@ -57809,12 +54158,6 @@ dojox.editor.plugins.NormalizeIndentOutdent.prototype._getTagName=function(node)
  * @memberOf dojox.editor.plugins.NormalizeIndentOutdent
 */
 dojox.editor.plugins.NormalizeIndentOutdent.prototype._convertIndent=function(indent){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.NormalizeIndentOutdent.editor.document
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.NormalizeStyle
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides NormalizeStyle cabability to the editor.  It is<br>
@@ -57899,12 +54242,6 @@ dojox.editor.plugins.NormalizeStyle.prototype._convertToCss=function(node){};
  * @memberOf dojox.editor.plugins.NormalizeStyle
 */
 dojox.editor.plugins.NormalizeStyle.prototype._condenseSpans=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.NormalizeStyle.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.PageBreak
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides a simple CSS page break plugin that<br>
@@ -57967,12 +54304,6 @@ dojox.editor.plugins.PageBreak.prototype._initButton=function(){};
  * @memberOf dojox.editor.plugins.PageBreak
 */
 dojox.editor.plugins.PageBreak.prototype._allowBreak=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.PageBreak.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.PasteFromWord
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides PasteFromWord cabability to the editor.  When<br>
@@ -58045,9 +54376,6 @@ dojox.editor.plugins.PasteFromWord.prototype._clearDialog=function(){};
  * @memberOf dojox.editor.plugins.PasteFromWord
 */
 dojox.editor.plugins.PasteFromWord.prototype._cancel=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.PrettyPrint
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides a mechanism by which to 'beautify HTML'<br>
@@ -58084,9 +54412,6 @@ dojox.editor.plugins.PrettyPrint.prototype.setEditor=function(editor){};
  * @memberOf dojox.editor.plugins.PrettyPrint
 */
 dojox.editor.plugins.PrettyPrint.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.Preview
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides Preview cabability to the editor.  When<br>
@@ -58129,9 +54454,6 @@ dojox.editor.plugins.Preview.prototype._preview=function(){};
  * @memberOf dojox.editor.plugins.Preview
 */
 dojox.editor.plugins.Preview.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.ResizeTableColumn
 /**
  * <b>Summary:</b><blockquote>
  *	 Because IE will ignore the cursor style when the editMode of the document is on,<br>
@@ -58150,12 +54472,6 @@ dojox.editor.plugins.ResizeTableColumn=function(){};
  * @memberOf dojox.editor.plugins.ResizeTableColumn
 */
 dojox.editor.plugins.ResizeTableColumn.prototype.setEditor=function(editor){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.ResizeTableColumn.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.SafePaste
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin extends from the PasteFromWord plugin and provides<br>
@@ -58192,9 +54508,6 @@ dojox.editor.plugins.SafePaste.prototype.setEditor=function(editor){};
  * @memberOf dojox.editor.plugins.SafePaste
 */
 dojox.editor.plugins.SafePaste.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.Save
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides Save cabability to the editor.  When<br>
@@ -58272,9 +54585,6 @@ dojox.editor.plugins.Save.prototype._save=function(){};
  * @memberOf dojox.editor.plugins.Save
 */
 dojox.editor.plugins.Save.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.ShowBlockNodes
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides ShowBlockNodes cabability to the editor.  When<br>
@@ -58338,12 +54648,6 @@ dojox.editor.plugins.ShowBlockNodes.prototype._initButton=function(){};
  * @memberOf dojox.editor.plugins.ShowBlockNodes
 */
 dojox.editor.plugins.ShowBlockNodes.prototype._calcBaseUrl=function(fullUrl){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.ShowBlockNodes.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.Smiley
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin allows the user to select from emoticons or &amp;quot;smileys&amp;quot;<br>
@@ -58417,9 +54721,6 @@ dojox.editor.plugins.Smiley.prototype._encode=function(str){};
  * @memberOf dojox.editor.plugins.Smiley
 */
 dojox.editor.plugins.Smiley.prototype._decode=function(str, ascii){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._SmileyPalette
 /**
  * <b>Summary:</b><blockquote>
  *	 A keyboard accessible emoticon-picking widget (for inserting smiley characters)<br>
@@ -58442,9 +54743,6 @@ dojox.editor.plugins._SmileyPalette=function(){};
  * @memberOf dojox.editor.plugins._SmileyPalette
 */
 dojox.editor.plugins._SmileyPalette.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.Emoticon
 /**
  * <b>Summary:</b><blockquote>
  *	 JS Object representing an emoticon<br>
@@ -58486,12 +54784,6 @@ dojox.editor.plugins.Emoticon.fromAscii=function(str){};
  * @memberOf dojox.editor.plugins.Emoticon
 */
 dojox.editor.plugins.Emoticon.prototype.fillCell=function(cell, blankGif){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.Emoticon.ascii
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._spellCheckControl
 /**
  * <b>Summary:</b><blockquote>
  *	 The widget that is used for the UI of the batch spelling check<br>
@@ -58626,9 +54918,6 @@ dojox.editor.plugins._spellCheckControl.prototype._enter=function(evt){};
  * @memberOf dojox.editor.plugins._spellCheckControl
 */
 dojox.editor.plugins._spellCheckControl.prototype._cancel=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._spellCheckControl.suggestionSelect
 /**
  * @namespace
 */
@@ -58655,12 +54944,6 @@ dojox.editor.plugins._spellCheckControl.suggestionSelect.prototype.deselectAll=f
  * @memberOf dojox.editor.plugins._spellCheckControl.suggestionSelect
 */
 dojox.editor.plugins._spellCheckControl.suggestionSelect.prototype.addItems=function(items){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._spellCheckControl.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._SpellCheckScriptMultiPart
 /**
  * <b>Summary:</b><blockquote>
  *	 It is a base network service component. It transfers text to a remote service port<br>
@@ -58702,9 +54985,6 @@ dojox.editor.plugins._SpellCheckScriptMultiPart.prototype.onLoad=function(data){
  * @memberOf dojox.editor.plugins._SpellCheckScriptMultiPart
 */
 dojox.editor.plugins._SpellCheckScriptMultiPart.prototype._finalizeCollection=function(action){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.SpellCheck
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides a spelling check cabability for the editor.<br>
@@ -59008,27 +55288,6 @@ dojox.editor.plugins.SpellCheck.prototype._addWord=function(index, word){};
  * @memberOf dojox.editor.plugins.SpellCheck
 */
 dojox.editor.plugins.SpellCheck.prototype._add=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.SpellCheck._ignoredIncorrectStyle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.SpellCheck._normalIncorrectStyle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.SpellCheck._highlightedIncorrectStyle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.SpellCheck._dialogContent
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.SpellCheck._spanList
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.SpellCheck._editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._SpellCheckParser
 /**
  * @class
  * @returns {dojox.editor.plugins._SpellCheckParser} new instance
@@ -59049,9 +55308,6 @@ dojox.editor.plugins._SpellCheckParser.prototype.parseIntoWords=function(text){}
  * @memberOf dojox.editor.plugins._SpellCheckParser
 */
 dojox.editor.plugins._SpellCheckParser.prototype.getIndices=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._StatusBar
 /**
  * @class
  * @extends dijit._Widget
@@ -59076,12 +55332,6 @@ dojox.editor.plugins._StatusBar.prototype._setValueAttr=function(str){};
  * @memberOf dojox.editor.plugins._StatusBar
 */
 dojox.editor.plugins._StatusBar.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._StatusBar.barContent
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.StatusBar
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides StatusBar cabability to the editor.<br>
@@ -59142,12 +55392,6 @@ dojox.editor.plugins.StatusBar.prototype._setValueAttr=function(str){};
  * @memberOf dojox.editor.plugins.StatusBar
 */
 dojox.editor.plugins.StatusBar.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.StatusBar.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._TableHandler
 /**
  * <b>Summary:</b><blockquote>
  *	 A global object that handles common tasks for all the plugins. Since<br>
@@ -59288,15 +55532,6 @@ dojox.editor.plugins._TableHandler.prototype._tempAvailability=function(type){};
  * @memberOf dojox.editor.plugins._TableHandler
 */
 dojox.editor.plugins._TableHandler.prototype._prepareTable=function(tbl){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._TableHandler.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._TableHandler.editorDomNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.TablePlugins
 /**
  * <b>Summary:</b><blockquote>
  *	 A collection of Plugins for inserting and modifying tables in the Editor<br>
@@ -59401,12 +55636,6 @@ dojox.editor.plugins.TablePlugins.prototype._makeTitle=function(str){};
  * @memberOf dojox.editor.plugins.TablePlugins
 */
 dojox.editor.plugins.TablePlugins.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.TablePlugins.editor
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.TableContextMenu
 /**
  * <b>Summary:</b><blockquote>
  *	 Initialize certain plugins<br>
@@ -59433,12 +55662,6 @@ dojox.editor.plugins.TableContextMenu.prototype._initButton=function(){};
  * @memberOf dojox.editor.plugins.TableContextMenu
 */
 dojox.editor.plugins.TableContextMenu.prototype._createContextMenu=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.TableContextMenu.button.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.InsertTable
 /**
  * @class
  * @extends dojox.editor.plugins.TablePlugins
@@ -59449,9 +55672,6 @@ dojox.editor.plugins.InsertTable=function(){};
  * @memberOf dojox.editor.plugins.InsertTable
 */
 dojox.editor.plugins.InsertTable.prototype.modTable=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.ModifyTable
 /**
  * @class
  * @extends dojox.editor.plugins.TablePlugins
@@ -59462,9 +55682,6 @@ dojox.editor.plugins.ModifyTable=function(){};
  * @memberOf dojox.editor.plugins.ModifyTable
 */
 dojox.editor.plugins.ModifyTable.prototype.modTable=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._CellColorDropDown
 /**
  * <b>Summary:</b><blockquote>
  *	 A smple widget that uses/creates a dropdown with a dojox.widget.ColorPicker.  Also provides<br>
@@ -59522,9 +55739,6 @@ dojox.editor.plugins._CellColorDropDown.prototype._setValueAttr=function(value, 
  * @memberOf dojox.editor.plugins._CellColorDropDown
 */
 dojox.editor.plugins._CellColorDropDown.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.ColorTableCell
 /**
  * <b>Summary:</b><blockquote>
  *	 Initialize ColorTableCell plugin<br>
@@ -59545,9 +55759,6 @@ dojox.editor.plugins.ColorTableCell.prototype.modTable=function(cmd, args){};
  * @memberOf dojox.editor.plugins.ColorTableCell
 */
 dojox.editor.plugins.ColorTableCell.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.EditorTableDialog
 /**
  * <b>Summary:</b><blockquote>
  *	 Dialog box with options for table creation<br>
@@ -59584,9 +55795,6 @@ dojox.editor.plugins.EditorTableDialog.prototype.onCancel=function(){};
  * @memberOf dojox.editor.plugins.EditorTableDialog
 */
 dojox.editor.plugins.EditorTableDialog.prototype.onBuildTable=function(tableText){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.EditorModifyTableDialog
 /**
  * <b>Summary:</b><blockquote>
  *	 Dialog box with options for editing a table<br>
@@ -59640,9 +55848,6 @@ dojox.editor.plugins.EditorModifyTableDialog.prototype.onCancel=function(){};
  * @memberOf dojox.editor.plugins.EditorModifyTableDialog
 */
 dojox.editor.plugins.EditorModifyTableDialog.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins._TextColorDropDown
 /**
  * <b>Summary:</b><blockquote>
  *	 A smple widget that uses/creates a dropdown with a dojox.widget.ColorPicker.  Also provides<br>
@@ -59695,9 +55900,6 @@ dojox.editor.plugins._TextColorDropDown.prototype._setValueAttr=function(value, 
  * @memberOf dojox.editor.plugins._TextColorDropDown
 */
 dojox.editor.plugins._TextColorDropDown.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.TextColor
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides dropdown color pickers for setting text color and background color<br>
@@ -59726,9 +55928,6 @@ dojox.editor.plugins.TextColor.prototype.updateState=function(){};
  * @memberOf dojox.editor.plugins.TextColor
 */
 dojox.editor.plugins.TextColor.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.ToolbarLineBreak
 /**
  * <b>Summary:</b><blockquote>
  *	 A 'line break' between two `dijit.Toolbar` items so that very<br>
@@ -59751,9 +55950,6 @@ dojox.editor.plugins.ToolbarLineBreak.prototype.postCreate=function(){};
  * @memberOf dojox.editor.plugins.ToolbarLineBreak
 */
 dojox.editor.plugins.ToolbarLineBreak.prototype.isFocusable=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.editor.plugins.UploadImage
 /**
  * <b>Summary:</b><blockquote>
  *	 Adds an icon to the Editor toolbar that when clicked, opens a system dialog<br>
@@ -59797,9 +55993,6 @@ dojox.editor.plugins.UploadImage.prototype.createFileInput=function(){};
  * @memberOf dojox.editor.plugins.UploadImage
 */
 dojox.editor.plugins.UploadImage.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.embed.Flash
 /**
  * <b>Summary:</b><blockquote>
  *	 Create a wrapper object around a Flash movie; this is the DojoX equivilent<br>
@@ -59936,9 +56129,6 @@ dojox.embed.Flash.prototype._destroy=function(){};
  * @private
 */
 dojox.embed.Flash.__ie_markup__=function(kwArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.embed
 /**
  * @param {String} path The URL of the movie to embed.
  * @param {String} [id] A unique key that will be used as the id of the created markup.  If you don't
@@ -59984,35 +56174,23 @@ dojox.embed.Object=function(){};
  * @namespace
 */
 dojox.embed.flashVars={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.embed.Flash.init
 /**
  * @class
  * @returns {dojox.embed.Flash.init} new instance
 */
 dojox.embed.Flash.init=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.embed.Flash._destroy
 /**
  * @class
  * @private
  * @returns {dojox.embed.Flash._destroy} new instance
 */
 dojox.embed.Flash._destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.embed.__flashArgs
 /**
  * @class
  * @private
  * @returns {dojox.embed.__flashArgs} new instance
 */
 dojox.embed.__flashArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.embed.flashVars
 /**
  * <b>Summary:</b><blockquote>
  *	 Key method. Serializes an object.<br>
@@ -60022,9 +56200,6 @@ dojox.embed.__flashArgs=function(){};
  * @returns {String} -
 */
 dojox.embed.flashVars.serialize=function(n, o){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.embed.Object
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget you can use to embed either a Flash or Quicktime<br>
@@ -60046,28 +56221,16 @@ dojox.embed.Object=function(){};
  * @memberOf dojox.embed.Object
 */
 dojox.embed.Object.prototype.postCreate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.embed.Object.domNode
 /**
  * @namespace
 */
 dojox.embed.Object.domNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.embed.Object.domNode.attributes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.embed.__QTArgs
 /**
  * @class
  * @private
  * @returns {dojox.embed.__QTArgs} new instance
 */
 dojox.embed.__QTArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding
 /**
  * @namespace
 */
@@ -60096,9 +56259,6 @@ dojox.encoding.base64={};
  * @namespace
 */
 dojox.encoding.ascii85={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.ascii85
 /**
  * <b>Summary:</b><blockquote>
  *	 encodes input data in ascii85 string<br>
@@ -60114,9 +56274,6 @@ dojox.encoding.ascii85.encode=function(input){};
  * @param {String:} input the input string to decode
 */
 dojox.encoding.ascii85.decode=function(input){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.base64
 /**
  * @param {byte[]} ba 
  * @returns {string} -
@@ -60127,9 +56284,6 @@ dojox.encoding.base64.encode=function(ba){};
  * @returns {byte[]} -
 */
 dojox.encoding.base64.decode=function(str){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.bits
 /**
 */
 dojox.encoding.bits.OutputStream=function(){};
@@ -60138,9 +56292,6 @@ dojox.encoding.bits.OutputStream=function(){};
  * @param {mixed} width 
 */
 dojox.encoding.bits.InputStream=function(buffer, width){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.bits.OutputStream
 /**
  * @class
  * @returns {dojox.encoding.bits.OutputStream} new instance
@@ -60164,33 +56315,21 @@ dojox.encoding.bits.OutputStream.prototype.getWidth=function(){};
  * @memberOf dojox.encoding.bits.OutputStream
 */
 dojox.encoding.bits.OutputStream.prototype.getBuffer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.bits.OutputStream.reset
 /**
  * @class
  * @returns {dojox.encoding.bits.OutputStream.reset} new instance
 */
 dojox.encoding.bits.OutputStream.reset=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.bits.OutputStream.putBits
 /**
  * @class
  * @returns {dojox.encoding.bits.OutputStream.putBits} new instance
 */
 dojox.encoding.bits.OutputStream.putBits=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.bits.OutputStream.getBuffer
 /**
  * @class
  * @returns {dojox.encoding.bits.OutputStream.getBuffer} new instance
 */
 dojox.encoding.bits.OutputStream.getBuffer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.bits.InputStream
 /**
  * @class
  * @returns {dojox.encoding.bits.InputStream} new instance
@@ -60205,17 +56344,11 @@ dojox.encoding.bits.InputStream.prototype.getWidth=function(){};
  * @memberOf dojox.encoding.bits.InputStream
 */
 dojox.encoding.bits.InputStream.prototype.getBits=function(width){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.bits.InputStream.getBits
 /**
  * @class
  * @returns {dojox.encoding.bits.InputStream.getBits} new instance
 */
 dojox.encoding.bits.InputStream.getBits=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.compression.lzw
 /**
  * @namespace
 */
@@ -60228,9 +56361,6 @@ dojox.encoding.compression.lzw.Encoder=function(n){};
  * @param {mixed} n 
 */
 dojox.encoding.compression.lzw.Decoder=function(n){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.compression.lzw.Encoder
 /**
  * @class
  * @returns {dojox.encoding.compression.lzw.Encoder} new instance
@@ -60251,33 +56381,21 @@ dojox.encoding.compression.lzw.Encoder.prototype.flush=function(stream){};
  * @memberOf dojox.encoding.compression.lzw.Encoder
 */
 dojox.encoding.compression.lzw.Encoder.prototype.encode=function(value, stream){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.compression.lzw.Encoder.init
 /**
  * @class
  * @returns {dojox.encoding.compression.lzw.Encoder.init} new instance
 */
 dojox.encoding.compression.lzw.Encoder.init=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.compression.lzw.Encoder.encode
 /**
  * @class
  * @returns {dojox.encoding.compression.lzw.Encoder.encode} new instance
 */
 dojox.encoding.compression.lzw.Encoder.encode=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.compression.lzw.Encoder.flush
 /**
  * @class
  * @returns {dojox.encoding.compression.lzw.Encoder.flush} new instance
 */
 dojox.encoding.compression.lzw.Encoder.flush=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.compression.lzw.Decoder
 /**
  * @class
  * @returns {dojox.encoding.compression.lzw.Decoder} new instance
@@ -60292,32 +56410,20 @@ dojox.encoding.compression.lzw.Decoder.prototype.init=function(){};
  * @memberOf dojox.encoding.compression.lzw.Decoder
 */
 dojox.encoding.compression.lzw.Decoder.prototype.decode=function(stream){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.compression.lzw.Decoder.init
 /**
  * @class
  * @returns {dojox.encoding.compression.lzw.Decoder.init} new instance
 */
 dojox.encoding.compression.lzw.Decoder.init=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.compression.lzw.Decoder.decode
 /**
  * @class
  * @returns {dojox.encoding.compression.lzw.Decoder.decode} new instance
 */
 dojox.encoding.compression.lzw.Decoder.decode=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.compression
 /**
  * @param {mixed} n 
 */
 dojox.encoding.compression.Splay=function(n){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.compression.Splay
 /**
  * @class
  * @returns {dojox.encoding.compression.Splay} new instance
@@ -60343,9 +56449,6 @@ dojox.encoding.compression.Splay.prototype.encode=function(value, stream){};
  * @memberOf dojox.encoding.compression.Splay
 */
 dojox.encoding.compression.Splay.prototype.decode=function(stream){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.crypto
 /**
  * <b>Summary:</b><blockquote>
  *	 &amp;quot;empty&amp;quot; RSA key constructor<br>
@@ -60365,15 +56468,6 @@ dojox.encoding.crypto.outputTypes={};
  * @namespace
 */
 dojox.encoding.crypto.cipherModes={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.crypto.cipherModes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.crypto.outputTypes
-//-jshdr-obj-end
-
-//-jshdr-id-RSAKey
 /**
  * @class
  * @returns {dojox.RSAKey} new instance
@@ -60421,9 +56515,6 @@ dojox.RSAKey.prototype.generate=function(B, E){};
  * @memberOf dojox.RSAKey
 */
 dojox.RSAKey.prototype.decrypt=function(ctext){};
-//-jshdr-obj-end
-
-//-jshdr-id-RSAKey.setPrivate
 /**
  * <b>Summary:</b><blockquote>
  *	 Set the private key fields N, e, d and CRT params from hex strings<br>
@@ -60432,9 +56523,6 @@ dojox.RSAKey.prototype.decrypt=function(ctext){};
  * @returns {RSAKey.setPrivate} new instance
 */
 RSAKey.setPrivate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-RSAKey.setPrivateEx
 /**
  * <b>Summary:</b><blockquote>
  *	 Set the private key fields N, e, d and CRT params from hex strings<br>
@@ -60443,9 +56531,6 @@ RSAKey.setPrivate=function(){};
  * @returns {RSAKey.setPrivateEx} new instance
 */
 RSAKey.setPrivateEx=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-RSAKey.generate
 /**
  * <b>Summary:</b><blockquote>
  *	 Generate a new random private key B bits long, using public expt E<br>
@@ -60454,9 +56539,6 @@ RSAKey.setPrivateEx=function(){};
  * @returns {RSAKey.generate} new instance
 */
 RSAKey.generate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.crypto.RSAKey
 /**
  * <b>Summary:</b><blockquote>
  *	 &amp;quot;empty&amp;quot; RSA key constructor<br>
@@ -60484,9 +56566,6 @@ dojox.encoding.crypto.RSAKey.prototype.setPublic=function(N, E){};
  * @memberOf dojox.encoding.crypto.RSAKey
 */
 dojox.encoding.crypto.RSAKey.prototype.encrypt=function(text){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.digests
 /**
  * <b>Summary:</b><blockquote>
  *	 convert an array of words to a string<br>
@@ -60548,12 +56627,6 @@ dojox.encoding.digests.MD5=function(data, outputType){};
  * @namespace
 */
 dojox.encoding.digests.outputTypes={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.digests.outputTypes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.digests.MD5
 /**
  * @param {string} data 
  * @param {string} key 
@@ -60562,9 +56635,6 @@ dojox.encoding.digests.outputTypes={};
  * @returns {word[]|string} -
 */
 dojox.encoding.digests.MD5._hmac=function(data, key, outputType){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.digests.SHA1
 /**
  * <b>Summary:</b><blockquote>
  *	 computes the digest of data, and returns the result according to type outputType<br>
@@ -60576,9 +56646,6 @@ dojox.encoding.digests.MD5._hmac=function(data, key, outputType){};
  * @returns {word[]|string} -
 */
 dojox.encoding.digests.SHA1._hmac=function(data, key, outputType){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.encoding.easy64
 /**
  * <b>Summary:</b><blockquote>
  *	 encodes input data in easy64 string<br>
@@ -60594,9 +56661,6 @@ dojox.encoding.easy64.encode=function(input){};
  * @param {String:} input the input string to decode
 */
 dojox.encoding.easy64.decode=function(input){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.flash
 /**
  * <b>Summary:</b><blockquote>
  *	 Sets the SWF files and versions we are using.<br>
@@ -60692,9 +56756,6 @@ dojox.flash.Embed=function(visible){};
  * various encoding bugs that ExternalInterface has.<br>
 */
 dojox.flash.Communicator=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.flash.setSwf
 /**
  * <b>Summary:</b><blockquote>
  *	 Sets the SWF files and versions we are using.<br>
@@ -60703,9 +56764,6 @@ dojox.flash.Communicator=function(){};
  * @returns {dojox.flash.setSwf} new instance
 */
 dojox.flash.setSwf=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.flash.Info
 /**
  * <b>Summary:</b><blockquote>
  *	 A class that helps us determine whether Flash is available.<br>
@@ -60750,18 +56808,12 @@ dojox.flash.Info.prototype._detectVersion=function(){};
  * @memberOf dojox.flash.Info
 */
 dojox.flash.Info.prototype._JSFlashInfo=function(testVersion){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.flash.Info._detectVersion
 /**
  * @class
  * @private
  * @returns {dojox.flash.Info._detectVersion} new instance
 */
 dojox.flash.Info._detectVersion=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.flash.Embed
 /**
  * <b>Summary:</b><blockquote>
  *	 A class that is used to write out the Flash object into the page.<br>
@@ -60810,9 +56862,6 @@ dojox.flash.Embed.prototype.get=function(){};
  * @memberOf dojox.flash.Embed
 */
 dojox.flash.Embed.prototype.center=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.flash.Embed.center
 /**
  * <b>Summary:</b><blockquote>
  *	 Centers the flash applet on the page.<br>
@@ -60821,9 +56870,6 @@ dojox.flash.Embed.prototype.center=function(){};
  * @returns {dojox.flash.Embed.center} new instance
 */
 dojox.flash.Embed.center=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.flash.Communicator
 /**
  * <b>Summary:</b><blockquote>
  *	 A class that is used to communicate between Flash and JavaScript.<br>
@@ -60860,9 +56906,6 @@ dojox.flash.Communicator.prototype._decodeData=function(data){};
  * @memberOf dojox.flash.Communicator
 */
 dojox.flash.Communicator.prototype._addExternalInterfaceCallback=function(methodName){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.flash.Install
 /**
  * <b>Summary:</b><blockquote>
  *	 Helps install Flash plugin if needed.<br>
@@ -60895,9 +56938,6 @@ dojox.flash.Install.prototype.install=function(){};
  * @memberOf dojox.flash.Install
 */
 dojox.flash.Install.prototype._onInstallStatus=function(msg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form
 /**
  * <b>Summary:</b><blockquote>
  *	 Handle Uploader plugins. When the dojox.form.addUploaderPlugin() function is called,<br>
@@ -61194,9 +57234,6 @@ dojox.form.uploader={};
  * @namespace
 */
 dojox.form.manager={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._BusyButtonMixin
 /**
  * @class
  * @returns {dojox.form._BusyButtonMixin} new instance
@@ -61254,42 +57291,24 @@ dojox.form._BusyButtonMixin.prototype.cancel=function(){};
  * @memberOf dojox.form._BusyButtonMixin
 */
 dojox.form._BusyButtonMixin.prototype._onClick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._BusyButtonMixin.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._BusyButtonMixin.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.BusyButton
 /**
  * @class
  * @extends dijit.form.Button
  * @returns {dojox.form.BusyButton} new instance
 */
 dojox.form.BusyButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.BusyComboButton
 /**
  * @class
  * @extends dijit.form.ComboButton
  * @returns {dojox.form.BusyComboButton} new instance
 */
 dojox.form.BusyComboButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.BusyDropDownButton
 /**
  * @class
  * @extends dijit.form.DropDownButton
  * @returns {dojox.form.BusyDropDownButton} new instance
 */
 dojox.form.BusyDropDownButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._CheckedMultiSelectItem
 /**
  * <b>Summary:</b><blockquote>
  *	 The individual items for a CheckedMultiSelect<br>
@@ -61366,15 +57385,6 @@ dojox.form._CheckedMultiSelectItem.prototype._onClick=function(e){};
  * @memberOf dojox.form._CheckedMultiSelectItem
 */
 dojox.form._CheckedMultiSelectItem.prototype._changeBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._CheckedMultiSelectItem.option
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._CheckedMultiSelectItem.labelNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._CheckedMultiSelectMenu
 /**
  * <b>Summary:</b><blockquote>
  *	 An internally-used menu for dropdown that allows us a vertical scrollbar<br>
@@ -61417,12 +57427,6 @@ dojox.form._CheckedMultiSelectMenu.prototype.onClose=function(){};
  * @memberOf dojox.form._CheckedMultiSelectMenu
 */
 dojox.form._CheckedMultiSelectMenu.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._CheckedMultiSelectMenu.menuTableNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._CheckedMultiSelectMenuItem
 /**
  * <b>Summary:</b><blockquote>
  *	 A checkbox-like menu item for toggling on and off<br>
@@ -61469,15 +57473,6 @@ dojox.form._CheckedMultiSelectMenuItem.prototype._updateBox=function(){};
  * @memberOf dojox.form._CheckedMultiSelectMenuItem
 */
 dojox.form._CheckedMultiSelectMenuItem.prototype._onClick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._CheckedMultiSelectMenuItem.inputNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._CheckedMultiSelectMenuItem.option
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.CheckedMultiSelect
 /**
  * <b>Summary:</b><blockquote>
  *	 Extends the core dijit MultiSelect to provide a &amp;quot;checkbox&amp;quot; selector<br>
@@ -61645,12 +57640,6 @@ dojox.form.CheckedMultiSelect.prototype._fillContent=function(){};
  * @memberOf dojox.form.CheckedMultiSelect
 */
 dojox.form.CheckedMultiSelect.prototype._addOptionItem=function(option){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.CheckedMultiSelect.srcNodeRef
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.DateTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A validating, serializable, range-bound date text box with a popup calendar<br>
@@ -61664,9 +57653,6 @@ dojox.form.DateTextBox=function(){};
  * @memberOf dojox.form.DateTextBox
 */
 dojox.form.DateTextBox.prototype.openDropDown=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.DayTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A validating, serializable, range-bound date text box with a popup calendar that contains just months.<br>
@@ -61702,12 +57688,6 @@ dojox.form.DayTextBox.prototype.format=function(value){};
  * @memberOf dojox.form.DayTextBox
 */
 dojox.form.DayTextBox.prototype._setValueAttr=function(value, priorityChange, formattedValue){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.DayTextBox.dropDown
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.MonthTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A validating, serializable, range-bound date text box with a popup calendar that contains only years<br>
@@ -61754,15 +57734,6 @@ dojox.form.MonthTextBox.prototype.format=function(value){};
  * @memberOf dojox.form.MonthTextBox
 */
 dojox.form.MonthTextBox.prototype._setValueAttr=function(value, priorityChange, formattedValue){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.MonthTextBox.constraints
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.MonthTextBox.dropDown
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.YearTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A validating, serializable, range-bound date text box with a popup calendar that contains only years<br>
@@ -61805,12 +57776,6 @@ dojox.form.YearTextBox.prototype.filter=function(val){};
  * @memberOf dojox.form.YearTextBox
 */
 dojox.form.YearTextBox.prototype._setValueAttr=function(value, priorityChange, formattedValue){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.YearTextBox.dropDown
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.DropDownStack
 /**
  * <b>Summary:</b><blockquote>
  *	 A dropdown-based select stack.<br>
@@ -61821,9 +57786,6 @@ dojox.form.YearTextBox.prototype._setValueAttr=function(value, priorityChange, f
  * @returns {dojox.form.DropDownStack} new instance
 */
 dojox.form.DropDownStack=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._SelectStackMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mix this class in to a dijit.form._FormSelectWidget in order to<br>
@@ -61947,9 +57909,6 @@ dojox.form._SelectStackMixin.prototype._handleSelfOnChange=function(val){};
  * @memberOf dojox.form._SelectStackMixin
 */
 dojox.form._SelectStackMixin.prototype._connectTitle=function(pane, value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileInputAuto
 /**
  * <b>Summary:</b><blockquote>
  *	 An extension on FileInput providing background upload progress<br>
@@ -62046,18 +58005,6 @@ dojox.form.FileInputAuto.prototype._onBlur=function(){};
  * @memberOf dojox.form.FileInputAuto
 */
 dojox.form.FileInputAuto.prototype._handleSend=function(data, ioArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileInputAuto.overlay.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileInputAuto.fileInput.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileInputAuto.fakeNodeHolder.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileInputBlind
 /**
  * <b>Summary:</b><blockquote>
  *	 An extended version of dojox.form.FileInputAuto<br>
@@ -62091,12 +58038,6 @@ dojox.form.FileInputBlind.prototype.reset=function(e){};
  * @memberOf dojox.form.FileInputBlind
 */
 dojox.form.FileInputBlind.prototype._fixPosition=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileInputBlind.inputNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileInput
 /**
  * <b>Summary:</b><blockquote>
  *	 A styled input type=&amp;quot;file&amp;quot;<br>
@@ -62146,18 +58087,6 @@ dojox.form.FileInput.prototype.postCreate=function(){};
  * @memberOf dojox.form.FileInput
 */
 dojox.form.FileInput.prototype._matchValue=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileInput.inputNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileInput.cancelNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileInput.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FilePickerTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A validating text box tied to a file picker popup<br>
@@ -62273,18 +58202,6 @@ dojox.form.FilePickerTextBox.prototype._focusFocus=function(e){};
  * @memberOf dojox.form.FilePickerTextBox
 */
 dojox.form.FilePickerTextBox.prototype._focusBlur=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FilePickerTextBox.focusNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FilePickerTextBox.dropDown.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FilePickerTextBox.dropDown
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileUploader
 /**
  * <b>Summary:</b><blockquote>
  *	 Handles File Uploading to a server (PHP script included for testing)<br>
@@ -62765,33 +58682,7 @@ dojox.form.FileUploader.prototype._animateProgress=function(){};
  * @memberOf dojox.form.FileUploader
 */
 dojox.form.FileUploader.prototype._addToFileList=function(){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.form.FileUploader.norm
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileUploader.progTextNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileUploader.insideNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileUploader.fhtml
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileUploader._formNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileUploader._fileInput
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileUploader.fhtml.nr
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.FileUploader.flashObject
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.ListInput
 /**
  * <b>Summary:</b><blockquote>
  *	 An automatic list maker<br>
@@ -63173,18 +59064,6 @@ dojox.form.ListInput.prototype._destroyAllItems=function(){};
  * @memberOf dojox.form.ListInput
 */
 dojox.form.ListInput.prototype._createInputBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.ListInput.inputProperties
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.ListInput._lastAddedItem
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.ListInput._selectNode.options
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._ListInputInputItem
 /**
  * <b>Summary:</b><blockquote>
  *	 Item created by ListInputInput when delimiter is found<br>
@@ -63335,19 +59214,10 @@ dojox.form._ListInputInputItem.prototype._getValueAttr=function(){};
  * @memberOf dojox.form._ListInputInputItem
 */
 dojox.form._ListInputInputItem.prototype._createInlineEditBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._ListInputInputItem.attributeMap
 /**
  * @namespace
 */
 dojox.form._ListInputInputItem.attributeMap.value={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._ListInputInputItem.attributeMap.value
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._ListInputInputBox
 /**
  * <b>Summary:</b><blockquote>
  *	 auto-sized text box<br>
@@ -63377,12 +59247,6 @@ dojox.form._ListInputInputBox.prototype.onChange=function(value){};
  * @memberOf dojox.form._ListInputInputBox
 */
 dojox.form._ListInputInputBox.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._ListInputInputBox._sizer
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.manager
 /**
  * <b>Summary:</b><blockquote>
  *	 Form manager's mixin for getting/setting form values in the unified manner.<br>
@@ -63464,9 +59328,6 @@ dojox.form.manager._DisplayMixin=function(){};
  * @private
 */
 dojox.form.manager._ClassMixin=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.manager._ClassMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Form manager's mixin for testing/assigning/removing<br>
@@ -63516,9 +59377,6 @@ dojox.form.manager._ClassMixin.prototype.gatherClassState=function(className, na
  * @memberOf dojox.form.manager._ClassMixin
 */
 dojox.form.manager._ClassMixin.prototype.addClass=function(className, names){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.manager._DisplayMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Form manager's mixin for controlling show/hide state of<br>
@@ -63570,9 +59428,6 @@ dojox.form.manager._DisplayMixin.prototype.hide=function(state){};
  * @memberOf dojox.form.manager._DisplayMixin
 */
 dojox.form.manager._DisplayMixin.prototype.gatherDisplayState=function(names){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.manager._EnableMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Form manager's mixin for controlling enable/disable state of<br>
@@ -63622,9 +59477,6 @@ dojox.form.manager._EnableMixin.prototype.enable=function(state, defaultState){}
  * @memberOf dojox.form.manager._EnableMixin
 */
 dojox.form.manager._EnableMixin.prototype.disable=function(state){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.manager._FormMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Form manager's mixin for form-specific functionality.<br>
@@ -63703,17 +59555,11 @@ dojox.form.manager._FormMixin.prototype._onSubmit=function(evt){};
  * @memberOf dojox.form.manager._FormMixin
 */
 dojox.form.manager._FormMixin.prototype._onReset=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-Widget
 /**
  * @class
  * @returns {dojox.Widget} new instance
 */
 dojox.Widget=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.manager._Mixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin to orchestrate dynamic forms.<br>
@@ -63847,9 +59693,6 @@ dojox.form.manager._Mixin.prototype.formPointValue=function(elem, value){};
  * @memberOf dojox.form.manager._Mixin
 */
 dojox.form.manager._Mixin.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.manager._NodeMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin to orchestrate dynamic forms (works with DOM nodes).<br>
@@ -63931,9 +59774,6 @@ dojox.form.manager._NodeMixin.prototype.formNodeValue=function(elem, value){};
  * @memberOf dojox.form.manager._NodeMixin
 */
 dojox.form.manager._NodeMixin.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.manager._ValueMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Form manager's mixin for getting/setting form values in the unified manner.<br>
@@ -63975,9 +59815,6 @@ dojox.form.manager._ValueMixin.prototype.gatherFormValues=function(names){};
  * @memberOf dojox.form.manager._ValueMixin
 */
 dojox.form.manager._ValueMixin.prototype.elementValue=function(name, value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.Manager
 /**
  * <b>Summary:</b><blockquote>
  *	 The widget to orchestrate dynamic forms.<br>
@@ -64005,9 +59842,6 @@ dojox.form.Manager.prototype.destroyRendering=function(preserveDom){};
  * @memberOf dojox.form.Manager
 */
 dojox.form.Manager.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.MultiComboBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A ComboBox that accepts multiple inputs on a single line<br>
@@ -64049,9 +59883,6 @@ dojox.form.MultiComboBox.prototype._autoCompleteText=function(text){};
  * @memberOf dojox.form.MultiComboBox
 */
 dojox.form.MultiComboBox.prototype._addPreviousMatches=function(text){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._ChildTextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A class that is shared between all our children - extends<br>
@@ -64086,9 +59917,6 @@ dojox.form._ChildTextBox.prototype.postCreate=function(){};
  * @memberOf dojox.form._ChildTextBox
 */
 dojox.form._ChildTextBox.prototype._onChildKeyPress=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._OldPWBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A class representing our &amp;quot;old password&amp;quot; box.<br>
@@ -64129,9 +59957,6 @@ dojox.form._OldPWBox.prototype._setBlurValue=function(){};
  * @memberOf dojox.form._OldPWBox
 */
 dojox.form._OldPWBox.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._NewPWBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A class representing our new password textbox<br>
@@ -64148,9 +59973,6 @@ dojox.form._NewPWBox=function(){};
  * @memberOf dojox.form._NewPWBox
 */
 dojox.form._NewPWBox.prototype.onChange=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._VerifyPWBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A class representing our verify textbox<br>
@@ -64167,9 +59989,6 @@ dojox.form._VerifyPWBox=function(){};
  * @memberOf dojox.form._VerifyPWBox
 */
 dojox.form._VerifyPWBox.prototype.isValid=function(isFocused){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.PasswordValidator
 /**
  * <b>Summary:</b><blockquote>
  *	 A password validation widget that simplifies the &amp;quot;old/new/verify&amp;quot;<br>
@@ -64290,9 +60109,6 @@ dojox.form.PasswordValidator.prototype._createSubWidgets=function(){};
  * @memberOf dojox.form.PasswordValidator
 */
 dojox.form.PasswordValidator.prototype._childValueAttr=function(v){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.RadioStack
 /**
  * <b>Summary:</b><blockquote>
  *	 A radio-based select stack.<br>
@@ -64303,9 +60119,6 @@ dojox.form.PasswordValidator.prototype._childValueAttr=function(v){};
  * @returns {dojox.form.RadioStack} new instance
 */
 dojox.form.RadioStack=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._RangeSliderMixin
 /**
  * @class
  * @returns {dojox.form._RangeSliderMixin} new instance
@@ -64397,12 +60210,6 @@ dojox.form._RangeSliderMixin.prototype._getBumpValue=function(signedChange, useM
  * @memberOf dojox.form._RangeSliderMixin
 */
 dojox.form._RangeSliderMixin.prototype._bumpValue=function(signedChange, useMaxValue){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form._RangeSliderMixin.valueNode
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._SliderMoverMax
 /**
  * @class
  * @extends dijit.form._SliderMover
@@ -64419,12 +60226,6 @@ dijit.form._SliderMoverMax.prototype.onMouseMove=function(e){};
  * @memberOf dijit.form._SliderMoverMax
 */
 dijit.form._SliderMoverMax.prototype.destroy=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._SliderMoverMax.widget
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._SliderBarMover
 /**
  * @class
  * @returns {dijit.form._SliderBarMover} new instance
@@ -64439,12 +60240,6 @@ dijit.form._SliderBarMover.prototype.onMouseMove=function(e){};
  * @memberOf dijit.form._SliderBarMover
 */
 dijit.form._SliderBarMover.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dijit.form._SliderBarMover.widget
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.HorizontalRangeSlider
 /**
  * <b>Summary:</b><blockquote>
  *	 A form widget that allows one to select a range with two horizontally draggable images<br>
@@ -64453,9 +60248,6 @@ dijit.form._SliderBarMover.prototype.destroy=function(){};
  * @returns {dojox.form.HorizontalRangeSlider} new instance
 */
 dojox.form.HorizontalRangeSlider=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.VerticalRangeSlider
 /**
  * <b>Summary:</b><blockquote>
  *	 A form widget that allows one to select a range with two vertically draggable images<br>
@@ -64464,9 +60256,6 @@ dojox.form.HorizontalRangeSlider=function(){};
  * @returns {dojox.form.VerticalRangeSlider} new instance
 */
 dojox.form.VerticalRangeSlider=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.Rating
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget for rating using stars.<br>
@@ -64527,9 +60316,6 @@ dojox.form.Rating.prototype._renderStars=function(value, hover){};
  * @memberOf dojox.form.Rating
 */
 dojox.form.Rating.prototype._onMouse=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.TimeSpinner
 /**
  * <b>Summary:</b><blockquote>
  *	 Time Spinner<br>
@@ -64568,9 +60354,6 @@ dojox.form.TimeSpinner.prototype.adjust=function(val, delta){};
  * @memberOf dojox.form.TimeSpinner
 */
 dojox.form.TimeSpinner.prototype._onKeyPress=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.TriStateCheckBox
 /**
  * <b>Summary:</b><blockquote>
  *	 Checkbox with three states<br>
@@ -64705,15 +60488,6 @@ dojox.form.TriStateCheckBox.prototype._getStateType=function(state){};
  * @memberOf dojox.form.TriStateCheckBox
 */
 dojox.form.TriStateCheckBox.prototype._fillContent=function(source){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.TriStateCheckBox._stateLabels
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.TriStateCheckBox.stateValues
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple widget that provides a list of the files currently selected by<br>
@@ -64735,9 +60509,6 @@ dojox.form.uploader.Base=function(){};
  * @namespace
 */
 dojox.form.uploader.plugins={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader.Base
 /**
  * <b>Summary:</b><blockquote>
  *	 The Base class used for dojox.form.Uploader and dojox.form.uploader.FileList.<br>
@@ -64810,9 +60581,6 @@ dojox.form.uploader.Base.prototype.convertBytes=function(bytes){};
  * @memberOf dojox.form.uploader.Base
 */
 dojox.form.uploader.Base.prototype.connectForm=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader.FileList
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple widget that provides a list of the files currently selected by<br>
@@ -64882,15 +60650,6 @@ dojox.form.uploader.FileList.prototype._hideShowProgress=function(o){};
  * @memberOf dojox.form.uploader.FileList
 */
 dojox.form.uploader.FileList.prototype._addRow=function(index, type, name, size){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader.FileList.sizeHeader.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader.FileList.percentTextNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader.plugins
 /**
  * <b>Summary:</b><blockquote>
  *	 A plugin for dojox.form.Uploader that adds Ajax upload capabilities.<br>
@@ -64923,9 +60682,6 @@ dojox.form.uploader.plugins.HTML5=function(){};
  * All properties and methods listed here are specific to the Flash plugin only.<br>
 */
 dojox.form.uploader.plugins.Flash=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader.plugins.Flash
 /**
  * <b>Summary:</b><blockquote>
  *	 A plugin for dojox.form.Uploader that utilizes a Flash SWF for handling to upload in IE.<br>
@@ -65062,15 +60818,6 @@ dojox.form.uploader.plugins.Flash.prototype._complete=function(fileArray){};
  * @memberOf dojox.form.uploader.plugins.Flash
 */
 dojox.form.uploader.plugins.Flash.prototype._change=function(fileArray){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader.plugins.Flash.btnSize
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader.plugins.Flash.flashObject
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader.plugins.HTML5
 /**
  * <b>Summary:</b><blockquote>
  *	 A plugin for dojox.form.Uploader that adds HTML5 multiple-file upload capabilities and<br>
@@ -65149,9 +60896,6 @@ dojox.form.uploader.plugins.HTML5.prototype._drop=function(e){};
  * @memberOf dojox.form.uploader.plugins.HTML5
 */
 dojox.form.uploader.plugins.HTML5.prototype._buildRequestBody=function(data, boundary){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.uploader.plugins.IFrame
 /**
  * <b>Summary:</b><blockquote>
  *	 A plugin for dojox.form.Uploader that adds Ajax upload capabilities.<br>
@@ -65177,9 +60921,6 @@ dojox.form.uploader.plugins.IFrame.prototype.uploadIFrame=function(data){};
  * @memberOf dojox.form.uploader.plugins.IFrame
 */
 dojox.form.uploader.plugins.IFrame.prototype.postMixInProperties=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.Uploader
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget that creates a stylable file-input button, with optional multi-file selection,<br>
@@ -65372,16 +61113,6 @@ dojox.form.Uploader.prototype._connectButton=function(){};
  * @memberOf dojox.form.Uploader
 */
 dojox.form.Uploader.prototype._buildDisplay=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.form.Uploader.inputNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.fx
-//-jsdoc-invalid-entry [dojox.fx.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.fx._Complex
 /**
  * <b>Summary:</b><blockquote>
  *	 A class that takes a complex property such as<br>
@@ -65435,9 +61166,6 @@ dojox.fx._Complex.prototype.getProps=function(str){};
  * @memberOf dojox.fx._Complex
 */
 dojox.fx._Complex.prototype.getNumAndUnits=function(prop){};
-//-jshdr-obj-end
-
-//-jshdr-id-baseFx
 /**
  * @namespace
 */
@@ -65468,12 +61196,6 @@ dojox.baseFx={};
  * 	}).play();
 */
 dojox.baseFx.animateProperty=function(options){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.fx.ext-dojo
-//-jshdr-obj-end
-
-//-jshdr-id-NodeList
 /**
  * @class
  * @returns {dojox.NodeList} new instance
@@ -65584,9 +61306,6 @@ dojox.NodeList.prototype.fadeTo=function(args){};
  * @memberOf dojox.NodeList
 */
 dojox.NodeList.prototype.addClassFx=function(cssClass, args){};
-//-jshdr-obj-end
-
-//-jshdr-id-fxExt
 /**
  * @namespace
 */
@@ -65693,9 +61412,6 @@ dojox.fxExt.flipCube=function(args){};
  * 	  });
 */
 dojox.fxExt.flip=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.fx.Shadow
 /**
  * <b>Summary:</b><blockquote>
  *	 Adds a drop-shadow to a node.<br>
@@ -65757,12 +61473,6 @@ dojox.fx.Shadow.prototype.resize=function(args){};
  * @memberOf dojox.fx.Shadow
 */
 dojox.fx.Shadow.prototype._makePiece=function(name, vertAttach, vertCoord, horzAttach, horzCoord, sizing){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.fx.Shadow.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojoxFx
 /**
  * @namespace
 */
@@ -65817,9 +61527,6 @@ dojox.dojoxFx={};
  * 	ani = dojox.fx.animateTimeline({keys:keys, duration:2000}, "myDiv").play();
 */
 dojox.dojoxFx.animateTimeline=function(options, node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt
 /**
  * @param {mixed} id 
  * @param {mixed} description 
@@ -65861,9 +61568,6 @@ dojox.gantt.GanttProjectControl=function(ganttChart, projectItem){};
  * @param {mixed} node 
 */
 dojox.gantt.GanttChart=function(configuration, node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttChart
 /**
  * @class
  * @param {mixed} configuration 
@@ -66181,45 +61885,18 @@ dojox.gantt.GanttChart.prototype.addHourInPanelTime=function(row){};
  * @memberOf dojox.gantt.GanttChart
 */
 dojox.gantt.GanttChart.prototype.addDayInPanelTime=function(row){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttChart.panelTime.firstChild.firstChild
 /**
  * @namespace
 */
 dojox.gantt.GanttChart.panelTime.firstChild.firstChild={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttChart.panelTime.firstChild.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttChart.contentData.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttChart.contentData
 /**
  * @memberOf dojox.gantt.GanttChart.contentData
 */
 dojox.gantt.GanttChart.contentData.prototype.onscroll=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttChart.panelNames
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttChart.panelNames.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttChart.panelTime.firstChild
 /**
  * @namespace
 */
 dojox.gantt.GanttChart.panelTime.firstChild={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttChart.panelTime.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl
 /**
  * @class
  * @param {mixed} ganttChart 
@@ -66386,72 +62063,12 @@ dojox.gantt.GanttProjectControl.prototype.checkWidthProjectNameItem=function(){}
  * @memberOf dojox.gantt.GanttProjectControl
 */
 dojox.gantt.GanttProjectControl.prototype.adjustPanelTime=function(){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectNameItem
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.gantt.GanttProjectControl.descrProject.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.ganttChart.contentData
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.ganttChart.panelNames
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.project
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem.0.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem.0.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem.0.firstChild
-//-jsdoc-invalid-entry [dojox.gantt.GanttProjectControl.projectItem.INVALID_IDENT.firstChild]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem.0.firstChild.rows
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem.0.firstChild.rows.0.cells.0.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem.0.firstChild.rows.0.cells.1.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem.0.lastChild.firstChild
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.descrProject
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem.0.firstChild.rows.0.cells
-//-jsdoc-invalid-entry [dojox.gantt.GanttProjectControl.projectItem.INVALID_IDENT.firstChild.rows.INVALID_IDENT.cells]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem.0.firstChild.rows.0.cells.0
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectItem.0.firstChild.rows.0.cells.1
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.ganttChart
 /**
  * @namespace
 */
 dojox.gantt.GanttProjectControl.ganttChart={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectControl.projectNameItem.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttProjectItem
 /**
  * @class
  * @param {mixed} configuration 
@@ -66479,9 +62096,6 @@ dojox.gantt.GanttProjectItem.prototype.deleteTask=function(id){};
  * @memberOf dojox.gantt.GanttProjectItem
 */
 dojox.gantt.GanttProjectItem.prototype.addTask=function(task){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttResourceItem
 /**
  * @class
  * @param {mixed} ganttchart 
@@ -66619,25 +62233,10 @@ dojox.gantt.GanttResourceItem.prototype.buildResource=function(){};
  * @memberOf dojox.gantt.GanttResourceItem
 */
 dojox.gantt.GanttResourceItem.prototype.buildOwnerTimeConsume=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttResourceItem.contentData.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttResourceItem.contentData.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttResourceItem.contentData
 /**
  * @memberOf dojox.gantt.GanttResourceItem.contentData
 */
 dojox.gantt.GanttResourceItem.contentData.prototype.onscroll=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttResourceItem.panelNames.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl
 /**
  * @class
  * @param {mixed} taskInfo 
@@ -66908,100 +62507,9 @@ dojox.gantt.GanttTaskControl.prototype.buildResourceInfo=function(resourceInfo){
  * @memberOf dojox.gantt.GanttTaskControl
 */
 dojox.gantt.GanttTaskControl.prototype.adjustPanelTime=function(){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskNameItem
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.gantt.GanttTaskControl.parentTask.cTaskNameItem
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.gantt.GanttTaskControl.ganttChart.contentData
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.1.firstChild.rows.0.cells.0
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.taskItem
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.1.2.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.1.1.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.0.firstChild.rows
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.0.firstChild.rows.0.cells
-//-jsdoc-invalid-entry [dojox.gantt.GanttTaskControl.cTaskItem.INVALID_IDENT.childNodes.INVALID_IDENT.firstChild.rows.INVALID_IDENT.cells]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.0.firstChild.rows.0.cells.0.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.0.firstChild.rows.0.cells.1.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.0.firstChild
-//-jsdoc-invalid-entry [dojox.gantt.GanttTaskControl.cTaskItem.INVALID_IDENT.childNodes.INVALID_IDENT.firstChild]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.1.firstChild
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.2.childNodes.0.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.2.childNodes.1.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0
-//-jsdoc-invalid-entry [dojox.gantt.GanttTaskControl.cTaskItem.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.descrTask.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.descrTask
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskNameItem.0
-//-jsdoc-invalid-entry [dojox.gantt.GanttTaskControl.cTaskNameItem.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.ganttChart.panelNames
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.previousParentTask
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.previousChildTask
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskNameItem.0.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.predTask
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.0.firstChild.rows.0.cells.0
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskControl.cTaskItem.0.childNodes.0.firstChild.rows.0.cells.1
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.GanttTaskItem
 /**
  * @class
  * @param {mixed} configuration 
@@ -67018,9 +62526,6 @@ dojox.gantt.GanttTaskItem.prototype.setProject=function(project){};
  * @memberOf dojox.gantt.GanttTaskItem
 */
 dojox.gantt.GanttTaskItem.prototype.addChildTask=function(task){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.TabMenu
 /**
  * @class
  * @param {mixed} chart 
@@ -67080,41 +62585,7 @@ dojox.gantt.TabMenu.prototype.buildContent=function(){};
  * @memberOf dojox.gantt.TabMenu
 */
 dojox.gantt.TabMenu.prototype.addItemMenuPanel=function(tab){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.gantt.TabMenu.menuPanel.firstChild
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.TabMenu.tabPanelDlg.closeButtonNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.TabMenu.tabPanelDlg
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.TabMenu.paneContentArea
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.TabMenu.paneContentArea.firstChild.rows.0.cells
-//-jsdoc-invalid-entry [dojox.gantt.TabMenu.paneContentArea.firstChild.rows.INVALID_IDENT.cells]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.TabMenu.paneContentArea.firstChild.rows.0.cells.0
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.TabMenu.paneContentArea.firstChild.rows.1.cells
-//-jsdoc-invalid-entry [dojox.gantt.TabMenu.paneContentArea.firstChild.rows.INVALID_IDENT.cells]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.TabMenu.paneContentArea.firstChild.rows.1.cells.0
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.TabMenu.menuPanel.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.TabMenu.menuPanel
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab
 /**
  * @class
  * @param {mixed} id 
@@ -67225,59 +62696,11 @@ dojox.gantt.contextMenuTab.prototype.addChildTaskAction=function(){};
  * @memberOf dojox.gantt.contextMenuTab
 */
 dojox.gantt.contextMenuTab.prototype.addAction=function(handler){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.gantt.contextMenuTab.arrItems.0.control.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.arrItems.1.control.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.arrItems.3.control.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.arrItems.4.control.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.arrItems.5.control.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.arrItems.6.control.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.arrItems.7.control.textbox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.object
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.object.taskItem
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.tabMenu
 /**
  * @namespace
 */
 dojox.gantt.contextMenuTab.tabMenu={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.tabMenu.tabPanelDlg.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.tabMenu.paneContentArea.firstChild.rows.1.cells.0
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.tabMenu.ok
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.tabMenu.cancel
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gantt.contextMenuTab.tabMenu.paneContentArea.firstChild.rows.1.cells
-//-jsdoc-invalid-entry [dojox.gantt.contextMenuTab.tabMenu.paneContentArea.firstChild.rows.INVALID_IDENT.cells]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges
 /**
  * <b>Summary:</b><blockquote>
  *	 An indicator to be used in a gauge<br>
@@ -67588,9 +63011,6 @@ dojox.gauges.AnalogArrowIndicator=function(){};
  * </blockquote>
 */
 dojox.gauges.AnalogArcIndicator=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.AnalogArcIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 An indicator for the AnalogGauge that draws a segment of arc.<br>
@@ -67617,12 +63037,6 @@ dojox.gauges.AnalogArcIndicator.prototype.draw=function(group, dontAnimate){};
  * @memberOf dojox.gauges.AnalogArcIndicator
 */
 dojox.gauges.AnalogArcIndicator.prototype._createArc=function(val){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.AnalogArcIndicator._gauge
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.AnalogIndicatorBase
 /**
  * <b>Summary:</b><blockquote>
  *	 An abstract base class for indicators that can be used in an AnalogGauge.<br>
@@ -67671,9 +63085,6 @@ dojox.gauges.AnalogIndicatorBase.prototype._layoutLabel=function(group, txt, ox,
  * @memberOf dojox.gauges.AnalogIndicatorBase
 */
 dojox.gauges.AnalogIndicatorBase.prototype._distance=function(x1, y1, x2, y2){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.AnalogArrowIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 An indicator for the AnalogGauge that draws an arrow. The arrow is drawn on the angle that corresponds<br>
@@ -67693,9 +63104,6 @@ dojox.gauges.AnalogArrowIndicator=function(){};
  * @memberOf dojox.gauges.AnalogArrowIndicator
 */
 dojox.gauges.AnalogArrowIndicator.prototype._getShapes=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.AnalogCircleIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 An indicator for the AnalogGauge that draws a circle. The center of the circle is positioned<br>
@@ -67716,9 +63124,6 @@ dojox.gauges.AnalogCircleIndicator=function(){};
  * @memberOf dojox.gauges.AnalogCircleIndicator
 */
 dojox.gauges.AnalogCircleIndicator.prototype._getShapes=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.AnalogGauge
 /**
  * <b>Summary:</b><blockquote>
  *	 a gauge built using the dojox.gfx package.<br>
@@ -67869,9 +63274,6 @@ dojox.gauges.AnalogGauge.prototype._dragIndicator=function(widget, e){};
  * @memberOf dojox.gauges.AnalogGauge
 */
 dojox.gauges.AnalogGauge.prototype._angleInRange=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges._Gauge
 /**
  * <b>Summary:</b><blockquote>
  *	 The abstract base class for gauges.<br>
@@ -68274,9 +63676,6 @@ dojox.gauges._Gauge.prototype._getInteractiveIndicator=function(){};
  * @memberOf dojox.gauges._Gauge
 */
 dojox.gauges._Gauge.prototype._addScaleTick=function(indicator, major){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.AnalogLineIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 An indicator for the AnalogGauge that draws a segment of line that has for length the length of the indicator<br>
@@ -68298,9 +63697,6 @@ dojox.gauges.AnalogLineIndicator=function(){};
  * @memberOf dojox.gauges.AnalogLineIndicator
 */
 dojox.gauges.AnalogLineIndicator.prototype._getShapes=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.AnalogNeedleIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 An indicator for the AnalogGauge that draws a needle. The needle is drawn on the angle that corresponds<br>
@@ -68320,9 +63716,6 @@ dojox.gauges.AnalogNeedleIndicator=function(){};
  * @memberOf dojox.gauges.AnalogNeedleIndicator
 */
 dojox.gauges.AnalogNeedleIndicator.prototype._getShapes=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.BarCircleIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 An indicator for the BarGauge that draws a circle at a position that corresponds to the<br>
@@ -68342,12 +63735,6 @@ dojox.gauges.BarCircleIndicator=function(){};
  * @memberOf dojox.gauges.BarCircleIndicator
 */
 dojox.gauges.BarCircleIndicator.prototype._getShapes=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.BarCircleIndicator._gauge
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.BarLineIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 An indicator for the BarGauge that draws a segment a line corresponding to the indicator value.<br>
@@ -68385,9 +63772,6 @@ dojox.gauges.BarLineIndicator.prototype._move=function(dontAnimate){};
  * @memberOf dojox.gauges.BarLineIndicator
 */
 dojox.gauges.BarLineIndicator.prototype._getShapes=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.BarGauge
 /**
  * <b>Summary:</b><blockquote>
  *	 a bar graph built using the dojox.gfx package.<br>
@@ -68479,9 +63863,6 @@ dojox.gauges.BarGauge.prototype._dragIndicatorAt=function(widget, x, y){};
  * @memberOf dojox.gauges.BarGauge
 */
 dojox.gauges.BarGauge.prototype._dragIndicator=function(widget, e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.BarIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 An indicator for the BarGauge that draws a bar corresponding to the indicator value.<br>
@@ -68518,15 +63899,6 @@ dojox.gauges.BarIndicator.prototype._getShapes=function(group){};
  * @memberOf dojox.gauges.BarIndicator
 */
 dojox.gauges.BarIndicator.prototype._createShapes=function(val){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.BarIndicator._gauge
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.BarLineIndicator._gauge
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges._Indicator
 /**
  * <b>Summary:</b><blockquote>
  *	 An indicator to be used in a gauge<br>
@@ -68676,15 +64048,6 @@ dojox.gauges._Indicator.prototype._updateValue=function(animate){};
  * @memberOf dojox.gauges._Indicator
 */
 dojox.gauges._Indicator.prototype._update=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges._Gauge._backgroundDefault
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges._Gauge.gaugeContent.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.GlossyCircularGaugeBase
 /**
  * <b>Summary:</b><blockquote>
  *	 The base class for GlossyCircularGauge and GlossySemiCircularGauge.<br>
@@ -68958,15 +64321,6 @@ dojox.gauges.GlossyCircularGaugeBase.prototype._setFontAttr=function(font){};
  * @memberOf dojox.gauges.GlossyCircularGaugeBase
 */
 dojox.gauges.GlossyCircularGaugeBase.prototype._setColorAttr=function(color){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.GlossyCircularGaugeBase._needle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.GlossyCircularGaugeBase._textIndicator
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.GlossyCircularGauge
 /**
  * <b>Summary:</b><blockquote>
  *	 Represents a circular gauge with a glossy appearance.<br>
@@ -69016,9 +64370,6 @@ dojox.gauges.GlossyCircularGauge.prototype.drawForeground=function(group){};
  * @memberOf dojox.gauges.GlossyCircularGauge
 */
 dojox.gauges.GlossyCircularGauge.prototype.drawBackground=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.GlossyCircularGaugeNeedle
 /**
  * <b>Summary:</b><blockquote>
  *	 The needle for the dojox.gauges.GlossyCircularGauge and<br>
@@ -69041,9 +64392,6 @@ dojox.gauges.GlossyCircularGaugeNeedle=function(){};
  * @memberOf dojox.gauges.GlossyCircularGaugeNeedle
 */
 dojox.gauges.GlossyCircularGaugeNeedle.prototype._getShapes=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.GlossyHorizontalGauge
 /**
  * <b>Summary:</b><blockquote>
  *	 Represents an horizontal bar gauge with a glossy appearance.<br>
@@ -69287,12 +64635,6 @@ dojox.gauges.GlossyHorizontalGauge.prototype._formatNumber=function(val){};
  * @memberOf dojox.gauges.GlossyHorizontalGauge
 */
 dojox.gauges.GlossyHorizontalGauge.prototype._computeDataRectangle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.GlossyHorizontalGauge._needle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.GlossyHorizontalGaugeMarker
 /**
  * <b>Summary:</b><blockquote>
  *	 The marker for the dojox.gauges.GlossyHorizontalGauge.<br>
@@ -69313,12 +64655,6 @@ dojox.gauges.GlossyHorizontalGaugeMarker=function(){};
  * @memberOf dojox.gauges.GlossyHorizontalGaugeMarker
 */
 dojox.gauges.GlossyHorizontalGaugeMarker.prototype._getShapes=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.GlossyHorizontalGaugeMarker._gauge
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.GlossySemiCircularGauge
 /**
  * <b>Summary:</b><blockquote>
  *	 Represents a semi circular gauge with a glossy appearance.<br>
@@ -69369,18 +64705,6 @@ dojox.gauges.GlossySemiCircularGauge.prototype.drawForeground=function(group){};
  * @memberOf dojox.gauges.GlossySemiCircularGauge
 */
 dojox.gauges.GlossySemiCircularGauge.prototype.drawBackground=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges._Indicator.font
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges._Indicator.valueNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges._Indicator._gauge.gaugeContent.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.Range
 /**
  * <b>Summary:</b><blockquote>
  *	 a range to be used in a _Gauge<br>
@@ -69424,9 +64748,6 @@ dojox.gauges.Range=function(){};
  * @memberOf dojox.gauges.Range
 */
 dojox.gauges.Range.prototype.startup=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.TextIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 A gauge indicator the simply draws its value as text.<br>
@@ -69445,12 +64766,6 @@ dojox.gauges.TextIndicator=function(){};
  * @memberOf dojox.gauges.TextIndicator
 */
 dojox.gauges.TextIndicator.prototype.draw=function(group, dontAnimate){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gauges.TextIndicator._gauge
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting
 /**
  * @namespace
 */
@@ -69515,16 +64830,10 @@ dojox.geo.charting.Feature=function(parent, name, shapeData){};
  * @namespace
 */
 dojox.geo.charting.widget={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo
 /**
  * @namespace
 */
 dojox.geo.openlayers={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.Feature
 /**
  * <b>Summary:</b><blockquote>
  *	 class to encapsulate a map element.<br>
@@ -69619,18 +64928,6 @@ dojox.geo.charting.Feature.prototype._onclickHandler=function(evt){};
  * @memberOf dojox.geo.charting.Feature
 */
 dojox.geo.charting.Feature.prototype._normalizeStrokeWeight=function(weight){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.Feature.parent
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.Feature.mapObj
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.Feature.shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.KeyboardInteractionSupport
 /**
  * <b>Summary:</b><blockquote>
  *	 class to handle keyboard interactions on a dojox.geo.charting.Map widget<br>
@@ -69688,15 +64985,6 @@ dojox.geo.charting.KeyboardInteractionSupport.prototype.connect=function(){};
  * @memberOf dojox.geo.charting.KeyboardInteractionSupport
 */
 dojox.geo.charting.KeyboardInteractionSupport.prototype._directTo=function(up, down, left, right){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.KeyboardInteractionSupport._map
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.KeyboardInteractionSupport._map.selectedFeature._center
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.Map
 /**
  * <b>Summary:</b><blockquote>
  *	 Map widget interacted with charting.<br>
@@ -69974,19 +65262,10 @@ dojox.geo.charting.Map.prototype._appendMarker=function(markerData){};
  * @memberOf dojox.geo.charting.Map
 */
 dojox.geo.charting.Map.prototype._addSeriesImpl=function(series){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.Map.mapObj.marker
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.Map.mapObj
 /**
  * @namespace
 */
 dojox.geo.charting.Map.mapObj.marker={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting._Marker
 /**
  * @class
  * @param {mixed} markerData 
@@ -70018,9 +65297,6 @@ dojox.geo.charting._Marker.prototype._toWindowCoords=function(arround, coords, c
  * @memberOf dojox.geo.charting._Marker
 */
 dojox.geo.charting._Marker.prototype._getGroupBoundingBox=function(group){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.MouseInteractionSupport
 /**
  * <b>Summary:</b><blockquote>
  *	 class to handle mouse interactions on a dojox.geo.charting.Map widget<br>
@@ -70145,21 +65421,6 @@ dojox.geo.charting.MouseInteractionSupport.prototype._mouseClickHandler=function
  * @memberOf dojox.geo.charting.MouseInteractionSupport
 */
 dojox.geo.charting.MouseInteractionSupport.prototype._getFeatureFromMouseEvent=function(mouseEvent){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.MouseInteractionSupport._map
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.MouseInteractionSupport._screenClickLocation
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.MouseInteractionSupport._mapClickLocation
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.MouseInteractionSupport._map.mapObj.marker
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.TouchInteractionSupport
 /**
  * <b>Summary:</b><blockquote>
  *	 class to handle touch interactions on a dojox.geo.charting.Map widget<br>
@@ -70285,15 +65546,6 @@ dojox.geo.charting.TouchInteractionSupport.prototype._getFeatureFromTouchEvent=f
  * @memberOf dojox.geo.charting.TouchInteractionSupport
 */
 dojox.geo.charting.TouchInteractionSupport.prototype._doubleTapHandler=function(touchEvent){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.TouchInteractionSupport._lastTap
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.TouchInteractionSupport._centerTouchLocation
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.widget
 /**
  * <b>Summary:</b><blockquote>
  *	 A map viewer widget based on the dojox.geo.charting.Map component<br>
@@ -70333,9 +65585,6 @@ dojox.geo.charting.widget.Map=function(options, div){};
  * 	});
 */
 dojox.geo.charting.widget.Legend=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.widget.Legend
 /**
  * <b>Summary:</b><blockquote>
  *	 A legend widget displaying association between colors and Feature value ranges.<br>
@@ -70379,9 +65628,6 @@ dojox.geo.charting.widget.Legend.prototype.buildRendering=function(){};
  * @memberOf dojox.geo.charting.widget.Legend
 */
 dojox.geo.charting.widget.Legend.prototype._addLabel=function(color, label){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.widget.Map
 /**
  * <b>Summary:</b><blockquote>
  *	 A map viewer widget based on the dojox.geo.charting.Map component<br>
@@ -70452,12 +65698,6 @@ dojox.geo.charting.widget.Map.prototype.create=function(params, srcNodeRef){};
  * @memberOf dojox.geo.charting.widget.Map
 */
 dojox.geo.charting.widget.Map.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.charting.widget.Map.map
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers
 /**
  * <b>Summary:</b><blockquote>
  *	 Parses the specified string and returns degree minute second or decimal degree.<br>
@@ -70626,9 +65866,6 @@ dojox.geo.openlayers.GreatCircle={};
  * @namespace
 */
 dojox.geo.openlayers.BaseLayerType={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.Collection
 /**
  * <b>Summary:</b><blockquote>
  *	 Retrieves the geometries.<br>
@@ -70650,9 +65887,6 @@ dojox.geo.openlayers.Collection.prototype.setGeometries=function(g){};
  * @memberOf dojox.geo.openlayers.Collection
 */
 dojox.geo.openlayers.Collection.prototype.getGeometries=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.Geometry
 /**
  * <b>Summary:</b><blockquote>
  *	 The associated shape when rendered<br>
@@ -70666,9 +65900,6 @@ dojox.geo.openlayers.Collection.prototype.getGeometries=function(){};
  * @returns {dojox.geo.openlayers.Geometry} new instance
 */
 dojox.geo.openlayers.Geometry=function(coords){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.Feature
 /**
  * <b>Summary:</b><blockquote>
  *	 A Feature encapsulates an item so that it can be added to a Layer.<br>
@@ -70736,9 +65967,6 @@ dojox.geo.openlayers.Feature.prototype._setLayer=function(l){};
  * @memberOf dojox.geo.openlayers.Feature
 */
 dojox.geo.openlayers.Feature.prototype._getLocalXY=function(p){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.GeometryFeature
 /**
  * <b>Summary:</b><blockquote>
  *	 A Feature encapsulating a geometry.<br>
@@ -70945,22 +66173,10 @@ dojox.geo.openlayers.GeometryFeature.prototype._applyStyle=function(g){};
  * @memberOf dojox.geo.openlayers.GeometryFeature
 */
 dojox.geo.openlayers.GeometryFeature.prototype._applyRecusiveStyle=function(g, stroke, fill){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.GeometryFeature._geometry
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.GeometryFeature._defaults
 /**
  * @namespace
 */
 dojox.geo.openlayers.GeometryFeature._defaults.pointShape={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.GeometryFeature._defaults.pointShape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.GfxLayer
 /**
  * <b>Summary:</b><blockquote>
  *	 A layer dedicated to render dojox.geo.openlayers.GeometryFeature<br>
@@ -71047,12 +66263,6 @@ dojox.geo.openlayers.GfxLayer.prototype.added=function(){};
  * @memberOf dojox.geo.openlayers.GfxLayer
 */
 dojox.geo.openlayers.GfxLayer.prototype._surfaceSize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.GfxLayer.olLayer
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.Layer
 /**
  * <b>Summary:</b><blockquote>
  *	 Base layer class for dojox.geo.openlayers.Map specific layers extending OpenLayers.Layer class.<br>
@@ -71159,9 +66369,6 @@ dojox.geo.openlayers.Layer.prototype.added=function(){};
  * @memberOf dojox.geo.openlayers.Layer
 */
 dojox.geo.openlayers.Layer.prototype.addFeature=function(f){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.GreatCircle
 /**
  * <b>Summary:</b><blockquote>
  *	 Create a geodetic line as an array of OpenLayers.Point.<br>
@@ -71206,9 +66413,6 @@ dojox.geo.openlayers.GreatCircle.toLineString=function(p1, p2, increment){};
  * @param {Float} increment The value at which a new point is computed.
 */
 dojox.geo.openlayers.GreatCircle.toGeometryFeature=function(p1, p2, increment){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.GreatCircle.toPointArray
 /**
  * <b>Summary:</b><blockquote>
  *	 Create a geodetic line as an array of OpenLayers.Point.<br>
@@ -71221,9 +66425,6 @@ dojox.geo.openlayers.GreatCircle.toGeometryFeature=function(p1, p2, increment){}
  * @returns {dojox.geo.openlayers.GreatCircle.toPointArray} new instance
 */
 dojox.geo.openlayers.GreatCircle.toPointArray=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.JsonImport
 /**
  * <b>Summary:</b><blockquote>
  *	 Class to load JSON formated ShapeFile as output of the JSon Custom Map Converter.<br>
@@ -71294,12 +66495,6 @@ dojox.geo.openlayers.JsonImport.prototype._loadError=function(){};
  * @memberOf dojox.geo.openlayers.JsonImport
 */
 dojox.geo.openlayers.JsonImport.prototype._gotData=function(items){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.JsonImport._params
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.Map
 /**
  * <b>Summary:</b><blockquote>
  *	 The underlying OpenLayers.Map object.<br>
@@ -71505,15 +66700,6 @@ dojox.geo.openlayers.Map.prototype._getLayer=function(ol){};
  * @memberOf dojox.geo.openlayers.Map
 */
 dojox.geo.openlayers.Map.prototype._createBaseLayer=function(params){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.Map.olMap
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.BaseLayerType
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.Point
 /**
  * <b>Summary:</b><blockquote>
  *	 A Point geometry handles description of points to be rendered in a GfxLayer<br>
@@ -71540,9 +66726,6 @@ dojox.geo.openlayers.Point.prototype.setPoint=function(p){};
  * @memberOf dojox.geo.openlayers.Point
 */
 dojox.geo.openlayers.Point.prototype.getPoint=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.TouchInteractionSupport
 /**
  * <b>Summary:</b><blockquote>
  *	 class to handle touch interactions on a OpenLayers.Map widget<br>
@@ -71626,15 +66809,6 @@ dojox.geo.openlayers.TouchInteractionSupport.prototype._getFingerSpacing=functio
  * @memberOf dojox.geo.openlayers.TouchInteractionSupport
 */
 dojox.geo.openlayers.TouchInteractionSupport.prototype._doubleTapHandler=function(touchEvent){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.TouchInteractionSupport._lastTap
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.TouchInteractionSupport._map
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.widget
 /**
  * <b>Summary:</b><blockquote>
  *	 The underlying `dojox.geo.openlayers.Map` object.<br>
@@ -71650,9 +66824,6 @@ dojox.geo.openlayers.TouchInteractionSupport.prototype._doubleTapHandler=functio
  *  style="background-color: #b5d0d0; width: 100%; height: 100%;"&gt;
 */
 dojox.geo.openlayers.widget.Map=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.widget.Map
 /**
  * <b>Summary:</b><blockquote>
  *	 The underlying `dojox.geo.openlayers.Map` object.<br>
@@ -71706,9 +66877,6 @@ dojox.geo.openlayers.widget.Map.prototype.buildRendering=function(){};
  * @memberOf dojox.geo.openlayers.widget.Map
 */
 dojox.geo.openlayers.widget.Map.prototype._makeLayers=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.WidgetFeature
 /**
  * <b>Summary:</b><blockquote>
  *	 Wraps a Dojo widget, provide geolocalisation of the widget and interface<br>
@@ -71804,9 +66972,6 @@ dojox.geo.openlayers.WidgetFeature.prototype._getWidgetHeight=function(){};
  * @memberOf dojox.geo.openlayers.WidgetFeature
 */
 dojox.geo.openlayers.WidgetFeature.prototype._getWidget=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.WidgetFeature._params
 /**
  * @namespace
  * @private
@@ -71816,15 +66981,6 @@ dojox.geo.openlayers.WidgetFeature._params={};
  * @namespace
 */
 dojox.geo.openlayers.WidgetFeature._params.widget={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.WidgetFeature._params.widget
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.geo.openlayers.WidgetFeature._widget
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gesture
 /**
  * <b>Summary:</b><blockquote>
  *	 This module provides tap gesture event handlers:<br>
@@ -71989,9 +67145,6 @@ dojox.gesture.swipe=function(){};
  * Please refer to dojox/gesture/ for more gesture usages
 */
 dojox.gesture.Base=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gesture.Base
 /**
  * <b>Summary:</b><blockquote>
  *	 An abstract parental class for various gesture implementations.<br>
@@ -72241,9 +67394,6 @@ dojox.gesture.Base.prototype._cleanHandles=function(handles){};
  * @memberOf dojox.gesture.Base
 */
 dojox.gesture.Base.prototype._add=function(node, type, listener){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gesture.swipe
 /**
  * <b>Summary:</b><blockquote>
  *	 This module provides swipe gestures including:<br>
@@ -72344,9 +67494,6 @@ dojox.gesture.swipe.prototype._recognize=function(data, e, type){};
  * @memberOf dojox.gesture.swipe
 */
 dojox.gesture.swipe.prototype._getSwipeInfo=function(data, e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gesture.tap
 /**
  * <b>Summary:</b><blockquote>
  *	 This module provides tap gesture event handlers:<br>
@@ -72424,9 +67571,6 @@ dojox.gesture.tap.prototype._isTap=function(data, e){};
  * @memberOf dojox.gesture.tap
 */
 dojox.gesture.tap.prototype._initTap=function(data, e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx
 /**
  * <b>Summary:</b><blockquote>
  *	 switch the graphics implementation to the specified renderer.<br>
@@ -72771,9 +67915,6 @@ dojox.gfx.arc={};
  * @private
 */
 dojox.gfx._base={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.arc
 /**
  * <b>Summary:</b><blockquote>
  *	 return a start point, 1st and 2nd control points, and an end point of<br>
@@ -72800,51 +67941,7 @@ dojox.gfx.arc.unitArcAsBezier=function(alpha){};
  * @returns {Array} -
 */
 dojox.gfx.arc.arcAsBezier=function(last, rx, ry, xRotg, large, sweep, x, y){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.gfx.defaultPath
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultPolyline
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultRect
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultEllipse
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultCircle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultLine
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultImage
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultText
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultTextPath
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultStroke
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultLinearGradient
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultRadialGradient
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultPattern
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultFont
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx._base
 /**
  * <b>Summary:</b><blockquote>
  *	 returns a unique string for use with any DOM element<br>
@@ -72873,9 +67970,6 @@ dojox.gfx._base._getFontMeasurements=function(){};
  * @private
 */
 dojox.gfx._base._getCachedFontMeasurements=function(recalculate){};
-//-jshdr-obj-end
-
-//-jshdr-id-canvas
 /**
  * @namespace
 */
@@ -72887,9 +67981,6 @@ dojox.canvas.attachSurface=function(){};
  * @returns {for now} -
 */
 dojox.canvas.attachNode=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas
 /**
  * <b>Summary:</b><blockquote>
  *	 a text shape (Canvas)<br>
@@ -72957,9 +68048,6 @@ dojox.gfx.canvas.Ellipse=function(){};
  * </blockquote>
 */
 dojox.gfx.canvas.Circle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Shape
 /**
  * @class
  * @extends dojox.gfx.shape.Shape
@@ -73013,15 +68101,6 @@ dojox.gfx.canvas.Shape.prototype._renderFill=function(ctx, apply){};
  * @memberOf dojox.gfx.canvas.Shape
 */
 dojox.gfx.canvas.Shape.prototype._render=function(ctx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Shape.fillStyle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Shape.canvasFillImage
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Group
 /**
  * <b>Summary:</b><blockquote>
  *	 a group shape (Canvas), which can be used<br>
@@ -73040,9 +68119,6 @@ dojox.gfx.canvas.Group=function(){};
  * @memberOf dojox.gfx.canvas.Group
 */
 dojox.gfx.canvas.Group.prototype._render=function(ctx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Rect
 /**
  * <b>Summary:</b><blockquote>
  *	 a rectangle shape (Canvas)<br>
@@ -73058,12 +68134,6 @@ dojox.gfx.canvas.Rect=function(){};
  * @memberOf dojox.gfx.canvas.Rect
 */
 dojox.gfx.canvas.Rect.prototype._renderShape=function(ctx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Rect.shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Ellipse
 /**
  * <b>Summary:</b><blockquote>
  *	 an ellipse shape (Canvas)<br>
@@ -73083,9 +68153,6 @@ dojox.gfx.canvas.Ellipse.prototype.setShape=function(){};
  * @memberOf dojox.gfx.canvas.Ellipse
 */
 dojox.gfx.canvas.Ellipse.prototype._renderShape=function(ctx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Circle
 /**
  * <b>Summary:</b><blockquote>
  *	 a circle shape (Canvas)<br>
@@ -73101,9 +68168,6 @@ dojox.gfx.canvas.Circle=function(){};
  * @memberOf dojox.gfx.canvas.Circle
 */
 dojox.gfx.canvas.Circle.prototype._renderShape=function(ctx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Line
 /**
  * <b>Summary:</b><blockquote>
  *	 a line shape (Canvas)<br>
@@ -73119,9 +68183,6 @@ dojox.gfx.canvas.Line=function(){};
  * @memberOf dojox.gfx.canvas.Line
 */
 dojox.gfx.canvas.Line.prototype._renderShape=function(ctx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Polyline
 /**
  * <b>Summary:</b><blockquote>
  *	 a polyline/polygon shape (Canvas)<br>
@@ -73141,19 +68202,10 @@ dojox.gfx.canvas.Polyline.prototype.setShape=function(){};
  * @memberOf dojox.gfx.canvas.Polyline
 */
 dojox.gfx.canvas.Polyline.prototype._renderShape=function(ctx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Polyline.shape
 /**
  * @namespace
 */
 dojox.gfx.canvas.Polyline.shape={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Polyline.shape.points
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Image
 /**
  * <b>Summary:</b><blockquote>
  *	 an image shape (Canvas)<br>
@@ -73173,9 +68225,6 @@ dojox.gfx.canvas.Image.prototype.setShape=function(){};
  * @memberOf dojox.gfx.canvas.Image
 */
 dojox.gfx.canvas.Image.prototype._renderShape=function(ctx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Text
 /**
  * @class
  * @extends dojox.gfx.shape.Text
@@ -73214,9 +68263,6 @@ dojox.gfx.canvas.Text.prototype._renderShape=function(ctx){};
  * @memberOf dojox.gfx.canvas.Text
 */
 dojox.gfx.canvas.Text.prototype._render=function(ctx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Path
 /**
  * <b>Summary:</b><blockquote>
  *	 a path shape (Canvas)<br>
@@ -73389,15 +68435,6 @@ dojox.gfx.canvas.Path.prototype._closePath=function(result, action, args){};
  * @memberOf dojox.gfx.canvas.Path
 */
 dojox.gfx.canvas.Path.prototype._arcTo=function(result, action, args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Path.last
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Path.lastControl
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.TextPath
 /**
  * <b>Summary:</b><blockquote>
  *	 a text shape (Canvas)<br>
@@ -73422,9 +68459,6 @@ dojox.gfx.canvas.TextPath.prototype._setFont=function(){};
  * @memberOf dojox.gfx.canvas.TextPath
 */
 dojox.gfx.canvas.TextPath.prototype._renderShape=function(ctx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Surface
 /**
  * <b>Summary:</b><blockquote>
  *	 a surface object to be used for drawings (Canvas)<br>
@@ -73492,15 +68526,6 @@ dojox.gfx.canvas.Surface.prototype.connect=function(){};
  * @memberOf dojox.gfx.canvas.Surface
 */
 dojox.gfx.canvas.Surface.prototype._render=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvas.Surface.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-pathLib
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic text<br>
@@ -73567,9 +68592,6 @@ dojox.gfx.shape.Ellipse=function(rawNode){};
  * @param {Node} rawNode a DOM Node
 */
 dojox.gfx.shape.Circle=function(rawNode){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Shape
 /**
  * <b>Summary:</b><blockquote>
  *	 a Shape object, which knows how to apply<br>
@@ -73865,9 +68887,6 @@ dojox.gfx.shape.Shape.prototype._getRealMatrix=function(){};
  * @memberOf dojox.gfx.shape.Shape
 */
 dojox.gfx.shape.Shape.prototype._applyTransform=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Rect
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic rectangle<br>
@@ -73885,9 +68904,6 @@ dojox.gfx.shape.Rect=function(rawNode){};
  * @memberOf dojox.gfx.shape.Rect
 */
 dojox.gfx.shape.Rect.prototype.getBoundingBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Ellipse
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic ellipse<br>
@@ -73905,9 +68921,6 @@ dojox.gfx.shape.Ellipse=function(rawNode){};
  * @memberOf dojox.gfx.shape.Ellipse
 */
 dojox.gfx.shape.Ellipse.prototype.getBoundingBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Circle
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic circle<br>
@@ -73926,9 +68939,6 @@ dojox.gfx.shape.Circle=function(rawNode){};
  * @memberOf dojox.gfx.shape.Circle
 */
 dojox.gfx.shape.Circle.prototype.getBoundingBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Line
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic line<br>
@@ -73947,9 +68957,6 @@ dojox.gfx.shape.Line=function(rawNode){};
  * @memberOf dojox.gfx.shape.Line
 */
 dojox.gfx.shape.Line.prototype.getBoundingBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Image
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic image<br>
@@ -73984,9 +68991,6 @@ dojox.gfx.shape.Image.prototype.setFill=function(){};
  * @memberOf dojox.gfx.shape.Image
 */
 dojox.gfx.shape.Image.prototype.getBoundingBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Text
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic text<br>
@@ -74013,9 +69017,6 @@ dojox.gfx.shape.Text.prototype.setFont=function(newFont){};
  * @memberOf dojox.gfx.shape.Text
 */
 dojox.gfx.shape.Text.prototype.getFont=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Surface
 /**
  * <b>Summary:</b><blockquote>
  *	 a surface object to be used for drawings<br>
@@ -74083,12 +69084,6 @@ dojox.gfx.shape.Surface.prototype.destroy=function(){};
  * @memberOf dojox.gfx.shape.Surface
 */
 dojox.gfx.shape.Surface.prototype._getRealMatrix=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-m
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents
 /**
 */
 dojox.gfx.canvasWithEvents.TextPath=function(){};
@@ -74125,9 +69120,6 @@ dojox.gfx.canvasWithEvents.Ellipse=function(){};
 /**
 */
 dojox.gfx.canvasWithEvents.Circle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Shape
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Shape} new instance
@@ -74273,12 +69265,6 @@ dojox.gfx.canvasWithEvents.Shape.prototype._hitTestPixel=function(ctx, pos){};
  * @memberOf dojox.gfx.canvasWithEvents.Shape
 */
 dojox.gfx.canvasWithEvents.Shape.prototype._hitTestGeometry=function(ctx, x, y){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Shape.strokeStyle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Group
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Group} new instance
@@ -74291,9 +69277,6 @@ dojox.gfx.canvasWithEvents.Group=function(){};
  * @memberOf dojox.gfx.canvasWithEvents.Group
 */
 dojox.gfx.canvasWithEvents.Group.prototype._testInputs=function(ctx, pos){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Image
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Image} new instance
@@ -74316,9 +69299,6 @@ dojox.gfx.canvasWithEvents.Image.prototype._renderShape=function(ctx){};
  * @memberOf dojox.gfx.canvasWithEvents.Image
 */
 dojox.gfx.canvasWithEvents.Image.prototype._hitTestGeometry=function(ctx, x, y){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Text
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Text} new instance
@@ -74331,65 +69311,41 @@ dojox.gfx.canvasWithEvents.Text=function(){};
  * @memberOf dojox.gfx.canvasWithEvents.Text
 */
 dojox.gfx.canvasWithEvents.Text.prototype._testInputs=function(ctx, pos){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Rect
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Rect} new instance
 */
 dojox.gfx.canvasWithEvents.Rect=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Circle
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Circle} new instance
 */
 dojox.gfx.canvasWithEvents.Circle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Ellipse
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Ellipse} new instance
 */
 dojox.gfx.canvasWithEvents.Ellipse=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Line
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Line} new instance
 */
 dojox.gfx.canvasWithEvents.Line=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Polyline
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Polyline} new instance
 */
 dojox.gfx.canvasWithEvents.Polyline=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Path
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Path} new instance
 */
 dojox.gfx.canvasWithEvents.Path=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.TextPath
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.TextPath} new instance
 */
 dojox.gfx.canvasWithEvents.TextPath=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Surface
 /**
  * @class
  * @returns {dojox.gfx.canvasWithEvents.Surface} new instance
@@ -74576,15 +69532,6 @@ dojox.gfx.canvasWithEvents.Surface.prototype._initMirrorCanvas=function(){};
  * @memberOf dojox.gfx.canvasWithEvents.Surface
 */
 dojox.gfx.canvasWithEvents.Surface.prototype._fireTouchEvent=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.canvasWithEvents.Surface._eventsH
-//-jshdr-obj-end
-
-//-jshdr-id-canvasEvent
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.fx
 /**
  * <b>Summary:</b><blockquote>
  *	 Returns an animation which will change transformation over time.<br>
@@ -74648,9 +69595,6 @@ dojox.gfx.fx.animateFont=function(args){};
  * 	}).play();
 */
 dojox.gfx.fx.animateFill=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.Group
 /**
  * @class
  * @returns {dojox.gfx.Group} new instance
@@ -74669,9 +69613,6 @@ dojox.gfx.Group.prototype.setTextDir=function(newTextDir){};
  * @memberOf dojox.gfx.Group
 */
 dojox.gfx.Group.prototype.getTextDir=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.Text
 /**
  * <b>Summary:</b><blockquote>
  *	 Overrides some of dojox.gfx.Text properties, and adds some<br>
@@ -74713,9 +69654,6 @@ dojox.gfx.Text.prototype.formatText=function(text, textDir){};
  * @memberOf dojox.gfx.Text
 */
 dojox.gfx.Text.prototype.bidiPreprocess=function(newShape){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.TextPath
 /**
  * @class
  * @returns {dojox.gfx.TextPath} new instance
@@ -74746,17 +69684,11 @@ dojox.gfx.TextPath.prototype.formatText=function(text, textDir){};
  * @memberOf dojox.gfx.TextPath
 */
 dojox.gfx.TextPath.prototype.bidiPreprocess=function(newText){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.TextPath.bidiPreprocess
 /**
  * @class
  * @returns {dojox.gfx.TextPath.bidiPreprocess} new instance
 */
 dojox.gfx.TextPath.bidiPreprocess=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.gradient
 /**
  * <b>Summary:</b><blockquote>
  *	 Recalculates a gradient from 0-1 window to<br>
@@ -74781,9 +69713,6 @@ dojox.gfx.gradient.rescale=function(stops, from, to){};
  * @param {dojox.gfx.Point:} trb right-bottom corner of shape's transformed bounding box
 */
 dojox.gfx.gradient.project=function(matrix, gradient, tl, rb, ttl, trb){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.gradutils
 /**
  * <b>Summary:</b><blockquote>
  *	 reverses a gradient<br>
@@ -74801,9 +69730,6 @@ dojox.gfx.gradutils.reverse=function(fill){};
  * @returns {dojo.Color} -
 */
 dojox.gfx.gradutils.getColor=function(fill, pt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.matrix
 /**
  * <b>Summary:</b><blockquote>
  *	 forms a translation matrix<br>
@@ -75073,9 +69999,6 @@ dojox.gfx.matrix._degToRad=function(degree){};
  * @param {Object} arg a 2D matrix-like object, a number, or an array of such objects
 */
 dojox.gfx.matrix.Matrix2D=function(arg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.matrix.Matrix2D
 /**
  * <b>Summary:</b><blockquote>
  *	 a 2D matrix object<br>
@@ -75086,9 +70009,6 @@ dojox.gfx.matrix.Matrix2D=function(arg){};
  * @returns {dojox.gfx.matrix.Matrix2D} new instance
 */
 dojox.gfx.matrix.Matrix2D=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.Moveable
 /**
  * <b>Summary:</b><blockquote>
  *	 an object, which makes a shape moveable<br>
@@ -75186,9 +70106,6 @@ dojox.gfx.Moveable.prototype.onFirstMove=function(mover){};
  * @memberOf dojox.gfx.Moveable
 */
 dojox.gfx.Moveable.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.Mover
 /**
  * <b>Summary:</b><blockquote>
  *	 an object, which makes a shape follow the mouse,<br>
@@ -75225,9 +70142,6 @@ dojox.gfx.Mover.prototype.onFirstMove=function(){};
  * @memberOf dojox.gfx.Mover
 */
 dojox.gfx.Mover.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.path
 /**
  * <b>Summary:</b><blockquote>
  *	 a generalized TextPath shape<br>
@@ -75242,9 +70156,6 @@ dojox.gfx.path.TextPath=function(rawNode){};
  * @param {Node} rawNode a DOM node to be used by this path object
 */
 dojox.gfx.path.Path=function(rawNode){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.path.Path
 /**
  * <b>Summary:</b><blockquote>
  *	 a generalized path shape<br>
@@ -75467,24 +70378,6 @@ dojox.gfx.path.Path.prototype._collectArgs=function(array, args){};
  * @memberOf dojox.gfx.path.Path
 */
 dojox.gfx.path.Path.prototype._applyTransform=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.path.Path.segments
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.path.Path.bbox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.path.Path.last
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.path.Path._validSegments
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.path.Path.shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.path.TextPath
 /**
  * <b>Summary:</b><blockquote>
  *	 a generalized TextPath shape<br>
@@ -75528,15 +70421,6 @@ dojox.gfx.path.TextPath.prototype.getText=function(){};
  * @memberOf dojox.gfx.path.TextPath
 */
 dojox.gfx.path.TextPath.prototype.getFont=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Surface._parent
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.Point
 /**
  * <b>Summary:</b><blockquote>
  *	 a hypothetical 2D point to be used for drawings - {x, y}<br>
@@ -75547,9 +70431,6 @@ dojox.gfx.path.TextPath.prototype.getFont=function(){};
  * @returns {dojox.gfx.Point} new instance
 */
 dojox.gfx.Point=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.Rectangle
 /**
  * <b>Summary:</b><blockquote>
  *	 a hypothetical rectangle - {x, y, width, height}<br>
@@ -75560,9 +70441,6 @@ dojox.gfx.Point=function(){};
  * @returns {dojox.gfx.Rectangle} new instance
 */
 dojox.gfx.Rectangle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Polyline
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic polyline/polygon<br>
@@ -75603,18 +70481,6 @@ dojox.gfx.shape.Polyline.prototype.getBoundingBox=function(){};
  * @memberOf dojox.gfx.shape.Polyline
 */
 dojox.gfx.shape.Polyline.prototype._normalizePoints=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Polyline.shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.shape.Polyline.shape.points
-//-jshdr-obj-end
-
-//-jshdr-id-g
-//-jshdr-obj-end
-
-//-jshdr-id-sl
 /**
  * @namespace
 */
@@ -75635,9 +70501,6 @@ dojox.sl.attachSurface=function(node){};
  * @returns {not implemented} -
 */
 dojox.sl.attachNode=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight
 /**
  * <b>Summary:</b><blockquote>
  *	 a textpath shape (Silverlight)<br>
@@ -75711,9 +70574,6 @@ dojox.gfx.silverlight.Ellipse=function(){};
  * </blockquote>
 */
 dojox.gfx.silverlight.Circle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Shape
 /**
  * <b>Summary:</b><blockquote>
  *	 Silverlight-specific implementation of dojox.gfx.Shape methods<br>
@@ -75798,15 +70658,6 @@ dojox.gfx.silverlight.Shape.prototype._getAdjustedMatrix=function(){};
  * @memberOf dojox.gfx.silverlight.Shape
 */
 dojox.gfx.silverlight.Shape.prototype._applyTransform=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Shape.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Shape.parent.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Group
 /**
  * <b>Summary:</b><blockquote>
  *	 a group shape (Silverlight), which can be used<br>
@@ -75824,12 +70675,6 @@ dojox.gfx.silverlight.Group=function(){};
  * @memberOf dojox.gfx.silverlight.Group
 */
 dojox.gfx.silverlight.Group.prototype.setRawNode=function(rawNode){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Group.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Rect
 /**
  * <b>Summary:</b><blockquote>
  *	 a rectangle shape (Silverlight)<br>
@@ -75856,12 +70701,6 @@ dojox.gfx.silverlight.Rect.prototype.setShape=function(newShape){};
  * @memberOf dojox.gfx.silverlight.Rect
 */
 dojox.gfx.silverlight.Rect.prototype._getAdjustedMatrix=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Rect.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Ellipse
 /**
  * <b>Summary:</b><blockquote>
  *	 an ellipse shape (Silverlight)<br>
@@ -75888,12 +70727,6 @@ dojox.gfx.silverlight.Ellipse.prototype.setShape=function(newShape){};
  * @memberOf dojox.gfx.silverlight.Ellipse
 */
 dojox.gfx.silverlight.Ellipse.prototype._getAdjustedMatrix=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Ellipse.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Circle
 /**
  * <b>Summary:</b><blockquote>
  *	 a circle shape (Silverlight)<br>
@@ -75920,12 +70753,6 @@ dojox.gfx.silverlight.Circle.prototype.setShape=function(newShape){};
  * @memberOf dojox.gfx.silverlight.Circle
 */
 dojox.gfx.silverlight.Circle.prototype._getAdjustedMatrix=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Circle.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Line
 /**
  * <b>Summary:</b><blockquote>
  *	 a line shape (Silverlight)<br>
@@ -75943,12 +70770,6 @@ dojox.gfx.silverlight.Line=function(){};
  * @memberOf dojox.gfx.silverlight.Line
 */
 dojox.gfx.silverlight.Line.prototype.setShape=function(newShape){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Line.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Polyline
 /**
  * <b>Summary:</b><blockquote>
  *	 a polyline/polygon shape (Silverlight)<br>
@@ -75971,15 +70792,6 @@ dojox.gfx.silverlight.Polyline.shape={};
  * @memberOf dojox.gfx.silverlight.Polyline
 */
 dojox.gfx.silverlight.Polyline.prototype.setShape=function(points, closed){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Polyline.shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Polyline.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Image
 /**
  * <b>Summary:</b><blockquote>
  *	 an image (Silverlight)<br>
@@ -76016,12 +70828,6 @@ dojox.gfx.silverlight.Image.prototype.setRawNode=function(rawNode){};
  * @memberOf dojox.gfx.silverlight.Image
 */
 dojox.gfx.silverlight.Image.prototype._getAdjustedMatrix=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Image.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Text
 /**
  * <b>Summary:</b><blockquote>
  *	 an anchored text (Silverlight)<br>
@@ -76087,22 +70893,10 @@ dojox.gfx.silverlight.Text.prototype._getAdjustedMatrix=function(){};
  * @memberOf dojox.gfx.silverlight.Text
 */
 dojox.gfx.silverlight.Text.prototype._delayAlignment=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Text.rawNode
 /**
  * @namespace
 */
 dojox.gfx.silverlight.Text.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Text.rawNode.Canvas
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Text.shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Path
 /**
  * <b>Summary:</b><blockquote>
  *	 a path shape (Silverlight)<br>
@@ -76129,15 +70923,6 @@ dojox.gfx.silverlight.Path.prototype.setShape=function(newShape){};
  * @memberOf dojox.gfx.silverlight.Path
 */
 dojox.gfx.silverlight.Path.prototype._updateWithSegment=function(segment){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Path.shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Path.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.TextPath
 /**
  * <b>Summary:</b><blockquote>
  *	 a textpath shape (Silverlight)<br>
@@ -76168,9 +70953,6 @@ dojox.gfx.silverlight.TextPath.prototype._updateWithSegment=function(segment){};
  * @memberOf dojox.gfx.silverlight.TextPath
 */
 dojox.gfx.silverlight.TextPath.prototype._setText=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Surface
 /**
  * <b>Summary:</b><blockquote>
  *	 a surface object to be used for drawings (Silverlight)<br>
@@ -76201,15 +70983,6 @@ dojox.gfx.silverlight.Surface.prototype.getDimensions=function(){};
  * @memberOf dojox.gfx.silverlight.Surface
 */
 dojox.gfx.silverlight.Surface.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.silverlight.Surface.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-gs
-//-jshdr-obj-end
-
-//-jshdr-id-svg
 /**
  * @namespace
 */
@@ -76230,9 +71003,6 @@ dojox.svg.attachSurface=function(node){};
  * @returns {dojox.gfx.Shape} -
 */
 dojox.svg.attachNode=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg
 /**
  * <b>Summary:</b><blockquote>
  *	 a textpath shape (SVG)<br>
@@ -76297,9 +71067,6 @@ dojox.gfx.svg.Ellipse=function(){};
 /**
 */
 dojox.gfx.svg.Circle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Shape
 /**
  * <b>Summary:</b><blockquote>
  *	 SVG-specific implementation of dojox.gfx.Shape methods<br>
@@ -76391,9 +71158,6 @@ dojox.gfx.svg.Shape.prototype._getParentSurface=function(){};
  * @memberOf dojox.gfx.svg.Shape
 */
 dojox.gfx.svg.Shape.prototype._applyTransform=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Group
 /**
  * <b>Summary:</b><blockquote>
  *	 a group shape (SVG), which can be used<br>
@@ -76411,12 +71175,6 @@ dojox.gfx.svg.Group=function(){};
  * @memberOf dojox.gfx.svg.Group
 */
 dojox.gfx.svg.Group.prototype.setRawNode=function(rawNode){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Group.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Rect
 /**
  * <b>Summary:</b><blockquote>
  *	 a rectangle shape (SVG)<br>
@@ -76434,33 +71192,21 @@ dojox.gfx.svg.Rect=function(){};
  * @memberOf dojox.gfx.svg.Rect
 */
 dojox.gfx.svg.Rect.prototype.setShape=function(newShape){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Ellipse
 /**
  * @class
  * @returns {dojox.gfx.svg.Ellipse} new instance
 */
 dojox.gfx.svg.Ellipse=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Circle
 /**
  * @class
  * @returns {dojox.gfx.svg.Circle} new instance
 */
 dojox.gfx.svg.Circle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Line
 /**
  * @class
  * @returns {dojox.gfx.svg.Line} new instance
 */
 dojox.gfx.svg.Line=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Polyline
 /**
  * <b>Summary:</b><blockquote>
  *	 a polyline/polygon shape (SVG)<br>
@@ -76483,12 +71229,6 @@ dojox.gfx.svg.Polyline.shape={};
  * @memberOf dojox.gfx.svg.Polyline
 */
 dojox.gfx.svg.Polyline.prototype.setShape=function(points, closed){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Polyline.shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Image
 /**
  * <b>Summary:</b><blockquote>
  *	 an image (SVG)<br>
@@ -76506,12 +71246,6 @@ dojox.gfx.svg.Image=function(){};
  * @memberOf dojox.gfx.svg.Image
 */
 dojox.gfx.svg.Image.prototype.setShape=function(newShape){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Image.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Text
 /**
  * <b>Summary:</b><blockquote>
  *	 an anchored text (SVG)<br>
@@ -76536,19 +71270,10 @@ dojox.gfx.svg.Text.prototype.setShape=function(newShape){};
  * @memberOf dojox.gfx.svg.Text
 */
 dojox.gfx.svg.Text.prototype.getTextWidth=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Text.rawNode.firstChild
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Text.rawNode
 /**
  * @namespace
 */
 dojox.gfx.svg.Text.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Path
 /**
  * <b>Summary:</b><blockquote>
  *	 a path shape (SVG)<br>
@@ -76575,9 +71300,6 @@ dojox.gfx.svg.Path.prototype.setShape=function(newShape){};
  * @memberOf dojox.gfx.svg.Path
 */
 dojox.gfx.svg.Path.prototype._updateWithSegment=function(segment){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.TextPath
 /**
  * <b>Summary:</b><blockquote>
  *	 a textpath shape (SVG)<br>
@@ -76614,9 +71336,6 @@ dojox.gfx.svg.TextPath.prototype._setTextPath=function(){};
  * @memberOf dojox.gfx.svg.TextPath
 */
 dojox.gfx.svg.TextPath.prototype._setText=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.svg.Surface
 /**
  * <b>Summary:</b><blockquote>
  *	 a surface object to be used for drawings (SVG)<br>
@@ -76647,9 +71366,6 @@ dojox.gfx.svg.Surface.prototype.getDimensions=function(){};
  * @memberOf dojox.gfx.svg.Surface
 */
 dojox.gfx.svg.Surface.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.utils
 /**
  * <b>Summary:</b><blockquote>
  *	 Function to serialize a GFX surface to SVG text.<br>
@@ -76746,18 +71462,6 @@ dojox.gfx.utils._initSvgSerializer=function(){};
  * @returns {Cleaned SVG text.} -
 */
 dojox.gfx.utils._cleanSvg=function(svg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vectorFontFitting
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultVectorText
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.defaultVectorFont
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.VectorFont
 /**
  * <b>Summary:</b><blockquote>
  *	 Create this font object based on the SVG Font definition at url.<br>
@@ -77034,12 +71738,6 @@ dojox.gfx.VectorFont.prototype._decodeEntitySequence=function(str){};
  * @memberOf dojox.gfx.VectorFont
 */
 dojox.gfx.VectorFont.prototype._clean=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.VectorFont.viewbox
-//-jshdr-obj-end
-
-//-jshdr-id-vml
 /**
  * @namespace
 */
@@ -77060,9 +71758,6 @@ dojox.vml.attachSurface=function(node){};
  * @returns {dojox.gfx.Shape} -
 */
 dojox.vml.attachNode=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml
 /**
  * <b>Summary:</b><blockquote>
  *	 a textpath shape (VML)<br>
@@ -77147,9 +71842,6 @@ dojox.gfx.vml.Ellipse=function(){};
  * </blockquote>
 */
 dojox.gfx.vml.Circle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Shape
 /**
  * <b>Summary:</b><blockquote>
  *	 VML-specific implementation of dojox.gfx.Shape methods<br>
@@ -77251,41 +71943,14 @@ dojox.gfx.vml.Shape.prototype._getRealMatrix=function(){};
  * @memberOf dojox.gfx.vml.Shape
 */
 dojox.gfx.vml.Shape.prototype._applyTransform=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Shape.rawNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Shape.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Shape.rawNode.fill
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Shape.rawNode.filters.DXImageTransform.Microsoft
 /**
  * @namespace
 */
 dojox.gfx.vml.Shape.rawNode.filters.DXImageTransform.Microsoft={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Shape.rawNode.filters.DXImageTransform.Microsoft.Alpha
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Shape.rawNode.stroke
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Shape._capMap
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Shape._capMapReversed
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Shape.rawNode.parentNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Group
 /**
  * <b>Summary:</b><blockquote>
  *	 a group shape (VML), which can be used<br>
@@ -77319,29 +71984,14 @@ dojox.gfx.vml.Group.prototype._setDimensions=function(width, height){};
  * @memberOf dojox.gfx.vml.Group
 */
 dojox.gfx.vml.Group.prototype._applyTransform=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Group.rawNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Group.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Group.bgNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Group.bgNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Group.rawNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Group.bgNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Rect
 /**
  * <b>Summary:</b><blockquote>
  *	 a rectangle shape (VML)<br>
@@ -77359,19 +72009,10 @@ dojox.gfx.vml.Rect=function(){};
  * @memberOf dojox.gfx.vml.Rect
 */
 dojox.gfx.vml.Rect.prototype.setShape=function(newShape){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Rect.rawNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Rect.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Rect.rawNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Ellipse
 /**
  * <b>Summary:</b><blockquote>
  *	 an ellipse shape (VML)<br>
@@ -77389,19 +72030,10 @@ dojox.gfx.vml.Ellipse=function(){};
  * @memberOf dojox.gfx.vml.Ellipse
 */
 dojox.gfx.vml.Ellipse.prototype.setShape=function(newShape){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Ellipse.rawNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Ellipse.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Ellipse.rawNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Circle
 /**
  * <b>Summary:</b><blockquote>
  *	 a circle shape (VML)<br>
@@ -77419,19 +72051,10 @@ dojox.gfx.vml.Circle=function(){};
  * @memberOf dojox.gfx.vml.Circle
 */
 dojox.gfx.vml.Circle.prototype.setShape=function(newShape){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Circle.rawNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Circle.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Circle.rawNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Line
 /**
  * <b>Summary:</b><blockquote>
  *	 a line shape (VML)<br>
@@ -77450,12 +72073,6 @@ dojox.gfx.vml.Line=function(rawNode){};
  * @memberOf dojox.gfx.vml.Line
 */
 dojox.gfx.vml.Line.prototype.setShape=function(newShape){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Line.rawNode.path
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Polyline
 /**
  * <b>Summary:</b><blockquote>
  *	 a polyline/polygon shape (VML)<br>
@@ -77479,15 +72096,6 @@ dojox.gfx.vml.Polyline.shape={};
  * @memberOf dojox.gfx.vml.Polyline
 */
 dojox.gfx.vml.Polyline.prototype.setShape=function(points, closed){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Polyline.shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Polyline.rawNode.path
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Image
 /**
  * <b>Summary:</b><blockquote>
  *	 an image (VML)<br>
@@ -77523,35 +72131,14 @@ dojox.gfx.vml.Image.prototype._setDimensions=function(width, height){};
  * @memberOf dojox.gfx.vml.Image
 */
 dojox.gfx.vml.Image.prototype._applyTransform=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Image.rawNode.firstChild
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Image.rawNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Image.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Image.rawNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Image.rawNode.parentNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Image.rawNode.filters.DXImageTransform.Microsoft
 /**
  * @namespace
 */
 dojox.gfx.vml.Image.rawNode.filters.DXImageTransform.Microsoft={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Image.rawNode.filters.DXImageTransform.Microsoft.Matrix
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Text
 /**
  * <b>Summary:</b><blockquote>
  *	 an anchored text (VML)<br>
@@ -77605,25 +72192,10 @@ dojox.gfx.vml.Text.prototype._setFont=function(){};
  * @memberOf dojox.gfx.vml.Text
 */
 dojox.gfx.vml.Text.prototype._getRealMatrix=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Text._alignment
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Text.shape
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Text.rawNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Text.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Text.rawNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Path
 /**
  * <b>Summary:</b><blockquote>
  *	 a path shape (VML)<br>
@@ -77811,21 +72383,6 @@ dojox.gfx.vml.Path.prototype._adjustRelCrd=function(last, segment, step){};
  * @memberOf dojox.gfx.vml.Path
 */
 dojox.gfx.vml.Path.prototype._addArgs=function(path, segment, from, upto){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Path.rawNode.path
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Path.lastControl
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Path._pathVmlToSvgMap
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Path.renderers
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.TextPath
 /**
  * <b>Summary:</b><blockquote>
  *	 a textpath shape (VML)<br>
@@ -77869,12 +72426,6 @@ dojox.gfx.vml.TextPath.prototype._setText=function(){};
  * @memberOf dojox.gfx.vml.TextPath
 */
 dojox.gfx.vml.TextPath.prototype._setFont=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.TextPath.rawNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Surface
 /**
  * <b>Summary:</b><blockquote>
  *	 a surface object to be used for drawings (VML)<br>
@@ -77901,49 +72452,22 @@ dojox.gfx.vml.Surface.prototype.setDimensions=function(width, height){};
  * @memberOf dojox.gfx.vml.Surface
 */
 dojox.gfx.vml.Surface.prototype.getDimensions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Surface.clipNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Surface.clipNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Surface.rawNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Surface.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Surface.bgNode
 /**
  * @namespace
 */
 dojox.gfx.vml.Surface.bgNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Surface._parent
 /**
  * @namespace
 */
 dojox.gfx.vml.Surface._parent={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Surface._parent.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Surface.clipNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Surface.rawNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx.vml.Surface.bgNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic triangle<br>
@@ -78001,9 +72525,6 @@ dojox.gfx3d.Cylinder=function(){};
  * </blockquote>
 */
 dojox.gfx3d.Cube=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.lighting
 /**
  * @param {mixed} incident 
  * @param {mixed} lights 
@@ -78011,9 +72532,6 @@ dojox.gfx3d.Cube=function(){};
  * @param {mixed} specular 
 */
 dojox.gfx3d.lighting.Model=function(incident, lights, ambient, specular){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.lighting.Model
 /**
  * @class
  * @param {mixed} incident 
@@ -78066,15 +72584,6 @@ dojox.gfx3d.lighting.Model.prototype.matte=function(normal, finish, pigment){};
  * @memberOf dojox.gfx3d.lighting.Model
 */
 dojox.gfx3d.lighting.Model.prototype.constant=function(normal, finish, pigment){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.lighting.Model.ambient
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.lighting.Model.specular
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting
 /**
  * @namespace
 */
@@ -78187,9 +72696,6 @@ dojox.gfx3d.lighting.add=function(a, b){};
  * @namespace
 */
 dojox.gfx3d.lighting.finish={};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish
 /**
  * @namespace
 */
@@ -78242,48 +72748,7 @@ dojox.gfx3d.lighting.finish.dull={};
  * @namespace
 */
 dojox.gfx3d.lighting.finish.defaults={};
-//-jshdr-obj-end
 
-//-jshdr-id-gfx3d.lighting.finish.defaults
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.dull
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.shiny
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.glossy
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.phong_dull
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.phong_shiny
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.phong_glossy
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.luminous
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.metalA
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.metalB
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.metalC
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.metalD
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.lighting.finish.metalE
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.matrix
 /**
  * @namespace
 */
@@ -78549,9 +73014,6 @@ dojox.gfx3d.matrix._degToRad=function(degree){};
  * @param {Object} arg a 3D matrix-like object, a number, or an array of such objects
 */
 dojox.gfx3d.matrix.Matrix3D=function(arg){};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.matrix.Matrix3D
 /**
  * <b>Summary:</b><blockquote>
  *	 a 3D matrix object<br>
@@ -78562,25 +73024,16 @@ dojox.gfx3d.matrix.Matrix3D=function(arg){};
  * @returns {gfx3d.matrix.Matrix3D} new instance
 */
 dojox.gfx3d.matrix.Matrix3D=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.Viewport
 /**
  * @class
  * @returns {gfx3d.Viewport} new instance
 */
 dojox.gfx3d.Viewport=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.Scene
 /**
  * @class
  * @returns {gfx3d.Scene} new instance
 */
 dojox.gfx3d.Scene=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx.Surface
 /**
  * @class
  * @returns {gfx.Surface} new instance
@@ -78590,9 +73043,6 @@ gfx.Surface=function(){};
  * @memberOf gfx.Surface
 */
 gfx.Surface.prototype.createViewport=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Object
 /**
  * <b>Summary:</b><blockquote>
  *	 a Object object, which knows how to map<br>
@@ -78713,9 +73163,6 @@ dojox.gfx3d.Object.prototype.applyRightTransform=function(matrix){};
  * @memberOf dojox.gfx3d.Object
 */
 dojox.gfx3d.Object.prototype.applyLeftTransform=function(matrix){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Scene
 /**
  * <b>Summary:</b><blockquote>
  *	 the Scene is just a containter.<br>
@@ -78761,9 +73208,6 @@ dojox.gfx3d.Scene.prototype.draw=function(lighting){};
  * @memberOf dojox.gfx3d.Scene
 */
 dojox.gfx3d.Scene.prototype.addTodo=function(newObject){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Edges
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic edge in 3D viewport<br>
@@ -78794,9 +73238,6 @@ dojox.gfx3d.Edges.prototype.getZOrder=function(){};
  * @memberOf dojox.gfx3d.Edges
 */
 dojox.gfx3d.Edges.prototype.draw=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Orbit
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic edge in 3D viewport<br>
@@ -78815,9 +73256,6 @@ dojox.gfx3d.Orbit.prototype.render=function(camera){};
  * @memberOf dojox.gfx3d.Orbit
 */
 dojox.gfx3d.Orbit.prototype.draw=function(lighting){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Path3d
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic line<br>
@@ -78886,12 +73324,6 @@ dojox.gfx3d.Path3d.prototype._draw=function(){};
  * @memberOf dojox.gfx3d.Path3d
 */
 dojox.gfx3d.Path3d.prototype._collectArgs=function(array, args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Path3d._validSegments
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Triangles
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic triangle<br>
@@ -78924,9 +73356,6 @@ dojox.gfx3d.Triangles.prototype.getZOrder=function(){};
  * @memberOf dojox.gfx3d.Triangles
 */
 dojox.gfx3d.Triangles.prototype.draw=function(lighting){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Quads
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic triangle<br>
@@ -78959,9 +73388,6 @@ dojox.gfx3d.Quads.prototype.getZOrder=function(){};
  * @memberOf dojox.gfx3d.Quads
 */
 dojox.gfx3d.Quads.prototype.draw=function(lighting){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Polygon
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic triangle<br>
@@ -78997,9 +73423,6 @@ dojox.gfx3d.Polygon.prototype.getOutline=function(){};
  * @memberOf dojox.gfx3d.Polygon
 */
 dojox.gfx3d.Polygon.prototype.draw=function(lighting){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Cube
 /**
  * <b>Summary:</b><blockquote>
  *	 a generic triangle<br>
@@ -79031,15 +73454,6 @@ dojox.gfx3d.Cube.prototype.getZOrder=function(){};
  * @memberOf dojox.gfx3d.Cube
 */
 dojox.gfx3d.Cube.prototype.draw=function(lighting){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Cube.cache.0
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Cube.cache.1
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Cylinder
 /**
  * @class
  * @returns {dojox.gfx3d.Cylinder} new instance
@@ -79058,12 +73472,6 @@ dojox.gfx3d.Cylinder.prototype.render=function(camera){};
  * @memberOf dojox.gfx3d.Cylinder
 */
 dojox.gfx3d.Cylinder.prototype.draw=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Cylinder.object
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Viewport
 /**
  * <b>Summary:</b><blockquote>
  *	 a viewport/container for 3D objects, which knows<br>
@@ -79159,22 +73567,10 @@ dojox.gfx3d.Viewport.prototype.addTodo=function(newObject){};
  * @memberOf dojox.gfx3d.Viewport
 */
 dojox.gfx3d.Viewport.prototype.addLights=function(lights){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Viewport.rawNode
 /**
  * @namespace
 */
 dojox.gfx3d.Viewport.rawNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.Viewport.rawNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-schedulerExtensions
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d._creators
 /**
  * @namespace
  * @private
@@ -79304,25 +73700,16 @@ dojox.gfx3d._creators.adopt=function(obj){};
  * @returns {self} -
 */
 dojox.gfx3d._creators.abandon=function(obj, silently){};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d._creators.setScheduler
 /**
  * @class
  * @returns {gfx3d._creators.setScheduler} new instance
 */
 dojox.gfx3d._creators.setScheduler=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d._creators.setDrawer
 /**
  * @class
  * @returns {gfx3d._creators.setDrawer} new instance
 */
 dojox.gfx3d._creators.setDrawer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.scheduler
 /**
  * <b>Summary:</b><blockquote>
  *	 build the binary search tree, using binary space partition algorithm.<br>
@@ -79340,9 +73727,6 @@ dojox.gfx3d._creators.setDrawer=function(){};
  * @param {mixed} outline 
 */
 dojox.gfx3d.scheduler.BinarySearchTree=function(obj, outline){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.gfx3d.scheduler.BinarySearchTree
 /**
  * <b>Summary:</b><blockquote>
  *	 build the binary search tree, using binary space partition algorithm.<br>
@@ -79373,9 +73757,6 @@ dojox.gfx3d.scheduler.BinarySearchTree.prototype.iterate=function(outline){};
  * @memberOf dojox.gfx3d.scheduler.BinarySearchTree
 */
 dojox.gfx3d.scheduler.BinarySearchTree.prototype.add=function(obj, outline){};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.scheduler
 /**
  * @namespace
 */
@@ -79398,9 +73779,6 @@ dojox.gfx3d.scheduler.order=function(it){};
  * @param {mixed} outline 
 */
 dojox.gfx3d.scheduler.bsp=function(buffer, outline){};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.drawer
 /**
  * @namespace
 */
@@ -79417,9 +73795,6 @@ dojox.gfx3d.drawer.conservative=function(todos, objects, viewport){};
  * @param {mixed} viewport 
 */
 dojox.gfx3d.drawer.chart=function(todos, objects, viewport){};
-//-jshdr-obj-end
-
-//-jshdr-id-gfx3d.vector
 /**
  * @namespace
 */
@@ -79506,12 +73881,6 @@ dojox.gfx3d.vector._dotProduct=function(x, y, z, u, v, w){};
  * @returns {Object} -
 */
 dojox.gfx3d.vector._crossProduct=function(x, y, z, u, v, w){};
-//-jshdr-obj-end
-
-//-jshdr-id-util
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid
 /**
  * @private
 */
@@ -79863,9 +74232,6 @@ dojox.grid.enhanced={};
  * @namespace
 */
 dojox.grid.cells={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._DeferredTextWidget
 /**
  * @class
  * @returns {dojox.grid._DeferredTextWidget} new instance
@@ -79875,9 +74241,6 @@ dojox.grid._DeferredTextWidget=function(){};
  * @memberOf dojox.grid._DeferredTextWidget
 */
 dojox.grid._DeferredTextWidget.prototype.postCreate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells
 /**
  * @param {mixed} inCell 
 */
@@ -79954,9 +74317,6 @@ dojox.grid.cells.AlwaysEdit=function(){};
  * @namespace
 */
 dojox.grid.cells.TreeCell={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells._Base
 /**
  * <b>Summary:</b><blockquote>
  *	 Respresents a grid cell and contains information about column options and methods<br>
@@ -80147,19 +74507,10 @@ dojox.grid.cells._Base.prototype._finish=function(inRowIndex){};
  * @memberOf dojox.grid.cells._Base
 */
 dojox.grid.cells._Base.prototype._defaultFormat=function(inValue, callArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells._Base.grid
 /**
  * @namespace
 */
 dojox.grid.cells._Base.grid={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells._Base.grid.edit
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.Cell
 /**
  * @class
  * @returns {dojox.grid.cells.Cell} new instance
@@ -80189,9 +74540,6 @@ dojox.grid.cells.Cell.prototype.doKey=function(e){};
  * @memberOf dojox.grid.cells.Cell
 */
 dojox.grid.cells.Cell.prototype._finish=function(inRowIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.RowIndex
 /**
  * @class
  * @returns {dojox.grid.cells.RowIndex} new instance
@@ -80206,9 +74554,6 @@ dojox.grid.cells.RowIndex.prototype.postscript=function(){};
  * @memberOf dojox.grid.cells.RowIndex
 */
 dojox.grid.cells.RowIndex.prototype.get=function(inRowIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.Select
 /**
  * <b>Summary:</b><blockquote>
  *	 grid cell that provides a standard select for editing<br>
@@ -80236,9 +74581,6 @@ dojox.grid.cells.Select.prototype.formatEditing=function(inDatum, inRowIndex){};
  * @memberOf dojox.grid.cells.Select
 */
 dojox.grid.cells.Select.prototype._defaultFormat=function(inValue, callArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.AlwaysEdit
 /**
  * <b>Summary:</b><blockquote>
  *	 grid cell that is always in an editable state, regardless of grid editing state<br>
@@ -80259,12 +74601,6 @@ dojox.grid.cells.AlwaysEdit.prototype.applyStaticValue=function(inRowIndex){};
  * @memberOf dojox.grid.cells.AlwaysEdit
 */
 dojox.grid.cells.AlwaysEdit.prototype._formatNode=function(inDatum, inRowIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.AlwaysEdit.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.Bool
 /**
  * <b>Summary:</b><blockquote>
  *	 grid cell that provides a standard checkbox that is always on for editing<br>
@@ -80284,9 +74620,6 @@ dojox.grid.cells.Bool.prototype.formatEditing=function(inDatum, inRowIndex){};
  * @memberOf dojox.grid.cells.Bool
 */
 dojox.grid.cells.Bool.prototype.doclick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells._Widget
 /**
  * @class
  * @param {mixed} inCell 
@@ -80361,9 +74694,6 @@ dojox.grid.cells._Widget.prototype._unescapeHTML=function(value){};
  * @memberOf dojox.grid.cells._Widget
 */
 dojox.grid.cells._Widget.prototype._finish=function(inRowIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.ComboBox
 /**
  * @class
  * @returns {dojox.grid.cells.ComboBox} new instance
@@ -80378,9 +74708,6 @@ dojox.grid.cells.ComboBox.prototype.getWidgetProps=function(inDatum){};
  * @memberOf dojox.grid.cells.ComboBox
 */
 dojox.grid.cells.ComboBox.prototype.getValue=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.DateTextBox
 /**
  * @class
  * @returns {dojox.grid.cells.DateTextBox} new instance
@@ -80397,9 +74724,6 @@ dojox.grid.cells.DateTextBox.prototype.setValue=function(inRowIndex, inValue){};
  * @memberOf dojox.grid.cells.DateTextBox
 */
 dojox.grid.cells.DateTextBox.prototype.getWidgetProps=function(inDatum){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.CheckBox
 /**
  * @class
  * @returns {dojox.grid.cells.CheckBox} new instance
@@ -80422,9 +74746,6 @@ dojox.grid.cells.CheckBox.prototype.setValue=function(inRowIndex, inValue){};
  * @memberOf dojox.grid.cells.CheckBox
 */
 dojox.grid.cells.CheckBox.prototype.getValue=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.Editor
 /**
  * @class
  * @returns {dojox.grid.cells.Editor} new instance
@@ -80453,9 +74774,6 @@ dojox.grid.cells.Editor.prototype.formatNode=function(inNode, inDatum, inRowInde
  * @memberOf dojox.grid.cells.Editor
 */
 dojox.grid.cells.Editor.prototype.createWidget=function(inNode, inDatum, inRowIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.TreeCell
 /**
  * @param {mixed} itemId 
 */
@@ -80480,53 +74798,26 @@ dojox.grid.cells.TreeCell.formatAtLevel=function(inRowIndexes, inItem, level, su
  * @param {mixed} inRowIndexes 
 */
 dojox.grid.cells.TreeCell.formatAggregate=function(inItem, level, inRowIndexes){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.TreeCell.formatAggregate
 /**
  * @class
  * @returns {dojox.grid.cells.TreeCell.formatAggregate} new instance
 */
 dojox.grid.cells.TreeCell.formatAggregate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.TreeCell.formatAggregate.grid.edit
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.TreeCell.formatIndexes
 /**
  * @class
  * @returns {dojox.grid.cells.TreeCell.formatIndexes} new instance
 */
 dojox.grid.cells.TreeCell.formatIndexes=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.TreeCell.formatIndexes.grid.edit
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.TreeCell.getOpenState
 /**
  * @class
  * @returns {dojox.grid.cells.TreeCell.getOpenState} new instance
 */
 dojox.grid.cells.TreeCell.getOpenState=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.TreeCell.getOpenState.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.TreeCell.formatAtLevel
 /**
  * @class
  * @returns {dojox.grid.cells.TreeCell.formatAtLevel} new instance
 */
 dojox.grid.cells.TreeCell.formatAtLevel=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.TreeCell.formatAtLevel.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._CheckBoxSelector
 /**
  * @class
  * @private
@@ -80551,9 +74842,6 @@ dojox.grid._CheckBoxSelector.prototype.onSelectionChanged=function(){};
  * @memberOf dojox.grid._CheckBoxSelector
 */
 dojox.grid._CheckBoxSelector.prototype._updateVisibility=function(rowCount){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.__DataCellDef
 /**
  * @class
  * @extends dojox.grid.__CellDef
@@ -80561,9 +74849,6 @@ dojox.grid._CheckBoxSelector.prototype._updateVisibility=function(rowCount){};
  * @returns {dojox.grid.__DataCellDef} new instance
 */
 dojox.grid.__DataCellDef=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.__DataViewDef
 /**
  * @class
  * @extends dojox.grid.__ViewDef
@@ -80571,9 +74856,6 @@ dojox.grid.__DataCellDef=function(){};
  * @returns {dojox.grid.__DataViewDef} new instance
 */
 dojox.grid.__DataViewDef=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.DataGrid
 /**
  * @class
  * @returns {dojox.grid.DataGrid} new instance
@@ -80874,15 +75156,6 @@ dojox.grid.DataGrid.prototype._checkUpdateStatus=function(){};
  * @memberOf dojox.grid.DataGrid
 */
 dojox.grid.DataGrid.prototype._addItem=function(item, index, noUpdate){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.DataGrid.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.DataGrid._by_idx
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.DataSelection
 /**
  * @class
  * @param {mixed} grid 
@@ -80921,12 +75194,6 @@ dojox.grid.DataSelection.prototype.deselect=function(inItemOrIndex){};
  * @memberOf dojox.grid.DataSelection
 */
 dojox.grid.DataSelection.prototype.addToSelection=function(inItemOrIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.DataSelection.selected
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._EditManager
 /**
  * <b>Summary:</b><blockquote>
  *	 Controls grid cell editing process. Owned by grid and used internally for editing.<br>
@@ -81097,12 +75364,6 @@ dojox.grid._EditManager.prototype._doCatchBoomerang=function(){};
  * @memberOf dojox.grid._EditManager
 */
 dojox.grid._EditManager.prototype._boomerangFocus=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._EditManager.info
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced
 /**
  * <b>Summary:</b><blockquote>
  *	 Singleton plugin manager<br>
@@ -81185,9 +75446,6 @@ dojox.grid.enhanced.DataSelection=function(grid){};
  * @namespace
 */
 dojox.grid.enhanced.plugins={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._Events
 /**
  * <b>Summary:</b><blockquote>
  *	 Overwrite some default events of DataGrid<br>
@@ -81352,12 +75610,6 @@ dojox.grid.enhanced._Events.prototype.domousedown=function(e){};
  * @memberOf dojox.grid.enhanced._Events
 */
 dojox.grid.enhanced._Events.prototype.dokeyup=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._Events._click
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._FocusArea
 /**
  * <b>Summary:</b><blockquote>
  *	 This is a friend class of _FocusManager<br>
@@ -81404,12 +75656,6 @@ dojox.grid.enhanced._FocusArea.prototype.contentMouseEventPlanner=function(){};
  * @memberOf dojox.grid.enhanced._FocusArea
 */
 dojox.grid.enhanced._FocusArea.prototype._onKeyEvent=function(evt, funcName){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._FocusArea._evtStack
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._FocusManager
 /**
  * @class
  * @param {mixed} grid 
@@ -81710,22 +75956,10 @@ dojox.grid.enhanced._FocusManager.prototype._bindAreaEvents=function(){};
  * @memberOf dojox.grid.enhanced._FocusManager
 */
 dojox.grid.enhanced._FocusManager.prototype._applyEditableCell=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._FocusManager.grid
 /**
  * @namespace
 */
 dojox.grid.enhanced._FocusManager.grid={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._FocusManager._navElems
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._FocusManager.grid.layout
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._Plugin
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for all plugins.<br>
@@ -81848,9 +76082,6 @@ dojox.grid.enhanced._Plugin.prototype.destroy=function(){};
  * @memberOf dojox.grid.enhanced._Plugin
 */
 dojox.grid.enhanced._Plugin.prototype.connect=function(obj, event, method){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._PluginManager
 /**
  * <b>Summary:</b><blockquote>
  *	 Singleton plugin manager<br>
@@ -81998,16 +76229,10 @@ dojox.grid.enhanced._PluginManager.prototype._initView=function(view){};
  * @memberOf dojox.grid.enhanced._PluginManager
 */
 dojox.grid.enhanced._PluginManager.prototype._init=function(pre){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._PluginManager.grid
 /**
  * @namespace
 */
 dojox.grid.enhanced._PluginManager.grid={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._PluginManager.grid.edit
 /**
  * @namespace
 */
@@ -82017,15 +76242,6 @@ dojox.grid.enhanced._PluginManager.grid.edit={};
  * @memberOf dojox.grid.enhanced._PluginManager.grid.edit
 */
 dojox.grid.enhanced._PluginManager.grid.edit.prototype.styleRow=function(inRow){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._PluginManager._options
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced._PluginManager._plugins
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins
 /**
  * <b>Summary:</b><blockquote>
  *	 The most abstract class of store layers, provides basic utilities and some interfaces.<br>
@@ -82361,9 +76577,6 @@ dojox.grid.enhanced.plugins.filter={};
  * @namespace
 */
 dojox.grid.enhanced.plugins.exporter={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.AutoScroll
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides horizontal and vertical auto-scroll for grid.<br>
@@ -82415,9 +76628,6 @@ dojox.grid.enhanced.plugins.AutoScroll.prototype._fireEvent=function(eventName, 
  * @memberOf dojox.grid.enhanced.plugins.AutoScroll
 */
 dojox.grid.enhanced.plugins.AutoScroll.prototype._autoScroll=function(isVertical, isForward, view){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.AutoScroll.grid
 /**
  * @namespace
 */
@@ -82430,9 +76640,6 @@ dojox.grid.enhanced.plugins.AutoScroll.grid.prototype.onStartAutoScroll=function
  * @memberOf dojox.grid.enhanced.plugins.AutoScroll.grid
 */
 dojox.grid.enhanced.plugins.AutoScroll.grid.prototype.onEndAutoScroll=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.CellMerge
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides functions to merge(un-merge) adjacent cells within one row.<br>
@@ -82553,29 +76760,14 @@ dojox.grid.enhanced.plugins.CellMerge.prototype._getWidth=function(colIndex){};
  * @memberOf dojox.grid.enhanced.plugins.CellMerge
 */
 dojox.grid.enhanced.plugins.CellMerge.prototype._createRecord=function(item){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.CellMerge.grid
 /**
  * @namespace
 */
 dojox.grid.enhanced.plugins.CellMerge.grid={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.CellMerge._records
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.CellMerge.grid.layout
 /**
  * @namespace
 */
 dojox.grid.enhanced.plugins.CellMerge.grid.layout={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.CellMerge.grid.layout.cells
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Cookie
 /**
  * <b>Summary:</b><blockquote>
  *	 This plugin provides a way to persist some grid features in cookie.<br>
@@ -82658,12 +76850,6 @@ dojox.grid.enhanced.plugins.Cookie.prototype._saveCookie=function(){};
  * @memberOf dojox.grid.enhanced.plugins.Cookie
 */
 dojox.grid.enhanced.plugins.Cookie.prototype._mixinGrid=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Cookie.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Dialog
 /**
  * @class
  * @returns {dojox.grid.enhanced.plugins.Dialog} new instance
@@ -82674,9 +76860,6 @@ dojox.grid.enhanced.plugins.Dialog=function(){};
  * @memberOf dojox.grid.enhanced.plugins.Dialog
 */
 dojox.grid.enhanced.plugins.Dialog.prototype._position=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.GridDnDElement
 /**
  * @class
  * @param {mixed} dndPlugin 
@@ -82705,9 +76888,6 @@ dojox.grid.enhanced.plugins.GridDnDElement.prototype.destroy=function(){};
  * @memberOf dojox.grid.enhanced.plugins.GridDnDElement
 */
 dojox.grid.enhanced.plugins.GridDnDElement.prototype.createDnDNodes=function(dndRegion){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.GridDnDSource
 /**
  * @class
  * @param {mixed} node 
@@ -82746,9 +76926,6 @@ dojox.grid.enhanced.plugins.GridDnDSource.prototype.destroy=function(){};
  * @memberOf dojox.grid.enhanced.plugins.GridDnDSource
 */
 dojox.grid.enhanced.plugins.GridDnDSource.prototype.checkAcceptance=function(source, nodes){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.GridDnDAvatar
 /**
  * @class
  * @returns {dojox.grid.enhanced.plugins.GridDnDAvatar} new instance
@@ -82780,15 +76957,6 @@ dojox.grid.enhanced.plugins.GridDnDAvatar.prototype._getGridDnDIconClass=functio
  * @memberOf dojox.grid.enhanced.plugins.GridDnDAvatar
 */
 dojox.grid.enhanced.plugins.GridDnDAvatar.prototype._generateText=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.GridDnDAvatar.manager
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.GridDnDAvatar.manager._dndPlugin.grid.layout
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD
 /**
  * <b>Summary:</b><blockquote>
  *	 Provide drag and drop for grid columns/rows/cells within grid and out of grid.<br>
@@ -83068,9 +77236,6 @@ dojox.grid.enhanced.plugins.DnD.prototype._calcCellTargetAnchorPos=function(evt,
  * @memberOf dojox.grid.enhanced.plugins.DnD
 */
 dojox.grid.enhanced.plugins.DnD.prototype._allDnDItemsLoaded=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD._config
 /**
  * @namespace
 */
@@ -83083,49 +77248,10 @@ dojox.grid.enhanced.plugins.DnD._config.col={};
  * @namespace
 */
 dojox.grid.enhanced.plugins.DnD._config.cell={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD._config.row
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD._config.col
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD._config.cell
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD.selector
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD.grid.layout
 /**
  * @namespace
 */
 dojox.grid.enhanced.plugins.DnD.grid.layout={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD.grid.layout.cells
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD._dndRegion
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD._dndRegion.selected
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD.grid.scroller
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD._dndRegion.selected.0.min
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.DnD._dndRegion.selected.0.max
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.exporter
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an abstract class for all kinds of writers used in the Exporter plugin.<br>
@@ -83156,9 +77282,6 @@ dojox.grid.enhanced.plugins.exporter.TableWriter=function(writerArgs){};
  * @param {object} [writerArgs] {separator:'...'}
 */
 dojox.grid.enhanced.plugins.exporter.CSVWriter=function(writerArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.exporter.CSVWriter
 /**
  * <b>Summary:</b><blockquote>
  *	 Export grid to CSV format.<br>
@@ -83206,9 +77329,6 @@ dojox.grid.enhanced.plugins.exporter.CSVWriter.prototype.beforeContentRow=functi
  * @memberOf dojox.grid.enhanced.plugins.exporter.CSVWriter
 */
 dojox.grid.enhanced.plugins.exporter.CSVWriter.prototype._formatCSVCell=function(cellValue){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.exporter._ExportWriter
 /**
  * <b>Summary:</b><blockquote>
  *	 This is an abstract class for all kinds of writers used in the Exporter plugin.<br>
@@ -83396,12 +77516,6 @@ dojox.grid.enhanced.plugins.exporter._ExportWriter.prototype.afterContent=functi
  * @memberOf dojox.grid.enhanced.plugins.exporter._ExportWriter
 */
 dojox.grid.enhanced.plugins.exporter._ExportWriter.prototype._getExportDataForCell=function(rowIndex, rowItem, cell, grid){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.exporter._ExportWriter.argObj
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.exporter.TableWriter
 /**
  * <b>Summary:</b><blockquote>
  *	 Export grid to HTML table format. Primarily used by Printer plugin.<br>
@@ -83498,9 +77612,6 @@ dojox.grid.enhanced.plugins.exporter.TableWriter.prototype._getRowClass=function
  * @memberOf dojox.grid.enhanced.plugins.exporter.TableWriter
 */
 dojox.grid.enhanced.plugins.exporter.TableWriter.prototype._getColumnClass=function(arg_obj){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Exporter
 /**
  * <b>Summary:</b><blockquote>
  *	 Provide functions to export the grid data into a given format.<br>
@@ -83619,12 +77730,6 @@ dojox.grid.enhanced.plugins.Exporter.prototype._getExportWriter=function(fileTyp
  * @memberOf dojox.grid.enhanced.plugins.Exporter
 */
 dojox.grid.enhanced.plugins.Exporter.prototype._buildRow=function(arg_obj, writer){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Exporter.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter
 /**
  * <b>Summary:</b><blockquote>
  *	 The most abstract class for all uni-operator expressions.<br>
@@ -83875,9 +77980,6 @@ dojox.grid.enhanced.plugins.filter.BooleanExpr=function(){};
 /**
 */
 dojox.grid.enhanced.plugins.filter.AccordionContainer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.ClearFilterConfirm
 /**
  * <b>Summary:</b><blockquote>
  *	 The UI for user to confirm the operation of clearing filter.<br>
@@ -83912,12 +78014,6 @@ dojox.grid.enhanced.plugins.filter.ClearFilterConfirm.prototype._onClear=functio
  * @memberOf dojox.grid.enhanced.plugins.filter.ClearFilterConfirm
 */
 dojox.grid.enhanced.plugins.filter.ClearFilterConfirm.prototype._onCancel=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.ClearFilterConfirm.plugin
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter._ConditionExpr
 /**
  * <b>Summary:</b><blockquote>
  *	 The most abstract class for all condition expressions.<br>
@@ -83961,9 +78057,6 @@ dojox.grid.enhanced.plugins.filter._ConditionExpr.prototype.getName=function(){}
  * @memberOf dojox.grid.enhanced.plugins.filter._ConditionExpr
 */
 dojox.grid.enhanced.plugins.filter._ConditionExpr.prototype.applyRow=function(datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter._DataExpr
 /**
  * <b>Summary:</b><blockquote>
  *	 The most abstract class for all data expressions.<br>
@@ -84016,9 +78109,6 @@ dojox.grid.enhanced.plugins.filter._DataExpr.prototype.getValue=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter._DataExpr
 */
 dojox.grid.enhanced.plugins.filter._DataExpr.prototype.applyRow=function(datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter._OperatorExpr
 /**
  * <b>Summary:</b><blockquote>
  *	 The most abstract class for all operator expressions.<br>
@@ -84036,9 +78126,6 @@ dojox.grid.enhanced.plugins.filter._OperatorExpr=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter._OperatorExpr
 */
 dojox.grid.enhanced.plugins.filter._OperatorExpr.prototype.toObject=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter._UniOpExpr
 /**
  * <b>Summary:</b><blockquote>
  *	 The most abstract class for all uni-operator expressions.<br>
@@ -84071,9 +78158,6 @@ dojox.grid.enhanced.plugins.filter._UniOpExpr.prototype.applyRow=function(dataro
  * @memberOf dojox.grid.enhanced.plugins.filter._UniOpExpr
 */
 dojox.grid.enhanced.plugins.filter._UniOpExpr.prototype._calculate=function(operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter._BiOpExpr
 /**
  * <b>Summary:</b><blockquote>
  *	 The most abstract class for all bi-operator expressions.<br>
@@ -84105,9 +78189,6 @@ dojox.grid.enhanced.plugins.filter._BiOpExpr.prototype.applyRow=function(datarow
  * @memberOf dojox.grid.enhanced.plugins.filter._BiOpExpr
 */
 dojox.grid.enhanced.plugins.filter._BiOpExpr.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.BooleanExpr
 /**
  * <b>Summary:</b><blockquote>
  *	 A condition expression wrapper for boolean values<br>
@@ -84126,9 +78207,6 @@ dojox.grid.enhanced.plugins.filter.BooleanExpr=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.BooleanExpr
 */
 dojox.grid.enhanced.plugins.filter.BooleanExpr.prototype._convertData=function(dataValue){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.StringExpr
 /**
  * <b>Summary:</b><blockquote>
  *	 A condition expression wrapper for string values<br>
@@ -84147,9 +78225,6 @@ dojox.grid.enhanced.plugins.filter.StringExpr=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.StringExpr
 */
 dojox.grid.enhanced.plugins.filter.StringExpr.prototype._convertData=function(dataValue){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.NumberExpr
 /**
  * <b>Summary:</b><blockquote>
  *	 A condition expression wrapper for number values<br>
@@ -84168,9 +78243,6 @@ dojox.grid.enhanced.plugins.filter.NumberExpr=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.NumberExpr
 */
 dojox.grid.enhanced.plugins.filter.NumberExpr.prototype._convertDataToExpr=function(dataValue){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.DateExpr
 /**
  * <b>Summary:</b><blockquote>
  *	 A condition expression wrapper for date values<br>
@@ -84195,9 +78267,6 @@ dojox.grid.enhanced.plugins.filter.DateExpr.prototype.toObject=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.DateExpr
 */
 dojox.grid.enhanced.plugins.filter.DateExpr.prototype._convertData=function(dataValue){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.TimeExpr
 /**
  * <b>Summary:</b><blockquote>
  *	 A condition expression wrapper for time values<br>
@@ -84206,9 +78275,6 @@ dojox.grid.enhanced.plugins.filter.DateExpr.prototype._convertData=function(data
  * @returns {dojox.grid.enhanced.plugins.filter.TimeExpr} new instance
 */
 dojox.grid.enhanced.plugins.filter.TimeExpr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBar
 /**
  * <b>Summary:</b><blockquote>
  *	 The filter bar UI.<br>
@@ -84399,15 +78465,6 @@ dojox.grid.enhanced.plugins.filter.FilterBar.prototype._clearHeaderHighlight=fun
  * @memberOf dojox.grid.enhanced.plugins.filter.FilterBar
 */
 dojox.grid.enhanced.plugins.filter.FilterBar.prototype._clearFilterDefDialog=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBar.plugin
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBar.plugin.args
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBar.plugin.grid
 /**
  * @namespace
 */
@@ -84417,18 +78474,6 @@ dojox.grid.enhanced.plugins.filter.FilterBar.plugin.grid={};
  * @memberOf dojox.grid.enhanced.plugins.filter.FilterBar.plugin.grid
 */
 dojox.grid.enhanced.plugins.filter.FilterBar.plugin.grid.prototype._getHeaderHeight=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBar.defineFilterButton.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBar.plugin.grid.views.views.0.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBar.statusBarNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBuilder
 /**
  * <b>Summary:</b><blockquote>
  *	 Create filter expression from a JSON object.<br>
@@ -84454,27 +78499,10 @@ dojox.grid.enhanced.plugins.filter.FilterBuilder.defaultArgs={};
  * @memberOf dojox.grid.enhanced.plugins.filter.FilterBuilder
 */
 dojox.grid.enhanced.plugins.filter.FilterBuilder.prototype.buildExpression=function(def){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBuilder.supportedOps
 /**
  * @param {mixed} operands 
 */
 dojox.grid.enhanced.plugins.filter.FilterBuilder.supportedOps.range=function(operands){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBuilder.supportedTypes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBuilder.defaultArgs
-//-jsdoc-invalid-entry [dojox.grid.enhanced.plugins.filter.FilterBuilder.defaultArgs.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterBuilder.defaultArgs.boolean
-//-jsdoc-invalid-entry [dojox.grid.enhanced.plugins.filter.FilterBuilder.defaultArgs.INVALID_IDENT.convert]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.AccordionContainer
 /**
  * @class
  * @returns {dojox.grid.enhanced.plugins.filter.AccordionContainer} new instance
@@ -84534,12 +78562,6 @@ dojox.grid.enhanced.plugins.filter.AccordionContainer.prototype._modifyChild=fun
  * @memberOf dojox.grid.enhanced.plugins.filter.AccordionContainer
 */
 dojox.grid.enhanced.plugins.filter.AccordionContainer.prototype._hackHeight=function(toGrow, heightDif){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.AccordionContainer.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterDefPane
 /**
  * @class
  * @returns {dojox.grid.enhanced.plugins.filter.FilterDefPane} new instance
@@ -84597,15 +78619,6 @@ dojox.grid.enhanced.plugins.filter.FilterDefPane.prototype._onCancel=function(){
  * @memberOf dojox.grid.enhanced.plugins.filter.FilterDefPane
 */
 dojox.grid.enhanced.plugins.filter.FilterDefPane.prototype._onAddCBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterDefPane.plugin
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterDefPane.dlg
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.CriteriaBox
 /**
  * @class
  * @returns {dojox.grid.enhanced.plugins.filter.CriteriaBox} new instance
@@ -84793,25 +78806,10 @@ dojox.grid.enhanced.plugins.filter.CriteriaBox.prototype._createRangeBox=functio
  * @memberOf dojox.grid.enhanced.plugins.filter.CriteriaBox
 */
 dojox.grid.enhanced.plugins.filter.CriteriaBox.prototype._checkValidCriteria=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.CriteriaBox.plugin
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.CriteriaBox.dlg
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.CriteriaBox._pane._buttonWidget
 /**
  * @namespace
 */
 dojox.grid.enhanced.plugins.filter.CriteriaBox._pane._buttonWidget={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.CriteriaBox._pane._buttonWidget.titleTextNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.UniqueComboBox
 /**
  * @class
  * @returns {dojox.grid.enhanced.plugins.filter.UniqueComboBox} new instance
@@ -84829,9 +78827,6 @@ dojox.grid.enhanced.plugins.filter.UniqueComboBox.prototype._openResultList=func
  * @memberOf dojox.grid.enhanced.plugins.filter.UniqueComboBox
 */
 dojox.grid.enhanced.plugins.filter.UniqueComboBox.prototype._onKey=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.BooleanValueBox
 /**
  * @class
  * @param {mixed} args 
@@ -84857,9 +78852,6 @@ dojox.grid.enhanced.plugins.filter.BooleanValueBox.prototype.onChange=function()
  * @memberOf dojox.grid.enhanced.plugins.filter.BooleanValueBox
 */
 dojox.grid.enhanced.plugins.filter.BooleanValueBox.prototype.get=function(prop){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterDefDialog
 /**
  * <b>Summary:</b><blockquote>
  *	 Create the filter definition UI.<br>
@@ -85062,27 +79054,6 @@ dojox.grid.enhanced.plugins.filter.FilterDefDialog.prototype._defineFilter=funct
  * @memberOf dojox.grid.enhanced.plugins.filter.FilterDefDialog
 */
 dojox.grid.enhanced.plugins.filter.FilterDefDialog.prototype._closeDlgAndUpdateGrid=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterDefDialog.plugin
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterDefDialog.plugin.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterDefDialog.filterDefPane
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterDefDialog.plugin.args
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterDefDialog._cboxes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterDefDialog.filterDefPane.criteriaPane
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.LogicAND
 /**
  * <b>Summary:</b><blockquote>
  *	 A logic AND condition expression.<br>
@@ -85104,9 +79075,6 @@ dojox.grid.enhanced.plugins.filter.LogicAND=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.LogicAND
 */
 dojox.grid.enhanced.plugins.filter.LogicAND.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.LogicOR
 /**
  * <b>Summary:</b><blockquote>
  *	 A logic OR condition expression.<br>
@@ -85128,9 +79096,6 @@ dojox.grid.enhanced.plugins.filter.LogicOR=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.LogicOR
 */
 dojox.grid.enhanced.plugins.filter.LogicOR.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.LogicXOR
 /**
  * <b>Summary:</b><blockquote>
  *	 A logic XOR condition expression.<br>
@@ -85152,9 +79117,6 @@ dojox.grid.enhanced.plugins.filter.LogicXOR=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.LogicXOR
 */
 dojox.grid.enhanced.plugins.filter.LogicXOR.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.LogicNOT
 /**
  * <b>Summary:</b><blockquote>
  *	 A logic NOT condition expression.<br>
@@ -85175,9 +79137,6 @@ dojox.grid.enhanced.plugins.filter.LogicNOT=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.LogicNOT
 */
 dojox.grid.enhanced.plugins.filter.LogicNOT.prototype._calculate=function(operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.LogicALL
 /**
  * <b>Summary:</b><blockquote>
  *	 A logic ALL condition expression, equals a sequence of logic ANDs<br>
@@ -85196,9 +79155,6 @@ dojox.grid.enhanced.plugins.filter.LogicALL=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.LogicALL
 */
 dojox.grid.enhanced.plugins.filter.LogicALL.prototype.applyRow=function(datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.LogicANY
 /**
  * <b>Summary:</b><blockquote>
  *	 A logic ANY condition expression, equals a sequence of logic ORs<br>
@@ -85214,9 +79170,6 @@ dojox.grid.enhanced.plugins.filter.LogicANY=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.LogicANY
 */
 dojox.grid.enhanced.plugins.filter.LogicANY.prototype.applyRow=function(datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.EqualTo
 /**
  * <b>Summary:</b><blockquote>
  *	 An &amp;quot;equal to&amp;quot; condition expression.<br>
@@ -85238,9 +79191,6 @@ dojox.grid.enhanced.plugins.filter.EqualTo=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.EqualTo
 */
 dojox.grid.enhanced.plugins.filter.EqualTo.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.LessThan
 /**
  * <b>Summary:</b><blockquote>
  *	 A &amp;quot;less than&amp;quot; condition expression.<br>
@@ -85262,9 +79212,6 @@ dojox.grid.enhanced.plugins.filter.LessThan=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.LessThan
 */
 dojox.grid.enhanced.plugins.filter.LessThan.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.LessThanOrEqualTo
 /**
  * <b>Summary:</b><blockquote>
  *	 A &amp;quot;less than or equal to&amp;quot; condition expression.<br>
@@ -85286,9 +79233,6 @@ dojox.grid.enhanced.plugins.filter.LessThanOrEqualTo=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.LessThanOrEqualTo
 */
 dojox.grid.enhanced.plugins.filter.LessThanOrEqualTo.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.LargerThan
 /**
  * <b>Summary:</b><blockquote>
  *	 A &amp;quot;larger than&amp;quot; condition expression.<br>
@@ -85310,9 +79254,6 @@ dojox.grid.enhanced.plugins.filter.LargerThan=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.LargerThan
 */
 dojox.grid.enhanced.plugins.filter.LargerThan.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.LargerThanOrEqualTo
 /**
  * <b>Summary:</b><blockquote>
  *	 A &amp;quot;larger than or equal to&amp;quot; condition expression.<br>
@@ -85334,9 +79275,6 @@ dojox.grid.enhanced.plugins.filter.LargerThanOrEqualTo=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.LargerThanOrEqualTo
 */
 dojox.grid.enhanced.plugins.filter.LargerThanOrEqualTo.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.Contains
 /**
  * <b>Summary:</b><blockquote>
  *	 A &amp;quot;contains&amp;quot; condition expression.<br>
@@ -85358,9 +79296,6 @@ dojox.grid.enhanced.plugins.filter.Contains=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.Contains
 */
 dojox.grid.enhanced.plugins.filter.Contains.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.StartsWith
 /**
  * <b>Summary:</b><blockquote>
  *	 A &amp;quot;starts with&amp;quot; condition expression.<br>
@@ -85382,9 +79317,6 @@ dojox.grid.enhanced.plugins.filter.StartsWith=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.StartsWith
 */
 dojox.grid.enhanced.plugins.filter.StartsWith.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.EndsWith
 /**
  * <b>Summary:</b><blockquote>
  *	 An &amp;quot;ends with&amp;quot; condition expression.<br>
@@ -85406,9 +79338,6 @@ dojox.grid.enhanced.plugins.filter.EndsWith=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.EndsWith
 */
 dojox.grid.enhanced.plugins.filter.EndsWith.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.Matches
 /**
  * <b>Summary:</b><blockquote>
  *	 A &amp;quot;regular expression match&amp;quot; condition expression.<br>
@@ -85431,9 +79360,6 @@ dojox.grid.enhanced.plugins.filter.Matches=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.Matches
 */
 dojox.grid.enhanced.plugins.filter.Matches.prototype._calculate=function(left_operand, right_operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.IsEmpty
 /**
  * <b>Summary:</b><blockquote>
  *	 Check empty<br>
@@ -85453,9 +79379,6 @@ dojox.grid.enhanced.plugins.filter.IsEmpty=function(){};
  * @memberOf dojox.grid.enhanced.plugins.filter.IsEmpty
 */
 dojox.grid.enhanced.plugins.filter.IsEmpty.prototype._calculate=function(operand, datarow, getter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter._FilterLayerMixin
 /**
  * @class
  * @returns {dojox.grid.enhanced.plugins.filter._FilterLayerMixin} new instance
@@ -85492,9 +79415,6 @@ dojox.grid.enhanced.plugins.filter._FilterLayerMixin.prototype.name=function(){}
  * @memberOf dojox.grid.enhanced.plugins.filter._FilterLayerMixin
 */
 dojox.grid.enhanced.plugins.filter._FilterLayerMixin.prototype.filterDef=function(filter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.ServerSideFilterLayer
 /**
  * @class
  * @param {mixed} args 
@@ -85519,9 +79439,6 @@ dojox.grid.enhanced.plugins.filter.ServerSideFilterLayer.prototype.onCommandLoad
  * @memberOf dojox.grid.enhanced.plugins.filter.ServerSideFilterLayer
 */
 dojox.grid.enhanced.plugins.filter.ServerSideFilterLayer.prototype.filterDef=function(filter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.ClientSideFilterLayer
 /**
  * <b>Summary:</b><blockquote>
  *	 Add a client side filter layer on top of the data store,<br>
@@ -85659,20 +79576,11 @@ dojox.grid.enhanced.plugins.filter.ClientSideFilterLayer.prototype._applyFilter=
  * @memberOf dojox.grid.enhanced.plugins.filter.ClientSideFilterLayer
 */
 dojox.grid.enhanced.plugins.filter.ClientSideFilterLayer.prototype._addCachedItems=function(items, filterStartIdx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.ClientSideFilterLayer._items
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterStatusPane
 /**
  * @class
  * @returns {dojox.grid.enhanced.plugins.filter.FilterStatusPane} new instance
 */
 dojox.grid.enhanced.plugins.filter.FilterStatusPane=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterStatusTip
 /**
  * <b>Summary:</b><blockquote>
  *	 Create the status tip UI.<br>
@@ -85731,21 +79639,6 @@ dojox.grid.enhanced.plugins.filter.FilterStatusTip.prototype._createStatusDetail
  * @memberOf dojox.grid.enhanced.plugins.filter.FilterStatusTip
 */
 dojox.grid.enhanced.plugins.filter.FilterStatusTip.prototype._addButtonForRules=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterStatusTip.plugin
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterStatusTip.statusPane.statusTitle
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterStatusTip.statusPane.statusRel
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.filter.FilterStatusTip.statusPane.statusDetailNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Filter
 /**
  * <b>Summary:</b><blockquote>
  *	 Provide filter functionality for grid.<br>
@@ -85848,9 +79741,6 @@ dojox.grid.enhanced.plugins.Filter.prototype._wrapStore=function(){};
  * @memberOf dojox.grid.enhanced.plugins.Filter
 */
 dojox.grid.enhanced.plugins.Filter.prototype._clientFilterGetter=function(datarow, cell, rowIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.GridSource
 /**
  * <b>Summary:</b><blockquote>
  *	 A special source that can accept grid contents.<br>
@@ -85970,12 +79860,6 @@ dojox.grid.enhanced.plugins.GridSource.prototype.getCellContent=function(grid, l
  * @memberOf dojox.grid.enhanced.plugins.GridSource
 */
 dojox.grid.enhanced.plugins.GridSource.prototype.checkAcceptance=function(source, nodes){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.GridSource.sourcePlugin
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.RowSelector
 /**
  * <b>Summary:</b><blockquote>
  *	 Common attributes &amp;amp; functions for row selectors(Radio|CheckBox)<br>
@@ -86160,12 +80044,6 @@ dojox.grid.cells.RowSelector.prototype._focusEndingCell=function(rowIndex, cellI
  * @memberOf dojox.grid.cells.RowSelector
 */
 dojox.grid.cells.RowSelector.prototype._dokeyup=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.RowSelector.grid.scroller
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.SingleRowSelector
 /**
  * <b>Summary:</b><blockquote>
  *	 IndirectSelection cell(column) for single selection mode, using styles of dijit.form.RadioButton<br>
@@ -86183,9 +80061,6 @@ dojox.grid.cells.SingleRowSelector=function(){};
  * @memberOf dojox.grid.cells.SingleRowSelector
 */
 dojox.grid.cells.SingleRowSelector.prototype._selectRow=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.MultipleRowSelector
 /**
  * <b>Summary:</b><blockquote>
  *	 Indirect selection cell for multiple or extended mode, using dijit.form.CheckBox<br>
@@ -86348,12 +80223,6 @@ dojox.grid.cells.MultipleRowSelector.prototype._dokeyup=function(e){};
  * @memberOf dojox.grid.cells.MultipleRowSelector
 */
 dojox.grid.cells.MultipleRowSelector.prototype._addHeaderSelector=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.cells.MultipleRowSelector.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.IndirectSelection
 /**
  * <b>Summary:</b><blockquote>
  *	 A handy way for adding check boxe/radio button for rows, and selecting rows by swiping(or keyboard)<br>
@@ -86378,12 +80247,6 @@ dojox.grid.enhanced.plugins.IndirectSelection.prototype.destroy=function(){};
  * @memberOf dojox.grid.enhanced.plugins.IndirectSelection
 */
 dojox.grid.enhanced.plugins.IndirectSelection.prototype.addRowSelectCell=function(option){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.IndirectSelection.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Menu
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides context menu support, including header menu, row menu, cell menu and selected region menu<br>
@@ -86472,12 +80335,6 @@ dojox.grid.enhanced.plugins.Menu.prototype._initMenu=function(menuType, menu){};
  * @memberOf dojox.grid.enhanced.plugins.Menu
 */
 dojox.grid.enhanced.plugins.Menu.prototype._getMenuWidget=function(menu){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Menu.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.NestedSorting
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides nested sorting feature<br>
@@ -86749,12 +80606,6 @@ dojox.grid.enhanced.plugins.NestedSorting.prototype._blurRegion=function(region)
  * @memberOf dojox.grid.enhanced.plugins.NestedSorting
 */
 dojox.grid.enhanced.plugins.NestedSorting.prototype._blurHeader=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.NestedSorting._a11yText
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.NestedSorting.grid
 /**
  * @namespace
 */
@@ -86765,15 +80616,6 @@ dojox.grid.enhanced.plugins.NestedSorting.grid.setSortInfo=function(){};
 /**
 */
 dojox.grid.enhanced.plugins.NestedSorting.grid.getSortIndex=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.NestedSorting._sortDef
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.NestedSorting.grid.layout
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.pagination
 /**
  * @namespace
 */
@@ -86789,9 +80631,6 @@ dojox.grid.enhanced.plugins.pagination._GotoPageDialog=function(plugin){};
  * @param {mixed} paginator 
 */
 dojox.grid.enhanced.plugins.pagination._Focus=function(paginator){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.pagination._GotoPagePane
 /**
  * @class
  * @returns {dojox.grid.enhanced.plugins.pagination._GotoPagePane} new instance
@@ -86823,12 +80662,6 @@ dojox.grid.enhanced.plugins.pagination._GotoPagePane.prototype._onConfirm=functi
  * @memberOf dojox.grid.enhanced.plugins.pagination._GotoPagePane
 */
 dojox.grid.enhanced.plugins.pagination._GotoPagePane.prototype._onCancel=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.pagination._GotoPagePane._mainMsgNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.pagination._GotoPageDialog
 /**
  * @class
  * @param {mixed} plugin 
@@ -86848,15 +80681,6 @@ dojox.grid.enhanced.plugins.pagination._GotoPageDialog.prototype.destroy=functio
  * @memberOf dojox.grid.enhanced.plugins.pagination._GotoPageDialog
 */
 dojox.grid.enhanced.plugins.pagination._GotoPageDialog.prototype._updatePageCount=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.pagination._GotoPageDialog.dlgPane._pageInputBox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.pagination._GotoPageDialog.dlgPane._pageLabelNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._ForcedPageStoreLayer
 /**
  * @class
  * @param {mixed} plugin 
@@ -86869,9 +80693,6 @@ dojox.grid.enhanced.plugins._ForcedPageStoreLayer=function(plugin){};
  * @memberOf dojox.grid.enhanced.plugins._ForcedPageStoreLayer
 */
 dojox.grid.enhanced.plugins._ForcedPageStoreLayer.prototype._fetch=function(request){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.pagination._Focus
 /**
  * @class
  * @param {mixed} paginator 
@@ -86918,9 +80739,6 @@ dojox.grid.enhanced.plugins.pagination._Focus.prototype._moveFocus=function(){};
  * @memberOf dojox.grid.enhanced.plugins.pagination._Focus
 */
 dojox.grid.enhanced.plugins.pagination._Focus.prototype._focus=function(node, evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._Paginator
 /**
  * @class
  * @param {mixed} params 
@@ -87122,9 +80940,6 @@ dojox.grid.enhanced.plugins._Paginator.prototype._createSizeSwitchNodes=function
  * @memberOf dojox.grid.enhanced.plugins._Paginator
 */
 dojox.grid.enhanced.plugins._Paginator.prototype._createPageStepNodes=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._Paginator.grid
 /**
  * @namespace
 */
@@ -87135,18 +80950,6 @@ dojox.grid.enhanced.plugins._Paginator.grid={};
  * @memberOf dojox.grid.enhanced.plugins._Paginator.grid
 */
 dojox.grid.enhanced.plugins._Paginator.grid.prototype.resize=function(changeSize, resultSize){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._Paginator.plugin
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._Paginator.descriptionDiv
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._Paginator.pageStepperDiv
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Pagination
 /**
  * <b>Summary:</b><blockquote>
  *	 The typical pagination way to deal with huge dataset<br>
@@ -87298,18 +81101,6 @@ dojox.grid.enhanced.plugins.Pagination.prototype._onDelete=function(){};
  * @memberOf dojox.grid.enhanced.plugins.Pagination
 */
 dojox.grid.enhanced.plugins.Pagination.prototype._initOptions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Pagination.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Pagination._paginator
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Pagination.option
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Printer
 /**
  * <b>Summary:</b><blockquote>
  *	 Provide printGrid function to the grid.<br>
@@ -87411,12 +81202,6 @@ dojox.grid.enhanced.plugins.Printer.prototype._loadCSSFiles=function(cssFiles){}
  * @memberOf dojox.grid.enhanced.plugins.Printer
 */
 dojox.grid.enhanced.plugins.Printer.prototype._formalizeArgs=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Printer.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Rearrange
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides a set of method to re-arrange the structure of grid.<br>
@@ -87519,39 +81304,18 @@ dojox.grid.enhanced.plugins.Rearrange.prototype._hasIdentity=function(points){};
  * @memberOf dojox.grid.enhanced.plugins.Rearrange
 */
 dojox.grid.enhanced.plugins.Rearrange.prototype._getPageInfo=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Rearrange.args
 /**
  * @memberOf dojox.grid.enhanced.plugins.Rearrange.args
 */
 dojox.grid.enhanced.plugins.Rearrange.args.prototype.setIdentifierForNewItem=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Rearrange.grid
 /**
  * @namespace
 */
 dojox.grid.enhanced.plugins.Rearrange.grid={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Rearrange.grid.layout
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Rearrange.grid.selection
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Rearrange.grid.scroller
 /**
  * @namespace
 */
 dojox.grid.enhanced.plugins.Rearrange.grid.scroller={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Rearrange.grid.scroller.pageNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._RowMapLayer
 /**
  * @class
  * @param {mixed} grid 
@@ -87605,12 +81369,6 @@ dojox.grid.enhanced.plugins._RowMapLayer.prototype._getRowArrays=function(rows){
  * @memberOf dojox.grid.enhanced.plugins._RowMapLayer
 */
 dojox.grid.enhanced.plugins._RowMapLayer.prototype._fetch=function(userRequest){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._RowMapLayer.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Search
 /**
  * <b>Summary:</b><blockquote>
  *	 Search the grid using wildcard string or Regular Expression.<br>
@@ -87644,12 +81402,6 @@ dojox.grid.enhanced.plugins.Search.prototype._search=function(searchArgs, start,
  * @memberOf dojox.grid.enhanced.plugins.Search
 */
 dojox.grid.enhanced.plugins.Search.prototype._checkRow=function(item, searchArgs, isGlobal){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Search.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._SelectionPreserver
 /**
  * <b>Summary:</b><blockquote>
  *	 Preserve selections across various user actions.<br>
@@ -87718,9 +81470,6 @@ dojox.grid.enhanced.plugins._SelectionPreserver.prototype._selectById=function(t
  * @memberOf dojox.grid.enhanced.plugins._SelectionPreserver
 */
 dojox.grid.enhanced.plugins._SelectionPreserver.prototype._reSelectById=function(item, index){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._SelectionPreserver.grid
 /**
  * @namespace
 */
@@ -87729,9 +81478,6 @@ dojox.grid.enhanced.plugins._SelectionPreserver.grid={};
  * @private
 */
 dojox.grid.enhanced.plugins._SelectionPreserver.grid._clearData=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-__SelectCellItem
 /**
  * <b>Summary:</b><blockquote>
  *	 An abstract representation of a cell.<br>
@@ -87741,9 +81487,6 @@ dojox.grid.enhanced.plugins._SelectionPreserver.grid._clearData=function(){};
  * @returns {dojox.__SelectCellItem} new instance
 */
 dojox.__SelectCellItem=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-__SelectRowItem
 /**
  * <b>Summary:</b><blockquote>
  *	 An abstract representation of a row.<br>
@@ -87753,9 +81496,6 @@ dojox.__SelectCellItem=function(){};
  * @returns {dojox.__SelectRowItem} new instance
 */
 dojox.__SelectRowItem=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-__SelectColItem
 /**
  * <b>Summary:</b><blockquote>
  *	 An abstract representation of a column.<br>
@@ -87765,9 +81505,6 @@ dojox.__SelectRowItem=function(){};
  * @returns {dojox.__SelectColItem} new instance
 */
 dojox.__SelectColItem=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Selector
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides standard extended selection for grid.<br>
@@ -88275,9 +82012,6 @@ dojox.grid.enhanced.plugins.Selector.prototype._addCellException=function(type, 
  * @memberOf dojox.grid.enhanced.plugins.Selector
 */
 dojox.grid.enhanced.plugins.Selector.prototype._add=function(type, items){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Selector.grid
 /**
  * @namespace
 */
@@ -88302,9 +82036,6 @@ dojox.grid.enhanced.plugins.Selector.grid.prototype.onEndSelect=function(){};
  * @memberOf dojox.grid.enhanced.plugins.Selector.grid
 */
 dojox.grid.enhanced.plugins.Selector.grid.prototype.onEndDeselect=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Selector.grid.selection
 /**
  * @namespace
 */
@@ -88329,29 +82060,10 @@ dojox.grid.enhanced.plugins.Selector.grid.selection.prototype.deselectAll=functi
  * @memberOf dojox.grid.enhanced.plugins.Selector.grid.selection
 */
 dojox.grid.enhanced.plugins.Selector.grid.selection.prototype.clickSelect=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Selector.grid.views.views
 /**
  * @namespace
 */
 dojox.grid.enhanced.plugins.Selector.grid.views.views={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Selector.grid.views.views.0
-//-jsdoc-invalid-entry [dojox.grid.enhanced.plugins.Selector.grid.views.views.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Selector.grid.layout
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Selector.grid.focus
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins.Selector._config
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._StoreLayer
 /**
  * <b>Summary:</b><blockquote>
  *	 The most abstract class of store layers, provides basic utilities and some interfaces.<br>
@@ -88418,9 +82130,6 @@ dojox.grid.enhanced.plugins._StoreLayer.prototype._wrap=function(store, funcName
  * @memberOf dojox.grid.enhanced.plugins._StoreLayer
 */
 dojox.grid.enhanced.plugins._StoreLayer.prototype._unwrap=function(nextLayer){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._ServerSideLayer
 /**
  * <b>Summary:</b><blockquote>
  *	 The most abstract class for all server side store layers.<br>
@@ -88498,12 +82207,6 @@ dojox.grid.enhanced.plugins._ServerSideLayer._onUserCommandLoad=function(){};
  * @memberOf dojox.grid.enhanced.plugins._ServerSideLayer
 */
 dojox.grid.enhanced.plugins._ServerSideLayer.prototype._fetch=function(userRequest){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.plugins._ServerSideLayer.__cmds
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.EnhancedGrid
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides enhanced features based on DataGrid<br>
@@ -88668,12 +82371,6 @@ dojox.grid.EnhancedGrid.prototype._fetch=function(start, isRender){};
  * @memberOf dojox.grid.EnhancedGrid
 */
 dojox.grid.EnhancedGrid.prototype._copyAttr=function(idx, attr){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.EnhancedGrid.focus
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.DataSelection
 /**
  * @class
  * @param {mixed} grid 
@@ -88692,12 +82389,6 @@ dojox.grid.enhanced.DataSelection.prototype.deselectAll=function(inItemOrIndex){
  * @memberOf dojox.grid.enhanced.DataSelection
 */
 dojox.grid.enhanced.DataSelection.prototype._range=function(inFrom, inTo){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.enhanced.DataSelection.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Events
 /**
  * <b>Summary:</b><blockquote>
  *	 _Grid mixin that provides default implementations for grid events.<br>
@@ -89065,15 +82756,6 @@ dojox.grid._Events.prototype.onApplyEdit=function(inRowIndex){};
  * @memberOf dojox.grid._Events
 */
 dojox.grid._Events.prototype.onApplyCellEdit=function(inValue, inRowIndex, inFieldIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Events.focus
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Events._click
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._FocusManager
 /**
  * <b>Summary:</b><blockquote>
  *	 Controls grid cell focus. Owned by grid and used internally for focusing.<br>
@@ -89331,18 +83013,6 @@ dojox.grid._FocusManager.prototype._delayedHeaderFocus=function(){};
  * @memberOf dojox.grid._FocusManager
 */
 dojox.grid._FocusManager.prototype._delayedCellFocus=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._FocusManager.cell.view.scrollboxNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._FocusManager.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._FocusManager.cell
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid
 /**
  * <b>Summary:</b><blockquote>
  *	 A grid widget with virtual scrolling, cell editing, complex rows,<br>
@@ -89908,57 +83578,18 @@ dojox.grid._Grid.prototype._fetch=function(start){};
  * @memberOf dojox.grid._Grid
 */
 dojox.grid._Grid.prototype._dispatch=function(m, e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.domNode
 /**
  * @namespace
 */
 dojox.grid._Grid.domNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.scroller
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.views
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.layout
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.focus
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.messagesNode
 /**
  * @namespace
 */
 dojox.grid._Grid.messagesNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.messagesNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.viewsHeaderNode
 /**
  * @namespace
 */
 dojox.grid._Grid.viewsHeaderNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.viewsHeaderNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.viewsNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Grid.invalidated
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.__CellDef
 /**
  * @class
  * @private
@@ -89982,9 +83613,6 @@ dojox.grid.__CellDef.get=function(){};
  * </blockquote>
 */
 dojox.grid.__CellDef.formatter=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.__ViewDef
 /**
  * @class
  * @private
@@ -90013,9 +83641,6 @@ dojox.grid.__ViewDef.onBeforeRow=function(){};
  * </blockquote>
 */
 dojox.grid.__ViewDef.onAfterRow=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Layout
 /**
  * <b>Summary:</b><blockquote>
  *	 Controls grid cell layout. Owned by grid and used internally.<br>
@@ -90077,12 +83702,6 @@ dojox.grid._Layout.prototype.addRowDef=function(inRowIndex, inDef){};
  * @memberOf dojox.grid._Layout
 */
 dojox.grid._Layout.prototype.addCellDef=function(inRowIndex, inCellIndex, inDef){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Layout.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._LazyExpando
 /**
  * @class
  * @returns {dojox.grid._LazyExpando} new instance
@@ -90117,12 +83736,6 @@ dojox.grid._LazyExpando.prototype.onToggle=function(evt){};
  * @memberOf dojox.grid._LazyExpando
 */
 dojox.grid._LazyExpando.prototype._updateOpenState=function(item){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._LazyExpando.expandoInner
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeGridContentBuilder
 /**
  * @class
  * @returns {dojox.grid._TreeGridContentBuilder} new instance
@@ -90148,15 +83761,6 @@ dojox.grid._TreeGridContentBuilder.prototype._getColSpans=function(level){};
  * @memberOf dojox.grid._TreeGridContentBuilder
 */
 dojox.grid._TreeGridContentBuilder.prototype._getCellWidth=function(cells, colIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeGridContentBuilder.view.structure
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeGridContentBuilder.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeGridView
 /**
  * @class
  * @returns {dojox.grid._TreeGridView} new instance
@@ -90188,9 +83792,6 @@ dojox.grid._TreeGridView.prototype.destroy=function(){};
  * @memberOf dojox.grid._TreeGridView
 */
 dojox.grid._TreeGridView.prototype._cleanupExpandoCache=function(identity){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._LazyTreeLayout
 /**
  * <b>Summary:</b><blockquote>
  *	 Override the dojox.grid._TreeLayout to modify the _TreeGridView and cell formatter<br>
@@ -90211,9 +83812,6 @@ dojox.grid._LazyTreeLayout.prototype.setStructure=function(structure){};
  * @memberOf dojox.grid._LazyTreeLayout
 */
 dojox.grid._LazyTreeLayout.prototype.addCellDef=function(rowIndex, cellIndex, def){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._LazyTreeGridCache
 /**
  * <b>Summary:</b><blockquote>
  *	 An internal object used to cache the tree path and open state of each item.<br>
@@ -90241,9 +83839,6 @@ dojox.grid._LazyTreeGridCache.prototype.removeChildren=function(rowIndex){};
  * @memberOf dojox.grid._LazyTreeGridCache
 */
 dojox.grid._LazyTreeGridCache.prototype.getSiblingIndex=function(rowIndex, treePath){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.LazyTreeGrid
 /**
  * <b>Summary:</b><blockquote>
  *	 An enhanced TreeGrid widget which supports lazy-loading for nested children items<br>
@@ -90489,27 +84084,6 @@ dojox.grid.LazyTreeGrid.prototype._fetch=function(start, isRender){};
  * @memberOf dojox.grid.LazyTreeGrid
 */
 dojox.grid.LazyTreeGrid.prototype._cleanup=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.LazyTreeGrid.treeModel
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.LazyTreeGrid.treeModel.root
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.LazyTreeGrid.selection.preserver
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.LazyTreeGrid.selection
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.LazyTreeGrid._treeCache
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.LazyTreeGrid.views
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.LazyTreeGridStoreModel
 /**
  * @class
  * @param {Object} args 
@@ -90549,12 +84123,6 @@ dojox.grid.LazyTreeGridStoreModel.prototype.getChildren=function(parentItem, onC
  * @memberOf dojox.grid.LazyTreeGridStoreModel
 */
 dojox.grid.LazyTreeGridStoreModel.prototype._isChildrenLoaded=function(parentItem){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.LazyTreeGridStoreModel.root
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._RadioSelector
 /**
  * @class
  * @private
@@ -90569,9 +84137,6 @@ dojox.grid._RadioSelector.prototype.renderHeader=function(){};
  * @memberOf dojox.grid._RadioSelector
 */
 dojox.grid._RadioSelector.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._RowManager
 /**
  * @class
  * @param {mixed} inGrid 
@@ -90610,9 +84175,6 @@ dojox.grid._RowManager.prototype.isOver=function(inRowIndex){};
  * @memberOf dojox.grid._RowManager
 */
 dojox.grid._RowManager.prototype.applyStyles=function(inRow){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._RowSelector
 /**
  * <b>Summary:</b><blockquote>
  *	 Custom grid view. If used in a grid structure, provides a small selectable region for grid rows.<br>
@@ -90673,15 +84235,6 @@ dojox.grid._RowSelector.prototype.buildRendering=function(){};
  * @memberOf dojox.grid._RowSelector
 */
 dojox.grid._RowSelector.prototype.adaptWidth=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._RowSelector.scrollboxNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._RowSelector.headerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Scroller
 /**
  * @class
  * @param {mixed} inContentNodes 
@@ -90960,29 +84513,14 @@ dojox.grid._Scroller.prototype.buildPage=function(inPageIndex, inReuseNode, inPo
  * @memberOf dojox.grid._Scroller
 */
 dojox.grid._Scroller.prototype._getPageCount=function(rowCount, rowsPerPage){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Scroller.scrollboxNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Scroller.grid.viewsNode
 /**
  * @namespace
 */
 dojox.grid._Scroller.grid.viewsNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Scroller.grid.viewsNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Scroller.grid
 /**
  * @namespace
 */
 dojox.grid._Scroller.grid={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.Selection
 /**
  * <b>Summary:</b><blockquote>
  *	 Manages row selection for grid. Owned by grid and used internally<br>
@@ -91139,12 +84677,6 @@ dojox.grid.Selection.prototype._endUpdate=function(){};
  * @memberOf dojox.grid.Selection
 */
 dojox.grid.Selection.prototype._beginUpdate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.Selection.selected
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._SelectionPreserver
 /**
  * <b>Summary:</b><blockquote>
  *	 Preserve selections across various user actions.<br>
@@ -91191,9 +84723,6 @@ dojox.grid._SelectionPreserver.prototype._selectById=function(toSelect, inItemOr
  * @memberOf dojox.grid._SelectionPreserver
 */
 dojox.grid._SelectionPreserver.prototype._reSelectById=function(item, index){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._InputSelectorHeaderBuilder
 /**
  * @class
  * @private
@@ -91209,31 +84738,16 @@ dojox.grid._InputSelectorHeaderBuilder.prototype.generateHtml=function(){};
  * @memberOf dojox.grid._InputSelectorHeaderBuilder
 */
 dojox.grid._InputSelectorHeaderBuilder.prototype.doclick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._InputSelectorHeaderBuilder.generateHtml
 /**
  * @class
  * @returns {dojox.grid._InputSelectorHeaderBuilder.generateHtml} new instance
 */
 dojox.grid._InputSelectorHeaderBuilder.generateHtml=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._InputSelectorHeaderBuilder.generateHtml.view
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._InputSelectorHeaderBuilder.doclick
 /**
  * @class
  * @returns {dojox.grid._InputSelectorHeaderBuilder.doclick} new instance
 */
 dojox.grid._InputSelectorHeaderBuilder.doclick=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._InputSelectorHeaderBuilder.doclick.view
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._SelectorContentBuilder
 /**
  * @class
  * @private
@@ -91270,31 +84784,16 @@ dojox.grid._SelectorContentBuilder.prototype.domouseout=function(e){};
  * @memberOf dojox.grid._SelectorContentBuilder
 */
 dojox.grid._SelectorContentBuilder.prototype.doclick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._SelectorContentBuilder.generateHtml
 /**
  * @class
  * @returns {dojox.grid._SelectorContentBuilder.generateHtml} new instance
 */
 dojox.grid._SelectorContentBuilder.generateHtml=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._SelectorContentBuilder.generateHtml.view
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._SelectorContentBuilder.doclick
 /**
  * @class
  * @returns {dojox.grid._SelectorContentBuilder.doclick} new instance
 */
 dojox.grid._SelectorContentBuilder.doclick=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._SelectorContentBuilder.doclick.view.grid.selection
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._InputSelectorContentBuilder
 /**
  * @class
  * @private
@@ -91306,17 +84805,11 @@ dojox.grid._InputSelectorContentBuilder=function(){};
  * @memberOf dojox.grid._InputSelectorContentBuilder
 */
 dojox.grid._InputSelectorContentBuilder.prototype.getCellContent=function(rowIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._InputSelectorContentBuilder.getCellContent
 /**
  * @class
  * @returns {dojox.grid._InputSelectorContentBuilder.getCellContent} new instance
 */
 dojox.grid._InputSelectorContentBuilder.getCellContent=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Selector
 /**
  * <b>Summary:</b><blockquote>
  *	 Custom grid view. If used in a grid structure, provides a small selectable region for grid rows.<br>
@@ -91372,24 +84865,6 @@ dojox.grid._Selector.prototype.buildRendering=function(){};
  * @memberOf dojox.grid._Selector
 */
 dojox.grid._Selector.prototype.adaptWidth=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Selector.grid.selection
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Selector.scrollboxNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._RadioSelector.headerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._CheckBoxSelector.headerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._CheckBoxSelector.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeAggregator
 /**
  * @class
  * @param {mixed} kwArgs 
@@ -91458,12 +84933,6 @@ dojox.grid._TreeAggregator.prototype.clearSubtotalCache=function(){};
  * @memberOf dojox.grid._TreeAggregator
 */
 dojox.grid._TreeAggregator.prototype._cacheValue=function(cache, id, value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeAggregator.store
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeLayout
 /**
  * @class
  * @returns {dojox.grid._TreeLayout} new instance
@@ -91487,19 +84956,10 @@ dojox.grid._TreeLayout.prototype.addCellDef=function(inRowIndex, inCellIndex, in
  * @memberOf dojox.grid._TreeLayout
 */
 dojox.grid._TreeLayout.prototype._getInternalStructure=function(inStructure){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeLayout.grid
 /**
  * @namespace
 */
 dojox.grid._TreeLayout.grid={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeLayout.grid.scroller
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreePath
 /**
  * @class
  * @param {String|Integer[]|Integer|dojox.grid.TreePath} path 
@@ -91584,15 +85044,6 @@ dojox.grid.TreePath.prototype.children=function(alwaysReturn){};
  * @memberOf dojox.grid.TreePath
 */
 dojox.grid.TreePath.prototype.childPaths=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreePath.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreePath.grid.treeModel
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeFocusManager
 /**
  * @class
  * @returns {dojox.grid._TreeFocusManager} new instance
@@ -91628,15 +85079,6 @@ dojox.grid._TreeFocusManager.prototype.move=function(inRowDelta, inColDelta){};
  * @memberOf dojox.grid._TreeFocusManager
 */
 dojox.grid._TreeFocusManager.prototype.isLastFocusCell=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeFocusManager.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeFocusManager.cell
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreeGrid
 /**
  * <b>Summary:</b><blockquote>
  *	 A grid that supports nesting rows - it provides an expando function<br>
@@ -91811,28 +85253,10 @@ dojox.grid.TreeGrid.prototype._childItemSorter=function(a, b, attribute, descend
  * @memberOf dojox.grid.TreeGrid
 */
 dojox.grid.TreeGrid.prototype._addItem=function(item, index, noUpdate, dontUpdateRoot){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreeGrid.treeModel
 /**
  * @memberOf dojox.grid.TreeGrid.treeModel
 */
 dojox.grid.TreeGrid.treeModel.childrenAttrs=[];
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreeGrid.treeModel.childrenAttrs
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreeGrid.scroller
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreeGrid.treeModel.root
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreeGrid.aggregator
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreeSelection
 /**
  * @class
  * @returns {dojox.grid.TreeSelection} new instance
@@ -91903,19 +85327,10 @@ dojox.grid.TreeSelection.prototype._comparePaths=function(a, b){};
  * @memberOf dojox.grid.TreeSelection
 */
 dojox.grid.TreeSelection.prototype._bsearch=function(v){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreeSelection.grid.layout
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid.TreeSelection.grid
 /**
  * @namespace
 */
 dojox.grid.TreeSelection.grid={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Expando
 /**
  * @class
  * @returns {dojox.grid._Expando} new instance
@@ -91955,18 +85370,6 @@ dojox.grid._Expando.prototype._toggleRows=function(toggleClass, open){};
  * @memberOf dojox.grid._Expando
 */
 dojox.grid._Expando.prototype._setOpen=function(open){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Expando.view
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Expando.view.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._Expando.expandoInner
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeContentBuilder
 /**
  * @class
  * @returns {dojox.grid._TreeContentBuilder} new instance
@@ -91997,15 +85400,6 @@ dojox.grid._TreeContentBuilder.prototype.findTarget=function(inSource, inTag){};
  * @memberOf dojox.grid._TreeContentBuilder
 */
 dojox.grid._TreeContentBuilder.prototype.decorateEvent=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeContentBuilder.view.structure.cells
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeContentBuilder.grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._TreeView
 /**
  * @class
  * @returns {dojox.grid._TreeView} new instance
@@ -92063,9 +85457,6 @@ dojox.grid._TreeView.prototype._onDndDrop=function(source, nodes, copy){};
  * @memberOf dojox.grid._TreeView
 */
 dojox.grid._TreeView.prototype._cleanupExpandoCache=function(index, identity, item){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View
 /**
  * <b>Summary:</b><blockquote>
  *	 A collection of grid columns. A grid is comprised of a set of views that stack horizontally.<br>
@@ -92345,67 +85736,22 @@ dojox.grid._View.prototype._getHeaderContent=function(inCell){};
  * @memberOf dojox.grid._View
 */
 dojox.grid._View.prototype._cleanupRowWidgets=function(inRowNode){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.headerNodeContainer.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.scrollboxNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.headerContentNode.firstChild.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.grid.layout
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.source
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.grid.views
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.grid
 /**
  * @namespace
 */
 dojox.grid._View.grid={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.headerContentNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.domNode
 /**
  * @namespace
 */
 dojox.grid._View.domNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.contentNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.headerNode
 /**
  * @namespace
 */
 dojox.grid._View.headerNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.headerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._View.scrollboxNode
 /**
  * @namespace
 */
 dojox.grid._View.scrollboxNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._GridAvatar
 /**
  * @class
  * @returns {dojox.grid._GridAvatar} new instance
@@ -92419,12 +85765,6 @@ dojox.grid._GridAvatar.prototype.destroy=function(){};
  * @memberOf dojox.grid._GridAvatar
 */
 dojox.grid._GridAvatar.prototype.construct=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._GridAvatar.manager
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._ViewManager
 /**
  * <b>Summary:</b><blockquote>
  *	 A collection of grid views. Owned by grid and used internally for managing grid views.<br>
@@ -92549,12 +85889,6 @@ dojox.grid._ViewManager.prototype.arrange=function(l, w){};
  * @memberOf dojox.grid._ViewManager
 */
 dojox.grid._ViewManager.prototype.addView=function(inView){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.grid._ViewManager.views
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.help
 /**
  * <b>Summary:</b><blockquote>
  *	 Useful if you reset some values, and want to restore their<br>
@@ -92668,36 +86002,24 @@ dojox.help.__toString=function(){};
  * @private
 */
 dojox.help.__recurse=function(namespace, root, name, items, recursive){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.help._help
 /**
  * @class
  * @private
  * @returns {dojox.help._help} new instance
 */
 dojox.help._help=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.help._parse
 /**
  * @class
  * @private
  * @returns {dojox.help._parse} new instance
 */
 dojox.help._parse=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.help._toString
 /**
  * @class
  * @private
  * @returns {dojox.help._toString} new instance
 */
 dojox.help._toString=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight
 /**
  * <b>Summary:</b><blockquote>
  *	 highlight a string of text<br>
@@ -92741,9 +86063,6 @@ dojox.highlight.widget={};
  * @namespace
 */
 dojox.highlight.languages={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.Code
 /**
  * <b>Summary:</b><blockquote>
  *	 A Class object to allow for dojoType usage with the highlight engine. This is<br>
@@ -92759,9 +86078,6 @@ dojox.highlight.languages={};
  * 	var inst = new dojox.highlight.Code({}, "someId");
 */
 dojox.highlight.Code=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages
 /**
  * @namespace
 */
@@ -92814,33 +86130,18 @@ dojox.highlight.languages.css={};
  * @namespace
 */
 dojox.highlight.languages.cpp={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.cpp
 /**
  * @namespace
 */
 dojox.highlight.languages.cpp.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.cpp.defaultMode
 /**
  * @namespace
 */
 dojox.highlight.languages.cpp.defaultMode.keywords={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.cpp.defaultMode.keywords
-//-jshdr-obj-end
-
-//-jshdr-id-dh
 /**
  * @namespace
 */
 dojox.dh={};
-//-jshdr-obj-end
-
-//-jshdr-id-dh.languages
 /**
  * @namespace
 */
@@ -92849,212 +86150,91 @@ dh.languages={};
  * @namespace
 */
 dh.languages.css={};
-//-jshdr-obj-end
-
-//-jshdr-id-dh.languages.css
 /**
  * @namespace
 */
 dh.languages.css.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dh.languages.css.defaultMode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.delphi
 /**
  * @namespace
 */
 dojox.highlight.languages.delphi.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.delphi.defaultMode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.django
 /**
  * @namespace
 */
 dojox.highlight.languages.django.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.django.defaultMode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.groovy
 /**
  * @namespace
 */
 dojox.highlight.languages.groovy.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.groovy.defaultMode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.html
 /**
  * @namespace
 */
 dojox.highlight.languages.html.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.html.defaultMode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.java
 /**
  * @namespace
 */
 dojox.highlight.languages.java.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.java.defaultMode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.javascript
 /**
  * @namespace
 */
 dojox.highlight.languages.javascript.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.javascript.defaultMode
 /**
  * @namespace
 */
 dojox.highlight.languages.javascript.defaultMode.keywords={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.javascript.defaultMode.keywords
-//-jsdoc-invalid-entry [dojox.highlight.languages.javascript.defaultMode.keywords.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.javascript.defaultMode.keywords.keyword
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.javascript.defaultMode.keywords.literal
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.css
 /**
  * @namespace
 */
 dojox.highlight.languages.css.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.css.defaultMode
 /**
  * @namespace
 */
 dojox.highlight.languages.css.defaultMode.keywords={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.css.defaultMode.keywords
 /**
  * @namespace
 */
 dojox.highlight.languages.css.defaultMode.keywords.keyword={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.css.defaultMode.keywords.keyword
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.pygments
 /**
  * @namespace
  * @private
 */
 dojox.highlight.languages.pygments._html={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.pygments._html
 /**
  * @namespace
 */
 dojox.highlight.languages.pygments._html.tags={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.pygments._html.tags
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.javascript.defaultMode.keywords.keyword constant
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.javascript.defaultMode.keywords.name builtin
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.javascript.defaultMode.keywords.name builtin pseudo
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.xml
 /**
  * @namespace
 */
 dojox.highlight.languages.xml.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.xml.defaultMode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.python
 /**
  * @namespace
 */
 dojox.highlight.languages.python.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.python.defaultMode
 /**
  * @namespace
 */
 dojox.highlight.languages.python.defaultMode.keywords={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.python.defaultMode.keywords
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.sql
 /**
  * @namespace
 */
 dojox.highlight.languages.sql.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.sql.defaultMode
 /**
  * @namespace
 */
 dojox.highlight.languages.sql.defaultMode.keywords={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.sql.defaultMode.keywords
 /**
  * @namespace
 */
 dojox.highlight.languages.sql.defaultMode.keywords.aggregate={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.sql.defaultMode.keywords.aggregate
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.xquery
 /**
  * @namespace
 */
 dojox.highlight.languages.xquery.defaultMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.xquery.defaultMode
 /**
  * @namespace
 */
 dojox.highlight.languages.xquery.defaultMode.keywords={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.languages.xquery.defaultMode.keywords
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.widget
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple source code formatting widget that adds line numbering, alternating line colors<br>
@@ -93062,9 +86242,6 @@ dojox.highlight.languages.xquery.defaultMode.keywords={};
  * </blockquote>
 */
 dojox.highlight.widget.Code=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.widget.Code
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple source code formatting widget that adds line numbering, alternating line colors<br>
@@ -93111,16 +86288,6 @@ dojox.highlight.widget.Code.prototype._populate=function(data){};
  * @memberOf dojox.highlight.widget.Code
 */
 dojox.highlight.widget.Code.prototype._loadError=function(error){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.highlight.widget.Code.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.html
-//-jsdoc-invalid-entry [dojox.html.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.html._ContentSetter
 /**
  * @class
  * @returns {dojox.html._ContentSetter} new instance
@@ -93148,18 +86315,6 @@ dojox.html._ContentSetter.prototype.empty=function(){};
  * @memberOf dojox.html._ContentSetter
 */
 dojox.html._ContentSetter.prototype._renderStyles=function(styles){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.html._ContentSetter.node
-//-jshdr-obj-end
-
-//-jshdr-id-d
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.html.ext-dojo
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image
 /**
  * <b>Summary:</b><blockquote>
  *	 Preload a list of images in the dom.<br>
@@ -93291,9 +86446,6 @@ dojox.image.FlickrBadge=function(){};
  * </blockquote>
 */
 dojox.image.Badge=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.Badge
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple grid of Images that loops through thumbnails<br>
@@ -93379,12 +86531,6 @@ dojox.image.Badge.prototype._disenbiggen=function(info, props){};
  * @memberOf dojox.image.Badge
 */
 dojox.image.Badge.prototype._cycle=function(info, props){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.Badge._nl
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.FlickrBadge
 /**
  * @class
  * @extends dojox.image.Badge
@@ -93399,9 +86545,6 @@ dojox.image.FlickrBadge.prototype.startup=function(){};
  * @memberOf dojox.image.FlickrBadge
 */
 dojox.image.FlickrBadge.prototype.postCreate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.Gallery
 /**
  * <b>Summary:</b><blockquote>
  *	 Gallery widget that wraps a dojox.image.ThumbnailPicker and dojox.image.SlideShow widget<br>
@@ -93485,9 +86628,6 @@ dojox.image.Gallery.prototype.postCreate=function(){};
  * @memberOf dojox.image.Gallery
 */
 dojox.image.Gallery.prototype._centerChildren=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.Lightbox
 /**
  * <b>Summary:</b><blockquote>
  *	 A dojo-based Lightbox implementation.<br>
@@ -93574,9 +86714,6 @@ dojox.image.Lightbox.prototype._handleClick=function(e){};
  * @memberOf dojox.image.Lightbox
 */
 dojox.image.Lightbox.prototype._addSelf=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.LightboxDialog
 /**
  * <b>Summary:</b><blockquote>
  *	 The &amp;quot;dialog&amp;quot; shared	 between any Lightbox instances on the page, publically available<br>
@@ -93793,15 +86930,6 @@ dojox.image.LightboxDialog.prototype._handleKey=function(e){};
  * @memberOf dojox.image.LightboxDialog
 */
 dojox.image.LightboxDialog.prototype._calcTitleSize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.LightboxDialog._groups
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.LightboxDialog.imgNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.LightboxNano
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple &amp;quot;nano&amp;quot; version of the lightbox.<br>
@@ -93940,9 +87068,6 @@ dojox.image.LightboxNano.prototype._coords=function(s, e){};
  * @memberOf dojox.image.LightboxNano
 */
 dojox.image.LightboxNano.prototype._anim=function(node, args, onEnd){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.Magnifier
 /**
  * <b>Summary:</b><blockquote>
  *	 Adds magnification on a portion of an image element, using `dojox.gfx`<br>
@@ -93984,9 +87109,6 @@ dojox.image.Magnifier.prototype._placeGlass=function(e){};
  * @memberOf dojox.image.Magnifier
 */
 dojox.image.Magnifier.prototype._createGlass=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.MagnifierLite
 /**
  * <b>Summary:</b><blockquote>
  *	 Adds magnification on a portion of an image element<br>
@@ -94064,9 +87186,6 @@ dojox.image.MagnifierLite.prototype._createGlass=function(){};
  * @memberOf dojox.image.MagnifierLite
 */
 dojox.image.MagnifierLite.prototype._adjustScale=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.SlideShow
 /**
  * <b>Summary:</b><blockquote>
  *	 A Slideshow Widget<br>
@@ -94310,32 +87429,11 @@ dojox.image.SlideShow.prototype._fitImage=function(img){};
  * @memberOf dojox.image.SlideShow
 */
 dojox.image.SlideShow.prototype._calcNavDimensions=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.SlideShow.outerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.SlideShow._request
 /**
  * @param {mixed} items 
  * @memberOf dojox.image.SlideShow._request
 */
 dojox.image.SlideShow._request.prototype.onComplete=function(items){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.SlideShow.navPlay
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.SlideShow.navPrev
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.SlideShow.navNext
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.SlideShow.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.ThumbnailPicker
 /**
  * <b>Summary:</b><blockquote>
  *	 A scrolling Thumbnail Picker widget<br>
@@ -94502,15 +87600,6 @@ dojox.image.ThumbnailPicker.prototype._loadImage=function(data, index, callback)
  * @memberOf dojox.image.ThumbnailPicker
 */
 dojox.image.ThumbnailPicker.prototype._checkLoad=function(img, index){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.ThumbnailPicker.request
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.image.ThumbnailPicker.thumbScroller
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io
 /**
  * <b>Summary:</b><blockquote>
  *	 Adds the windowName transport as an XHR plugin for the given site. See<br>
@@ -94577,9 +87666,6 @@ dojox.io.scriptFrame={};
  * @namespace
 */
 dojox.io.proxy={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.proxy.xip
 /**
  * @namespace
 */
@@ -94670,9 +87756,6 @@ dojox.io.proxy.xip._realSend=function(facade){};
  * @param {mixed} ifpServerUrl 
 */
 dojox.io.proxy.xip.XhrIframeFacade=function(ifpServerUrl){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.proxy.xip.XhrIframeFacade
 /**
  * <b>Summary:</b><blockquote>
  *	 XMLHttpRequest facade object used by dojox.io.proxy.xip.<br>
@@ -94723,37 +87806,22 @@ dojox.io.proxy.xip.XhrIframeFacade.prototype.abort=function(){};
  * @memberOf dojox.io.proxy.xip.XhrIframeFacade
 */
 dojox.io.proxy.xip.XhrIframeFacade.prototype._setResponseHeaders=function(allHeaders){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.proxy.xip.XhrIframeFacade.open
 /**
  * @class
  * @returns {dojox.io.proxy.xip.XhrIframeFacade.open} new instance
 */
 dojox.io.proxy.xip.XhrIframeFacade.open=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.proxy.xip.XhrIframeFacade.send
 /**
  * @class
  * @returns {dojox.io.proxy.xip.XhrIframeFacade.send} new instance
 */
 dojox.io.proxy.xip.XhrIframeFacade.send=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.proxy.xip.XhrIframeFacade._setResponseHeaders
 /**
  * @class
  * @private
  * @returns {dojox.io.proxy.xip.XhrIframeFacade._setResponseHeaders} new instance
 */
 dojox.io.proxy.xip.XhrIframeFacade._setResponseHeaders=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.proxy
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.proxy.xip.send
 /**
  * <b>Summary:</b><blockquote>
  *	 starts the xdomain request using the provided facade.<br>
@@ -94763,9 +87831,6 @@ dojox.io.proxy.xip.XhrIframeFacade._setResponseHeaders=function(){};
  * @returns {dojox.io.proxy.xip.send} new instance
 */
 dojox.io.proxy.xip.send=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.scriptFrame
 /**
  * <b>Summary:</b><blockquote>
  *	 callback used when waiting for a frame to load (related to the usage of<br>
@@ -94788,9 +87853,6 @@ dojox.io.scriptFrame._getWaiters=function(frameId){};
  * @private
 */
 dojox.io.scriptFrame._fixAttachUrl=function(url){};
-//-jshdr-obj-end
-
-//-jshdr-id-ioScript
 /**
  * @namespace
 */
@@ -94806,9 +87868,6 @@ dojox.ioScript={};
  * @private
 */
 dojox.ioScript._canAttach=function(ioArgs){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.windowName
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides secure cross-domain request capability.<br>
@@ -94869,18 +87928,12 @@ dojox.io.windowName.send=function(method, args){};
  * @private
 */
 dojox.io.windowName._send=function(dfd, method, authTarget, onAuthLoad){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.__xhrContentArgs
 /**
  * @class
  * @private
  * @returns {dojox.io.__xhrContentArgs} new instance
 */
 dojox.io.__xhrContentArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.__xhrMultiArgs
 /**
  * @class
  * @private
@@ -94911,9 +87964,6 @@ dojox.io.__xhrMultiArgs.handle=function(){};
  * </blockquote>
 */
 dojox.io.__xhrMultiArgs.error=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.io.xhrPlugins
 /**
  * <b>Summary:</b><blockquote>
  *	 overrides the default xhr handler to implement a registry of<br>
@@ -94966,9 +88016,6 @@ dojox.io.xhrPlugins.addProxy=function(proxyUrl){};
  * sent with XDR, so you can use a convention for headers and PUT/DELETE methods.<br>
 */
 dojox.io.xhrPlugins.addCrossSiteXhr=function(url, httpAdapter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.query.pseudos
 /**
  * @namespace
 */
@@ -95023,9 +88070,6 @@ dojo.query.pseudos.checked=function(name, condition){};
  * @param {mixed} condition 
 */
 dojo.query.pseudos.button=function(name, condition){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.global
 /**
  * @namespace
 */
@@ -95036,9 +88080,6 @@ dojo.global.jQuery=function(){};
 /**
 */
 dojo.global.$=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.json
 /**
  * <b>Summary:</b><blockquote>
  *	 Performs a JSONQuery on the provided object and returns the results.<br>
@@ -95152,9 +88193,6 @@ dojox.json._distinctFilter=function(array, callback){};
  * @namespace
 */
 dojox.json.schema={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.json.ref.resolveJson
 /**
  * <b>Summary:</b><blockquote>
  *	 Indexes and resolves references in the JSON object.<br>
@@ -95164,9 +88202,6 @@ dojox.json.schema={};
  * @returns {dojox.json.ref.resolveJson} new instance
 */
 dojox.json.ref.resolveJson=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.json.ref.toJson
 /**
  * <b>Summary:</b><blockquote>
  *	 Create a JSON serialization of an object.<br>
@@ -95178,9 +88213,6 @@ dojox.json.ref.resolveJson=function(){};
  * @returns {dojox.json.ref.toJson} new instance
 */
 dojox.json.ref.toJson=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.json.schema
 /**
  * <b>Summary:</b><blockquote>
  *	 To use the validator call this with an instance object and an optional schema object.<br>
@@ -95227,18 +88259,12 @@ dojox.json.schema.checkPropertyChange=function(value, schema, property){};
  * @private
 */
 dojox.json.schema._validate=function(instance, schema, _changing){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.jsonPath
 /**
  * @param {Object} obj 
  * @param {String} expr 
  * @param {Object} arg 
 */
 dojox.jsonPath.query=function(obj, expr, arg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang
 /**
  * <b>Summary:</b><blockquote>
  *	 Creates a wrapper object, which can be observed. The wrapper object<br>
@@ -95308,9 +88334,6 @@ dojox.lang.docs={};
  * @namespace
 */
 dojox.lang.async={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.aspect
 /**
  * @namespace
 */
@@ -95471,9 +88494,6 @@ dojox.lang.aspect.adviseRaw=function(obj, methods, advices){};
  * @returns {Object} -
 */
 dojox.lang.aspect.advise=function(obj, method, advice){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.async
 /**
  * <b>Summary:</b><blockquote>
  *	 Executes functions sequentially. Waits if any of them returns Deferred.<br>
@@ -95526,9 +88546,6 @@ dojox.lang.async.ifThen=function(cond, ifTrue, ifFalse){};
  * @param {mixed} x 
 */
 dojox.lang.async.any=function(x){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.async.event
 /**
  * @namespace
 */
@@ -95543,9 +88560,6 @@ dojox.lang.async.event.from=function(src, name){};
  * @param {mixed} name 
 */
 dojox.lang.async.event.failOn=function(src, name){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.async.timeout
 /**
  * @namespace
 */
@@ -95558,9 +88572,6 @@ dojox.lang.async.timeout.from=function(ms){};
  * @param {mixed} ms 
 */
 dojox.lang.async.timeout.failOn=function(ms){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.async.topic
 /**
  * @namespace
 */
@@ -95573,9 +88584,6 @@ dojox.lang.async.topic.from=function(topic){};
  * @param {mixed} topic 
 */
 dojox.lang.async.topic.failOn=function(topic){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.docs
 /**
  * <b>Summary:</b><blockquote>
  *	 Loads the documentation and applies it to the previously defined classes<br>
@@ -95584,9 +88592,6 @@ dojox.lang.async.topic.failOn=function(topic){};
  * @param {Boolean} async If true, the documentation will be loaded asynchronously
 */
 dojox.lang.docs.init=function(async){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.functional
 /**
  * <b>Summary:</b><blockquote>
  *	 returns an array of arrays, where the i-th array<br>
@@ -96080,15 +89085,6 @@ dojox.lang.functional.buildListcomp=function(s){};
  * @param {Function|String|Array} after 
 */
 dojox.lang.functional.binrec=function(cond, then, before, after){};
-//-jshdr-obj-end
-
-//-jshdr-id-frame.style
-//-jshdr-obj-end
-
-//-jshdr-id-frame.contentWindow
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.oo
 /**
  * <b>Summary:</b><blockquote>
  *	 Process properties in place by removing and renaming them.<br>
@@ -96192,12 +89188,6 @@ dojox.lang.oo.Filter=function(bag, filter){};
  * decorator(///String/// name, ///Function/// newValue, ///Function/// oldValue).<br>
 */
 dojox.lang.oo.Decorator=function(value, decorator){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.oo.aop
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.oo.Decorator
 /**
  * <b>Summary:</b><blockquote>
  *	 The base class for all decorators.<br>
@@ -96209,9 +89199,6 @@ dojox.lang.oo.Decorator=function(value, decorator){};
  * @returns {dojox.lang.oo.Decorator} new instance
 */
 dojox.lang.oo.Decorator=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.oo.Filter
 /**
  * <b>Summary:</b><blockquote>
  *	 Filter to control mixing in objects by skipping<br>
@@ -96224,15 +89211,6 @@ dojox.lang.oo.Decorator=function(){};
  * @returns {dojox.lang.oo.Filter} new instance
 */
 dojox.lang.oo.Filter=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.oo.general
-//-jshdr-obj-end
-
-//-jshdr-id-dojo._extraNames
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.lang.oo.__MixinDefaults
 /**
  * <b>Summary:</b><blockquote>
  *	 a dict of default parameters for dojox.lang.oo._mixin<br>
@@ -96242,16 +89220,6 @@ dojox.lang.oo.Filter=function(){};
  * @returns {dojox.lang.oo.__MixinDefaults} new instance
 */
 dojox.lang.oo.__MixinDefaults=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-JSONSchema
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout
-//-jsdoc-invalid-entry [dojox.layout.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ContentPane
 /**
  * <b>Summary:</b><blockquote>
  *	 cleans content to make it less likely to generate DOM/JS errors.<br>
@@ -96282,9 +89250,6 @@ dojox.layout.ContentPane.prototype.onExecError=function(e){};
  * @memberOf dojox.layout.ContentPane
 */
 dojox.layout.ContentPane.prototype._setContent=function(cont){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.dnd
 /**
  * @param {mixed} service 
  * @param {mixed} withHandles 
@@ -96317,9 +89282,6 @@ dojox.layout.dnd.DropIndicator=function(cn, tag){};
  * @param {mixed} opacity 
 */
 dojox.layout.dnd.Avatar=function(manager, opacity){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.dnd.Avatar
 /**
  * <b>Summary:</b><blockquote>
  *	 An Object, which represents the object being moved in a GridContainer<br>
@@ -96351,12 +89313,6 @@ dojox.layout.dnd.Avatar.prototype.construct=function(){};
  * @memberOf dojox.layout.dnd.Avatar
 */
 dojox.layout.dnd.Avatar.prototype._generateText=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.dnd.Avatar.manager
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.dnd.PlottedDnd
 /**
  * <b>Summary:</b><blockquote>
  *	 dnd source handling plotted zone to show the dropping area<br>
@@ -96558,18 +89514,6 @@ dojox.layout.dnd.PlottedDnd.prototype._autoScrollUp=function(node){};
  * @memberOf dojox.layout.dnd.PlottedDnd
 */
 dojox.layout.dnd.PlottedDnd.prototype._autoScrollDown=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.dnd.PlottedDnd._drop.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.dnd.PlottedDnd.current
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.dnd.PlottedDnd.offsetDrag
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.dnd.DropIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 An empty widget to show at the user the drop zone of the widget.<br>
@@ -96592,9 +89536,6 @@ dojox.layout.dnd.DropIndicator.prototype.destroy=function(){};
  * @memberOf dojox.layout.dnd.DropIndicator
 */
 dojox.layout.dnd.DropIndicator.prototype.create=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-document.body
 /**
  * @namespace
 */
@@ -96602,9 +89543,6 @@ document.body={};
 /**
 */
 document.body.onselectstart=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.DragPane
 /**
  * <b>Summary:</b><blockquote>
  *	 Makes a pane's content dragable by/within it's surface<br>
@@ -96649,9 +89587,6 @@ dojox.layout.DragPane.prototype._move=function(e){};
  * @memberOf dojox.layout.DragPane
 */
 dojox.layout.DragPane.prototype._down=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ExpandoPane
 /**
  * <b>Summary:</b><blockquote>
  *	 An experimental collapsing-pane for dijit.layout.BorderContainer<br>
@@ -96744,16 +89679,6 @@ dojox.layout.ExpandoPane.prototype._hideEnd=function(){};
  * @memberOf dojox.layout.ExpandoPane
 */
 dojox.layout.ExpandoPane.prototype._afterResize=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ext-dijit.layout
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ext-dijit
-//-jsdoc-invalid-entry [dojox.layout.INVALID_IDENT.layout]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.FloatingPane
 /**
  * <b>Summary:</b><blockquote>
  *	 A non-modal Floating window.<br>
@@ -96852,40 +89777,11 @@ dojox.layout.FloatingPane.prototype._restore=function(){};
  * @memberOf dojox.layout.FloatingPane
 */
 dojox.layout.FloatingPane.prototype._dock=function(){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.layout.FloatingPane.dockNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.FloatingPane.closeNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.FloatingPane.maxNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.FloatingPane.restoreNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.FloatingPane.resizeHandle.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.FloatingPane.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.FloatingPane.canvas.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.FloatingPane.containerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.FloatingPane.domNode
 /**
  * @namespace
 */
 dojox.layout.FloatingPane.domNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.Dock
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget that attaches to a node and keeps track of incoming / outgoing FloatingPanes<br>
@@ -96915,9 +89811,6 @@ dojox.layout.Dock.prototype.addNode=function(refNode){};
  * @memberOf dojox.layout.Dock
 */
 dojox.layout.Dock.prototype._positionDock=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout._DockNode
 /**
  * <b>Summary:</b><blockquote>
  *	 dojox.layout._DockNode is a private widget used to keep track of<br>
@@ -96936,9 +89829,6 @@ dojox.layout._DockNode=function(){};
  * @memberOf dojox.layout._DockNode
 */
 dojox.layout._DockNode.prototype.restore=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 A grid containing any kind of objects and acting like web portals.<br>
@@ -97107,27 +89997,6 @@ dojox.layout.GridContainer.prototype._createGrip=function(index){};
  * @memberOf dojox.layout.GridContainer
 */
 dojox.layout.GridContainer.prototype._addColumn=function(nbColumns){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainer.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainer._activeGrip.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainer._currentColumn.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainer._nextColumn.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainer.gridContainerTable
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainer._grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainerLite
 /**
  * <b>Summary:</b><blockquote>
  *	 The GridContainerLite is a container of child elements that are placed in a kind of grid.<br>
@@ -97367,21 +90236,6 @@ dojox.layout.GridContainerLite.prototype._getZonesAttr=function(){};
  * @memberOf dojox.layout.GridContainerLite
 */
 dojox.layout.GridContainerLite.prototype._createCells=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainerLite._dragManager
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainerLite._contentBox
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainerLite._grid
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.GridContainerLite.gridNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.RadioGroup
 /**
  * <b>Summary:</b><blockquote>
  *	 A Container that turns its Layout Children into a single Pane and transitions between states<br>
@@ -97442,9 +90296,6 @@ dojox.layout.RadioGroup.prototype._setupChild=function(child){};
  * @memberOf dojox.layout.RadioGroup
 */
 dojox.layout.RadioGroup.prototype._hideChild=function(page){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.RadioGroupFade
 /**
  * <b>Summary:</b><blockquote>
  *	 An extension on a stock RadioGroup, that fades the panes.<br>
@@ -97471,9 +90322,6 @@ dojox.layout.RadioGroupFade.prototype._showChild=function(page){};
  * @memberOf dojox.layout.RadioGroupFade
 */
 dojox.layout.RadioGroupFade.prototype._hideChild=function(page){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.RadioGroupSlide
 /**
  * <b>Summary:</b><blockquote>
  *	 A Sliding Radio Group<br>
@@ -97518,9 +90366,6 @@ dojox.layout.RadioGroupSlide.prototype._positionChild=function(page){};
  * @memberOf dojox.layout.RadioGroupSlide
 */
 dojox.layout.RadioGroupSlide.prototype._hideChild=function(page){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout._RadioButton
 /**
  * <b>Summary:</b><blockquote>
  *	 The Buttons for a RadioGroup<br>
@@ -97558,9 +90403,6 @@ dojox.layout._RadioButton.prototype._onMouse=function(e){};
  * @memberOf dojox.layout._RadioButton
 */
 dojox.layout._RadioButton.prototype._clearSelected=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout._ResizeHelper
 /**
  * <b>Summary:</b><blockquote>
  *	 A global private resize helper shared between any<br>
@@ -97593,9 +90435,6 @@ dojox.layout._ResizeHelper.prototype.resize=function(dim){};
  * @memberOf dojox.layout._ResizeHelper
 */
 dojox.layout._ResizeHelper.prototype.hide=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ResizeHandle
 /**
  * <b>Summary:</b><blockquote>
  *	 A dragable handle used to resize an attached node.<br>
@@ -97686,12 +90525,6 @@ dojox.layout.ResizeHandle.prototype._changeSizing=function(e){};
  * @memberOf dojox.layout.ResizeHandle
 */
 dojox.layout.ResizeHandle.prototype._beginSizing=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ResizeHandle.startSize
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.RotatorContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 Extends a StackContainer to automatically transition between children<br>
@@ -97862,9 +90695,6 @@ dojox.layout.RotatorContainer.prototype._fade=function(next, prev){};
  * @memberOf dojox.layout.RotatorContainer
 */
 dojox.layout.RotatorContainer.prototype._cycle=function(next){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.RotatorPager
 /**
  * <b>Summary:</b><blockquote>
  *	 Defines controls used to manipulate a RotatorContainer<br>
@@ -97969,15 +90799,6 @@ dojox.layout.RotatorPager.prototype._update=function(playing, current, total){};
  * @memberOf dojox.layout.RotatorPager
 */
 dojox.layout.RotatorPager.prototype._state=function(playing){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.RotatorPager.current
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.RotatorPager.total
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ScrollPane
 /**
  * <b>Summary:</b><blockquote>
  *	 A pane that &amp;quot;scrolls&amp;quot; its content based on the mouse poisition inside<br>
@@ -98037,20 +90858,11 @@ dojox.layout.ScrollPane.prototype._enter=function(e){};
  * @memberOf dojox.layout.ScrollPane
 */
 dojox.layout.ScrollPane.prototype._calc=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ScrollPane.helper.style
-//-jshdr-obj-end
-
-//-jshdr-id-_WidgetBase
 /**
  * @class
  * @returns {dojox._WidgetBase} new instance
 */
 dojox._WidgetBase=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.TableContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 A container that lays out its child widgets in a table layout.<br>
@@ -98114,12 +90926,6 @@ dojox.layout.TableContainer.prototype.destroyDescendants=function(preserveDom){}
  * @memberOf dojox.layout.TableContainer
 */
 dojox.layout.TableContainer.prototype._setSpacingAttr=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.TableContainer.table
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ToggleSplitter
 /**
  * <b>Summary:</b><blockquote>
  *	 A draggable and clickable spacer between two items in a dijit.layout.BorderContainer`.<br>
@@ -98226,15 +91032,6 @@ dojox.layout.ToggleSplitter.prototype._handleOnChange=function(preState){};
  * @memberOf dojox.layout.ToggleSplitter
 */
 dojox.layout.ToggleSplitter.prototype._getStyleProps=function(paneNode, state, paneStyle){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ToggleSplitter.child
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.layout.ToggleSplitter.a11yText
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math
 /**
  * <b>Summary:</b><blockquote>
  *	 Convert the passed number to radians.<br>
@@ -98405,43 +91202,16 @@ dojox.math.matrix={};
  * @namespace
 */
 dojox.math.curves={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.BigInteger
 /**
  * @class
  * @returns {dojox.math.BigInteger} new instance
 */
 dojox.math.BigInteger=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.BigInteger.prototype
-//-jshdr-obj-end
-
-//-jshdr-id-NullExp
-//-jshdr-obj-end
-
-//-jshdr-id-Barrett
-//-jshdr-obj-end
-
-//-jshdr-id-Classic.prototype
-//-jshdr-obj-end
-
-//-jshdr-id-Montgomery.prototype
-//-jshdr-obj-end
-
-//-jshdr-id-BigInteger.prototype
-//-jshdr-obj-end
-
-//-jshdr-id-BigInteger
 /**
  * @class
  * @returns {dojox.BigInteger} new instance
 */
 dojox.BigInteger=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.curves
 /**
 */
 dojox.math.curves.Path=function(){};
@@ -98477,9 +91247,6 @@ dojox.math.curves.Bezier=function(pnts){};
  * @param {mixed} ccw 
 */
 dojox.math.curves.Arc=function(start, end, ccw){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.curves.Line
 /**
  * @class
  * @returns {dojox.math.curves.Line} new instance
@@ -98489,9 +91256,6 @@ dojox.math.curves.Line=function(){};
  * @param {mixed} n 
 */
 dojox.math.curves.Line.getValue=function(n){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.curves.Bezier
 /**
  * @class
  * @returns {dojox.math.curves.Bezier} new instance
@@ -98501,9 +91265,6 @@ dojox.math.curves.Bezier=function(){};
  * @param {mixed} step 
 */
 dojox.math.curves.Bezier.getValue=function(step){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.curves.CatmullRom
 /**
  * @class
  * @returns {dojox.math.curves.CatmullRom} new instance
@@ -98513,9 +91274,6 @@ dojox.math.curves.CatmullRom=function(){};
  * @param {mixed} step 
 */
 dojox.math.curves.CatmullRom.getValue=function(step){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.curves.CenteredArc
 /**
  * @class
  * @returns {dojox.math.curves.CenteredArc} new instance
@@ -98525,9 +91283,6 @@ dojox.math.curves.CenteredArc=function(){};
  * @param {mixed} n 
 */
 dojox.math.curves.CenteredArc.getValue=function(n){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.curves.Path
 /**
  * @class
  * @returns {dojox.math.curves.Path} new instance
@@ -98549,9 +91304,6 @@ dojox.math.curves.Path.getValue=function(n){};
  * @param {mixed} weight 
 */
 dojox.math.curves.Path.add=function(curve, weight){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.matrix
 /**
  * @param {Number} a 
  * @param {Number} b 
@@ -98632,17 +91384,11 @@ dojox.math.matrix.copy=function(a){};
  * @returns {Array} -
 */
 dojox.math.matrix.adjoint=function(a){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.matrix.upperTriangle
 /**
  * @class
  * @returns {dojox.math.matrix.upperTriangle} new instance
 */
 dojox.math.matrix.upperTriangle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-Arcfour
 /**
  * @class
  * @returns {dojox.Arcfour} new instance
@@ -98660,9 +91406,6 @@ dojox.Arcfour.prototype.next=function(){};
  * @memberOf dojox.Arcfour
 */
 dojox.Arcfour.prototype.init=function(key){};
-//-jshdr-obj-end
-
-//-jshdr-id-Arcfour.init
 /**
  * <b>Summary:</b><blockquote>
  *	 Initialize arcfour context<br>
@@ -98671,17 +91414,11 @@ dojox.Arcfour.prototype.init=function(key){};
  * @returns {Arcfour.init} new instance
 */
 Arcfour.init=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-Arcfour.next
 /**
  * @class
  * @returns {Arcfour.next} new instance
 */
 Arcfour.next=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.random
 /**
 */
 dojox.math.random.prng4=function(){};
@@ -98704,9 +91441,6 @@ dojox.math.random.Simple=function(){};
  * &quot;randomness&quot;, otherwise events will not be used.<br>
 */
 dojox.math.random.Secure=function(prng, noEvents){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.random.Secure
 /**
  * <b>Summary:</b><blockquote>
  *	 Super simple implementation of a random number generator,<br>
@@ -98753,9 +91487,6 @@ dojox.math.random.Secure.prototype.destroy=function(){};
  * @memberOf dojox.math.random.Secure
 */
 dojox.math.random.Secure.prototype._seed_int=function(x){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.random.Simple
 /**
  * <b>Summary:</b><blockquote>
  *	 Super simple implementation of a random number generator,<br>
@@ -98781,9 +91512,6 @@ dojox.math.random.Simple.prototype.nextBytes=function(byteArray){};
  * @memberOf dojox.math.random.Simple
 */
 dojox.math.random.Simple.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.math.stats
 /**
  * @namespace
 */
@@ -98907,9 +91635,6 @@ dojox.math.stats.bestFit=function(a, xProp, yProp){};
  * @returns {Number} -
 */
 dojox.math.stats.approxLin=function(a, pos){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter
 /**
  * @namespace
 */
@@ -98930,9 +91655,6 @@ dojox.mdnd.adapter.DndToDojo=function(){};
 /**
 */
 dojox.mdnd.adapter.DndFromDojo=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndFromDojo
 /**
  * @class
  * @returns {dojox.mdnd.adapter.DndFromDojo} new instance
@@ -99047,21 +91769,6 @@ dojox.mdnd.adapter.DndFromDojo.prototype._resetAvatar=function(){};
  * @memberOf dojox.mdnd.adapter.DndFromDojo
 */
 dojox.mdnd.adapter.DndFromDojo.prototype._getHoverArea=function(coords){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndFromDojo.dropIndicatorSize
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndFromDojo._areaManager
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndFromDojo._areaManager._dropIndicator.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndFromDojo._areaManager._dropIndicator
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd
 /**
  * <b>Summary:</b><blockquote>
  *	 Returns the current areaManager, creates one if it is not created yet.<br>
@@ -99116,9 +91823,6 @@ dojox.mdnd.AreaManager=function(){};
  * @namespace
 */
 dojox.mdnd.dropMode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndToDojo
 /**
  * <b>Summary:</b><blockquote>
  *	 Allow communication between an item of dojox D&amp;amp;D area to a target dojo.<br>
@@ -99258,45 +91962,18 @@ dojox.mdnd.adapter.DndToDojo.prototype._getIndexDojoArea=function(area){};
  * @memberOf dojox.mdnd.adapter.DndToDojo
 */
 dojox.mdnd.adapter.DndToDojo.prototype._getHoverDojoArea=function(coords){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndToDojo._dojoList
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndToDojo._dojoxManager._dragItem.item
 /**
  * @namespace
 */
 dojox.mdnd.adapter.DndToDojo._dojoxManager._dragItem.item={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndToDojo._dojoxManager._dropIndicator.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndToDojo._dojoxManager._dragItem
 /**
  * @namespace
 */
 dojox.mdnd.adapter.DndToDojo._dojoxManager._dragItem={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndToDojo._dojoxManager._dragItem.item.node
 /**
  * @namespace
 */
 dojox.mdnd.adapter.DndToDojo._dojoxManager._dragItem.item.node={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndToDojo._dojoxManager._dragItem.item.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndToDojo._draggedNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.adapter.DndToDojo._draggedNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.AreaManager
 /**
  * <b>Summary:</b><blockquote>
  *	 Drag And Drop manager<br>
@@ -99537,15 +92214,6 @@ dojox.mdnd.AreaManager.prototype._deleteMoveableItem=function(objItem){};
  * @memberOf dojox.mdnd.AreaManager
 */
 dojox.mdnd.AreaManager.prototype._addMoveableItem=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.AreaManager._cover.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.AreaManager._cover2.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.AutoScroll
 /**
  * <b>Summary:</b><blockquote>
  *	 Activate scrolling while dragging a widget.<br>
@@ -99628,12 +92296,6 @@ dojox.mdnd.AutoScroll.prototype._autoScrollLeft=function(e){};
  * @memberOf dojox.mdnd.AutoScroll
 */
 dojox.mdnd.AutoScroll.prototype._autoScrollDown=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.AutoScroll._node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.DropIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 DropIndicator managment for DnD.<br>
@@ -99670,12 +92332,6 @@ dojox.mdnd.DropIndicator.prototype.place=function(area, nodeRef, size){};
  * @memberOf dojox.mdnd.DropIndicator
 */
 dojox.mdnd.DropIndicator.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.DropIndicator.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.dropMode
 /**
  * <b>Summary:</b><blockquote>
  *	 Enabled a type of calcul for Dnd.<br>
@@ -99696,9 +92352,6 @@ dojox.mdnd.dropMode.OverDropMode=function(){};
  * </blockquote>
 */
 dojox.mdnd.dropMode.DefaultDropMode=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.dropMode.DefaultDropMode
 /**
  * <b>Summary:</b><blockquote>
  *	 Enabled a type of calcul for Dnd.<br>
@@ -99815,9 +92468,6 @@ dojox.mdnd.dropMode.DefaultDropMode.prototype._updateArea=function(area){};
  * @memberOf dojox.mdnd.dropMode.DefaultDropMode
 */
 dojox.mdnd.dropMode.DefaultDropMode.prototype._checkInterval=function(areaList, index, x){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.dropMode.OverDropMode
 /**
  * <b>Summary:</b><blockquote>
  *	 Default class to find the nearest target only if the mouse is over an area.<br>
@@ -99927,9 +92577,6 @@ dojox.mdnd.dropMode.OverDropMode.prototype._updateArea=function(area){};
  * @memberOf dojox.mdnd.dropMode.OverDropMode
 */
 dojox.mdnd.dropMode.OverDropMode.prototype._checkInterval=function(areaList, index, x, y){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.dropMode.VerticalDropMode
 /**
  * <b>Summary:</b><blockquote>
  *	 Enabled a type of calcul for Dnd.<br>
@@ -100046,9 +92693,6 @@ dojox.mdnd.dropMode.VerticalDropMode.prototype._updateArea=function(area){};
  * @memberOf dojox.mdnd.dropMode.VerticalDropMode
 */
 dojox.mdnd.dropMode.VerticalDropMode.prototype._checkInterval=function(areaList, index, x){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.LazyManager
 /**
  * <b>Summary:</b><blockquote>
  *	 This class allows to launch a drag and drop dojo on the fly.<br>
@@ -100086,12 +92730,6 @@ dojox.mdnd.LazyManager.prototype.destroy=function(){};
  * @memberOf dojox.mdnd.LazyManager
 */
 dojox.mdnd.LazyManager.prototype.cancelDrag=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.LazyManager.manager
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.Moveable
 /**
  * <b>Summary:</b><blockquote>
  *	 Allow end-users to track a DOM node into the web page<br>
@@ -100207,18 +92845,6 @@ dojox.mdnd.Moveable.prototype.initOffsetDrag=function(e){};
  * @memberOf dojox.mdnd.Moveable
 */
 dojox.mdnd.Moveable.prototype.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.Moveable.node
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.Moveable.offsetDrag
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.Moveable.node.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mdnd.PureSource
 /**
  * <b>Summary:</b><blockquote>
  *	 A Source Object, which can be used only as a DnD source.<br>
@@ -100324,9 +92950,6 @@ dojox.mdnd.PureSource.prototype._markDndStatus=function(copy){};
  * @memberOf dojox.mdnd.PureSource
 */
 dojox.mdnd.PureSource.prototype._legalMouseDown=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app
 /**
  * @namespace
 */
@@ -100469,9 +93092,6 @@ dojox.mobile.app.AlertDialog=function(){};
  * @namespace
 */
 dojox.mobile.app.eventMap={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.AlertDialog
 /**
  * @class
  * @extends dijit._WidgetBase
@@ -100522,9 +93142,6 @@ dojox.mobile.app.AlertDialog.prototype.buildRendering=function(){};
  * @memberOf dojox.mobile.app.AlertDialog
 */
 dojox.mobile.app.AlertDialog.prototype._doTransition=function(dir){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile
 /**
  * <b>Summary:</b><blockquote>
  *	 Updates the orientation specific css classes, 'dj_portrait' and<br>
@@ -101141,9 +93758,6 @@ dojox.mobile.Button=function(){};
  * @namespace
 */
 dojox.mobile.i18n={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.List
 /**
  * <b>Summary:</b><blockquote>
  *	 A templated list widget. Given a simple array of data objects<br>
@@ -101352,17 +93966,11 @@ dojox.mobile.app.List.prototype._getRowNode=function(fromNode, ignoreNoClick){};
  * @memberOf dojox.mobile.app.List
 */
 dojox.mobile.app.List.prototype._deselectRow=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.List.deleteRow
 /**
  * @class
  * @returns {dojox.mobile.app.List.deleteRow} new instance
 */
 dojox.mobile.app.List.deleteRow=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.ImageView
 /**
  * @class
  * @extends dojox.mobile.app._Widget
@@ -101533,20 +94141,11 @@ dojox.mobile.app.ImageView.prototype._renderImg=function(smallImg, largeImg, pan
  * @memberOf dojox.mobile.app.ImageView
 */
 dojox.mobile.app.ImageView.prototype._animPanTo=function(to, easing, duration, callback){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.ImageView.buildRendering
 /**
  * @class
  * @returns {dojox.mobile.app.ImageView.buildRendering} new instance
 */
 dojox.mobile.app.ImageView.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.ImageView.buildRendering.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.ImageThumbView
 /**
  * <b>Summary:</b><blockquote>
  *	 An image thumbnail gallery<br>
@@ -101654,15 +94253,6 @@ dojox.mobile.app.ImageThumbView.prototype._getItemNodeFromEvent=function(event){
  * @memberOf dojox.mobile.app.ImageThumbView
 */
 dojox.mobile.app.ImageThumbView.prototype._getItemNode=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.eventMap
-//-jshdr-obj-end
-
-//-jshdr-id-Mojo.Event
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app._FormWidget
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for widgets corresponding to native HTML elements such as &amp;lt;checkbox&amp;gt; or &amp;lt;button&amp;gt;,<br>
@@ -101765,9 +94355,6 @@ dojox.mobile.app._FormWidget.prototype._onFocus=function(e){};
  * @memberOf dojox.mobile.app._FormWidget
 */
 dojox.mobile.app._FormWidget.prototype._handleOnChange=function(newValue, priorityChange){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app._FormValueWidget
 /**
  * <b>Summary:</b><blockquote>
  *	 Base class for widgets corresponding to native HTML elements such as &amp;lt;input&amp;gt; or &amp;lt;select&amp;gt; that have user changeable values.<br>
@@ -101825,30 +94412,7 @@ dojox.mobile.app._FormValueWidget.prototype._setReadOnlyAttr=function(value){};
  * @memberOf dojox.mobile.app._FormValueWidget
 */
 dojox.mobile.app._FormValueWidget.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.mobile.app.ImageThumbView._thumbSize
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.ImageThumbView._size
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.ImageView.canvas
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.ImageView._centerImg
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.ImageView._centerSmallImg
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.List._selectedRow.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.List._selectedRow
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.ListSelector
 /**
  * @class
  * @extends dojox.mobile.app._Widget
@@ -101892,9 +94456,6 @@ dojox.mobile.app.ListSelector.prototype.destroy=function(){};
  * @memberOf dojox.mobile.app.ListSelector
 */
 dojox.mobile.app.ListSelector.prototype._setDataAttr=function(data){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.SceneAssistant
 /**
  * <b>Summary:</b><blockquote>
  *	 The base class for all scene assistants.<br>
@@ -101945,9 +94506,6 @@ dojox.mobile.app.SceneAssistant.prototype.connect=function(obj, method, callback
  * @memberOf dojox.mobile.app.SceneAssistant
 */
 dojox.mobile.app.SceneAssistant.prototype.activate=function(params){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.SceneController
 /**
  * @class
  * @extends dojox.mobile.View
@@ -102017,15 +94575,6 @@ dojox.mobile.app.SceneController.prototype._setContents=function(templateHtml){}
  * @memberOf dojox.mobile.app.SceneController
 */
 dojox.mobile.app.SceneController.prototype._initAssistant=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.SceneController.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.SceneController.assistant
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app.StageController
 /**
  * @class
  * @param {mixed} node 
@@ -102065,9 +94614,6 @@ dojox.mobile.app.StageController.prototype.getActiveSceneController=function(){}
  * @memberOf dojox.mobile.app.StageController
 */
 dojox.mobile.app.StageController.prototype._destroyScene=function(scene){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.app._Widget
 /**
  * <b>Summary:</b><blockquote>
  *	 The base mobile app widget.<br>
@@ -102091,9 +94637,6 @@ dojox.mobile.app._Widget.prototype.getScroll=function(){};
  * @memberOf dojox.mobile.app._Widget
 */
 dojox.mobile.app._Widget.prototype.connect=function(target, event, fn){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Button
 /**
  * <b>Summary:</b><blockquote>
  *	 Non-templated BUTTON widget with a thin API wrapper for click events and setting the label<br>
@@ -102138,15 +94681,6 @@ dojox.mobile.Button.prototype._setLabelAttr=function(content){};
  * @memberOf dojox.mobile.Button
 */
 dojox.mobile.Button.prototype._onClick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Button.srcNodeRef
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Button.srcNodeRef.firstChild
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Carousel
 /**
  * <b>Summary:</b><blockquote>
  *	 A carousel widget that manages a list of images<br>
@@ -102262,25 +94796,10 @@ dojox.mobile.Carousel.prototype.buildRendering=function(){};
  * @memberOf dojox.mobile.Carousel
 */
 dojox.mobile.Carousel.prototype._setTitleAttr=function(title){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Carousel.domNode
 /**
  * @namespace
 */
 dojox.mobile.Carousel.domNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Carousel.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Carousel.piw
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Carousel.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.PageIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 A current page indicator.<br>
@@ -102327,9 +94846,6 @@ dojox.mobile.PageIndicator.prototype.isView=function(node){};
  * @memberOf dojox.mobile.PageIndicator
 */
 dojox.mobile.PageIndicator.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SwapView
 /**
  * <b>Summary:</b><blockquote>
  *	 A container that can be flipped horizontally.<br>
@@ -102440,9 +94956,6 @@ dojox.mobile.SwapView.prototype.goTo=function(dir){};
  * @memberOf dojox.mobile.SwapView
 */
 dojox.mobile.SwapView.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.CheckBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A non-templated checkbox widget that can be in two states (checked or not).<br>
@@ -102467,9 +94980,6 @@ dojox.mobile.CheckBox.prototype._setTypeAttr=function(){};
  * @memberOf dojox.mobile.CheckBox
 */
 dojox.mobile.CheckBox.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ToggleButton
 /**
  * <b>Summary:</b><blockquote>
  *	 A non-templated button widget that can be in two states (checked or not).<br>
@@ -102486,9 +94996,6 @@ dojox.mobile.ToggleButton=function(){};
  * @memberOf dojox.mobile.ToggleButton
 */
 dojox.mobile.ToggleButton.prototype._setCheckedAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ComboBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A non-templated auto-completing text box widget<br>
@@ -102549,12 +95056,6 @@ dojox.mobile.ComboBox.prototype._onFocus=function(){};
  * @memberOf dojox.mobile.ComboBox
 */
 dojox.mobile.ComboBox.prototype._onClick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ComboBox.dropDown
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TextBox
 /**
  * <b>Summary:</b><blockquote>
  *	 A non-templated base class for textbox form inputs<br>
@@ -102574,9 +95075,6 @@ dojox.mobile.TextBox.prototype.postCreate=function(){};
  * @memberOf dojox.mobile.TextBox
 */
 dojox.mobile.TextBox.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile._ComboBoxMenu
 /**
  * <b>Summary:</b><blockquote>
  *	 Focus-less menu for internal use in `dijit.form.ComboBox`<br>
@@ -102636,16 +95134,10 @@ dojox.mobile._ComboBoxMenu.prototype.buildRendering=function(){};
  * @memberOf dojox.mobile._ComboBoxMenu
 */
 dojox.mobile._ComboBoxMenu.prototype._createMenuItem=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile._ComboBoxMenu.scrollable
 /**
  * @memberOf dojox.mobile._ComboBoxMenu.scrollable
 */
 dojox.mobile._ComboBoxMenu.scrollable.prototype.resize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile._ListTouchMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Focus-less menu to handle touch events consistently<br>
@@ -102668,9 +95160,6 @@ dojox.mobile._ListTouchMixin.prototype.postCreate=function(){};
  * @memberOf dojox.mobile._ListTouchMixin
 */
 dojox.mobile._ListTouchMixin.prototype._onClick=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.detectScreenSize
 /**
  * <b>Summary:</b><blockquote>
  *	 Detects the screen size and determines if the screen is like<br>
@@ -102686,9 +95175,6 @@ dojox.mobile._ListTouchMixin.prototype._onClick=function(evt){};
  * @returns {dojox.mobile.detectScreenSize} new instance
 */
 dojox.mobile.detectScreenSize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-registry
 /**
  * @namespace
 */
@@ -102697,9 +95183,6 @@ dojox.registry={};
  * @param {mixed} node 
 */
 dojox.registry.getEnclosingWidget=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.View
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget that represents a view that occupies the full screen<br>
@@ -102914,9 +95397,6 @@ dojox.mobile.View.prototype._fixViewState=function(toNode){};
  * @memberOf dojox.mobile.View
 */
 dojox.mobile.View.prototype._doTransition=function(fromNode, toNode, transition, dir){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch
 /**
  * <b>Summary:</b><blockquote>
  *	 A toggle switch with a sliding knob.<br>
@@ -103026,9 +95506,6 @@ dojox.mobile.Switch.prototype._setLeftLabelAttr=function(label){};
  * @memberOf dojox.mobile.Switch
 */
 dojox.mobile.Switch.prototype._changeState=function(state, anim){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch._changeState
 /**
  * <b>Summary:</b><blockquote>
  *	 Function to toggle the switch state on the switch<br>
@@ -103038,18 +95515,6 @@ dojox.mobile.Switch.prototype._changeState=function(state, anim){};
  * @returns {dojox.mobile.Switch._changeState} new instance
 */
 dojox.mobile.Switch._changeState=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch._changeState.left.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch._changeState.right.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch._changeState.inner.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRect
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple round rectangle container.<br>
@@ -103085,9 +95550,6 @@ dojox.mobile.RoundRect.prototype.resize=function(){};
  * @memberOf dojox.mobile.RoundRect
 */
 dojox.mobile.RoundRect.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRect.buildRendering
 /**
  * <b>Summary:</b><blockquote>
  *	 Function to simulate the borderRadius appearance on<br>
@@ -103097,12 +95559,6 @@ dojox.mobile.RoundRect.prototype.buildRendering=function(){};
  * @returns {dojox.mobile.RoundRect.buildRendering} new instance
 */
 dojox.mobile.RoundRect.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRect.buildRendering.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRectList
 /**
  * <b>Summary:</b><blockquote>
  *	 A rounded rectangle list.<br>
@@ -103193,9 +95649,6 @@ dojox.mobile.RoundRectList.prototype.addChild=function(widget, insertIndex){};
  * @memberOf dojox.mobile.RoundRectList
 */
 dojox.mobile.RoundRectList.prototype._setStatefulAttr=function(stateful){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRectList.buildRendering
 /**
  * <b>Summary:</b><blockquote>
  *	 Function to simulate the borderRadius appearance on<br>
@@ -103205,12 +95658,6 @@ dojox.mobile.RoundRectList.prototype._setStatefulAttr=function(stateful){};
  * @returns {dojox.mobile.RoundRectList.buildRendering} new instance
 */
 dojox.mobile.RoundRectList.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRectList.buildRendering.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.EdgeToEdgeList
 /**
  * <b>Summary:</b><blockquote>
  *	 An edge-to-edge layout list.<br>
@@ -103227,9 +95674,6 @@ dojox.mobile.EdgeToEdgeList=function(){};
  * @memberOf dojox.mobile.EdgeToEdgeList
 */
 dojox.mobile.EdgeToEdgeList.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.EdgeToEdgeList.buildRendering
 /**
  * @class
  * @returns {dojox.mobile.EdgeToEdgeList.buildRendering} new instance
@@ -103239,12 +95683,6 @@ dojox.mobile.EdgeToEdgeList.buildRendering=function(){};
  * @namespace
 */
 dojox.mobile.EdgeToEdgeList.buildRendering.domNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.EdgeToEdgeList.buildRendering.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconContainer
 /**
  * <b>Summary:</b><blockquote>
  *	 A container widget that holds multiple icons.<br>
@@ -103294,9 +95732,6 @@ dojox.mobile.IconContainer.prototype.addChild=function(widget, insertIndex){};
  * @memberOf dojox.mobile.IconContainer
 */
 dojox.mobile.IconContainer.prototype._setupSubNodes=function(ul){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ScrollableView
 /**
  * <b>Summary:</b><blockquote>
  *	 A container that has a touch scrolling capability.<br>
@@ -103372,9 +95807,6 @@ dojox.mobile.ScrollableView.prototype.buildRendering=function(){};
  * @memberOf dojox.mobile.ScrollableView
 */
 dojox.mobile.ScrollableView.prototype.addChild=function(widget, insertIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ContentPane
 /**
  * <b>Summary:</b><blockquote>
  *	 A very simple content pane to embed an HTML fragment.<br>
@@ -103442,12 +95874,6 @@ dojox.mobile.ContentPane.prototype._setHrefAttr=function(href){};
  * @memberOf dojox.mobile.ContentPane
 */
 dojox.mobile.ContentPane.prototype._setContentAttr=function(data){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ContentPane.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile._DataListMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for widgets to generate the list items corresponding to<br>
@@ -103545,9 +95971,6 @@ dojox.mobile._DataListMixin.prototype.createListItem=function(item){};
  * @memberOf dojox.mobile._DataListMixin
 */
 dojox.mobile._DataListMixin.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.EdgeToEdgeCategory
 /**
  * <b>Summary:</b><blockquote>
  *	 A category header for an edge-to-edge list.<br>
@@ -103561,12 +95984,6 @@ dojox.mobile.EdgeToEdgeCategory=function(){};
  * @memberOf dojox.mobile.EdgeToEdgeCategory
 */
 dojox.mobile.EdgeToEdgeCategory.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.EdgeToEdgeCategory.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRectCategory
 /**
  * <b>Summary:</b><blockquote>
  *	 A category header for a rounded rectangle list.<br>
@@ -103591,9 +96008,6 @@ dojox.mobile.RoundRectCategory.prototype.buildRendering=function(){};
  * @memberOf dojox.mobile.RoundRectCategory
 */
 dojox.mobile.RoundRectCategory.prototype._setLabelAttr=function(label){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.EdgeToEdgeDataList
 /**
  * <b>Summary:</b><blockquote>
  *	 An enhanced version of EdgeToEdgeList.<br>
@@ -103606,12 +96020,6 @@ dojox.mobile.RoundRectCategory.prototype._setLabelAttr=function(label){};
  * @returns {dojox.mobile.EdgeToEdgeDataList} new instance
 */
 dojox.mobile.EdgeToEdgeDataList=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.EdgeToEdgeList.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ExpandingTextArea
 /**
  * <b>Summary:</b><blockquote>
  *	 Non-templated TEXTAREA widget with the capability to adjust it's height according to the amount of data.<br>
@@ -103629,9 +96037,6 @@ dojox.mobile.EdgeToEdgeDataList=function(){};
  * 	&lt;textarea dojoType="dojox.mobile.ExpandingTextArea"&gt;...&lt;/textarea&gt;
 */
 dojox.mobile.ExpandingTextArea=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TextArea
 /**
  * <b>Summary:</b><blockquote>
  *	 Non-templated TEXTAREA widget.<br>
@@ -103653,9 +96058,6 @@ dojox.mobile.TextArea.prototype.postMixInProperties=function(){};
  * @memberOf dojox.mobile.TextArea
 */
 dojox.mobile.TextArea.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.FixedSplitter
 /**
  * <b>Summary:</b><blockquote>
  *	 A layout container that splits the window horizontally or<br>
@@ -103708,9 +96110,6 @@ dojox.mobile.FixedSplitter.prototype.buildRendering=function(){};
  * @memberOf dojox.mobile.FixedSplitter
 */
 dojox.mobile.FixedSplitter.prototype.addChild=function(widget, insertIndex){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.FixedSplitterPane
 /**
  * <b>Summary:</b><blockquote>
  *	 A pane widget that is used in a dojox.mobile.FixedSplitter.<br>
@@ -103733,9 +96132,6 @@ dojox.mobile.FixedSplitterPane.prototype.resize=function(){};
  * @memberOf dojox.mobile.FixedSplitterPane
 */
 dojox.mobile.FixedSplitterPane.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Heading
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget that represents a navigation bar.<br>
@@ -103821,33 +96217,7 @@ dojox.mobile.Heading.prototype._setLabelAttr=function(label){};
  * @memberOf dojox.mobile.Heading
 */
 dojox.mobile.Heading.prototype._setBackAttr=function(back){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.mobile.Heading.backProp
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Heading.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Heading.labelNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Heading._btn.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Heading.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Heading.labelNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Heading._body
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Heading.labelDivNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.i18n
 /**
  * <b>Summary:</b><blockquote>
  *	 Accumulates the given localized resouces in an array and returns<br>
@@ -103866,15 +96236,6 @@ dojox.mobile.i18n.registerBundle=function(bundle){};
  * @param {String} [locale] 
 */
 dojox.mobile.i18n.load=function(packageName, bundleName, locale){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconContainer.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconContainer.domNode.childNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconItem
 /**
  * <b>Summary:</b><blockquote>
  *	 An icon item widget.<br>
@@ -104002,33 +96363,7 @@ dojox.mobile.IconItem.prototype._setIconAttr=function(icon){};
  * @memberOf dojox.mobile.IconItem
 */
 dojox.mobile.IconItem.prototype._open_1=function(){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.mobile.IconItem.subNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconItem.srcNodeRef.childNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconItem.closeNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconItem.contentNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconItem.iconNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconItem.containerNode.parentNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconItem.labelNode1
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.IconItem.labelNode2
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile._ItemBase
 /**
  * <b>Summary:</b><blockquote>
  *	 A base class for item classes (e.g. ListItem, IconItem, etc.)<br>
@@ -104102,9 +96437,6 @@ dojox.mobile._ItemBase.prototype.deselect=function(){};
  * @memberOf dojox.mobile._ItemBase
 */
 dojox.mobile._ItemBase.prototype.defaultClickAction=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TransitionEvent
 /**
  * @class
  * @param {mixed} target 
@@ -104122,9 +96454,6 @@ dojox.mobile.TransitionEvent.prototype.endTransition=function(results){};
  * @memberOf dojox.mobile.TransitionEvent
 */
 dojox.mobile.TransitionEvent.prototype.dispatch=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ListItem
 /**
  * <b>Summary:</b><blockquote>
  *	 An item of either RoundRectList or EdgeToEdgeList.<br>
@@ -104249,36 +96578,7 @@ dojox.mobile.ListItem.prototype._setIconAttr=function(icon){};
  * @memberOf dojox.mobile.ListItem
 */
 dojox.mobile.ListItem.prototype._setCheckedAttr=function(checked){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.mobile.ListItem.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ListItem.srcNodeRef.childNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ListItem.labelNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ListItem.anchorNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ListItem.rightIconNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ListItem.rightIconNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ListItem.rightIconNode.childNodes.0.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ListItem.rightIconNode.childNodes.1.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ListItem.rightTextNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Opener
 /**
  * <b>Summary:</b><blockquote>
  *	 A non-templated popup widget that will use either Tooltip or Overlay depending on screen size<br>
@@ -104324,9 +96624,6 @@ dojox.mobile.Opener.prototype._resizeCover=function(){};
  * @memberOf dojox.mobile.Opener
 */
 dojox.mobile.Opener.prototype._onBlur=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Tooltip
 /**
  * <b>Summary:</b><blockquote>
  *	 A non-templated popup bubble widget<br>
@@ -104370,9 +96667,6 @@ dojox.mobile.Tooltip.prototype.destroy=function(){};
  * @memberOf dojox.mobile.Tooltip
 */
 dojox.mobile.Tooltip.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Overlay
 /**
  * <b>Summary:</b><blockquote>
  *	 A non-templated widget that animates up from the bottom, overlaying the current content<br>
@@ -104403,18 +96697,6 @@ dojox.mobile.Overlay.prototype.onBlur=function(e){};
  * @memberOf dojox.mobile.Overlay
 */
 dojox.mobile.Overlay.prototype.hide=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.PageIndicator.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.PageIndicator._tblNode.rows
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.PageIndicator.domNode.parentNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ProgressIndicator
 /**
  * <b>Summary:</b><blockquote>
  *	 A progress indication widget.<br>
@@ -104456,21 +96738,6 @@ dojox.mobile.ProgressIndicator.prototype.start=function(){};
  * @memberOf dojox.mobile.ProgressIndicator
 */
 dojox.mobile.ProgressIndicator.prototype.setImage=function(file){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ProgressIndicator.imageNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ProgressIndicator.colors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ProgressIndicator.spinnerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ProgressIndicator.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RadioButton
 /**
  * <b>Summary:</b><blockquote>
  *	 A non-templated radiobutton widget that can be in two states (checked or not).<br>
@@ -104481,12 +96748,6 @@ dojox.mobile.ProgressIndicator.prototype.setImage=function(file){};
  * @returns {dojox.mobile.RadioButton} new instance
 */
 dojox.mobile.RadioButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRectCategory.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRectDataList
 /**
  * <b>Summary:</b><blockquote>
  *	 An enhanced version of RoundRectList.<br>
@@ -104499,15 +96760,6 @@ dojox.mobile.RadioButton=function(){};
  * @returns {dojox.mobile.RoundRectDataList} new instance
 */
 dojox.mobile.RoundRectDataList=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRect.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.RoundRectList.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile._ScrollableMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for widgets to have a touch scrolling capability.<br>
@@ -104548,24 +96800,6 @@ dojox.mobile._ScrollableMixin.prototype.destroy=function(){};
  * @memberOf dojox.mobile._ScrollableMixin
 */
 dojox.mobile._ScrollableMixin.prototype.checkFixedBar=function(node, local){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile._ScrollableMixin.scrollableParams
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile._ScrollableMixin.domNode.parentNode.childNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ScrollableView.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ScrollableView.containerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ScrollableView.domNode.childNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Slider
 /**
  * <b>Summary:</b><blockquote>
  *	 A non-templated Slider widget similar to the HTML5 INPUT type=range.<br>
@@ -104599,12 +96833,6 @@ dojox.mobile.Slider.prototype.buildRendering=function(){};
  * @memberOf dojox.mobile.Slider
 */
 dojox.mobile.Slider.prototype._setValueAttr=function(value, priorityChange){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Slider.valueNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelYearSlot
 /**
  * @class
  * @extends dojox.mobile.SpinWheelSlot
@@ -104615,9 +96843,6 @@ dojox.mobile.SpinWheelYearSlot=function(){};
  * @memberOf dojox.mobile.SpinWheelYearSlot
 */
 dojox.mobile.SpinWheelYearSlot.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelMonthSlot
 /**
  * @class
  * @extends dojox.mobile.SpinWheelSlot
@@ -104628,18 +96853,12 @@ dojox.mobile.SpinWheelMonthSlot=function(){};
  * @memberOf dojox.mobile.SpinWheelMonthSlot
 */
 dojox.mobile.SpinWheelMonthSlot.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelDaySlot
 /**
  * @class
  * @extends dojox.mobile.SpinWheelSlot
  * @returns {dojox.mobile.SpinWheelDaySlot} new instance
 */
 dojox.mobile.SpinWheelDaySlot=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelDatePicker
 /**
  * <b>Summary:</b><blockquote>
  *	 A SpinWheel-based date picker widget.<br>
@@ -104676,9 +96895,6 @@ dojox.mobile.SpinWheelDatePicker.prototype.onDaySet=function(){};
  * @memberOf dojox.mobile.SpinWheelDatePicker
 */
 dojox.mobile.SpinWheelDatePicker.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheel
 /**
  * <b>Summary:</b><blockquote>
  *	 A value picker widget that has spin wheels.<br>
@@ -104723,9 +96939,6 @@ dojox.mobile.SpinWheel.prototype.getValue=function(){};
  * @memberOf dojox.mobile.SpinWheel
 */
 dojox.mobile.SpinWheel.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot
 /**
  * <b>Summary:</b><blockquote>
  *	 A slot of a SpinWheel.<br>
@@ -104860,44 +97073,7 @@ dojox.mobile.SpinWheelSlot.prototype.adjustDestination=function(to, pos){};
  * @memberOf dojox.mobile.SpinWheelSlot
 */
 dojox.mobile.SpinWheelSlot.prototype.adjust=function(){};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.mobile.SpinWheelSlot.containerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot.items
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot.panelNodes.1
-//-jsdoc-invalid-entry [dojox.mobile.SpinWheelSlot.panelNodes.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot.panelNodes.1.childNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot.panelNodes.0
-//-jsdoc-invalid-entry [dojox.mobile.SpinWheelSlot.panelNodes.INVALID_IDENT]
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot.panelNodes.0.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot.panelNodes.1.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot.panelNodes.2.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot.panelNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot._time
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelSlot.domNode.parentNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SpinWheelTimePicker
 /**
  * <b>Summary:</b><blockquote>
  *	 A SpinWheel-based time picker widget.<br>
@@ -104920,43 +97096,11 @@ dojox.mobile.SpinWheelTimePicker.prototype.reset=function(){};
  * @memberOf dojox.mobile.SpinWheelTimePicker
 */
 dojox.mobile.SpinWheelTimePicker.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SwapView.domNode
 /**
  * @namespace
 */
 dojox.mobile.SwapView.domNode={};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.mobile.SwapView.domNode.parentNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.SwapView.containerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch.left.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch.right.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch.inner.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch.input
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch.left.firstChild
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.Switch.right.firstChild
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBarButton
 /**
  * <b>Summary:</b><blockquote>
  *	 A button widget that is placed in the TabBar widget.<br>
@@ -105047,31 +97191,10 @@ dojox.mobile.TabBarButton.prototype._setIcon1Attr=function(icon){};
  * @memberOf dojox.mobile.TabBarButton
 */
 dojox.mobile.TabBarButton.prototype._setIcon=function(icon, pos, num, sel){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBarButton.srcNodeRef.childNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBarButton.srcNodeRef
 /**
  * @namespace
 */
 dojox.mobile.TabBarButton.srcNodeRef={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBarButton.box
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBarButton.domNode.parentNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBarButton.iconNode1.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBarButton.iconNode2.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBar
 /**
  * <b>Summary:</b><blockquote>
  *	 A bar widget that has buttons to control visibility of views.<br>
@@ -105107,18 +97230,6 @@ dojox.mobile.TabBar.prototype.resize=function(size){};
  * @memberOf dojox.mobile.TabBar
 */
 dojox.mobile.TabBar.prototype.buildRendering=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBar.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBar.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.TabBar.containerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ToolBarButton
 /**
  * <b>Summary:</b><blockquote>
  *	 A button widget that is placed in the Heading widget.<br>
@@ -105172,12 +97283,6 @@ dojox.mobile.ToolBarButton.prototype._setLabelAttr=function(text){};
  * @memberOf dojox.mobile.ToolBarButton
 */
 dojox.mobile.ToolBarButton.prototype._setBtnClassAttr=function(btnClass){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ToolBarButton.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.ViewController
 /**
  * <b>Summary:</b><blockquote>
  *	 A singleton class that controlls view transition.<br>
@@ -105233,21 +97338,6 @@ dojox.mobile.ViewController.prototype._parse=function(text, id){};
  * @memberOf dojox.mobile.ViewController
 */
 dojox.mobile.ViewController.prototype._instantiate=function(obj, node, parent){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.View.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.View.domNode.parentNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.View.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mobile.View.containerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc
 /**
  * <b>Summary:</b><blockquote>
  *	 Factory method that instantiates a new data model that view<br>
@@ -105544,9 +97634,6 @@ dojox.mvc.Group=function(){};
  * components inside it inherit their parent data binding context from it.<br>
 */
 dojox.mvc.Generate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc._Container
 /**
  * @class
  * @extends dijit._WidgetBase
@@ -105581,9 +97668,6 @@ dojox.mvc._Container.prototype._destroyBody=function(){};
  * @memberOf dojox.mvc._Container
 */
 dojox.mvc._Container.prototype._createBody=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc._DataBindingMixin
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides the ability for dijits or custom view components to become<br>
@@ -105775,9 +97859,6 @@ dojox.mvc._DataBindingMixin.prototype._getParentBindingFromDOM=function(){};
  * @memberOf dojox.mvc._DataBindingMixin
 */
 dojox.mvc._DataBindingMixin.prototype._dbstartup=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.Generate
 /**
  * <b>Summary:</b><blockquote>
  *	 A container that generates a view based on the data model its bound to.<br>
@@ -105865,21 +97946,6 @@ dojox.mvc.Generate.prototype._generateBody=function(binding, hideHeading){};
  * @memberOf dojox.mvc.Generate
 */
 dojox.mvc.Generate.prototype._buildContained=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.Generate._defaultWidgetMapping
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.Generate._defaultClassMapping
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.Generate._defaultIdNameMapping
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.Generate.srcNodeRef
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.Group
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple model-bound container widget with single-node binding to a data model.<br>
@@ -105892,9 +97958,6 @@ dojox.mvc.Generate.prototype._buildContained=function(){};
  * @returns {dojox.mvc.Group} new instance
 */
 dojox.mvc.Group=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.Output
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple widget that displays templated output, parts of which may<br>
@@ -105964,12 +98027,6 @@ dojox.mvc.Output.prototype._output=function(){};
  * @memberOf dojox.mvc.Output
 */
 dojox.mvc.Output.prototype._exprRepl=function(tmpl){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.Output.srcNodeRef
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.Repeat
 /**
  * <b>Summary:</b><blockquote>
  *	 Override and save template from body.<br>
@@ -106020,12 +98077,6 @@ dojox.mvc.Repeat.prototype._updateAddRemoveWatch=function(){};
  * @memberOf dojox.mvc.Repeat
 */
 dojox.mvc.Repeat.prototype._buildContained=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.Repeat.srcNodeRef
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.mvc.StatefulModel
 /**
  * <b>Summary:</b><blockquote>
  *	 The first-class native JavaScript data model based on dojo.Stateful<br>
@@ -106287,21 +98338,12 @@ dojox.mvc.StatefulModel.prototype._copyStatefulProperties=function(src, dest){};
  * @memberOf dojox.mvc.StatefulModel
 */
 dojox.mvc.StatefulModel.prototype._commit=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.NodeList
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.rails
 /**
  * @param {mixed} selector 
  * @param {mixed} evtName 
  * @param {mixed} fn 
 */
 dojox.rails.live=function(selector, evtName, fn){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.validate
 /**
  * <b>Summary:</b><blockquote>
  *	 Validate a String value against the Luhn algorithm.<br>
@@ -106510,15 +98552,6 @@ dojox.validate.regexp={};
  * @private
 */
 dojox.validate._cardInfo={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.robot
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.rpc.Client
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.rpc.JsonRest
 /**
  * @param {mixed} actions 
  * @param {mixed} kwArgs 
@@ -106620,17 +98653,11 @@ dojox.rpc.JsonRest.byId=function(service, id){};
  * @private
 */
 dojox.rpc.JsonRest._loader=function(callback){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.rpc.JsonRest.sendToServer
 /**
  * @class
  * @returns {dojox.rpc.JsonRest.sendToServer} new instance
 */
 dojox.rpc.JsonRest.sendToServer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.rpc.OfflineRest
 /**
 */
 dojox.rpc.OfflineRest.turnOffAutoSync=function(){};
@@ -106647,9 +98674,6 @@ dojox.rpc.OfflineRest.downloadChanges=function(){};
  * available when offline.<br>
 */
 dojox.rpc.OfflineRest.addStore=function(store, baseQuery){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.rpc.Service
 /**
  * <b>Summary:</b><blockquote>
  *	 Take a string as a url to retrieve an smd or an object that is an smd or partial smd to use<br>
@@ -106692,9 +98716,6 @@ dojox.rpc.Service.prototype._generateService=function(serviceName, method){};
  * @memberOf dojox.rpc.Service
 */
 dojox.rpc.Service.prototype._executeMethod=function(method){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.secure
 /**
  * @param {mixed} result 
 */
@@ -106728,9 +98749,6 @@ dojox.secure.DOM=function(element){};
  * @namespace
 */
 dojox.secure.capability={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.secure.capability
 /**
  * <b>Summary:</b><blockquote>
  *	 pass in the text of a script. If it passes and it can be eval'ed, it should be safe.<br>
@@ -106746,9 +98764,6 @@ dojox.secure.capability={};
  * @returns {comments are replaced with a space, strings and regex are replaced with a single safe token (0)|replace literal keys with 0: and replace properties with the innocuous ~|turn into a known safe call} -
 */
 dojox.secure.capability.validate=function(script, safeLibraries, safeGlobals){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.secure.capability.validate
 /**
  * <b>Summary:</b><blockquote>
  *	 pass in the text of a script. If it passes and it can be eval'ed, it should be safe.<br>
@@ -106762,12 +98777,6 @@ dojox.secure.capability.validate=function(script, safeLibraries, safeGlobals){};
  * @returns {dojox.secure.capability.validate} new instance
 */
 dojox.secure.capability.validate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-wrap
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.NodeList.addContent
 /**
  * @namespace
 */
@@ -106776,9 +98785,6 @@ dojo.NodeList.addContent={};
  * @param {mixed} content 
 */
 dojo.NodeList.addContent.safetyCheck=function(content){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.NodeList.style
 /**
  * @namespace
 */
@@ -106788,9 +98794,6 @@ dojo.NodeList.style={};
  * @param {mixed} value 
 */
 dojo.NodeList.style.safetyCheck=function(name, value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojo.NodeList.attr
 /**
  * @namespace
 */
@@ -106800,9 +98803,6 @@ dojo.NodeList.attr={};
  * @param {mixed} value 
 */
 dojo.NodeList.attr.safetyCheck=function(name, value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch
 /**
  * @param {mixed} type 
  * @param {mixed} fn 
@@ -106880,9 +98880,6 @@ dojox.sketch.Anchor=function(an, id, isControl){};
  * @namespace
 */
 dojox.sketch.CommandTypes={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Anchor
 /**
  * @class
  * @returns {dojox.sketch.Anchor} new instance
@@ -106914,9 +98911,6 @@ dojox.sketch.Anchor.disable=function(){};
 /**
 */
 dojox.sketch.Anchor.beginEdit=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.AnnotationTool
 /**
  * @class
  * @extends dojox.sketch._Plugin
@@ -106946,9 +98940,6 @@ dojox.sketch.AnnotationTool.prototype.onMouseDown=function(e){};
  * @memberOf dojox.sketch.AnnotationTool
 */
 dojox.sketch.AnnotationTool.prototype._create=function(start, end){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Annotation
 /**
  * @class
  * @returns {dojox.sketch.Annotation} new instance
@@ -107046,25 +99037,16 @@ dojox.sketch.Annotation.beginEdit=function(type){};
  * @param {mixed} obj 
 */
 dojox.sketch.Annotation.apply=function(obj){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Annotation.beginEdit
 /**
  * @class
  * @returns {dojox.sketch.Annotation.beginEdit} new instance
 */
 dojox.sketch.Annotation.beginEdit=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Annotation.endEdit
 /**
  * @class
  * @returns {dojox.sketch.Annotation.endEdit} new instance
 */
 dojox.sketch.Annotation.endEdit=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Annotation.calculate
 /**
  * @param {mixed} p1 
  * @param {mixed} p2 
@@ -107082,39 +99064,21 @@ dojox.sketch.Annotation.calculate.dy=function(p1, p2, dx){};
  * @param {mixed} dy 
 */
 dojox.sketch.Annotation.calculate.dx=function(p1, p2, dy){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Annotation.drawBBox
 /**
  * @class
  * @returns {dojox.sketch.Annotation.drawBBox} new instance
 */
 dojox.sketch.Annotation.drawBBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Annotation.setMode
 /**
  * @class
  * @returns {dojox.sketch.Annotation.setMode} new instance
 */
 dojox.sketch.Annotation.setMode=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Annotation.readCommonAttrs
 /**
  * @class
  * @returns {dojox.sketch.Annotation.readCommonAttrs} new instance
 */
 dojox.sketch.Annotation.readCommonAttrs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Annotation.readCommonAttrs.transform
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Annotation.Modes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation
 /**
  * @class
  * @returns {dojox.sketch.DoubleArrowAnnotation} new instance
@@ -107159,82 +99123,43 @@ dojox.sketch.DoubleArrowAnnotation._rot=function(){};
  * @private
 */
 dojox.sketch.DoubleArrowAnnotation._pos=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation.anchors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation._rot
 /**
  * @class
  * @private
  * @returns {dojox.sketch.DoubleArrowAnnotation._rot} new instance
 */
 dojox.sketch.DoubleArrowAnnotation._rot=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation._pos
 /**
  * @class
  * @private
  * @returns {dojox.sketch.DoubleArrowAnnotation._pos} new instance
 */
 dojox.sketch.DoubleArrowAnnotation._pos=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation.apply
 /**
  * @class
  * @returns {dojox.sketch.DoubleArrowAnnotation.apply} new instance
 */
 dojox.sketch.DoubleArrowAnnotation.apply=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation.apply.start
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation.apply.control
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation.apply.end
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation.initialize
 /**
  * @class
  * @returns {dojox.sketch.DoubleArrowAnnotation.initialize} new instance
 */
 dojox.sketch.DoubleArrowAnnotation.initialize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation.destroy
 /**
  * @class
  * @returns {dojox.sketch.DoubleArrowAnnotation.destroy} new instance
 */
 dojox.sketch.DoubleArrowAnnotation.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation.draw
 /**
  * @class
  * @returns {dojox.sketch.DoubleArrowAnnotation.draw} new instance
 */
 dojox.sketch.DoubleArrowAnnotation.draw=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation.zoom
 /**
  * @class
  * @returns {dojox.sketch.DoubleArrowAnnotation.zoom} new instance
 */
 dojox.sketch.DoubleArrowAnnotation.zoom=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.DoubleArrowAnnotation.zoom.figure
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Figure
 /**
  * @class
  * @returns {dojox.sketch.Figure} new instance
@@ -107426,73 +99351,46 @@ dojox.sketch.Figure._calCol=function(v){};
  * @private
 */
 dojox.sketch.Figure._add=function(obj){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Figure.initUndoStack
 /**
  * @class
  * @returns {dojox.sketch.Figure.initUndoStack} new instance
 */
 dojox.sketch.Figure.initUndoStack=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Figure.setTool
 /**
  * @class
  * @returns {dojox.sketch.Figure.setTool} new instance
 */
 dojox.sketch.Figure.setTool=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Figure.initialize
 /**
  * @class
  * @returns {dojox.sketch.Figure.initialize} new instance
 */
 dojox.sketch.Figure.initialize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Figure.destroy
 /**
  * @class
  * @returns {dojox.sketch.Figure.destroy} new instance
 */
 dojox.sketch.Figure.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Figure.zoom
 /**
  * @class
  * @returns {dojox.sketch.Figure.zoom} new instance
 */
 dojox.sketch.Figure.zoom=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Figure.unzoom
 /**
  * @class
  * @returns {dojox.sketch.Figure.unzoom} new instance
 */
 dojox.sketch.Figure.unzoom=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Figure.setValue
 /**
  * @class
  * @returns {dojox.sketch.Figure.setValue} new instance
 */
 dojox.sketch.Figure.setValue=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Figure.load
 /**
  * @class
  * @returns {dojox.sketch.Figure.load} new instance
 */
 dojox.sketch.Figure.load=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.LeadAnnotation
 /**
  * @class
  * @returns {dojox.sketch.LeadAnnotation} new instance
@@ -107529,54 +99427,27 @@ dojox.sketch.LeadAnnotation.apply=function(obj){};
  * @private
 */
 dojox.sketch.LeadAnnotation._pos=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.LeadAnnotation.anchors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.LeadAnnotation._pos
 /**
  * @class
  * @private
  * @returns {dojox.sketch.LeadAnnotation._pos} new instance
 */
 dojox.sketch.LeadAnnotation._pos=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.LeadAnnotation.apply
 /**
  * @class
  * @returns {dojox.sketch.LeadAnnotation.apply} new instance
 */
 dojox.sketch.LeadAnnotation.apply=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.LeadAnnotation.apply.start
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.LeadAnnotation.apply.control
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.LeadAnnotation.apply.end
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.LeadAnnotation.initialize
 /**
  * @class
  * @returns {dojox.sketch.LeadAnnotation.initialize} new instance
 */
 dojox.sketch.LeadAnnotation.initialize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.LeadAnnotation.destroy
 /**
  * @class
  * @returns {dojox.sketch.LeadAnnotation.destroy} new instance
 */
 dojox.sketch.LeadAnnotation.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch._Plugin
 /**
  * @class
  * @param {Object} [args] 
@@ -107640,9 +99511,6 @@ dojox.sketch._Plugin.prototype.activate=function(e){};
  * @memberOf dojox.sketch._Plugin
 */
 dojox.sketch._Plugin.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.PreexistingAnnotation
 /**
  * @class
  * @returns {dojox.sketch.PreexistingAnnotation} new instance
@@ -107683,51 +99551,27 @@ dojox.sketch.PreexistingAnnotation.apply=function(obj){};
  * @private
 */
 dojox.sketch.PreexistingAnnotation._pos=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.PreexistingAnnotation.anchors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.PreexistingAnnotation._pos
 /**
  * @class
  * @private
  * @returns {dojox.sketch.PreexistingAnnotation._pos} new instance
 */
 dojox.sketch.PreexistingAnnotation._pos=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.PreexistingAnnotation.apply
 /**
  * @class
  * @returns {dojox.sketch.PreexistingAnnotation.apply} new instance
 */
 dojox.sketch.PreexistingAnnotation.apply=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.PreexistingAnnotation.apply.start
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.PreexistingAnnotation.apply.end
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.PreexistingAnnotation.initialize
 /**
  * @class
  * @returns {dojox.sketch.PreexistingAnnotation.initialize} new instance
 */
 dojox.sketch.PreexistingAnnotation.initialize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.PreexistingAnnotation.destroy
 /**
  * @class
  * @returns {dojox.sketch.PreexistingAnnotation.destroy} new instance
 */
 dojox.sketch.PreexistingAnnotation.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation
 /**
  * @class
  * @returns {dojox.sketch.SingleArrowAnnotation} new instance
@@ -107772,82 +99616,43 @@ dojox.sketch.SingleArrowAnnotation._rot=function(){};
  * @private
 */
 dojox.sketch.SingleArrowAnnotation._pos=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation.anchors
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation._rot
 /**
  * @class
  * @private
  * @returns {dojox.sketch.SingleArrowAnnotation._rot} new instance
 */
 dojox.sketch.SingleArrowAnnotation._rot=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation._pos
 /**
  * @class
  * @private
  * @returns {dojox.sketch.SingleArrowAnnotation._pos} new instance
 */
 dojox.sketch.SingleArrowAnnotation._pos=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation.apply
 /**
  * @class
  * @returns {dojox.sketch.SingleArrowAnnotation.apply} new instance
 */
 dojox.sketch.SingleArrowAnnotation.apply=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation.apply.start
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation.apply.control
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation.apply.end
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation.initialize
 /**
  * @class
  * @returns {dojox.sketch.SingleArrowAnnotation.initialize} new instance
 */
 dojox.sketch.SingleArrowAnnotation.initialize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation.destroy
 /**
  * @class
  * @returns {dojox.sketch.SingleArrowAnnotation.destroy} new instance
 */
 dojox.sketch.SingleArrowAnnotation.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation.draw
 /**
  * @class
  * @returns {dojox.sketch.SingleArrowAnnotation.draw} new instance
 */
 dojox.sketch.SingleArrowAnnotation.draw=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation.zoom
 /**
  * @class
  * @returns {dojox.sketch.SingleArrowAnnotation.zoom} new instance
 */
 dojox.sketch.SingleArrowAnnotation.zoom=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.SingleArrowAnnotation.zoom.figure
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Slider
 /**
  * @class
  * @extends dojox.sketch._Plugin
@@ -107879,12 +99684,6 @@ dojox.sketch.Slider.prototype._setZoom=function(v){};
  * @memberOf dojox.sketch.Slider
 */
 dojox.sketch.Slider.prototype._initButton=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Slider.slider._movable.node
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.ButtonGroup
 /**
  * @class
  * @returns {dojox.sketch.ButtonGroup} new instance
@@ -107901,9 +99700,6 @@ dojox.sketch.ButtonGroup.prototype.add=function(plugin){};
  * @memberOf dojox.sketch.ButtonGroup
 */
 dojox.sketch.ButtonGroup.prototype._resetGroup=function(p){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.Toolbar
 /**
  * @class
  * @extends dijit.Toolbar
@@ -107939,9 +99735,6 @@ dojox.sketch.Toolbar.prototype.addGroupItem=function(item, group){};
  * @memberOf dojox.sketch.Toolbar
 */
 dojox.sketch.Toolbar.prototype._setShape=function(s){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.UnderlineAnnotationTool
 /**
  * @class
  * @extends dojox.sketch.AnnotationTool
@@ -107960,12 +99753,6 @@ dojox.sketch.UnderlineAnnotationTool.prototype.onMouseMove=function(){};
  * @memberOf dojox.sketch.UnderlineAnnotationTool
 */
 dojox.sketch.UnderlineAnnotationTool.prototype.onMouseDown=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.UnderlineAnnotationTool.figure
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.UnderlineAnnotation
 /**
  * @class
  * @returns {dojox.sketch.UnderlineAnnotation} new instance
@@ -108002,36 +99789,21 @@ dojox.sketch.UnderlineAnnotation.destroy=function(){};
  * @param {mixed} obj 
 */
 dojox.sketch.UnderlineAnnotation.apply=function(obj){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.UnderlineAnnotation.initialize
 /**
  * @class
  * @returns {dojox.sketch.UnderlineAnnotation.initialize} new instance
 */
 dojox.sketch.UnderlineAnnotation.initialize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.UnderlineAnnotation.destroy
 /**
  * @class
  * @returns {dojox.sketch.UnderlineAnnotation.destroy} new instance
 */
 dojox.sketch.UnderlineAnnotation.destroy=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.UnderlineAnnotation.getBBox
 /**
  * @class
  * @returns {dojox.sketch.UnderlineAnnotation.getBBox} new instance
 */
 dojox.sketch.UnderlineAnnotation.getBBox=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.UnderlineAnnotation.getBBox.figure
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.UndoStack
 /**
  * @class
  * @param {mixed} figure 
@@ -108064,12 +99836,6 @@ dojox.sketch.UndoStack.prototype.apply=function(state, from, to){};
  * @memberOf dojox.sketch.UndoStack
 */
 dojox.sketch.UndoStack.prototype.add=function(cmd, ann, before){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sketch.CommandTypes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.socket
 /**
  * <b>Summary:</b><blockquote>
  *	 Provides auto-reconnection to a websocket after it has been closed<br>
@@ -108085,9 +99851,6 @@ dojox.sketch.UndoStack.prototype.add=function(cmd, ann, before){};
  *  socket = dojox.socket.Reconnect(socket);
 */
 dojox.socket.Reconnect=function(socket, options){};
-//-jshdr-obj-end
-
-//-jshdr-id-Socket
 /**
  * @namespace
 */
@@ -108131,9 +99894,6 @@ dojox.Socket.WebSocket=function(args, fallback){};
  *  var socket = dojox.socket({url:"/comet"});
 */
 dojox.Socket.LongPoll=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sql
 /**
  * @param {mixed} dbName 
 */
@@ -108187,43 +99947,28 @@ dojox.sql._exec=function(params){};
  * @param {mixed} callback 
 */
 dojox.sql._SQLCrypto=function(action, sql, password, args, callback){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sql.open
 /**
  * @class
  * @returns {dojox.sql.open} new instance
 */
 dojox.sql.open=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sql.close
 /**
  * @class
  * @returns {dojox.sql.close} new instance
 */
 dojox.sql.close=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sql._exec
 /**
  * @class
  * @private
  * @returns {dojox.sql._exec} new instance
 */
 dojox.sql._exec=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sql._initDb
 /**
  * @class
  * @private
  * @returns {dojox.sql._initDb} new instance
 */
 dojox.sql._initDb=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sql._SQLCrypto
 /**
  * <b>Summary:</b><blockquote>
  *	 A private class encapsulating any cryptography that must be done<br>
@@ -108306,9 +100051,6 @@ dojox.sql._SQLCrypto.prototype._decryptSingleColumn=function(columnName, columnV
  * @memberOf dojox.sql._SQLCrypto
 */
 dojox.sql._SQLCrypto.prototype._decrypt=function(resultSet, needsDecrypt, password, callback){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sql._crypto
 /**
  * @namespace
  * @private
@@ -108352,9 +100094,6 @@ dojox.sql._crypto._initWorkerPool=function(){};
  * @private
 */
 dojox.sql._crypto._assignWork=function(msg, callback){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sql._crypto._initWorkerPool
 /**
  * @class
  * @private
@@ -108366,26 +100105,17 @@ dojox.sql._crypto._initWorkerPool=function(){};
  * @private
 */
 dojox.sql._crypto._initWorkerPool._manager={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sql._crypto._initWorkerPool._manager
 /**
  * @param {mixed} msg 
  * @param {mixed} sender 
 */
 dojox.sql._crypto._initWorkerPool._manager.onmessage=function(msg, sender){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.sql._crypto._assignWork
 /**
  * @class
  * @private
  * @returns {dojox.sql._crypto._assignWork} new instance
 */
 dojox.sql._crypto._assignWork=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage
 /**
  * <b>Summary:</b><blockquote>
  *	 A singleton class in charge of the dojox.storage system<br>
@@ -108471,9 +100201,6 @@ dojox.storage.AirEncryptedLocalStorageProvider=function(){};
 /**
 */
 dojox.storage.AirDBStorageProvider=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.AirDBStorageProvider
 /**
  * @class
  * @extends dojox.storage.Provider
@@ -108579,9 +100306,6 @@ dojox.storage.AirDBStorageProvider.prototype._commitTransaction=function(){};
  * @memberOf dojox.storage.AirDBStorageProvider
 */
 dojox.storage.AirDBStorageProvider.prototype._beginTransaction=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.AirEncryptedLocalStorageProvider
 /**
  * @class
  * @extends dojox.storage.Provider
@@ -108689,9 +100413,6 @@ dojox.storage.AirEncryptedLocalStorageProvider.prototype._removeItem=function(ke
  * @memberOf dojox.storage.AirEncryptedLocalStorageProvider
 */
 dojox.storage.AirEncryptedLocalStorageProvider.prototype._getItem=function(key){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.AirFileStorageProvider
 /**
  * @class
  * @extends dojox.storage.Provider
@@ -108780,9 +100501,6 @@ dojox.storage.AirFileStorageProvider.prototype.get=function(key, namespace){};
  * @memberOf dojox.storage.AirFileStorageProvider
 */
 dojox.storage.AirFileStorageProvider.prototype.clear=function(namespace){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.BehaviorStorageProvider
 /**
  * @class
  * @extends dojox.storage.Provider
@@ -108895,9 +100613,6 @@ dojox.storage.BehaviorStorageProvider.prototype._assertIsValidKey=function(key){
  * @memberOf dojox.storage.BehaviorStorageProvider
 */
 dojox.storage.BehaviorStorageProvider.prototype._addKey=function(key){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.CookieStorageProvider
 /**
  * @class
  * @extends dojox.storage.Provider
@@ -108998,9 +100713,6 @@ dojox.storage.CookieStorageProvider.prototype._assertIsValidNamespace=function(n
  * @memberOf dojox.storage.CookieStorageProvider
 */
 dojox.storage.CookieStorageProvider.prototype._assertIsValidKey=function(key){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.FlashStorageProvider
 /**
  * @class
  * @extends dojox.storage.Provider
@@ -109126,9 +100838,6 @@ dojox.storage.FlashStorageProvider.prototype._loaded=function(){};
  * @memberOf dojox.storage.FlashStorageProvider
 */
 dojox.storage.FlashStorageProvider.prototype._destringify=function(results){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.GearsStorageProvider
 /**
  * <b>Summary:</b><blockquote>
  *	 Storage provider that uses the features of Google Gears<br>
@@ -109236,9 +100945,6 @@ dojox.storage.GearsStorageProvider.prototype.clear=function(namespace){};
  * @memberOf dojox.storage.GearsStorageProvider
 */
 dojox.storage.GearsStorageProvider.prototype._initStorage=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.LocalStorageProvider
 /**
  * @class
  * @extends dojox.storage.Provider
@@ -109334,9 +101040,6 @@ dojox.storage.LocalStorageProvider.prototype._assertIsValidNamespace=function(na
  * @memberOf dojox.storage.LocalStorageProvider
 */
 dojox.storage.LocalStorageProvider.prototype._assertIsValidKey=function(key){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.manager
 /**
  * <b>Summary:</b><blockquote>
  *	 A singleton class in charge of the dojox.storage system<br>
@@ -109475,9 +101178,6 @@ dojox.storage.manager.addOnLoad=function(func){};
  * @private
 */
 dojox.storage.manager._fireLoaded=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.Provider
 /**
  * <b>Summary:</b><blockquote>
  *	 A singleton for working with dojox.storage.<br>
@@ -109766,9 +101466,6 @@ dojox.storage.Provider.prototype.get=function(key, namespace){};
  * @memberOf dojox.storage.Provider
 */
 dojox.storage.Provider.prototype.clear=function(namespace){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.storage.WhatWGStorageProvider
 /**
  * <b>Summary:</b><blockquote>
  *	 Storage provider that uses WHAT Working Group features in Firefox 2<br>
@@ -109858,9 +101555,6 @@ dojox.storage.WhatWGStorageProvider.prototype.get=function(key, namespace){};
  * @memberOf dojox.storage.WhatWGStorageProvider
 */
 dojox.storage.WhatWGStorageProvider.prototype.clear=function(namespace){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.store
 /**
  * <b>Summary:</b><blockquote>
  *	 The constructor for the LightstreamerStore.<br>
@@ -109871,9 +101565,6 @@ dojox.storage.WhatWGStorageProvider.prototype.clear=function(namespace){};
  * @param {String} dataAdapter This is the data adapter to connect to (defined with the Lightstreamer server)
 */
 dojox.store.LightstreamerStore=function(pushPage, group, schema, dataAdapter){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.store.LightstreamerStore
 /**
  * <b>Summary:</b><blockquote>
  *	 The constructor for the LightstreamerStore.<br>
@@ -109929,18 +101620,12 @@ dojox.store.LightstreamerStore.prototype.get=function(id){};
  * @private
 */
 dojox.store.LightstreamerStore.__queryOptionsArgs=function(dataAdapter, itemsRange, requestedBufferSize, requestedMaxFrequency, selector, snapshotRequired, commandLogic){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.store.LightstreamerStore.__queryOptionsArgs
 /**
  * @class
  * @private
  * @returns {dojox.store.LightstreamerStore.__queryOptionsArgs} new instance
 */
 dojox.store.LightstreamerStore.__queryOptionsArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.string.BidiEngine
 /**
  * <b>Summary:</b><blockquote>
  *	 This class provides a bidi transformation engine, i.e.<br>
@@ -110080,9 +101765,6 @@ dojox.string.BidiEngine.prototype.checkContextual=function(text){};
  * @memberOf dojox.string.BidiEngine
 */
 dojox.string.BidiEngine.prototype.bidiTransform=function(text, formatIn, formatOut){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.testing
 /**
  * <b>Summary:</b><blockquote>
  *	 This class executes doctests.<br>
@@ -110121,9 +101803,6 @@ dojox.string.BidiEngine.prototype.bidiTransform=function(text, formatIn, formatO
  * They don't make sense everywhere, but sometimes they are really handy.<br>
 */
 dojox.testing.DocTest=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.testing.DocTest
 /**
  * <b>Summary:</b><blockquote>
  *	 This class executes doctests.<br>
@@ -110248,9 +101927,6 @@ dojox.testing.DocTest.prototype._run=function(tests){};
  * @memberOf dojox.testing.DocTest
 */
 dojox.testing.DocTest.prototype._getTestsFromString=function(data, insideComments){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.timing
 /**
  * <b>Summary:</b><blockquote>
  *	 Check if a parameter is ready, and if not,<br>
@@ -110322,9 +101998,6 @@ dojox.timing.threadStates={};
  * @namespace
 */
 dojox.timing.threadPriorities={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.timing.Timer
 /**
  * <b>Summary:</b><blockquote>
  *	 Timer object executes an &amp;quot;onTick()&amp;quot; method repeatedly at a specified interval.<br>
@@ -110367,9 +102040,6 @@ dojox.timing.Timer.prototype.setInterval=function(interval){};
  * @memberOf dojox.timing.Timer
 */
 dojox.timing.Timer.prototype.onTick=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.timing.Timer.setInterval
 /**
  * <b>Summary:</b><blockquote>
  *	 Reset the interval of a timer, whether running or not.<br>
@@ -110378,9 +102048,6 @@ dojox.timing.Timer.prototype.onTick=function(){};
  * @returns {dojox.timing.Timer.setInterval} new instance
 */
 dojox.timing.Timer.setInterval=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.timing.Timer.start
 /**
  * <b>Summary:</b><blockquote>
  *	 Start the timer ticking.<br>
@@ -110392,9 +102059,6 @@ dojox.timing.Timer.setInterval=function(){};
  * @returns {dojox.timing.Timer.start} new instance
 */
 dojox.timing.Timer.start=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.timing.Timer.stop
 /**
  * <b>Summary:</b><blockquote>
  *	 Stop the timer.<br>
@@ -110404,9 +102068,6 @@ dojox.timing.Timer.start=function(){};
  * @returns {dojox.timing.Timer.stop} new instance
 */
 dojox.timing.Timer.stop=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.timing.Sequence
 /**
  * <b>Summary:</b><blockquote>
  *	 This class provides functionality to really sequentialize<br>
@@ -110463,9 +102124,6 @@ dojox.timing.Sequence.prototype.go=function(defs, doneFunction){};
  * @memberOf dojox.timing.Sequence
 */
 dojox.timing.Sequence.prototype._go=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.timing.Streamer
 /**
  * @class
  * @returns {dojox.timing.Streamer} new instance
@@ -110497,15 +102155,6 @@ dojox.timing.Streamer.onStart=function(){};
 /**
 */
 dojox.timing.Streamer.inputFunction=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.timing.threadStates
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.timing.threadPriorities
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.timing.Thread
 /**
  * @class
  * @returns {dojox.timing.Thread} new instance
@@ -110514,9 +102163,6 @@ dojox.timing.Thread=function(){};
 /**
 */
 dojox.timing.Thread.invoke=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.uuid
 /**
  * <b>Summary:</b><blockquote>
  *	 Returns true if the UUID was initialized with a valid value.<br>
@@ -110683,15 +102329,6 @@ dojox.uuid.version={};
  * @namespace
 */
 dojox.uuid.variant={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.uuid.version
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.uuid.variant
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.uuid.generateTimeBasedUuid
 /**
  * <b>Summary:</b><blockquote>
  *	 Sets the 'node' value that will be included in generated UUIDs.<br>
@@ -110711,9 +102348,6 @@ dojox.uuid.generateTimeBasedUuid.isValidNode=function(node){};
  * @returns {String (a 12-character hex string representing a pseudoNode or hardwareNode)} -
 */
 dojox.uuid.generateTimeBasedUuid.getNode=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.uuid.generateTimeBasedUuid.setNode
 /**
  * <b>Summary:</b><blockquote>
  *	 Sets the 'node' value that will be included in generated UUIDs.<br>
@@ -110722,9 +102356,6 @@ dojox.uuid.generateTimeBasedUuid.getNode=function(){};
  * @returns {dojox.uuid.generateTimeBasedUuid.setNode} new instance
 */
 dojox.uuid.generateTimeBasedUuid.setNode=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.uuid.Uuid
 /**
  * <b>Summary:</b><blockquote>
  *	 This is the constructor for the Uuid class.  The Uuid class offers<br>
@@ -110840,9 +102471,6 @@ dojox.uuid.Uuid.getGenerator=function(){};
  * @returns {integer|integer (either 0, 1, or -1)} -
 */
 dojox.uuid.Uuid.compare=function(uuidOne, uuidTwo, otherUuid){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.uuid.Uuid.getVersion
 /**
  * <b>Summary:</b><blockquote>
  *	 Returns a version number that indicates what type of UUID this is.<br>
@@ -110856,9 +102484,6 @@ dojox.uuid.Uuid.compare=function(uuidOne, uuidTwo, otherUuid){};
  * dojox.uuid.assert(version == dojox.uuid.version.TIME_BASED);
 */
 dojox.uuid.Uuid.getVersion=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.uuid.Uuid.getNode
 /**
  * <b>Summary:</b><blockquote>
  *	 If this is a version 1 UUID (a time-based UUID), getNode() returns a<br>
@@ -110869,9 +102494,6 @@ dojox.uuid.Uuid.getVersion=function(){};
  * @returns {dojox.uuid.Uuid.getNode} new instance
 */
 dojox.uuid.Uuid.getNode=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.uuid.Uuid.getTimestamp
 /**
  * <b>Summary:</b><blockquote>
  *	 If this is a version 1 UUID (a time-based UUID), this method returns<br>
@@ -110883,12 +102505,6 @@ dojox.uuid.Uuid.getNode=function(){};
  * @returns {dojox.uuid.Uuid.getTimestamp} new instance
 */
 dojox.uuid.Uuid.getTimestamp=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.validate._cardInfo
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.validate.regexp
 /**
  * <b>Summary:</b><blockquote>
  *	 Builds a regular expression that matches a URL<br>
@@ -110978,9 +102594,6 @@ dojox.validate.regexp.us={};
  * @namespace
 */
 dojox.validate.regexp.ca={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.validate.regexp.ca
 /**
  * <b>Summary:</b><blockquote>
  *	 a regular expression to match Canadian Province Abbreviations<br>
@@ -110993,9 +102606,6 @@ dojox.validate.regexp.ca.province=function(){};
  * </blockquote>
 */
 dojox.validate.regexp.ca.postalCode=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.validate.regexp.us
 /**
  * <b>Summary:</b><blockquote>
  *	 A regular expression to match US state and territory abbreviations<br>
@@ -111008,9 +102618,6 @@ dojox.validate.regexp.ca.postalCode=function(){};
  * @returns {String} -
 */
 dojox.validate.regexp.us.state=function(flags){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget
 /**
  * <b>Summary:</b><blockquote>
  *	 a core pane that can be attached to a RollingList.  All panes<br>
@@ -111651,12 +103258,6 @@ dojox.widget.rotator={};
  * @namespace
 */
 dojox.widget.gauge={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.gauge
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.AutoRotator
 /**
  * <b>Summary:</b><blockquote>
  *	 A rotator that automatically transitions between child nodes.<br>
@@ -111736,9 +103337,6 @@ dojox.widget.AutoRotator.prototype._now=function(){};
  * @memberOf dojox.widget.AutoRotator
 */
 dojox.widget.AutoRotator.prototype._cycle=function(manual){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._FisheyeFX
 /**
  * @class
  * @returns {dojox.widget._FisheyeFX} new instance
@@ -111750,9 +103348,6 @@ dojox.widget._FisheyeFX=function(){};
  * @memberOf dojox.widget._FisheyeFX
 */
 dojox.widget._FisheyeFX.prototype.addFx=function(query, fromNode){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.CalendarFisheye
 /**
  * <b>Summary:</b><blockquote>
  *	 The standard Calendar. It includes day, month and year views.<br>
@@ -111764,9 +103359,6 @@ dojox.widget._FisheyeFX.prototype.addFx=function(query, fromNode){};
  * @returns {dojox.widget.CalendarFisheye} new instance
 */
 dojox.widget.CalendarFisheye=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarBase
 /**
  * <b>Summary:</b><blockquote>
  *	 The Root class for all _Calendar extensions<br>
@@ -111937,18 +103529,6 @@ dojox.widget._CalendarBase.prototype._adjustDisplay=function(part, amount, noSli
  * @memberOf dojox.widget._CalendarBase
 */
 dojox.widget._CalendarBase.prototype._addView=function(view){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarBase.constraints
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarBase.footer
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarBase._children
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarView
 /**
  * <b>Summary:</b><blockquote>
  *	 Base implementation for all view mixins.<br>
@@ -112026,9 +103606,6 @@ dojox.widget._CalendarView.prototype.adjustDate=function(date, amount){};
  * @memberOf dojox.widget._CalendarView
 */
 dojox.widget._CalendarView.prototype._setText=function(node, text){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarDay
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin for the dojox.widget.Calendar which provides<br>
@@ -112038,9 +103615,6 @@ dojox.widget._CalendarView.prototype._setText=function(node, text){};
  * @returns {dojox.widget._CalendarDay} new instance
 */
 dojox.widget._CalendarDay=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarDayView
 /**
  * <b>Summary:</b><blockquote>
  *	 View class for the dojox.widget.Calendar.<br>
@@ -112088,9 +103662,6 @@ dojox.widget._CalendarDayView.prototype._populateDays=function(){};
  * @memberOf dojox.widget._CalendarDayView
 */
 dojox.widget._CalendarDayView.prototype._onDayClick=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarMonthYear
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin class for adding a view listing all 12<br>
@@ -112100,9 +103671,6 @@ dojox.widget._CalendarDayView.prototype._onDayClick=function(e){};
  * @returns {dojox.widget._CalendarMonthYear} new instance
 */
 dojox.widget._CalendarMonthYear=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarMonthYearView
 /**
  * <b>Summary:</b><blockquote>
  *	 A Calendar view listing the 12 months of the year<br>
@@ -112189,9 +103757,6 @@ dojox.widget._CalendarMonthYearView.prototype._populateMonths=function(){};
  * @memberOf dojox.widget._CalendarMonthYearView
 */
 dojox.widget._CalendarMonthYearView.prototype._getMonthNames=function(format){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Calendar2Pane
 /**
  * <b>Summary:</b><blockquote>
  *	 A Calendar withtwo panes, the second one<br>
@@ -112204,9 +103769,6 @@ dojox.widget._CalendarMonthYearView.prototype._getMonthNames=function(format){};
  * @returns {dojox.widget.Calendar2Pane} new instance
 */
 dojox.widget.Calendar2Pane=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Calendar
 /**
  * <b>Summary:</b><blockquote>
  *	 The standard Calendar. It includes day and month/year views.<br>
@@ -112219,9 +103781,6 @@ dojox.widget.Calendar2Pane=function(){};
  * @returns {dojox.widget.Calendar} new instance
 */
 dojox.widget.Calendar=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DailyCalendar
 /**
  * <b>Summary:</b><blockquote>
  *	 A calendar withonly a daily view.<br>
@@ -112238,9 +103797,6 @@ dojox.widget.DailyCalendar=function(){};
  * @memberOf dojox.widget.DailyCalendar
 */
 dojox.widget.DailyCalendar.prototype._makeDate=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.MonthAndYearlyCalendar
 /**
  * <b>Summary:</b><blockquote>
  *	 A calendar withonly a daily view.<br>
@@ -112251,9 +103807,6 @@ dojox.widget.DailyCalendar.prototype._makeDate=function(value){};
  * @returns {dojox.widget.MonthAndYearlyCalendar} new instance
 */
 dojox.widget.MonthAndYearlyCalendar=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarMonth
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin class for adding a view listing all 12 months of the year to the<br>
@@ -112263,9 +103816,6 @@ dojox.widget.MonthAndYearlyCalendar=function(){};
  * @returns {dojox.widget._CalendarMonth} new instance
 */
 dojox.widget._CalendarMonth=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarMonthView
 /**
  * <b>Summary:</b><blockquote>
  *	 A Calendar view listing the 12 months of the year<br>
@@ -112297,12 +103847,6 @@ dojox.widget._CalendarMonthView.prototype.onClick=function(evt){};
  * @memberOf dojox.widget._CalendarMonthView
 */
 dojox.widget._CalendarMonthView.prototype._setValueAttr=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarMonthView.header
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarYear
 /**
  * <b>Summary:</b><blockquote>
  *	 Mixin class for adding a view listing 12 years to the<br>
@@ -112312,9 +103856,6 @@ dojox.widget._CalendarMonthView.prototype._setValueAttr=function(value){};
  * @returns {dojox.widget._CalendarYear} new instance
 */
 dojox.widget._CalendarYear=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._CalendarYearView
 /**
  * <b>Summary:</b><blockquote>
  *	 A Calendar view listing 12 years<br>
@@ -112355,9 +103896,6 @@ dojox.widget._CalendarYearView.prototype.adjustDate=function(date, amount){};
  * @memberOf dojox.widget._CalendarYearView
 */
 dojox.widget._CalendarYearView.prototype._setValueAttr=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Calendar3Pane
 /**
  * <b>Summary:</b><blockquote>
  *	 The Calendar includes day, month and year views.<br>
@@ -112371,9 +103909,6 @@ dojox.widget._CalendarYearView.prototype._setValueAttr=function(value){};
  * @returns {dojox.widget.Calendar3Pane} new instance
 */
 dojox.widget.Calendar3Pane=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.MonthlyCalendar
 /**
  * <b>Summary:</b><blockquote>
  *	 A calendar with only a month view.<br>
@@ -112390,9 +103925,6 @@ dojox.widget.MonthlyCalendar=function(){};
  * @memberOf dojox.widget.MonthlyCalendar
 */
 dojox.widget.MonthlyCalendar.prototype._makeDate=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.YearlyCalendar
 /**
  * <b>Summary:</b><blockquote>
  *	 A calendar with only a year view.<br>
@@ -112409,9 +103941,6 @@ dojox.widget.YearlyCalendar=function(){};
  * @memberOf dojox.widget.YearlyCalendar
 */
 dojox.widget.YearlyCalendar.prototype._makeDate=function(value){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker
 /**
  * <b>Summary:</b><blockquote>
  *	 a HSV color picker - similar to Photoshop picker<br>
@@ -112614,58 +104143,11 @@ dojox.widget.ColorPicker.prototype._colorInputChange=function(e){};
  * @memberOf dojox.widget.ColorPicker
 */
 dojox.widget.ColorPicker.prototype._clearTimer=function(mover){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.colorUnderlay.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.colorUnderlay
 /**
  * @namespace
 */
 dojox.widget.ColorPicker.colorUnderlay={};
-//-jshdr-obj-end
 
-//-jshdr-id-dojox.widget.ColorPicker.rgbNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.hsvNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.hexNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.safePreviewNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.valueNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.Rval
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.Gval
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.Bval
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.Hval
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.Sval
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.Vval
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.hexCode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ColorPicker.previewNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DataPresentation
 /**
  * <b>Summary:</b><blockquote>
  *	 DataPresentation<br>
@@ -112810,24 +104292,6 @@ dojox.widget.DataPresentation.prototype.destroy=function(){};
  * @memberOf dojox.widget.DataPresentation
 */
 dojox.widget.DataPresentation.prototype.cancelRefresh=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DataPresentation.chartNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DataPresentation.legendNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DataPresentation.gridNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DataPresentation.titleNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DataPresentation.footerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Dialog
 /**
  * <b>Summary:</b><blockquote>
  *	 A Lightbox-like Modal-dialog for HTML Content<br>
@@ -112900,12 +104364,6 @@ dojox.widget.Dialog.prototype._position=function(){};
  * @memberOf dojox.widget.Dialog
 */
 dojox.widget.Dialog.prototype._handleNav=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Dialog._displaysize
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DialogSimple
 /**
  * <b>Summary:</b><blockquote>
  *	 A Simple Dialog Mixing the `dojox.layout.ContentPane` functionality over<br>
@@ -112918,9 +104376,6 @@ dojox.widget.Dialog.prototype._handleNav=function(e){};
  * @returns {dojox.widget.DialogSimple} new instance
 */
 dojox.widget.DialogSimple=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DocTester
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget to run DocTests inside an HTML page.<br>
@@ -112965,21 +104420,6 @@ dojox.widget.DocTester.prototype._unescapeHtml=function(str){};
  * @memberOf dojox.widget.DocTester
 */
 dojox.widget.DocTester.prototype._fillContent=function(source){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DocTester.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DocTester.numTestsNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DocTester.numTestsNokNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DocTester.numTestsOkNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.DynamicTooltip
 /**
  * <b>Summary:</b><blockquote>
  *	 Extention of dijit.Tooltip providing content set via XHR<br>
@@ -113039,9 +104479,6 @@ dojox.widget.DynamicTooltip.prototype._setLoadingLabel=function(){};
  * @memberOf dojox.widget.DynamicTooltip
 */
 dojox.widget.DynamicTooltip.prototype._setHrefAttr=function(href){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FeedPortlet
 /**
  * <b>Summary:</b><blockquote>
  *	 A Portlet that loads a XML feed.<br>
@@ -113129,12 +104566,6 @@ dojox.widget.FeedPortlet.prototype._getLink=function(item){};
  * @memberOf dojox.widget.FeedPortlet
 */
 dojox.widget.FeedPortlet.prototype._getContent=function(item){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FeedPortlet.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.ExpandableFeedPortlet
 /**
  * <b>Summary:</b><blockquote>
  *	 A FeedPortlet that uses an list of expandable links to display<br>
@@ -113156,9 +104587,6 @@ dojox.widget.ExpandableFeedPortlet=function(){};
  * @memberOf dojox.widget.ExpandableFeedPortlet
 */
 dojox.widget.ExpandableFeedPortlet.prototype.generateResults=function(items){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.PortletFeedSettings
 /**
  * <b>Summary:</b><blockquote>
  *	 A Settings widget designed to be used with a dojox.widget.FeedPortlet<br>
@@ -113208,9 +104636,6 @@ dojox.widget.PortletFeedSettings.prototype._setContentAttr=function(){};
  * @memberOf dojox.widget.PortletFeedSettings
 */
 dojox.widget.PortletFeedSettings.prototype._getFeedPortletUrlAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._FileInfoPane
 /**
  * <b>Summary:</b><blockquote>
  *	 a pane to display the information for the currently-selected<br>
@@ -113233,21 +104658,6 @@ dojox.widget._FileInfoPane.prototype.postMixInProperties=function(){};
  * @memberOf dojox.widget._FileInfoPane
 */
 dojox.widget._FileInfoPane.prototype.onItems=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._FileInfoPane.items
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._FileInfoPane.nameNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._FileInfoPane.pathNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._FileInfoPane.sizeNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FilePicker
 /**
  * <b>Summary:</b><blockquote>
  *	 a specialized version of RollingList that handles file information<br>
@@ -113315,9 +104725,6 @@ dojox.widget.FilePicker.prototype._itemsMatch=function(item1, item2){};
  * @memberOf dojox.widget.FilePicker
 */
 dojox.widget.FilePicker.prototype._getPathValueAttr=function(val){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FisheyeList
 /**
  * <b>Summary:</b><blockquote>
  *	 Menu similar to the fish eye menu on the Mac OS<br>
@@ -113493,18 +104900,6 @@ dojox.widget.FisheyeList.prototype._expandSlowly=function(){};
  * @memberOf dojox.widget.FisheyeList
 */
 dojox.widget.FisheyeList.prototype._calcHitGrid=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FisheyeList.EDGE
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FisheyeList.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FisheyeList.pos
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FisheyeListItem
 /**
  * @class
  * @extends dijit._Widget
@@ -113566,19 +104961,10 @@ dojox.widget.FisheyeListItem.prototype._isNode=function(wh){};
  * @memberOf dojox.widget.FisheyeListItem
 */
 dojox.widget.FisheyeListItem.prototype._hasParent=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FisheyeListItem.imgNode
 /**
  * @namespace
 */
 dojox.widget.FisheyeListItem.imgNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FisheyeListItem.imgNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.FisheyeLite
 /**
  * <b>Summary:</b><blockquote>
  *	 A Light-weight Fisheye Component, or an exhanced version<br>
@@ -113675,9 +105061,6 @@ dojox.widget.FisheyeLite.easeIn=function(){};
  * @memberOf dojox.widget.FisheyeLite
 */
 dojox.widget.FisheyeLite.prototype._makeAnims=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Iterator
 /**
  * @class
  * @extends dijit.Declaration
@@ -113732,12 +105115,6 @@ dojox.widget.Iterator.prototype._setSrcIndex=function(s){};
  * @memberOf dojox.widget.Iterator
 */
 dojox.widget.Iterator.prototype._addItem=function(config, idx){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Iterator.query
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Loader
 /**
  * <b>Summary:</b><blockquote>
  *	 a configurable global xhr-listener to display<br>
@@ -113791,15 +105168,6 @@ dojox.widget.Loader.prototype._putLoader=function(e){};
  * @memberOf dojox.widget.Loader
 */
 dojox.widget.Loader.prototype._hide=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Loader.loadNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Loader.loadMessageNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.MultiSelectCalendar
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple GUI for choosing several dates in the context of a monthly calendar.<br>
@@ -114138,22 +105506,10 @@ dojox.widget.MultiSelectCalendar.prototype._addToRangeRTL=function(beginning, en
  * @memberOf dojox.widget.MultiSelectCalendar
 */
 dojox.widget.MultiSelectCalendar.prototype._addToRangeLTR=function(beginning, end, selectedDates, unselectedDates){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.MultiSelectCalendar.cssStateNodes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.MultiSelectCalendar.monthDropDownButton.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.MultiSelectCalendar.monthDropDownButton
 /**
  * @namespace
 */
 dojox.widget.MultiSelectCalendar.monthDropDownButton={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._MonthDropDown
 /**
  * <b>Summary:</b><blockquote>
  *	 The month drop down<br>
@@ -114191,12 +105547,6 @@ dojox.widget._MonthDropDown.prototype._onMenuHover=function(evt){};
  * @memberOf dojox.widget._MonthDropDown
 */
 dojox.widget._MonthDropDown.prototype._onClick=function(evt){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._MonthDropDown.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Pager
 /**
  * <b>Summary:</b><blockquote>
  *	 A Pager, displaying a list of sized nodes<br>
@@ -114278,12 +105628,6 @@ dojox.widget.Pager.prototype._handleKey=function(e){};
  * @memberOf dojox.widget.Pager
 */
 dojox.widget.Pager.prototype._a11yStyle=function(e){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Pager.pagerIconNext
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._PagerItem
 /**
  * @class
  * @extends dijit._Widget
@@ -114299,9 +105643,6 @@ dojox.widget._PagerItem.prototype.resizeChildren=function(){};
  * @memberOf dojox.widget._PagerItem
 */
 dojox.widget._PagerItem.prototype.parseChildren=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.PlaceholderMenuItem
 /**
  * <b>Summary:</b><blockquote>
  *	 A menu item that can be used as a placeholder.  Set the label<br>
@@ -114339,12 +105680,6 @@ dojox.widget.PlaceholderMenuItem.prototype.replace=function(menuItems){};
  * @memberOf dojox.widget.PlaceholderMenuItem
 */
 dojox.widget.PlaceholderMenuItem.prototype.postCreate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.PlaceholderMenuItem.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Portlet
 /**
  * <b>Summary:</b><blockquote>
  *	 A container widget that is designed to be contained<br>
@@ -114469,9 +105804,6 @@ dojox.widget.Portlet.prototype._onTitleClick=function(evt){};
  * @memberOf dojox.widget.Portlet
 */
 dojox.widget.Portlet.prototype._createIcon=function(clazz, hoverClazz, fn){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.PortletSettings
 /**
  * <b>Summary:</b><blockquote>
  *	 A settings widget to be used with a dojox.widget.Portlet.<br>
@@ -114509,9 +105841,6 @@ dojox.widget.PortletSettings.prototype.postCreate=function(){};
  * @memberOf dojox.widget.PortletSettings
 */
 dojox.widget.PortletSettings.prototype._setPortletAttr=function(portlet){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.PortletDialogSettings
 /**
  * <b>Summary:</b><blockquote>
  *	 A settings widget to be used with a dojox.widget.Portlet, which displays<br>
@@ -114531,9 +105860,6 @@ dojox.widget.PortletDialogSettings=function(props, node){};
  * @memberOf dojox.widget.PortletDialogSettings
 */
 dojox.widget.PortletDialogSettings.prototype.toggle=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Roller
 /**
  * <b>Summary:</b><blockquote>
  *	 A simple widget to take an unordered-list of Text and roll through them<br>
@@ -114620,12 +105946,6 @@ dojox.widget.Roller.prototype._setIndex=function(i){};
  * @memberOf dojox.widget.Roller
 */
 dojox.widget.Roller.prototype._run=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Roller._roller
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.RollerSlide
 /**
  * <b>Summary:</b><blockquote>
  *	 An add-on to the Roller to modify animations. This produces<br>
@@ -114646,9 +105966,6 @@ dojox.widget.RollerSlide=function(){};
  * @memberOf dojox.widget.RollerSlide
 */
 dojox.widget.RollerSlide.prototype.makeAnims=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._RollerHover
 /**
  * <b>Summary:</b><blockquote>
  *	 A mixin class to provide a way to automate the &amp;quot;stop on hover&amp;quot; functionality.<br>
@@ -114672,9 +105989,6 @@ dojox.widget._RollerHover=function(){};
  * @memberOf dojox.widget._RollerHover
 */
 dojox.widget._RollerHover.prototype.postCreate=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._RollingListGroupPane
 /**
  * <b>Summary:</b><blockquote>
  *	 a pane that will handle groups (treats them as menu items)<br>
@@ -114770,12 +106084,6 @@ dojox.widget._RollingListGroupPane.prototype._getMenu=function(){};
  * @memberOf dojox.widget._RollingListGroupPane
 */
 dojox.widget._RollingListGroupPane.prototype._checkScrollConnection=function(dijit8){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._RollingListGroupPane.containerNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._RollingListPane
 /**
  * <b>Summary:</b><blockquote>
  *	 a core pane that can be attached to a RollingList.  All panes<br>
@@ -114950,12 +106258,6 @@ dojox.widget._RollingListPane.prototype._doQuery=function(){};
  * @memberOf dojox.widget._RollingListPane
 */
 dojox.widget._RollingListPane.prototype._doLoadItems=function(items, callback){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget._RollingListPane.parentWidget
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.RollingList
 /**
  * <b>Summary:</b><blockquote>
  *	 a rolling list that can be tied to a data store with children<br>
@@ -115237,12 +106539,6 @@ dojox.widget.RollingList.prototype._getPaneForItem=function(item, parentPane, ch
  * @memberOf dojox.widget.RollingList
 */
 dojox.widget.RollingList.prototype._getMenuItemForItem=function(item, parentPane){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.RollingList.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.rotator
 /**
  * <b>Summary:</b><blockquote>
  *	 Returns a dojo.Animation that wipes in the next rotator pane from the bottom.<br>
@@ -115493,9 +106789,6 @@ dojox.widget.rotator.ThumbnailController=function(params, node){};
  * 	&gt;&lt;/div&gt;s
 */
 dojox.widget.rotator.Controller=function(params, node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.rotator.Controller
 /**
  * <b>Summary:</b><blockquote>
  *	 A controller that manipulates a Rotator or AutoRotator.<br>
@@ -115575,15 +106868,6 @@ dojox.widget.rotator.Controller.prototype._onUpdate=function(type){};
  * @memberOf dojox.widget.rotator.Controller
 */
 dojox.widget.rotator.Controller.prototype._buildInfo=function(r){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.rotator.Controller.rotator
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.rotator.Controller._info
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.rotator.ThumbnailController
 /**
  * <b>Summary:</b><blockquote>
  *	 A rotator controller that displays thumbnails of each rotator pane.<br>
@@ -115622,9 +106906,6 @@ dojox.widget.rotator.ThumbnailController.prototype.destroy=function(){};
  * @memberOf dojox.widget.rotator.ThumbnailController
 */
 dojox.widget.rotator.ThumbnailController.prototype._onUpdate=function(type){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Rotator
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget for rotating through child nodes using transitions.<br>
@@ -115749,9 +107030,6 @@ dojox.widget.Rotator.prototype.control=function(action){};
  * @memberOf dojox.widget.Rotator
 */
 dojox.widget.Rotator.prototype._resetWaitForEvent=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.SortList
 /**
  * <b>Summary:</b><blockquote>
  *	 A sortable unordered-list with a fixed header for use in dijit.demos.chat<br>
@@ -115851,15 +107129,6 @@ dojox.widget.SortList.prototype._handleClick=function(e){};
  * @memberOf dojox.widget.SortList
 */
 dojox.widget.SortList.prototype._addItem=function(item){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.SortList.bodyWrapper.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.SortList.focusNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Standby
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget designed to act as a Standby/Busy/Disable/Blocking widget to indicate a<br>
@@ -116055,15 +107324,6 @@ dojox.widget.Standby.prototype._disableOverflow=function(){};
  * @memberOf dojox.widget.Standby
 */
 dojox.widget.Standby.prototype._cloneStyles=function(list){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Standby._textNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Standby.target
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.TitleGroup
 /**
  * <b>Summary:</b><blockquote>
  *	 A container which controls a series of `dijit.TitlePane`s,<br>
@@ -116113,9 +107373,6 @@ dojox.widget.TitleGroup.prototype.removeChild=function(widget){};
  * @memberOf dojox.widget.TitleGroup
 */
 dojox.widget.TitleGroup.prototype.addChild=function(widget, position){};
-//-jshdr-obj-end
-
-//-jshdr-id-titlepane
 /**
  * @namespace
 */
@@ -116128,9 +107385,6 @@ dojox.titlepane={};
  * @private
 */
 dojox.titlepane._dxfindParent=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Toaster
 /**
  * <b>Summary:</b><blockquote>
  *	 Message that slides in from the corner of the screen, used for notifications<br>
@@ -116212,41 +107466,14 @@ dojox.widget.Toaster.prototype._handleMessage=function(message){};
  * @memberOf dojox.widget.Toaster
 */
 dojox.widget.Toaster.prototype._cancelHideTimer=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Toaster.messageTypes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Toaster.containerNode
 /**
  * @namespace
 */
 dojox.widget.Toaster.containerNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Toaster.containerNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Toaster.contentNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Toaster.clipNode
 /**
  * @namespace
 */
 dojox.widget.Toaster.clipNode={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Toaster.clipNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Toaster.bgIframe
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Toaster.bgIframe.iframe.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.UpgradeBar
 /**
  * <b>Summary:</b><blockquote>
  *	 Shows a bar at the top of the screen when the user is to<br>
@@ -116338,9 +107565,6 @@ dojox.widget.UpgradeBar.prototype._onCloseLeave=function(){};
  * @memberOf dojox.widget.UpgradeBar
 */
 dojox.widget.UpgradeBar.prototype._onCloseEnter=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Wizard
 /**
  * <b>Summary:</b><blockquote>
  *	 A set of panels that display sequentially, typically notating a step-by-step<br>
@@ -116392,21 +107616,6 @@ dojox.widget.Wizard.prototype._forward=function(){};
  * @memberOf dojox.widget.Wizard
 */
 dojox.widget.Wizard.prototype._checkButtons=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Wizard.cancelButton.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Wizard.selectedChildWidget
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Wizard.doneButton.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.Wizard.nextButton.domNode.style
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.widget.WizardPane
 /**
  * <b>Summary:</b><blockquote>
  *	 A panel in a `dojox.widget.Wizard`<br>
@@ -116445,9 +107654,6 @@ dojox.widget.WizardPane.prototype._onShow=function(){};
  * @memberOf dojox.widget.WizardPane
 */
 dojox.widget.WizardPane.prototype._checkPass=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire
 /**
  * <b>Summary:</b><blockquote>
  *	 Transfer a source value to a target value<br>
@@ -116690,12 +107896,6 @@ dojox.wire.ml={};
  * @private
 */
 dojox.wire._wireClasses={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire._wireClasses
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.CompositeWire
 /**
  * <b>Summary:</b><blockquote>
  *	 A Wire for composite values in object or array<br>
@@ -116758,9 +107958,6 @@ dojox.wire.CompositeWire.prototype._initializeChildren=function(children){};
  * @memberOf dojox.wire.CompositeWire
 */
 dojox.wire.CompositeWire.prototype._getValue=function(object){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.DataWire
 /**
  * <b>Summary:</b><blockquote>
  *	 A Wire for item attributes of data stores<br>
@@ -116856,9 +108053,6 @@ dojox.wire.DataWire.prototype._getValue=function(object){};
  * @memberOf dojox.wire.DataWire
 */
 dojox.wire.DataWire.prototype._getAttributeValue=function(item, attribute){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml
 /**
  * <b>Summary:</b><blockquote>
  *	 Store a value<br>
@@ -117037,9 +108231,6 @@ dojox.wire.ml.ActionFilter=function(){};
  * Actions on an event or a topic specified to this widget.<br>
 */
 dojox.wire.ml.Action=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.Action
 /**
  * <b>Summary:</b><blockquote>
  *	 A base widget to &amp;quot;run&amp;quot; a task on an event or a topic<br>
@@ -117120,9 +108311,6 @@ dojox.wire.ml.Action.prototype._disconnect=function(){};
  * @memberOf dojox.wire.ml.Action
 */
 dojox.wire.ml.Action.prototype._connect=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.ActionFilter
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget to define a filter for the parent Action to run<br>
@@ -117159,9 +108347,6 @@ dojox.wire.ml.ActionFilter=function(){};
  * @memberOf dojox.wire.ml.ActionFilter
 */
 dojox.wire.ml.ActionFilter.prototype.filter=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.Data
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget for a data object<br>
@@ -117218,9 +108403,6 @@ dojox.wire.ml.Data.prototype.getPropertyValue=function(property){};
  * @memberOf dojox.wire.ml.Data
 */
 dojox.wire.ml.Data.prototype._initializeProperties=function(reset){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.DataProperty
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget to define a data property<br>
@@ -117255,9 +108437,6 @@ dojox.wire.ml.DataProperty.prototype.getValue=function(){};
  * @memberOf dojox.wire.ml.DataProperty
 */
 dojox.wire.ml.DataProperty.prototype._getValueAttr=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.DataStore
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget for a data store<br>
@@ -117351,12 +108530,6 @@ dojox.wire.ml.DataStore.prototype.deleteItem=function(item){};
  * @memberOf dojox.wire.ml.DataStore
 */
 dojox.wire.ml.DataStore.prototype._createStore=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.DataStore.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.Invocation
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget to invoke a method or publish a topic<br>
@@ -117422,9 +108595,6 @@ dojox.wire.ml.Invocation.prototype._run=function(){};
  * @memberOf dojox.wire.ml.Invocation
 */
 dojox.wire.ml.Invocation.prototype._getParameters=function(args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.JsonHandler
 /**
  * <b>Summary:</b><blockquote>
  *	 A REST service handler for JSON<br>
@@ -117453,12 +108623,6 @@ dojox.wire.ml.JsonHandler.headers={};
  * @memberOf dojox.wire.ml.JsonHandler
 */
 dojox.wire.ml.JsonHandler.prototype._getContent=function(method, parameters){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.JsonHandler.headers
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.RestHandler
 /**
  * <b>Summary:</b><blockquote>
  *	 A REST service handler<br>
@@ -117530,9 +108694,6 @@ dojox.wire.ml.RestHandler.prototype._getResult=function(data){};
  * @memberOf dojox.wire.ml.RestHandler
 */
 dojox.wire.ml.RestHandler.prototype._getContent=function(method, parameters){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.Service
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget for a service<br>
@@ -117583,12 +108744,6 @@ dojox.wire.ml.Service.prototype.callMethod=function(method, parameters){};
  * @memberOf dojox.wire.ml.Service
 */
 dojox.wire.ml.Service.prototype._createHandler=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.Service._handlerClasses
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.Transfer
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget to transfer values through source and target Wires<br>
@@ -117642,9 +108797,6 @@ dojox.wire.ml.Transfer.prototype._run=function(){};
  * @memberOf dojox.wire.ml.Transfer
 */
 dojox.wire.ml.Transfer.prototype._getWire=function(which){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.ChildWire
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget to add a child wire<br>
@@ -117681,9 +108833,6 @@ dojox.wire.ml.ChildWire.prototype._getWire=function(parent){};
  * @memberOf dojox.wire.ml.ChildWire
 */
 dojox.wire.ml.ChildWire.prototype._addWire=function(parent, args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.ColumnWire
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget to add a column wire<br>
@@ -117708,9 +108857,6 @@ dojox.wire.ml.ColumnWire=function(){};
  * @memberOf dojox.wire.ml.ColumnWire
 */
 dojox.wire.ml.ColumnWire.prototype._addWire=function(parent, args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.NodeWire
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget to add node wires<br>
@@ -117753,9 +108899,6 @@ dojox.wire.ml.NodeWire.prototype._getWires=function(parent){};
  * @memberOf dojox.wire.ml.NodeWire
 */
 dojox.wire.ml.NodeWire.prototype._addWire=function(parent, args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.SegmentWire
 /**
  * <b>Summary:</b><blockquote>
  *	 A widget to add a segment wire<br>
@@ -117780,9 +108923,6 @@ dojox.wire.ml.SegmentWire=function(){};
  * @memberOf dojox.wire.ml.SegmentWire
 */
 dojox.wire.ml.SegmentWire.prototype._addWire=function(parent, args){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.XmlElement
 /**
  * <b>Summary:</b><blockquote>
  *	 An object wrapping an XML element<br>
@@ -117863,18 +109003,6 @@ dojox.wire.ml.XmlElement.prototype.getPropertyValue=function(property){};
  * @memberOf dojox.wire.ml.XmlElement
 */
 dojox.wire.ml.XmlElement.prototype._getDocument=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.XmlElement.element
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.XmlElement.element.firstChild
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.XmlElement.element.attributes
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.ml.XmlHandler
 /**
  * <b>Summary:</b><blockquote>
  *	 A REST service handler for XML<br>
@@ -117905,9 +109033,6 @@ dojox.wire.ml.XmlHandler.prototype._getResult=function(data){};
  * @memberOf dojox.wire.ml.XmlHandler
 */
 dojox.wire.ml.XmlHandler.prototype._getContent=function(method, parameters){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.TableAdapter
 /**
  * <b>Summary:</b><blockquote>
  *	 A composite Wire for table rows<br>
@@ -117967,9 +109092,6 @@ dojox.wire.TableAdapter.prototype._getValue=function(object){};
  * @memberOf dojox.wire.TableAdapter
 */
 dojox.wire.TableAdapter.prototype._getRow=function(object){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.TextAdapter
 /**
  * <b>Summary:</b><blockquote>
  *	 A composite Wire for a concatenated text<br>
@@ -118026,9 +109148,6 @@ dojox.wire.TextAdapter.prototype._getValue=function(object){};
  * @memberOf dojox.wire.TextAdapter
 */
 dojox.wire.TextAdapter.prototype._addSegment=function(text, segment){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.TreeAdapter
 /**
  * <b>Summary:</b><blockquote>
  *	 A composite Wire for tree nodes<br>
@@ -118135,9 +109254,6 @@ dojox.wire.TreeAdapter.prototype._getValue=function(object){};
  * @memberOf dojox.wire.TreeAdapter
 */
 dojox.wire.TreeAdapter.prototype._getNodes=function(object, child){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.Wire
 /**
  * <b>Summary:</b><blockquote>
  *	 A default and base Wire to access an object property<br>
@@ -118281,9 +109397,6 @@ dojox.wire.Wire.prototype._setPropertyValue=function(object, property, value){};
  * @memberOf dojox.wire.Wire
 */
 dojox.wire.Wire.prototype._getPropertyValue=function(object, property){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.wire.XmlWire
 /**
  * <b>Summary:</b><blockquote>
  *	 A Wire for XML nodes or values (element, attribute and text)<br>
@@ -118404,9 +109517,6 @@ dojox.wire.XmlWire.prototype._getDocument=function(node){};
  * @memberOf dojox.wire.XmlWire
 */
 dojox.wire.XmlWire.prototype._getChildNode=function(node, name){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xml
 /**
  * @param {mixed} props 
  * @param {mixed} node 
@@ -118416,9 +109526,6 @@ dojox.xml.Script=function(props, node){};
  * @namespace
 */
 dojox.xml.parser={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xml.parser
 /**
  * <b>Summary:</b><blockquote>
  *	 Implementation of the DOM Level 3 attribute; scan node for text<br>
@@ -118471,9 +109578,6 @@ dojox.xml.parser.parse=function(str, mimetype){};
  * @returns {String} -
 */
 dojox.xml.parser.innerXML=function(node){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xml.Script
 /**
  * @class
  * @param {mixed} props 
@@ -118481,12 +109585,6 @@ dojox.xml.parser.innerXML=function(node){};
  * @returns {dojox.xml.Script} new instance
 */
 dojox.xml.Script=function(props, node){};
-//-jshdr-obj-end
-
-//-jshdr-id-xXml
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.bosh
 /**
  * @namespace
 */
@@ -118607,9 +109705,6 @@ dojox.xmpp.bosh.__ioArgs=function(){};
  * @private
 */
 dojox.xmpp.bosh.__initArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.bosh.__initArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 The arguments passed to dojox.xmpp.bosh.initialize<br>
@@ -118619,9 +109714,6 @@ dojox.xmpp.bosh.__initArgs=function(){};
  * @returns {dojox.xmpp.bosh.__initArgs} new instance
 */
 dojox.xmpp.bosh.__initArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.bosh.__ioArgs
 /**
  * <b>Summary:</b><blockquote>
  *	 All the properties described in the dojo.__ioArgs type, apply to this<br>
@@ -118635,9 +109727,6 @@ dojox.xmpp.bosh.__initArgs=function(){};
  * @returns {dojox.xmpp.bosh.__ioArgs} new instance
 */
 dojox.xmpp.bosh.__ioArgs=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp
 /**
  * @param {mixed} props 
 */
@@ -118689,17 +109778,11 @@ dojox.xmpp.presence={};
  * @namespace
 */
 dojox.xmpp.chat={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.bosh.initialize
 /**
  * @class
  * @returns {dojox.xmpp.bosh.initialize} new instance
 */
 dojox.xmpp.bosh.initialize=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.ChatService
 /**
  * @class
  * @returns {dojox.xmpp.ChatService} new instance
@@ -118746,12 +109829,6 @@ dojox.xmpp.ChatService.prototype.onInvite=function(contact){};
  * @memberOf dojox.xmpp.ChatService
 */
 dojox.xmpp.ChatService.prototype.invite=function(contact){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.chat
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.PresenceService
 /**
  * @class
  * @param {mixed} xmppService 
@@ -118839,15 +109916,6 @@ dojox.xmpp.PresenceService.prototype._manageSubscriptions=function(contact, type
  * @memberOf dojox.xmpp.PresenceService
 */
 dojox.xmpp.PresenceService.prototype._createRestrictedJid=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.PresenceService.presence
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.presence
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.RosterService
 /**
  * @class
  * @param {mixed} xmppSession 
@@ -118935,15 +110003,6 @@ dojox.xmpp.RosterService.prototype.addRosterItemToGroup=function(jid, group){};
  * @memberOf dojox.xmpp.RosterService
 */
 dojox.xmpp.RosterService.prototype.addRosterItem=function(jid, name, groups){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.RosterService.session
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.roster
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.sasl
 /**
  * @param {mixed} session 
 */
@@ -118957,9 +110016,6 @@ dojox.xmpp.sasl.Plain=function(){};
 /**
 */
 dojox.xmpp.sasl.DigestMD5=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.sasl._Base
 /**
  * @class
  * @param {mixed} session 
@@ -118992,18 +110048,12 @@ dojox.xmpp.sasl._Base.prototype.onChallenge=function(msg){};
  * @memberOf dojox.xmpp.sasl._Base
 */
 dojox.xmpp.sasl._Base.prototype.appendToAuth=function(auth){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.sasl.SunWebClientAuth
 /**
  * @class
  * @extends dojox.xmpp.sasl._Base
  * @returns {dojox.xmpp.sasl.SunWebClientAuth} new instance
 */
 dojox.xmpp.sasl.SunWebClientAuth=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.sasl.Plain
 /**
  * @class
  * @extends dojox.xmpp.sasl._Base
@@ -119015,9 +110065,6 @@ dojox.xmpp.sasl.Plain=function(){};
  * @memberOf dojox.xmpp.sasl.Plain
 */
 dojox.xmpp.sasl.Plain.prototype.appendToAuth=function(auth){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.sasl.DigestMD5
 /**
  * @class
  * @extends dojox.xmpp.sasl._Base
@@ -119034,9 +110081,6 @@ dojox.xmpp.sasl.DigestMD5.prototype.onSecondChallenge=function(msg){};
  * @memberOf dojox.xmpp.sasl.DigestMD5
 */
 dojox.xmpp.sasl.DigestMD5.prototype.onFirstChallenge=function(msg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession
 /**
  * @class
  * @returns {dojox.xmpp.TransportSession} new instance
@@ -119174,94 +110218,58 @@ dojox.xmpp.TransportSession.prototype._keepAlive=function(){};
  * @memberOf dojox.xmpp.TransportSession
 */
 dojox.xmpp.TransportSession.prototype._dispatchPacket=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession.open
 /**
  * @class
  * @returns {dojox.xmpp.TransportSession.open} new instance
 */
 dojox.xmpp.TransportSession.open=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession._keepAlive
 /**
  * @class
  * @private
  * @returns {dojox.xmpp.TransportSession._keepAlive} new instance
 */
 dojox.xmpp.TransportSession._keepAlive=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession.dispatchPacket
 /**
  * @class
  * @returns {dojox.xmpp.TransportSession.dispatchPacket} new instance
 */
 dojox.xmpp.TransportSession.dispatchPacket=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession._dispatchPacket
 /**
  * @class
  * @private
  * @returns {dojox.xmpp.TransportSession._dispatchPacket} new instance
 */
 dojox.xmpp.TransportSession._dispatchPacket=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession.processProtocolPacketQueue
 /**
  * @class
  * @returns {dojox.xmpp.TransportSession.processProtocolPacketQueue} new instance
 */
 dojox.xmpp.TransportSession.processProtocolPacketQueue=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession.sendXml
 /**
  * @class
  * @returns {dojox.xmpp.TransportSession.sendXml} new instance
 */
 dojox.xmpp.TransportSession.sendXml=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession.processDocument
 /**
  * @class
  * @returns {dojox.xmpp.TransportSession.processDocument} new instance
 */
 dojox.xmpp.TransportSession.processDocument=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession.processDocument.outboundQueue.0
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession.processResponse
 /**
  * @class
  * @returns {dojox.xmpp.TransportSession.processResponse} new instance
 */
 dojox.xmpp.TransportSession.processResponse=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession.setState
 /**
  * @class
  * @returns {dojox.xmpp.TransportSession.setState} new instance
 */
 dojox.xmpp.TransportSession.setState=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.TransportSession.processError
 /**
  * @class
  * @returns {dojox.xmpp.TransportSession.processError} new instance
 */
 dojox.xmpp.TransportSession.processError=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.UserService
 /**
  * @class
  * @param {mixed} xmppService 
@@ -119309,9 +110317,6 @@ dojox.xmpp.UserService.prototype._onSetPersonalProfile=function(response){};
  * @memberOf dojox.xmpp.UserService
 */
 dojox.xmpp.UserService.prototype._onGetPersonalProfile=function(profile){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.util
 /**
  * @param {mixed} str 
 */
@@ -119346,9 +110351,6 @@ dojox.xmpp.util.createElement=function(tag, attributes, terminal){};
  * @namespace
 */
 dojox.xmpp.util.Base64={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.util.Base64
 /**
  * @param {mixed} input 
 */
@@ -119357,15 +110359,9 @@ dojox.xmpp.util.Base64.encode=function(input){};
  * @param {mixed} input 
 */
 dojox.xmpp.util.Base64.decode=function(input){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.widget
 /**
 */
 dojox.xmpp.widget.ChatSession=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.widget.ChatSession
 /**
  * @class
  * @extends dijit.layout.LayoutContainer
@@ -119392,15 +110388,6 @@ dojox.xmpp.widget.ChatSession.prototype.goToLastMessage=function(){};
  * @memberOf dojox.xmpp.widget.ChatSession
 */
 dojox.xmpp.widget.ChatSession.prototype.displayMessage=function(message, type){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.widget.ChatSession.messages.domNode
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.widget.ChatSession.chatInput
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.xmppSession
 /**
  * @class
  * @returns {dojox.xmpp.xmppSession} new instance
@@ -119659,72 +110646,43 @@ dojox.xmpp.xmppSession.prototype.bindResource=function(hasSession){};
  * @memberOf dojox.xmpp.xmppSession
 */
 dojox.xmpp.xmppSession.prototype._onSearchResults=function(msg){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.xmppSession.open
 /**
  * @class
  * @returns {dojox.xmpp.xmppSession.open} new instance
 */
 dojox.xmpp.xmppSession.open=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.xmppSession.close
 /**
  * @class
  * @returns {dojox.xmpp.xmppSession.close} new instance
 */
 dojox.xmpp.xmppSession.close=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.xmppSession.featuresHandler
 /**
  * @class
  * @returns {dojox.xmpp.xmppSession.featuresHandler} new instance
 */
 dojox.xmpp.xmppSession.featuresHandler=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.xmppSession.chatHandler
 /**
  * @class
  * @returns {dojox.xmpp.xmppSession.chatHandler} new instance
 */
 dojox.xmpp.xmppSession.chatHandler=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.xmppSession.setState
 /**
  * @class
  * @returns {dojox.xmpp.xmppSession.setState} new instance
 */
 dojox.xmpp.xmppSession.setState=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.xmppSession.onBindResource
 /**
  * @class
  * @returns {dojox.xmpp.xmppSession.onBindResource} new instance
 */
 dojox.xmpp.xmppSession.onBindResource=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.xmppSession.onTransportReady
 /**
  * @class
  * @returns {dojox.xmpp.xmppSession.onTransportReady} new instance
 */
 dojox.xmpp.xmppSession.onTransportReady=function(){};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.xmpp
 /**
  * @namespace
 */
 dojox.xmpp.xmpp.error={};
-//-jshdr-obj-end
-
-//-jshdr-id-dojox.xmpp.xmpp.error
-//-jshdr-obj-end
-
 
